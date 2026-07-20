@@ -26,6 +26,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Treat female agency as constrained, relational and accountable; beauty, adornment, profession and public visibility never function as consent.
 - Build character psychology from traceable evidence and clearly labelled interpretation; do not convert literary figures into modern clinical cases or flawless icons.
 - Treat artistic knowledge as biography rather than moral contamination; renunciation does not erase skill, labour, household responsibility or the autonomy of the next generation.
+- Give survivors ownership of testimony and continuing life; vigilance is not cowardice, trauma is not a permanent personality and cinematic expansion beyond the poem must remain explicit.
 
 ## Evidence labels
 
@@ -88,10 +89,11 @@ The repository contains:
 - the women, gender, desire and agency dossier;
 - the Manimekalai character bible;
 - the Madhavi character bible;
-- 179 registered evidence records;
-- 90 registered adaptation decisions;
-- 80 preliminary screenplay scene records;
+- the Sudhamathi character bible;
+- 194 registered evidence records;
+- 100 registered adaptation decisions;
+- 88 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, character-performance testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
