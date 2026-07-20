@@ -20,10 +20,10 @@ Each dossier must separate:
 5. [04E — Aravana Adigal Character Bible](04E_aravana_adigal_character_bible.md)
 6. [04F — Chitrapathi Character Bible](04F_chitrapathi_character_bible.md)
 7. [04G — Rajamadevi Character Bible](04G_rajamadevi_character_bible.md)
+8. [04H — Aputhiran Character Bible](04H_aputhiran_character_bible.md)
 
 ## Planned priority dossiers
 
-8. Aputhiran
 9. Kanchanan
 10. Punniyarajan
 
