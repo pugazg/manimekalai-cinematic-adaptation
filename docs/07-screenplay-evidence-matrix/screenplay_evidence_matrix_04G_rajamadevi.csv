@@ -1,0 +1,10 @@
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-111,The News Reaches the Queen,Palace interior,Act II,"Establish the private and public meanings of Udayakumaran's death before the queen acts","EV-0244","AD-0124",concept
+SC-112,Vasantavai Does Not Bless Her,Queen's chamber,Act II,"Break the possibility that grief can automatically become heroic memory and show the queen seeking a different path","EV-0245","AD-0124;AD-0129",concept
+SC-113,Protection as a Lie,King's court and queen's palace,Act II,"Contrast public request for Manimekalai's release with private intention to control her","EV-0246;EV-0247;EV-0248","AD-0125",concept
+SC-114,The Cup and the Witnesses,Queen's palace,Act II,"Show the drugging attempt through power, preparation and failure without turning it into spectacle","EV-0249","AD-0126;AD-0127",concept
+SC-115,A Reputation for Sale,Palace routes and city gossip,Act II,"Show the paid man's false accusation as weaponised reputation and social harm","EV-0250","AD-0126;AD-0127",concept
+SC-116,The Room Without Food,Palace confinement,Act II,"Reveal starvation as an order carried through an institution and connect it with hunger ethics","EV-0251;EV-0259","AD-0128",concept
+SC-117,Are You Mourning the Body?,Palace confinement,Act II,"Stage Manimekalai and Rajamadevi's confrontation around grief, rebirth, responsibility and compassion","EV-0253;EV-0254;EV-0255","AD-0129;AD-0130",concept
+SC-118,Keep Her With Me,Queen's palace,Act III transition,"Show recognition mixed with continued attachment and unresolved possession after Chitrapathi's request","EV-0256","AD-0130;AD-0131",concept
+SC-119,The Queen Steps Away From the Door,Palace threshold,Act III,"Show Rajamadevi's mature act as allowing independent departure rather than retaining Manimekalai through affection","EV-0257;EV-0258","AD-0131;AD-0132",concept
