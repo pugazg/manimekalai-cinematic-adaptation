@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.0 — 2026-07-20
+
+- Added `03D_costume_textiles_and_personal_ornament.md`.
+- Prohibited automatic use of modern Bharatanatyam costume and medieval imperial Chola styling.
+- Established functional costume families for harbour labour, merchants, performers, royals, ascetics, visitors and people affected by poverty.
+- Added a staged visual arc for Manimekalai from ornamented artistic-household visibility to practical service, disguise, travel and ascetic self-command.
+- Added binding caution against standardizing Buddhist robes before Tamil terminology and regional monastic history are reviewed.
+- Registered Keeladi, Pattaraiperumbudur, Kodumanal and Teriruveli costume-material evidence.
+- Expanded the evidence register from 20 to 34 records.
+- Expanded the adaptation decision log from 7 to 13 decisions.
+- Expanded the preliminary screenplay evidence matrix from 4 to 8 scenes.
+- Expanded the source register from 10 to 14 sources.
+
 ## 0.2.0 — 2026-07-20
 
 - Added `03C_maritime_trade_and_ships.md`.
