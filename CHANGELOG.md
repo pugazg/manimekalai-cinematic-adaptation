@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.6.0 — 2026-07-20
+
+- Added `03G_geography_travel_routes_and_manipallavam.md`.
+- Separated textual, historical and cinematic geography into three explicit production layers.
+- Established Puhar as the strongest anchor, Karur–Amaravati as the provisional Vanji anchor and northern Sri Lanka as the contextual island zone for Manipallavam research.
+- Prohibited describing Nainativu or any other modern island as the archaeologically proven Manipallavam.
+- Prohibited mapping the epic's Nāga identities onto one modern ethnicity, nation or racialized visual system.
+- Added early historic evidence from Kantharodai, Jaffna Peninsula maritime networks and Mantai's transshipment economy.
+- Added Karur/Vanchi, Chera inscription and inland trade-route evidence.
+- Defined distinct cinematic grammars for walking, overland travel, merchant sailing, divine transport and previous-birth memory.
+- Added binding cautions against fixed yojana conversions, straight-line sea routes, exact ancient voyage times and modern-coastline assumptions.
+- Added uncertainty-aware atlas confidence levels and a rule against using archaeology for exclusive modern ownership claims in northern Sri Lanka.
+- Introduced modular geography evidence, decision and scene registers.
+- Upgraded repository validation to merge all modular CSV registers and enforce global ID uniqueness and cross-register references.
+- Expanded the evidence archive from 67 to 89 records.
+- Expanded the adaptation decision archive from 30 to 40 decisions.
+- Expanded the screenplay evidence matrix from 24 to 33 scenes.
+- Expanded the source register from 23 to 31 sources.
+
 ## 0.5.0 — 2026-07-20
 
 - Added `03F_food_hunger_famine_and_amudhasurabhi.md`.
