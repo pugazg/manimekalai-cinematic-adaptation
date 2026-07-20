@@ -1,0 +1,9 @@
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-089,The Prince Sees the Garden,Puhar flower garden,Act I,"Establish attraction, privilege and the first gap between seeing beauty and hearing choice","EV-0197;EV-0201","AD-0101;AD-0102",concept
+SC-090,A Warning From Beyond,Puhar palace threshold,Act I,"Present the goddess warning as a moment of possible self-correction","EV-0196;EV-0199","AD-0102",concept
+SC-091,The Door That Does Not Open,Puhar routes,Act I,"Show pursuit continuing despite Manimekalai's chosen direction","EV-0198;EV-0201","AD-0101;AD-0103",concept
+SC-092,Memory Is Not Permission,Puhar confrontation,Act II,"Separate previous-life connection from present autonomy","EV-0202;EV-0203","AD-0104",concept
+SC-093,The Misread Moment,Changed-identity encounter,Act II,"Build unequal knowledge and mistaken interpretation","EV-0204;EV-0205","AD-0105",concept
+SC-094,The Empty Palace,Palace aftermath,Act II,"Show grief becoming political action through Rajamadevi","EV-0208","AD-0106",concept
+SC-095,The Prince Who Could Have Learned,Reflective sequence,Act II,"Show unrealised capacity without inventing heroism","EV-0209","AD-0107",concept
+SC-096,After the Death,Court and public spaces,Act II,"Treat death as consequence rather than romantic resolution","EV-0206;EV-0207","AD-0105;AD-0106",concept
