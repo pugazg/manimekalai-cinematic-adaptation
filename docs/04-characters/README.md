@@ -21,10 +21,10 @@ Each dossier must separate:
 6. [04F — Chitrapathi Character Bible](04F_chitrapathi_character_bible.md)
 7. [04G — Rajamadevi Character Bible](04G_rajamadevi_character_bible.md)
 8. [04H — Aputhiran Character Bible](04H_aputhiran_character_bible.md)
+9. [04I — Kanchanan Character Bible](04I_kanchanan_character_bible.md)
 
 ## Planned priority dossiers
 
-9. Kanchanan
 10. Punniyarajan
 
 ## Character-dossier rule
