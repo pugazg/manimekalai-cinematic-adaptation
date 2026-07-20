@@ -25,6 +25,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Separate royal duty, personal desire, grief and institutional power; karma is not a legal verdict and grief does not excuse coercion.
 - Treat female agency as constrained, relational and accountable; beauty, adornment, profession and public visibility never function as consent.
 - Build character psychology from traceable evidence and clearly labelled interpretation; do not convert literary figures into modern clinical cases or flawless icons.
+- Treat artistic knowledge as biography rather than moral contamination; renunciation does not erase skill, labour, household responsibility or the autonomy of the next generation.
 
 ## Evidence labels
 
@@ -86,9 +87,10 @@ The repository contains:
 - the kingship, law, justice and state power dossier;
 - the women, gender, desire and agency dossier;
 - the Manimekalai character bible;
-- 162 registered evidence records;
-- 80 registered adaptation decisions;
-- 72 preliminary screenplay scene records;
+- the Madhavi character bible;
+- 179 registered evidence records;
+- 90 registered adaptation decisions;
+- 80 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
