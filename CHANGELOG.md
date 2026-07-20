@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.0 — 2026-07-20
+
+- Added `03E_religious_communities_and_philosophical_schools.md`.
+- Separated religious communities, philosophical positions and methods of reasoning into distinct production layers.
+- Prohibited a simplified Hindu-versus-Buddhist framing and visually uniform treatment of non-Buddhist traditions.
+- Established dignified treatment of rival schools, including Ajivika, Nikandavadi/Jain, Sankhya, Vaisheshika and Bhutavada/Ulogayata positions.
+- Separated the dramatic functions of Chapters 27, 29 and 30 into inquiry, reasoning and ethical transformation.
+- Added binding cautions against modern panel-debate staging and caricatured philosophical opponents.
+- Added early Jain institutional context and Tamil Buddhist literary scholarship to the source register.
+- Restored and expanded the complete source register to 19 sources after detecting a truncated intermediate write.
+- Expanded the evidence register from 34 to 47 records.
+- Expanded the adaptation decision log from 13 to 20 decisions.
+- Expanded the preliminary screenplay evidence matrix from 8 to 14 scenes.
+
 ## 0.3.0 — 2026-07-20
 
 - Added `03D_costume_textiles_and_personal_ornament.md`.
