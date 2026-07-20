@@ -1,0 +1,73 @@
+unit_order,feature_unit_id,feature_unit_title,unit_type,sequence_id,target_minutes,min_minutes,max_minutes,intensity,presentation,transition_type
+1,FU-001,Before the City Wakes,CORE,SEQ-01,3.25,2.6,3.9,medium,visual-led,spatial_or_montage
+2,FU-002,The Proclamation and the Sceptre,CORE,SEQ-01,2.25,1.8,2.7,medium,dialogue-led,continuous_scene
+3,FU-003,The House Does Not Dance,CORE,SEQ-01,3.25,2.6,3.9,medium,visual-led,continuous_scene
+4,BR-001,Madhavi Brings the Unspeakable,BRANCH,SEQ-01,0.75,0.6,0.9,medium,visual-led,memory_inset
+5,FU-004,A Daughter Is Not a Second Life,CORE,SEQ-01,3.25,2.6,3.9,medium,balanced,continuous_scene
+6,FU-005,Many Paths Under One Roof,CORE,SEQ-01,2.25,1.8,2.7,medium,balanced,continuous_scene
+7,FU-006,The Safer Side of the Street,CORE,SEQ-02,1.75,1.4,2.1,medium,balanced,continuous_scene
+8,FU-007,Her Story Changes the Map,CORE,SEQ-02,1.75,1.4,2.1,medium,balanced,continuous_scene
+9,FU-008,The Gaze Arrives Before the Prince,CORE,SEQ-02,2.75,2.2,3.3,medium,balanced,continuous_scene
+10,FU-009,No Is Not a Riddle,CORE,SEQ-02,2.75,2.2,3.3,medium,balanced,continuous_scene
+11,FU-010,A Warning From Beyond,CORE,SEQ-02,1.75,1.4,2.1,high,dialogue-led,continuous_scene
+12,FU-011,The Goddess Chooses Her,CORE,SEQ-02,2.5,2.0,3.0,medium,balanced,continuous_scene
+13,FU-012,The Place Beside Her Is Empty,CORE,SEQ-02,1.75,1.4,2.1,medium,balanced,continuous_scene
+14,FU-013,Alone Where the City Cannot See,CORE,SEQ-03,4.25,3.4,5.1,medium,visual-led,spatial_or_montage
+15,FU-014,The Pond That Remembers,CORE,SEQ-03,4.0,3.2,4.8,medium,visual-led,memory_or_revelation
+16,FU-015,The Vessel Chooses a Custodian,CORE,SEQ-03,4.0,3.2,4.8,medium,visual-led,continuous_scene
+17,FU-016,Sudhamathi Gives the Account,CORE,SEQ-03,2.75,2.2,3.3,medium,dialogue-led,continuous_scene
+18,FU-017,Three Women Enter the Teacher's Space,CORE,SEQ-04,2.25,1.8,2.7,medium,balanced,continuous_scene
+19,FU-018,He Lets the Account Finish,CORE,SEQ-04,2.25,1.8,2.7,medium,dialogue-led,continuous_scene
+20,FU-019,Aputhiran Is Not a Legend,CORE,SEQ-04,2.0,1.6,2.4,medium,balanced,continuous_scene
+21,BR-002,Seven Days of Milk,BRANCH,SEQ-04,0.5,0.4,0.6,medium,visual-led,memory_inset
+22,BR-003,The Cow at the Fire,BRANCH,SEQ-04,0.5,0.4,0.6,high,visual-led,memory_inset
+23,BR-004,He Eats What Remains,BRANCH,SEQ-04,0.5,0.4,0.6,medium,visual-led,memory_inset
+24,BR-005,What Can Heaven Give Me?,BRANCH,SEQ-04,0.5,0.4,0.6,high,visual-led,memory_inset
+25,BR-006,The Feeding Hall Is Empty,BRANCH,SEQ-04,0.5,0.4,0.6,medium,visual-led,memory_inset
+26,BR-007,The Ship Leaves in Darkness,BRANCH,SEQ-04,0.5,0.4,0.6,high,visual-led,memory_inset
+27,BR-008,The Vessel Chooses the Future,BRANCH,SEQ-04,0.5,0.4,0.6,medium,visual-led,memory_inset
+28,FU-020,Do Not Hide the Vessel,CORE,SEQ-04,2.0,1.6,2.4,medium,visual-led,continuous_scene
+29,BR-010,The Fire Does Not Take Her,BRANCH,SEQ-04,0.5,0.4,0.6,high,visual-led,memory_inset
+30,BR-011,Two People Return to One House,BRANCH,SEQ-04,0.5,0.4,0.6,medium,visual-led,memory_inset
+31,FU-021,The First Handful,CORE,SEQ-04,2.0,1.6,2.4,medium,balanced,continuous_scene
+32,FU-022,Compassion Learns Logistics,CORE,SEQ-04,2.0,1.6,2.4,medium,balanced,continuous_scene
+33,FU-023,Enough,CORE,SEQ-04,1.5,1.2,1.8,medium,balanced,continuous_scene
+34,FU-024,The Prison Kitchen,CORE,SEQ-04,1.5,1.2,1.8,medium,balanced,continuous_scene
+35,FU-025,A Crown as Protection,CORE,SEQ-05,2.75,2.2,3.3,medium,balanced,continuous_scene
+36,FU-026,Memory Is Not Permission,CORE,SEQ-05,1.75,1.4,2.1,medium,dialogue-led,memory_or_revelation
+37,BR-009,Counting Indra Festivals,BRANCH,SEQ-05,0.75,0.6,0.9,medium,visual-led,memory_inset
+38,FU-028,The Woman With His Wife's Face,CORE,SEQ-05,2.75,2.2,3.3,medium,balanced,continuous_scene
+39,FU-029,What He Thinks He Sees,CORE,SEQ-05,2.75,2.2,3.3,medium,balanced,continuous_scene
+40,FU-030,The Sword in the Hidden Place,CORE,SEQ-05,2.5,2.0,3.0,high,balanced,continuous_scene
+41,FU-031,Midnight Without a Question,CORE,SEQ-05,2.5,2.0,3.0,high,dialogue-led,causal_escalation
+42,FU-032,Do Not Go Near Her,CORE,SEQ-05,2.5,2.0,3.0,medium,balanced,continuous_scene
+43,FU-033,After the Prince Falls,CORE,SEQ-05,1.75,1.4,2.1,high,balanced,causal_escalation
+44,FU-034,The Court Hears the Death,CORE,SEQ-06,3.5,2.8,4.2,high,balanced,continuous_scene
+45,FU-035,Vasantavai Does Not Bless Her,CORE,SEQ-06,3.5,2.8,4.2,medium,balanced,continuous_scene
+46,FU-036,Protection as a Lie,CORE,SEQ-06,3.25,2.6,3.9,medium,balanced,continuous_scene
+47,FU-037,The Cup and the Witnesses,CORE,SEQ-06,3.25,2.6,3.9,high,balanced,causal_escalation
+48,FU-038,A Reputation for Sale,CORE,SEQ-06,3.25,2.6,3.9,high,balanced,causal_escalation
+49,FU-039,The Room Without Food,CORE,SEQ-06,3.25,2.6,3.9,high,balanced,causal_escalation
+50,FU-040,Are You Mourning the Body?,CORE,SEQ-07,5.0,4.0,6.0,high,dialogue-led,causal_escalation
+51,FU-041,Keep Her With Me,CORE,SEQ-07,5.0,4.0,6.0,medium,balanced,continuous_scene
+52,FU-042,The Elder at the Queen's Gate,CORE,SEQ-07,3.25,2.6,3.9,high,balanced,continuous_scene
+53,FU-043,The Queen Steps Away From the Door,CORE,SEQ-07,4.75,3.8,5.7,high,visual-led,continuous_scene
+54,FU-044,The King Without Hunger,CORE,SEQ-08,2.5,2.0,3.0,high,balanced,continuous_scene
+55,FU-045,The Minister's Warning,CORE,SEQ-08,2.5,2.0,3.0,high,dialogue-led,continuous_scene
+56,FU-046,The Mirror of the Peedihai,CORE,SEQ-08,2.5,2.0,3.0,medium,balanced,memory_or_revelation
+57,FU-047,Bones Beneath the Punnai Tree,CORE,SEQ-08,2.5,2.0,3.0,medium,balanced,continuous_scene
+58,FU-048,The King Who Wants to Disappear,CORE,SEQ-08,2.5,2.0,3.0,medium,balanced,continuous_scene
+59,FU-049,Return Is Also a Vow,CORE,SEQ-08,2.5,2.0,3.0,medium,balanced,continuous_scene
+60,FU-050,The Road Away From Salt,CORE,SEQ-09,2.25,1.8,2.7,medium,visual-led,spatial_or_montage
+61,FU-051,The Inland City of Arguments,CORE,SEQ-09,2.25,1.8,2.7,medium,dialogue-led,spatial_or_montage
+62,FU-052,Questions in Another Voice,CORE,SEQ-09,2.25,1.8,2.7,medium,dialogue-led,continuous_scene
+63,FU-053,The Unknown Sage Listens,CORE,SEQ-09,3.5,2.8,4.2,medium,dialogue-led,continuous_scene
+64,FU-054,When the Drum Falls Silent,CORE,SEQ-09,3.5,2.8,4.2,high,balanced,causal_escalation
+65,FU-055,Perception Inference and the Student's Error,CORE,SEQ-09,3.25,2.6,3.9,medium,balanced,continuous_scene
+66,FU-056,The Chain of Hunger,CORE,SEQ-10,1.75,1.4,2.1,high,balanced,continuous_scene
+67,FU-057,Famine Reaches the Road First,CORE,SEQ-10,1.0,0.8,1.2,medium,visual-led,spatial_or_montage
+68,FU-058,The Workshop That Stops,CORE,SEQ-10,1.0,0.8,1.2,medium,visual-led,spatial_or_montage
+69,FU-059,The Market Contains Food,CORE,SEQ-10,1.0,0.8,1.2,high,visual-led,spatial_or_montage
+70,FU-060,The King Asks Why,CORE,SEQ-10,1.75,1.4,2.1,medium,balanced,continuous_scene
+71,FU-061,Eighteen Languages,CORE,SEQ-10,1.75,1.4,2.1,medium,visual-led,spatial_or_montage
+72,FU-062,After All Arguments,CORE,SEQ-10,1.75,1.4,2.1,medium,dialogue-led,continuous_scene
