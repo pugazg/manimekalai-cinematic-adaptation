@@ -1,11 +1,11 @@
 sequence_id,title,act,runtime_minutes,function,key_characters,status
-SEQ-01,The City Before the Storm,ACT I,15,Introduce Puhar civilisation and inherited world,Manimekalai Madhavi Sudhamathi,core
-SEQ-02,The Woman Who Refuses a Destiny,ACT I,15,Establish Manimekalai desire conflict and Udayakumaran,Manimekalai Udayakumaran,core
-SEQ-03,The Island of Memory,ACT I,15,Reveal previous births and Amudhasurabhi,Manimekalai Aravana Aputhiran,core
-SEQ-04,The Bowl and the Hungry City,ACT II,20,Transform compassion into public action,Manimekalai Sudhamathi Aputhiran,core
-SEQ-05,The Prince and the Shadow,ACT II,20,Escalate desire misunderstanding and tragedy,Manimekalai Udayakumaran Kanchanan,core
-SEQ-06,The Palace of Grief,ACT II,20,Explore royal grief and coercive power,Rajamadevi Manimekalai Chitrapathi,core
-SEQ-07,The Queen Learns to Listen,ACT III,15,Move from punishment to accountability,Rajamadevi Manimekalai Aravana,core
-SEQ-08,The King Who Was a Beggar,ACT III,15,Resolve Aputhiran continuity and kingship,Punniyarajan Manimekalai,core
-SEQ-09,The Questions of Truth,ACT III,15,Convert philosophy into lived ethical inquiry,Manimekalai Aravana Scholars,core
-SEQ-10,The Bowl Beyond Its Owner,ACT III,10,Complete liberation and social continuation,Manimekalai All,core
+SEQ-01,The City Before the Storm,ACT I,15,"Introduce Puhar civilisation inherited identity philosophical plurality and unequal abundance","Manimekalai;Madhavi;Sudhamathi;Chitrapathi",core
+SEQ-02,The Woman Who Refuses a Destiny,ACT I,15,"Establish Manimekalai's boundaries Udayakumaran's interpretation of desire and immediate danger","Manimekalai;Udayakumaran;Sudhamathi",core
+SEQ-03,The Island of Memory,ACT I,15,"Reveal previous births sacred experience Deepathilahai and Amudhasurabhi while separating revelation from complete knowledge","Manimekalai;Deepathilahai;Aputhiran",core
+SEQ-04,The Bowl and the Hungry City,ACT II,20,"Move from Aputhiran's service ethic through Aadhirai's first offering into organised public feeding and prison reform","Manimekalai;Aravana Adigal;Aputhiran;Aadhirai;Sudhamathi",core
+SEQ-05,The Prince and the Shadow,ACT II,20,"Escalate pursuit altered identity Kanchanan's mistaken inference and Udayakumaran's death","Manimekalai;Udayakumaran;Kanchanan;Kayasandihai",core
+SEQ-06,The Palace of Grief,ACT II,20,"Separate formal imprisonment private custody drugging defamation starvation and Manimekalai's false-guilt crisis","Rajamadevi;Manimekalai;Vasantavai",core
+SEQ-07,The Queen Learns to Listen,ACT III,18,"Move from recognition to accountability witnesses and relinquishment of control","Rajamadevi;Manimekalai;Aravana Adigal;Madhavi;Sudhamathi;Chitrapathi",core
+SEQ-08,The King Who Was a Beggar,ACT III,15,"Resolve Aputhiran continuity Manipallavam memory and kingship duty without identity replacement","Punniyarajan;Manimekalai;Janamithran;Aputhiran",core
+SEQ-09,The Questions of Truth,ACT III,17,"Stage selected Vanji encounters followed by Aravana's perception inference and fallacy lesson","Manimekalai;Aravana Adigal;Alavaivadi speaker;Ajivika speaker;Nikandavadi speaker;Bhutavadi speaker",core
+SEQ-10,The Bowl Beyond Its Owner,ACT III,10,"Connect Kanchi hunger dependent causation refuge and disciplined compassionate continuation","Manimekalai;Aravana Adigal;Kanchi communities",core
