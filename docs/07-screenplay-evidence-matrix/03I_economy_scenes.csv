@@ -1,0 +1,10 @@
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-039,Before the city wakes,Puhar harbour market and performance quarter,Festival dawn,"Reveal loaders grain handlers flower workers musicians cleaners and animal keepers creating the festival before elite arrival","EV-0103;EV-0104;EV-0119","AD-0047;AD-0048",concept
+SC-040,The curriculum of Madhavi,Madhavi household rehearsal rooms,Act I,"Establish performance as disciplined labour and expose the economic obligations surrounding artistic prestige","EV-0104","AD-0048",concept
+SC-041,The stone under judgement,Puhar precious-goods valuation lane,Act I,"Show skilled testing weighing witnesses and disputed responsibility for a flawed stone","EV-0103;EV-0114;EV-0119","AD-0047;AD-0051;AD-0052",concept
+SC-042,Marks on the jar,Puhar warehouse and merchant court,Act I,"Use an inscribed vessel in an ownership dispute while refusing a simplistic reading of the mark","EV-0114","AD-0052",concept
+SC-043,Many hands on one cargo,Puhar harbour and merchant vessel,Act II,"Make a voyage depend on packers sailors pilots repairers food suppliers and waiting families","EV-0105;EV-0106;EV-0119","AD-0047;AD-0054",concept
+SC-044,What the sea returns,Puhar salvage market,Act II,"Turn wreck goods into contested loss rather than exotic merchandise and reveal missing owners and dependants","EV-0106;EV-0117;EV-0121","AD-0049;AD-0054;AD-0055",concept
+SC-045,The merchants agree without a banner,Vanji caravan lodging,Act III,"Show collective reputation witnesses storage and risk-sharing without importing a medieval guild constitution","EV-0115;EV-0116;EV-0119","AD-0050;AD-0051",concept
+SC-046,The workshop that stops,Kanchi craft household,Act III,"Connect famine to lost fuel sold tools weakened labour and collapse of demand before the family seeks relief","EV-0108;EV-0121","AD-0055",concept
+SC-047,The market contains food,Kanchi grain street and relief route,Act III,"Show goods present but inaccessible to households without work purchasing power or social support","EV-0103;EV-0107;EV-0118;EV-0121","AD-0051;AD-0055",concept
