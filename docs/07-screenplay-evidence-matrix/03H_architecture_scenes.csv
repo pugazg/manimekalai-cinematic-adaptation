@@ -1,0 +1,6 @@
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-034,Water before the festival,Puhar wells channels and street tanks,Festival dawn,"Establish the labour that supplies cleans and drains the decorated city before celebration begins","EV-0090;EV-0093;EV-0098;EV-0101","AD-0041;AD-0042;AD-0043",concept
+SC-035,The city behind the marble wall,Puhar garden pavilion and service passages,Act I,"Contrast poetic splendour with timber roof drainage maintenance and workers sustaining an elite garden","EV-0094;EV-0099;EV-0101","AD-0041;AD-0043",concept
+SC-036,The gate of ash,Chakravala boundary and cremation ground,Act I,"Make death and social exclusion spatially present without horror-fantasy staging","EV-0092","AD-0045",concept
+SC-037,Keys become ladles,Royal prison during conversion,Act II,"Show punishment infrastructure being physically reorganised into kitchens lodging water and care","EV-0091;EV-0101","AD-0044",concept
+SC-038,A city thirsty before it starves,Kanchi wells storage and relief routes,Act III,"Reveal famine through failing water access and civic infrastructure before doctrinal explanation","EV-0096;EV-0098;EV-0100;EV-0101","AD-0042;AD-0046",concept
