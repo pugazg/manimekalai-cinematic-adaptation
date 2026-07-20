@@ -1,0 +1,155 @@
+scene_id,working_scene_title,selection,primary_scene_id,feature_unit_id,sequence_id
+SC-001,Dawn at the Kaveri mouth,MERGE,SC-039,FU-001,SEQ-01
+SC-002,The proclamation drum,KEEP,SC-002,FU-002,SEQ-01
+SC-003,Madhavi's silent house,MERGE,SC-073,FU-003,SEQ-01
+SC-004,The city of abundance,MERGE,SC-039,FU-001,SEQ-01
+SC-005,Flowers under the public gaze,MERGE,SC-055,FU-008,SEQ-02
+SC-006,The vessel that serves,MERGE,SC-068,FU-022,SEQ-04
+SC-007,The form of Kayasandihai,MERGE,SC-132,FU-028,SEQ-05
+SC-008,Cloth after scarcity,MERGE,SC-046,FU-058,SEQ-10
+SC-009,Many paths under one roof,KEEP,SC-009,FU-005,SEQ-01
+SC-010,The unknown sage listens,KEEP,SC-010,FU-053,SEQ-09
+SC-011,When the drum falls silent,KEEP,SC-011,FU-054,SEQ-09
+SC-012,Fire on the distant hill,MERGE,SC-104,FU-055,SEQ-09
+SC-013,The chain of hunger,KEEP,SC-013,FU-056,SEQ-10
+SC-014,After all arguments,KEEP,SC-014,FU-062,SEQ-10
+SC-015,The vessel chooses a custodian,KEEP,SC-015,FU-015,SEQ-03
+SC-016,Aputhiran's last recipient,MERGE,SC-125,BR-006,SEQ-04
+SC-017,The first handful,MERGE,SC-153,FU-021,SEQ-04
+SC-018,Ulaga Aravi learns to serve,MERGE,SC-068,FU-022,SEQ-04
+SC-019,Enough,KEEP,SC-019,FU-023,SEQ-04
+SC-020,The prison kitchen,KEEP,SC-020,FU-024,SEQ-04
+SC-021,The room without food,MERGE,SC-116,FU-039,SEQ-06
+SC-022,Kanchi's closed granary,MERGE,SC-047,FU-059,SEQ-10
+SC-023,The king asks why,KEEP,SC-023,FU-060,SEQ-10
+SC-024,Eighteen languages,KEEP,SC-024,FU-061,SEQ-10
+SC-025,Sleep leaves the delta,MERGE,SC-059,FU-011,SEQ-02
+SC-026,No city on the horizon,MERGE,SC-066,FU-013,SEQ-03
+SC-027,The pond that remembers,KEEP,SC-027,FU-014,SEQ-03
+SC-028,Return against the wind,MERGE,SC-127,BR-007,SEQ-04
+SC-029,The child entrusted to the sea,OMIT,,,SEQ-03
+SC-030,When Puhar loses the festival,RESERVE,,,SEQ-09
+SC-031,The road away from salt,KEEP,SC-031,FU-050,SEQ-09
+SC-032,The inland city of arguments,KEEP,SC-032,FU-051,SEQ-09
+SC-033,Famine reaches the road first,KEEP,SC-033,FU-057,SEQ-10
+SC-034,Water before the festival,MERGE,SC-039,FU-001,SEQ-01
+SC-035,The city behind the marble wall,RESERVE,,,SEQ-01
+SC-036,The gate of ash,RESERVE,,,SEQ-02
+SC-037,Keys become ladles,MERGE,SC-020,FU-024,SEQ-04
+SC-038,A city thirsty before it starves,MERGE,SC-033,FU-057,SEQ-10
+SC-039,Before the city wakes,KEEP,SC-039,FU-001,SEQ-01
+SC-040,The curriculum of Madhavi,MERGE,SC-073,FU-003,SEQ-01
+SC-041,The stone under judgement,OMIT,,,SEQ-01
+SC-042,Marks on the jar,OMIT,,,SEQ-01
+SC-043,Many hands on one cargo,MERGE,SC-150,BR-010,SEQ-04
+SC-044,What the sea returns,MERGE,SC-150,BR-010,SEQ-04
+SC-045,The merchants agree without a banner,RESERVE,,,SEQ-09
+SC-046,The workshop that stops,KEEP,SC-046,FU-058,SEQ-10
+SC-047,The market contains food,KEEP,SC-047,FU-059,SEQ-10
+SC-048,The Sceptre and the Rain,MERGE,SC-002,FU-002,SEQ-01
+SC-049,The Prince Who Would Not Listen,MERGE,SC-058,FU-009,SEQ-02
+SC-050,The Court Hears the Death,KEEP,SC-050,FU-034,SEQ-06
+SC-051,A Prison Opens,MERGE,SC-020,FU-024,SEQ-04
+SC-052,The Queen's Grief,MERGE,SC-112,FU-035,SEQ-06
+SC-053,Justice Without Revenge,MERGE,SC-119,FU-043,SEQ-07
+SC-054,Three Women Three Futures,MERGE,SC-075,FU-004,SEQ-01
+SC-055,The Gaze Arrives Before the Prince,KEEP,SC-055,FU-008,SEQ-02
+SC-056,Sudhamathi Tells Her Own Story,MERGE,SC-082,FU-007,SEQ-02
+SC-057,Chitrapathi Counts the Cost,MERGE,SC-075,FU-004,SEQ-01
+SC-058,No Is Not a Riddle,KEEP,SC-058,FU-009,SEQ-02
+SC-059,The Goddess Chooses Her,KEEP,SC-059,FU-011,SEQ-02
+SC-060,Wearing Another Woman's Life,MERGE,SC-132,FU-028,SEQ-05
+SC-061,The Sage's Voice,MERGE,SC-071,FU-052,SEQ-09
+SC-062,A Mother's Orders,MERGE,SC-113,FU-036,SEQ-06
+SC-063,Women Speak After the Prince,MERGE,SC-117,FU-040,SEQ-07
+SC-064,The Future Spoken Around Her,MERGE,SC-075,FU-004,SEQ-01
+SC-065,The Practised Body Refuses,MERGE,SC-058,FU-009,SEQ-02
+SC-066,Alone Where the City Cannot See,KEEP,SC-066,FU-013,SEQ-03
+SC-067,The Weight of an Inexhaustible Vessel,MERGE,SC-015,FU-015,SEQ-03
+SC-068,Compassion Learns Logistics,KEEP,SC-068,FU-022,SEQ-04
+SC-069,After the Prince Falls,KEEP,SC-069,FU-033,SEQ-05
+SC-070,Fear Inside the Queen's House,MERGE,SC-116,FU-039,SEQ-06
+SC-071,Questions in Another Voice,KEEP,SC-071,FU-052,SEQ-09
+SC-072,Stillness That Remains in the World,MERGE,SC-014,FU-062,SEQ-10
+SC-073,The House Does Not Dance,KEEP,SC-073,FU-003,SEQ-01
+SC-074,What the Body Remembers,MERGE,SC-073,FU-003,SEQ-01
+SC-075,A Daughter Is Not a Second Life,KEEP,SC-075,FU-004,SEQ-01
+SC-076,The Empty Mat,MERGE,SC-085,FU-012,SEQ-02
+SC-077,News of the Vessel,MERGE,SC-101,FU-020,SEQ-04
+SC-078,The Cost of Closing the Door,RESERVE,,,SEQ-04
+SC-079,Protection Without Possession,MERGE,SC-119,FU-043,SEQ-07
+SC-080,The Door Left Open,MERGE,SC-014,FU-062,SEQ-10
+SC-081,The Safer Side of the Street,KEEP,SC-081,FU-006,SEQ-02
+SC-082,Her Story Changes the Map,KEEP,SC-082,FU-007,SEQ-02
+SC-083,The Prince Changes the Air,MERGE,SC-055,FU-008,SEQ-02
+SC-084,A Warning Is Not an Order,MERGE,SC-058,FU-009,SEQ-02
+SC-085,The Place Beside Her Is Empty,KEEP,SC-085,FU-012,SEQ-02
+SC-086,Sudhamathi Gives the Account,KEEP,SC-086,FU-016,SEQ-03
+SC-087,Friendship Without Surveillance,RESERVE,,,SEQ-04
+SC-088,A Life Not Left Behind,RESERVE,,,SEQ-10
+SC-089,The Prince Sees the Garden,MERGE,SC-055,FU-008,SEQ-02
+SC-090,A Warning From Beyond,KEEP,SC-090,FU-010,SEQ-02
+SC-091,The Door That Does Not Open,MERGE,SC-058,FU-009,SEQ-02
+SC-092,Memory Is Not Permission,KEEP,SC-092,FU-026,SEQ-05
+SC-093,The Misread Moment,MERGE,SC-133,FU-029,SEQ-05
+SC-094,The Empty Palace,MERGE,SC-112,FU-035,SEQ-06
+SC-095,The Prince Who Could Have Learned,RESERVE,,,SEQ-05
+SC-096,After the Death,MERGE,SC-069,FU-033,SEQ-05
+SC-097,Madhavi Brings the Unspeakable,BRANCH,SC-097,BR-001,SEQ-01
+SC-098,Three Women Enter the Teacher's Space,KEEP,SC-098,FU-017,SEQ-04
+SC-099,He Lets the Account Finish,KEEP,SC-099,FU-018,SEQ-04
+SC-100,Aputhiran Is Not a Legend,KEEP,SC-100,FU-019,SEQ-04
+SC-101,Do Not Hide the Vessel,KEEP,SC-101,FU-020,SEQ-04
+SC-102,The Elder at the Queen's Gate,KEEP,SC-102,FU-042,SEQ-07
+SC-103,A Teacher Without a City,MERGE,SC-031,FU-050,SEQ-09
+SC-104,Perception Inference and the Student's Error,KEEP,SC-104,FU-055,SEQ-09
+SC-105,The Empty Festival Seat,MERGE,SC-073,FU-003,SEQ-01
+SC-106,The House That Taught Survival,MERGE,SC-073,FU-003,SEQ-01
+SC-107,A Crown as Protection,KEEP,SC-107,FU-025,SEQ-05
+SC-108,The Price of Fame,MERGE,SC-075,FU-004,SEQ-01
+SC-109,Before the Queen,MERGE,SC-118,FU-041,SEQ-07
+SC-110,The Elder Who Changes the Question,RESERVE,,,SEQ-10
+SC-111,The News Reaches the Queen,MERGE,SC-112,FU-035,SEQ-06
+SC-112,Vasantavai Does Not Bless Her,KEEP,SC-112,FU-035,SEQ-06
+SC-113,Protection as a Lie,KEEP,SC-113,FU-036,SEQ-06
+SC-114,The Cup and the Witnesses,KEEP,SC-114,FU-037,SEQ-06
+SC-115,A Reputation for Sale,KEEP,SC-115,FU-038,SEQ-06
+SC-116,The Room Without Food,KEEP,SC-116,FU-039,SEQ-06
+SC-117,Are You Mourning the Body?,KEEP,SC-117,FU-040,SEQ-07
+SC-118,Keep Her With Me,KEEP,SC-118,FU-041,SEQ-07
+SC-119,The Queen Steps Away From the Door,KEEP,SC-119,FU-043,SEQ-07
+SC-120,Seven Days of Milk,BRANCH,SC-120,BR-002,SEQ-04
+SC-121,The Cow at the Fire,BRANCH,SC-121,BR-003,SEQ-04
+SC-122,Stones in the Begging Pot,MERGE,SC-123,BR-004,SEQ-04
+SC-123,He Eats What Remains,BRANCH,SC-123,BR-004,SEQ-04
+SC-124,What Can Heaven Give Me?,BRANCH,SC-124,BR-005,SEQ-04
+SC-125,The Feeding Hall Is Empty,BRANCH,SC-125,BR-006,SEQ-04
+SC-126,Hunger Across the Sea,MERGE,SC-127,BR-007,SEQ-04
+SC-127,The Ship Leaves in Darkness,BRANCH,SC-127,BR-007,SEQ-04
+SC-128,The Vessel Chooses the Future,BRANCH,SC-128,BR-008,SEQ-04
+SC-129,Two Travellers at Potiya,MERGE,SC-131,BR-009,SEQ-05
+SC-130,Food That Cannot Satisfy,MERGE,SC-131,BR-009,SEQ-05
+SC-131,Counting Indra Festivals,BRANCH,SC-131,BR-009,SEQ-05
+SC-132,The Woman With His Wife's Face,KEEP,SC-132,FU-028,SEQ-05
+SC-133,What He Thinks He Sees,KEEP,SC-133,FU-029,SEQ-05
+SC-134,The Sword in the Hidden Place,KEEP,SC-134,FU-030,SEQ-05
+SC-135,Midnight Without a Question,KEEP,SC-135,FU-031,SEQ-05
+SC-136,Do Not Go Near Her,KEEP,SC-136,FU-032,SEQ-05
+SC-137,The Sky Without Kayasandihai,RESERVE,,,SEQ-05
+SC-138,The King Without Hunger,KEEP,SC-138,FU-044,SEQ-08
+SC-139,The News of Another Life,MERGE,SC-138,FU-044,SEQ-08
+SC-140,The Minister's Warning,KEEP,SC-140,FU-045,SEQ-08
+SC-141,One Month Away,MERGE,SC-140,FU-045,SEQ-08
+SC-142,The Mirror of the Peedihai,KEEP,SC-142,FU-046,SEQ-08
+SC-143,The Night Sindhadevi Came,MERGE,SC-142,FU-046,SEQ-08
+SC-144,Bones Beneath the Punnai Tree,KEEP,SC-144,FU-047,SEQ-08
+SC-145,The King Who Wants to Disappear,KEEP,SC-145,FU-048,SEQ-08
+SC-146,Return Is Also a Vow,KEEP,SC-146,FU-049,SEQ-08
+SC-147,Two Lives One Present Duty,MERGE,SC-146,FU-049,SEQ-08
+SC-148,The House After He Leaves,MERGE,SC-150,BR-010,SEQ-04
+SC-149,News From the Broken Ship,MERGE,SC-150,BR-010,SEQ-04
+SC-150,The Fire Does Not Take Her,BRANCH,SC-150,BR-010,SEQ-04
+SC-151,The Stranger at the Shore,MERGE,SC-152,BR-011,SEQ-04
+SC-152,Two People Return to One House,BRANCH,SC-152,BR-011,SEQ-04
+SC-153,The First Handful,KEEP,SC-153,FU-021,SEQ-04
+SC-154,The Wish Travels Beyond the Door,MERGE,SC-153,FU-021,SEQ-04
