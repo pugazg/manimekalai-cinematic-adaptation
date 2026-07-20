@@ -15,10 +15,10 @@ Each dossier must separate:
 
 1. [04A — Manimekalai Character Bible](04A_manimekalai_character_bible.md)
 2. [04B — Madhavi Character Bible](04B_madhavi_character_bible.md)
+3. [04C — Sudhamathi Character Bible](04C_sudhamathi_character_bible.md)
 
 ## Planned priority dossiers
 
-3. Sudhamathi
 4. Udayakumaran
 5. Aravana Adigal
 6. Chitrapathi
