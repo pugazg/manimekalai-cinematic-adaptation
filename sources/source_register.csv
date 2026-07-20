@@ -1,0 +1,6 @@
+source_id,creator,title,language,edition_or_publisher,year,url_or_location,source_type,rights_status,project_use,verification_status
+SRC-0001,Seethalai Chathanar,Manimekalai,Tamil,Edition to be selected,,private_sources/,primary,status_unknown,"Canonical text; line-level verification required",pending
+SRC-0002,Kausalya Hart,Manimekalai English translation,English,Project Madurai edition,,private_sources/,translation,status_unknown,"Research aid; do not redistribute without confirmed permission",pending
+SRC-0003,Ilango Adigal,Silappathikaram,Tamil,Edition to be selected,,private_sources/,primary,status_unknown,"Cross-textual context",pending
+SRC-0004,Unknown/Pattinappalai poet attribution to verify,Pattinappalai,Tamil,Edition to be selected,,private_sources/,primary,status_unknown,"Puhar and port-city cross-reference",pending
+SRC-0005,Tamil Nadu Department of Archaeology,Poompuhar,English/Tamil,Government website,,to_capture,archaeology,citation_only,"Historical foundation and excavation metadata",pending
