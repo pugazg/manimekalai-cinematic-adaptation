@@ -14,6 +14,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Do not project later religious identities or iconography backward without evidence.
 - Treat the Indra festival first within its early Tamil civic-sacral context; do not assume identity with every later representation of Indra.
 - Do not claim archaeological certainty where evidence is partial or debated.
+- Present Puhar as a sophisticated maritime culture without declaring an exact ancient hull, rig or harbour layout proven before specialist review.
 
 ## Evidence labels
 
@@ -59,4 +60,16 @@ The validator checks evidence IDs, adaptation decision IDs and screenplay eviden
 
 ## Current state
 
-The repository contains the initial vision, literary analysis, historical Tamilakam foundation, Puhar city dossier and Indra festival dossier. These are working editions and require expansion with original Tamil passages, cross-textual evidence, archaeology and specialist review.
+The repository contains:
+
+- the initial vision and literary-analysis foundation;
+- the Historical Tamilakam working volume;
+- the Puhar city dossier;
+- the Indra festival source dossier;
+- the maritime trade and ships dossier;
+- 20 registered evidence records;
+- 7 registered adaptation decisions;
+- the initial screenplay evidence matrix;
+- source-rights safeguards and automated validation.
+
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports and specialist review must be added before screenplay and production designs are treated as final.
