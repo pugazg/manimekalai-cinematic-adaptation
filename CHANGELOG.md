@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.14.0 — 2026-07-20
+
+- Added `docs/04-characters/04E_aravana_adigal_character_bible.md`.
+- Established Aravana Adigal as an elderly Buddhist teacher whose authority comes from listening, memory, travel, ethical narrative, political courage and disciplined reasoning rather than supernatural dominance or an invented monastic rank.
+- Preserved his explicit Buddhist standpoint while prohibiting generic spirituality, sectarian caricature and automatic treatment of every attributed statement as timeless or infallible.
+- Established a mentor model in which authority equips Manimekalai to examine claims and act without owning her conscience.
+- Connected the Aputhiran narrative and Amudhasurabhi teaching to public hunger and service before formal doctrinal display.
+- Added age, trembling-speech, travel and displacement performance controls without comic frailty or automatic omniscience.
+- Established palace intervention through testimony, reputation, access and moral pressure rather than magical command.
+- Made the Chapter 29 perception-and-inference lesson dialogic, concrete and dependent on a real student question and correction.
+- Added evidence records `EV-0210` to `EV-0226`.
+- Added adaptation decisions `AD-0108` to `AD-0117`.
+- Added character-spine scene concepts `SC-097` to `SC-104`.
+- Repaired the missing 04D character-index, root-README and changelog integration after identifying that the correct index is `docs/04-characters/README.md`.
+- Expanded the evidence archive from 209 to 226 records.
+- Expanded the adaptation-decision archive from 107 to 117 decisions.
+- Expanded the screenplay matrix from 96 to 104 scenes.
+- Source register remains at 44 sources because 04E synthesises the registered primary translation, Tamil Buddhist scholarship and Buddhist-logic research queue.
+
+## 0.13.0 — 2026-07-20
+
+- Added `docs/04-characters/04D_udayakumaran_character_bible.md`.
+- Established Udayakumaran as a tragic prince shaped by charisma, sincere desire, royal access and incomplete discipline rather than a romantic hero or one-dimensional predator.
+- Separated emotional sincerity, previous-life connection, consent and present autonomy.
+- Treated royal rank as a force multiplying the consequences of private pursuit.
+- Established the goddess's warning as an unrealised opportunity to connect self-restraint with just kingship.
+- Treated the fatal encounter as a multi-agent causal tragedy involving pursuit, altered identity, incomplete knowledge, jealousy and lethal action.
+- Prohibited presenting death as deserved punishment, romantic sacrifice or moral purification.
+- Added evidence records `EV-0195` to `EV-0209`.
+- Added adaptation decisions `AD-0101` to `AD-0107`.
+- Added character-spine scene concepts `SC-089` to `SC-096`.
+- Expanded the evidence archive from 194 to 209 records.
+- Expanded the adaptation-decision archive from 100 to 107 decisions.
+- Expanded the screenplay matrix from 88 to 96 scenes.
+- Source register remained at 44 sources because 04D synthesised already registered textual, gender and kingship research.
+
 ## 0.12.0 — 2026-07-20
 
 - Added `docs/04-characters/04C_sudhamathi_character_bible.md`.
