@@ -23,10 +23,11 @@ Each dossier must separate:
 8. [04H — Aputhiran Character Bible](04H_aputhiran_character_bible.md)
 9. [04I — Kanchanan Character Bible](04I_kanchanan_character_bible.md)
 10. [04J — Punniyarajan Character Bible](04J_punniyarajan_character_bible.md)
+11. [04K — Aadhirai Character Bible](04K_aadhirai_character_bible.md)
 
-## Planned priority dossiers
+## Character phase status
 
-None currently.
+The principal and priority supporting-character cycle is complete for screenplay-architecture purposes. Additional supporting dossiers may still be opened when scene consolidation reveals that a character carries independent dramatic, ethical or continuity weight.
 
 ## Character-dossier rule
 
