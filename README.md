@@ -18,6 +18,8 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Reconstruct costume through early texts, archaeology, social function and movement; do not use later Bharatanatyam or medieval imperial Chola styling as automatic evidence.
 - Represent religious and philosophical plurality without imposing a modern Hindu-versus-Buddhist binary or reducing rival positions to caricature.
 - Treat hunger as a political, institutional and ethical system; the Amudhasurabhi does not erase labour, water, access, distribution or recipient dignity.
+- Separate textual, historical and cinematic geography; disputed locations such as Manipallavam and Vanji remain explicit hypotheses rather than false modern coordinates.
+- Do not map the epic's Nāga identities automatically onto a modern ethnicity, nation or racialized visual system.
 
 ## Evidence labels
 
@@ -59,7 +61,7 @@ Run:
 python3 scripts/validate_repository.py
 ```
 
-The validator checks evidence IDs, adaptation decision IDs and screenplay evidence references.
+The validator merges all evidence, adaptation-decision and screenplay-scene CSV registers in their respective directories. It checks required fields, permanent ID formats, global uniqueness and cross-register references.
 
 ## Current state
 
@@ -73,10 +75,11 @@ The repository contains:
 - the costume, textiles and personal ornament dossier;
 - the religious communities and philosophical schools dossier;
 - the food, hunger, famine and Amudhasurabhi dossier;
-- 67 registered evidence records;
-- 30 registered adaptation decisions;
-- 24 preliminary screenplay scene records;
-- 23 registered research sources;
-- source-rights safeguards and automated validation.
+- the geography, travel routes and Manipallavam dossier;
+- 89 registered evidence records;
+- 40 registered adaptation decisions;
+- 33 preliminary screenplay scene records;
+- 31 registered research sources;
+- source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports and specialist review must be added before screenplay and production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work and specialist review must be added before screenplay and production designs are treated as final.
