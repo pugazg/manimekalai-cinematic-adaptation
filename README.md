@@ -20,6 +20,8 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Treat hunger as a political, institutional and ethical system; the Amudhasurabhi does not erase labour, water, access, distribution or recipient dignity.
 - Separate textual, historical and cinematic geography; disputed locations such as Manipallavam and Vanji remain explicit hypotheses rather than false modern coordinates.
 - Do not map the epic's Nāga identities automatically onto a modern ethnicity, nation or racialized visual system.
+- Reconstruct cities through connected infrastructure and institutions; ring wells, poetic splendour and later monuments do not automatically determine early historic function or form.
+- Make labour visible behind wealth, performance, trade and relief; imported objects, coins and later guild institutions must not become false shortcuts for the economy.
 
 ## Evidence labels
 
@@ -76,10 +78,12 @@ The repository contains:
 - the religious communities and philosophical schools dossier;
 - the food, hunger, famine and Amudhasurabhi dossier;
 - the geography, travel routes and Manipallavam dossier;
-- 89 registered evidence records;
-- 40 registered adaptation decisions;
-- 33 preliminary screenplay scene records;
-- 31 registered research sources;
+- the architecture, water systems and urban infrastructure dossier;
+- the economy, labour, trade guilds and material culture dossier;
+- 121 registered evidence records;
+- 55 registered adaptation decisions;
+- 47 preliminary screenplay scene records;
+- 41 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work and specialist review must be added before screenplay and production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis and specialist review must be added before screenplay and production designs are treated as final.
