@@ -34,6 +34,10 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Show that compassion precedes miracles; feeding requires labour and recipient agency, prosperity remains good, and sacred self-relinquishment must not become a universal demand for self-erasure.
 - Separate observation from proof and care from ownership; mistaken identity, jealousy and fate may explain a violent convergence but never turn lethal judgement into honour, accident or innocence.
 - Separate rebirth continuity from present identity; memory of a previous life does not cancel current relationships, duties or responsibilities.
+- Treat household giving as skilled social action rather than decorative charity; Aadhirai's first offering connects private resources, women's authority and public responsibility without glorifying marital self-destruction.
+- Let philosophy begin in the plot before it becomes explicit dialogue: refusal, revelation, hunger, mistaken inference, grief and governance are all tests of knowledge.
+- Give rival philosophical positions their strongest intelligible form; Manimekalai's Buddhist commitment gains meaning through serious listening, disciplined reasoning and ethical consequence rather than easy victory.
+- Distinguish private experience, testimony, inference and public proof; true sacred experience within the epic does not remove the need for intellectual humility.
 
 ## Evidence labels
 
@@ -43,25 +47,74 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - `[INTERPRETATION]` — production reconstruction adopted because evidence is incomplete.
 - `[CAUTION]` — later assumptions must not be projected backward.
 
+## Repository map
+
+```text
+docs/
+  01-vision/
+  02-literary-analysis/
+  03-historical-world/
+  04-characters/
+  05-philosophy/
+  06-adaptation-decisions/
+  07-screenplay-evidence-matrix/
+  08-storyboard-bible/
+  09-production-design/
+  10-screenplay-architecture/
+evidence/
+sources/
+private_sources/      # ignored; for lawfully held source files
+scripts/
+.github/workflows/
+```
+
+## Source handling
+
+The supplied full English translation is **not committed** to this repository by default. Place lawfully held source files in `private_sources/`; this directory is excluded through `.gitignore`. Public research notes should cite passages precisely while respecting copyright and source licence terms.
+
+## Validation
+
+Run:
+
+```bash
+python3 scripts/validate_repository.py
+```
+
+The validator merges all evidence, adaptation-decision and screenplay-scene CSV registers in their respective directories. It checks required fields, permanent ID formats, global uniqueness and cross-register references.
+
 ## Current state
 
 The repository contains:
 
 - the initial vision and literary-analysis foundation;
-- the Historical Tamilakam working volume;
-- all historical, philosophical, social and production dossiers;
-- the Manimekalai character bible;
-- the Madhavi character bible;
-- the Sudhamathi character bible;
-- the Udayakumaran character bible;
-- the Aravana Adigal character bible;
-- the Chitrapathi character bible;
-- the Rajamadevi character bible;
-- the Aputhiran character bible;
-- the Kanchanan character bible;
-- the Punniyarajan character bible;
-- 306 registered evidence records;
-- 162 registered adaptation decisions;
-- 147 preliminary screenplay scene records;
+- the complete Historical Tamilakam working volume;
+- historical, religious, social, political and production dossiers;
+- 11 completed principal and priority supporting-character bibles:
+  - Manimekalai;
+  - Madhavi;
+  - Sudhamathi;
+  - Udayakumaran;
+  - Aravana Adigal;
+  - Chitrapathi;
+  - Rajamadevi;
+  - Aputhiran;
+  - Kanchanan;
+  - Punniyarajan;
+  - Aadhirai;
+- an active Philosophy Bible containing:
+  - philosophical map;
+  - knowledge and debate foundation;
+  - ethics, hunger and liberation foundation;
+  - philosophical-schools deep dive;
+  - Manimekalai's intellectual-journey map;
+  - philosophy-to-screen matrix;
+- the master feature architecture and sequence map;
+- 318 registered evidence records;
+- 170 registered adaptation decisions;
+- 154 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
+
+The next planned stage is `10B — Scene Selection and Consolidation Matrix`, which will classify the 154 registered concepts as core, merge, branch, reserve or omit before screenplay drafting.
+
+These remain working research and adaptation editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Indian-philosophy review, Buddhist-logic review, animal-welfare review, trauma-informed character testing and specialist consultation must be completed before screenplay, casting or production designs are treated as final.
