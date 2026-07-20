@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.5.0 — 2026-07-20
+
+- Added `03F_food_hunger_famine_and_amudhasurabhi.md`.
+- Established hunger as a political, institutional, bodily and ethical system across the adaptation.
+- Defined the Amudhasurabhi as a service vessel rather than a treasure or spectacle prop.
+- Added binding rules that the miracle does not erase water, labour, cooking, sanitation, access or distribution.
+- Added dignity and accessibility requirements for multilingual, disabled, poor and nonhuman recipients.
+- Added prison-to-kitchen institutional transformation and the queen's starvation attempt as a deliberate dramatic parallel.
+- Established a systemic Kanchi famine model while clearly labeling modern entitlement analysis as interpretation rather than historical proof.
+- Added archaeobotanical context for rice, millets, pulses, rainfall and cultivation-system uncertainty.
+- Added comparative early historic ceramic research while prohibiting exact-menu and exact-food-vessel claims.
+- Added ethical caution against using karma to blame hungry people for present deprivation.
+- Expanded the evidence register from 47 to 67 records.
+- Expanded the adaptation decision log from 20 to 30 decisions.
+- Expanded the preliminary screenplay evidence matrix from 14 to 24 scenes.
+- Expanded the source register from 19 to 23 sources.
+
 ## 0.4.0 — 2026-07-20
 
 - Added `03E_religious_communities_and_philosophical_schools.md`.
