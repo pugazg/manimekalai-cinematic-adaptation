@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.22.0 — 2026-07-20
+
+- Added `docs/10-screenplay-architecture/10B_scene_selection_and_consolidation.md`.
+- Added `10B_scene_disposition_ledger.csv`, assigning one explicit disposition to every registered scene from `SC-001` through `SC-154`.
+- Added `10B_feature_unit_matrix.csv`, placing the surviving feature units in narrative order.
+- Classified the 154 registered scene concepts as:
+  - 61 `KEEP` principal feature scenes;
+  - 11 `BRANCH` compressed embedded-story beats;
+  - 69 `MERGE` concepts mapped to named surviving scenes;
+  - 10 `RESERVE` concepts for extended or alternate structures;
+  - 3 `OMIT` concepts retained as research rather than standalone screenplay events.
+- Established a working backbone of 72 active screenplay units inside the existing 165-minute ten-sequence architecture.
+- Consolidated repeated Puhar, Madhavi-household, flower-garden, Manipallavam, feeding, prison, Kanchanan, palace, Punniyarajan and philosophy concepts without deleting their evidence functions.
+- Limited the Aputhiran and Aadhirai stories to embedded beats that alter Manimekalai's present responsibility.
+- Required merged screenplay cards to inherit relevant evidence IDs and binding adaptation decisions from absorbed concepts.
+- Updated the screenplay-architecture index and root README through 10B.
+- Added no new permanent evidence, decision or scene IDs in this release.
+- Archive totals remain 318 evidence records, 170 adaptation decisions, 154 registered scene concepts and 44 research sources.
+
 ## 0.21.0 — 2026-07-20
 
 - Activated `docs/05-philosophy/` as a complete working Philosophy Bible rather than a placeholder folder.
