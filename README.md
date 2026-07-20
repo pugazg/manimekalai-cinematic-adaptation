@@ -33,6 +33,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Keep grief emotionally real without allowing royal custody, secrecy, apology or spiritual recognition to conceal coercion or erase accountability.
 - Show that compassion precedes miracles; feeding requires labour and recipient agency, prosperity remains good, and sacred self-relinquishment must not become a universal demand for self-erasure.
 - Separate observation from proof and care from ownership; mistaken identity, jealousy and fate may explain a violent convergence but never turn lethal judgement into honour, accident or innocence.
+- Separate rebirth continuity from present identity; memory of a previous life does not cancel current relationships, duties or responsibilities.
 
 ## Evidence labels
 
@@ -42,57 +43,13 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - `[INTERPRETATION]` — production reconstruction adopted because evidence is incomplete.
 - `[CAUTION]` — later assumptions must not be projected backward.
 
-## Repository map
-
-```text
-docs/
-  01-vision/
-  02-literary-analysis/
-  03-historical-world/
-  04-characters/
-  05-philosophy/
-  06-adaptation-decisions/
-  07-screenplay-evidence-matrix/
-  08-storyboard-bible/
-  09-production-design/
-evidence/
-sources/
-private_sources/      # ignored; for lawfully held source files
-scripts/
-.github/workflows/
-```
-
-## Source handling
-
-The supplied full English translation is **not committed** to this repository by default. Place lawfully held source files in `private_sources/`; this directory is excluded through `.gitignore`. Public research notes should cite passages precisely while respecting copyright and source licence terms.
-
-## Validation
-
-Run:
-
-```bash
-python3 scripts/validate_repository.py
-```
-
-The validator merges all evidence, adaptation-decision and screenplay-scene CSV registers in their respective directories. It checks required fields, permanent ID formats, global uniqueness and cross-register references.
-
 ## Current state
 
 The repository contains:
 
 - the initial vision and literary-analysis foundation;
 - the Historical Tamilakam working volume;
-- the Puhar city dossier;
-- the Indra festival source dossier;
-- the maritime trade and ships dossier;
-- the costume, textiles and personal ornament dossier;
-- the religious communities and philosophical schools dossier;
-- the food, hunger, famine and Amudhasurabhi dossier;
-- the geography, travel routes and Manipallavam dossier;
-- the architecture, water systems and urban infrastructure dossier;
-- the economy, labour, trade guilds and material culture dossier;
-- the kingship, law, justice and state power dossier;
-- the women, gender, desire and agency dossier;
+- all historical, philosophical, social and production dossiers;
 - the Manimekalai character bible;
 - the Madhavi character bible;
 - the Sudhamathi character bible;
@@ -102,10 +59,9 @@ The repository contains:
 - the Rajamadevi character bible;
 - the Aputhiran character bible;
 - the Kanchanan character bible;
-- 294 registered evidence records;
-- 152 registered adaptation decisions;
-- 137 preliminary screenplay scene records;
+- the Punniyarajan character bible;
+- 306 registered evidence records;
+- 162 registered adaptation decisions;
+- 147 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
-
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Buddhist-logic review, animal-welfare review, gender-violence review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
