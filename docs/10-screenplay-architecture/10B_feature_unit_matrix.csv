@@ -1,0 +1,73 @@
+unit_order,feature_unit_id,primary_scene_id,feature_unit_title,unit_type,sequence_id,runtime_weight,absorbed_scene_ids,consolidation_summary
+1,FU-001,SC-039,Before the City Wakes,CORE,SEQ-01,major,SC-001;SC-004;SC-034,Primary feature scene. Absorbs 3 supporting concept(s).
+2,FU-002,SC-002,The Proclamation and the Sceptre,CORE,SEQ-01,standard,SC-048,Primary feature scene. Absorbs 1 supporting concept(s).
+3,FU-003,SC-073,The House Does Not Dance,CORE,SEQ-01,major,SC-003;SC-040;SC-074;SC-105;SC-106,Primary feature scene. Absorbs 5 supporting concept(s).
+4,BR-001,SC-097,Madhavi Brings the Unspeakable,BRANCH,SEQ-01,embedded,,Compressed embedded branch beat. Carries its function without merged duplicates.
+5,FU-004,SC-075,A Daughter Is Not a Second Life,CORE,SEQ-01,major,SC-054;SC-057;SC-064;SC-108,Primary feature scene. Absorbs 4 supporting concept(s).
+6,FU-005,SC-009,Many Paths Under One Roof,CORE,SEQ-01,standard,,Primary feature scene. Carries its function without merged duplicates.
+7,FU-006,SC-081,The Safer Side of the Street,CORE,SEQ-02,standard,,Primary feature scene. Carries its function without merged duplicates.
+8,FU-007,SC-082,Her Story Changes the Map,CORE,SEQ-02,standard,SC-056,Primary feature scene. Absorbs 1 supporting concept(s).
+9,FU-008,SC-055,The Gaze Arrives Before the Prince,CORE,SEQ-02,major,SC-005;SC-083;SC-089,Primary feature scene. Absorbs 3 supporting concept(s).
+10,FU-009,SC-058,No Is Not a Riddle,CORE,SEQ-02,major,SC-049;SC-065;SC-084;SC-091,Primary feature scene. Absorbs 4 supporting concept(s).
+11,FU-010,SC-090,A Warning From Beyond,CORE,SEQ-02,standard,,Primary feature scene. Carries its function without merged duplicates.
+12,FU-011,SC-059,The Goddess Chooses Her,CORE,SEQ-02,major,SC-025,Primary feature scene. Absorbs 1 supporting concept(s).
+13,FU-012,SC-085,The Place Beside Her Is Empty,CORE,SEQ-02,standard,SC-076,Primary feature scene. Absorbs 1 supporting concept(s).
+14,FU-013,SC-066,Alone Where the City Cannot See,CORE,SEQ-03,major,SC-026,Primary feature scene. Absorbs 1 supporting concept(s).
+15,FU-014,SC-027,The Pond That Remembers,CORE,SEQ-03,major,,Primary feature scene. Carries its function without merged duplicates.
+16,FU-015,SC-015,The Vessel Chooses a Custodian,CORE,SEQ-03,major,SC-067,Primary feature scene. Absorbs 1 supporting concept(s).
+17,FU-016,SC-086,Sudhamathi Gives the Account,CORE,SEQ-03,standard,,Primary feature scene. Carries its function without merged duplicates.
+18,FU-017,SC-098,Three Women Enter the Teacher's Space,CORE,SEQ-04,major,,Primary feature scene. Carries its function without merged duplicates.
+19,FU-018,SC-099,He Lets the Account Finish,CORE,SEQ-04,major,,Primary feature scene. Carries its function without merged duplicates.
+20,FU-019,SC-100,Aputhiran Is Not a Legend,CORE,SEQ-04,major,,Primary feature scene. Carries its function without merged duplicates.
+21,BR-002,SC-120,Seven Days of Milk,BRANCH,SEQ-04,embedded,,Compressed embedded branch beat. Carries its function without merged duplicates.
+22,BR-003,SC-121,The Cow at the Fire,BRANCH,SEQ-04,embedded,,Compressed embedded branch beat. Carries its function without merged duplicates.
+23,BR-004,SC-123,He Eats What Remains,BRANCH,SEQ-04,embedded,SC-122,Compressed embedded branch beat. Absorbs 1 supporting concept(s).
+24,BR-005,SC-124,What Can Heaven Give Me?,BRANCH,SEQ-04,embedded,,Compressed embedded branch beat. Carries its function without merged duplicates.
+25,BR-006,SC-125,The Feeding Hall Is Empty,BRANCH,SEQ-04,embedded,SC-016,Compressed embedded branch beat. Absorbs 1 supporting concept(s).
+26,BR-007,SC-127,The Ship Leaves in Darkness,BRANCH,SEQ-04,embedded,SC-028;SC-126,Compressed embedded branch beat. Absorbs 2 supporting concept(s).
+27,BR-008,SC-128,The Vessel Chooses the Future,BRANCH,SEQ-04,embedded,,Compressed embedded branch beat. Carries its function without merged duplicates.
+28,FU-020,SC-101,Do Not Hide the Vessel,CORE,SEQ-04,major,SC-077,Primary feature scene. Absorbs 1 supporting concept(s).
+29,BR-010,SC-150,The Fire Does Not Take Her,BRANCH,SEQ-04,embedded,SC-043;SC-044;SC-148;SC-149,Compressed embedded branch beat. Absorbs 4 supporting concept(s).
+30,BR-011,SC-152,Two People Return to One House,BRANCH,SEQ-04,embedded,SC-151,Compressed embedded branch beat. Absorbs 1 supporting concept(s).
+31,FU-021,SC-153,The First Handful,CORE,SEQ-04,major,SC-017;SC-154,Primary feature scene. Absorbs 2 supporting concept(s).
+32,FU-022,SC-068,Compassion Learns Logistics,CORE,SEQ-04,major,SC-006;SC-018,Primary feature scene. Absorbs 2 supporting concept(s).
+33,FU-023,SC-019,Enough,CORE,SEQ-04,standard,,Primary feature scene. Carries its function without merged duplicates.
+34,FU-024,SC-020,The Prison Kitchen,CORE,SEQ-04,standard,SC-037;SC-051,Primary feature scene. Absorbs 2 supporting concept(s).
+35,FU-025,SC-107,A Crown as Protection,CORE,SEQ-05,major,,Primary feature scene. Carries its function without merged duplicates.
+36,FU-026,SC-092,Memory Is Not Permission,CORE,SEQ-05,standard,,Primary feature scene. Carries its function without merged duplicates.
+37,BR-009,SC-131,Counting Indra Festivals,BRANCH,SEQ-05,embedded,SC-129;SC-130,Compressed embedded branch beat. Absorbs 2 supporting concept(s).
+38,FU-028,SC-132,The Woman With His Wife's Face,CORE,SEQ-05,major,SC-007;SC-060,Primary feature scene. Absorbs 2 supporting concept(s).
+39,FU-029,SC-133,What He Thinks He Sees,CORE,SEQ-05,major,SC-093,Primary feature scene. Absorbs 1 supporting concept(s).
+40,FU-030,SC-134,The Sword in the Hidden Place,CORE,SEQ-05,major,,Primary feature scene. Carries its function without merged duplicates.
+41,FU-031,SC-135,Midnight Without a Question,CORE,SEQ-05,major,,Primary feature scene. Carries its function without merged duplicates.
+42,FU-032,SC-136,Do Not Go Near Her,CORE,SEQ-05,major,,Primary feature scene. Carries its function without merged duplicates.
+43,FU-033,SC-069,After the Prince Falls,CORE,SEQ-05,standard,SC-096,Primary feature scene. Absorbs 1 supporting concept(s).
+44,FU-034,SC-050,The Court Hears the Death,CORE,SEQ-06,major,,Primary feature scene. Carries its function without merged duplicates.
+45,FU-035,SC-112,Vasantavai Does Not Bless Her,CORE,SEQ-06,major,SC-052;SC-094;SC-111,Primary feature scene. Absorbs 3 supporting concept(s).
+46,FU-036,SC-113,Protection as a Lie,CORE,SEQ-06,major,SC-062,Primary feature scene. Absorbs 1 supporting concept(s).
+47,FU-037,SC-114,The Cup and the Witnesses,CORE,SEQ-06,major,,Primary feature scene. Carries its function without merged duplicates.
+48,FU-038,SC-115,A Reputation for Sale,CORE,SEQ-06,major,,Primary feature scene. Carries its function without merged duplicates.
+49,FU-039,SC-116,The Room Without Food,CORE,SEQ-06,major,SC-021;SC-070,Primary feature scene. Absorbs 2 supporting concept(s).
+50,FU-040,SC-117,Are You Mourning the Body?,CORE,SEQ-07,major,SC-063,Primary feature scene. Absorbs 1 supporting concept(s).
+51,FU-041,SC-118,Keep Her With Me,CORE,SEQ-07,major,SC-109,Primary feature scene. Absorbs 1 supporting concept(s).
+52,FU-042,SC-102,The Elder at the Queen's Gate,CORE,SEQ-07,standard,,Primary feature scene. Carries its function without merged duplicates.
+53,FU-043,SC-119,The Queen Steps Away From the Door,CORE,SEQ-07,major,SC-053;SC-079,Primary feature scene. Absorbs 2 supporting concept(s).
+54,FU-044,SC-138,The King Without Hunger,CORE,SEQ-08,major,SC-139,Primary feature scene. Absorbs 1 supporting concept(s).
+55,FU-045,SC-140,The Minister's Warning,CORE,SEQ-08,major,SC-141,Primary feature scene. Absorbs 1 supporting concept(s).
+56,FU-046,SC-142,The Mirror of the Peedihai,CORE,SEQ-08,major,SC-143,Primary feature scene. Absorbs 1 supporting concept(s).
+57,FU-047,SC-144,Bones Beneath the Punnai Tree,CORE,SEQ-08,major,,Primary feature scene. Carries its function without merged duplicates.
+58,FU-048,SC-145,The King Who Wants to Disappear,CORE,SEQ-08,major,,Primary feature scene. Carries its function without merged duplicates.
+59,FU-049,SC-146,Return Is Also a Vow,CORE,SEQ-08,major,SC-147,Primary feature scene. Absorbs 1 supporting concept(s).
+60,FU-050,SC-031,The Road Away From Salt,CORE,SEQ-09,standard,SC-103,Primary feature scene. Absorbs 1 supporting concept(s).
+61,FU-051,SC-032,The Inland City of Arguments,CORE,SEQ-09,standard,,Primary feature scene. Carries its function without merged duplicates.
+62,FU-052,SC-071,Questions in Another Voice,CORE,SEQ-09,standard,SC-061,Primary feature scene. Absorbs 1 supporting concept(s).
+63,FU-053,SC-010,The Unknown Sage Listens,CORE,SEQ-09,major,,Primary feature scene. Carries its function without merged duplicates.
+64,FU-054,SC-011,When the Drum Falls Silent,CORE,SEQ-09,major,,Primary feature scene. Carries its function without merged duplicates.
+65,FU-055,SC-104,Perception Inference and the Student's Error,CORE,SEQ-09,major,SC-012,Primary feature scene. Absorbs 1 supporting concept(s).
+66,FU-056,SC-013,The Chain of Hunger,CORE,SEQ-10,major,,Primary feature scene. Carries its function without merged duplicates.
+67,FU-057,SC-033,Famine Reaches the Road First,CORE,SEQ-10,standard,SC-038,Primary feature scene. Absorbs 1 supporting concept(s).
+68,FU-058,SC-046,The Workshop That Stops,CORE,SEQ-10,standard,SC-008,Primary feature scene. Absorbs 1 supporting concept(s).
+69,FU-059,SC-047,The Market Contains Food,CORE,SEQ-10,standard,SC-022,Primary feature scene. Absorbs 1 supporting concept(s).
+70,FU-060,SC-023,The King Asks Why,CORE,SEQ-10,major,,Primary feature scene. Carries its function without merged duplicates.
+71,FU-061,SC-024,Eighteen Languages,CORE,SEQ-10,major,,Primary feature scene. Carries its function without merged duplicates.
+72,FU-062,SC-014,After All Arguments,CORE,SEQ-10,major,SC-072;SC-080,Primary feature scene. Absorbs 2 supporting concept(s).
