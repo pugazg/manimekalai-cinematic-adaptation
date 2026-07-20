@@ -1,0 +1,11 @@
+evidence_id,evidence_type,title,source_work,chapter_or_location,claim_or_observation,rights_status,verification_status,notes
+EV-0001,TEXT,Indra festival duration,Manimekalai,Chapter 1,"Festival is announced for twenty-eight days",citation_only,provisional,"Verify against original Tamil and multiple editions"
+EV-0002,TEXT,Civic renewal during festival,Manimekalai,Chapter 1,"Old sand is removed, fresh sand spread, and public spaces decorated",citation_only,provisional,"Requires line-level citation"
+EV-0003,TEXT,Festival and public welfare,Manimekalai,Chapter 1,"Festival is linked to rain, prosperity, and protection from famine, sickness and enmity",citation_only,provisional,"Do not flatten into later ritual categories"
+EV-0004,TEXT,Plural teachers and debate,Manimekalai,Chapter 1,"Teachers of multiple paths and philosophers gather for public debate",citation_only,provisional,"Check terminology in Tamil"
+EV-0005,TEXT,Multilingual port population,Manimekalai,Chapter 1,"Visitors and speakers of many languages participate in the city",citation_only,provisional,"Cross-check Pattinappalai"
+EV-0006,TEXT,Aputhiran challenges divine prestige,Manimekalai,Aputhiran narrative,"Feeding suffering beings is placed above reward in Indra's heaven",citation_only,provisional,"Important for interpretation of Indra"
+EV-0007,HISTORY,Poompuhar at Kaveri-sea confluence,Tamil Nadu Department of Archaeology,Poompuhar page,"Poompuhar is identified as a Sangam-age Chola port at the river-sea confluence",citation_only,provisional,"Capture access date and archive link"
+EV-0008,HISTORY,Poompuhar excavations,Tamil Nadu Department of Archaeology,Poompuhar page,"Excavations are reported at Kizharveli and Dharmakulam",citation_only,provisional,"Consult full excavation reports"
+EV-0009,CAUTION,Underwater evidence limitation,Project methodology,Historical world,"Underwater remains must not be presented as proof of every literary claim",original,approved,"Binding publicity and production rule"
+EV-0010,INTERPRETATION,Puhar design language,Project adaptation,Historical world,"Puhar is reconstructed as a timber-brick-plaster river-sea port rather than a later medieval temple city",original,provisional,"Requires specialist material-culture review"
