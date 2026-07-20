@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.7.0 — 2026-07-20
+
+- Added and fully integrated `03H_architecture_water_systems_and_urban_infrastructure.md`.
+- Added `03I_economy_labour_trade_guilds_and_material_culture.md`.
+- Replaced temporary in-document web citation markers in 03H with permanent source-register references.
+- Established separate textual, archaeological and cinematic architecture layers.
+- Added binding controls against assigning universal functions to ring wells, copying later Pallava or imperial Chola monuments and treating poetic splendour as a construction drawing.
+- Added prison-to-care operational redesign, Chakravala period control and water-access scene architecture.
+- Established economy as visible labour chains connecting extraction, production, transport, valuation, exchange, repair and waste.
+- Established Madhavi's performance world as multidisciplinary skilled labour rather than decorative spectacle.
+- Added early historic craft and trade context from Kodumanal, Karur, Alagankulam, Arikamedu and Tamil-Brahmi portable-object evidence.
+- Registered the limited Vellarai Nigamaththor evidence while prohibiting automatic use of later Ainnurruvar, Nanadesi and Manigramam institutions.
+- Added binding rules against Roman-colonial port framing, coin-only markets, pseudo-inscriptions and ethnic coding through craft technique.
+- Added 32 evidence records across architecture and economy, expanding the archive from 89 to 121 records.
+- Added 15 adaptation decisions, expanding the archive from 40 to 55 decisions.
+- Added 14 screenplay concepts, expanding the matrix from 33 to 47 scenes.
+- Expanded the source register from 31 to 41 sources.
+
 ## 0.6.0 — 2026-07-20
 
 - Added `03G_geography_travel_routes_and_manipallavam.md`.
