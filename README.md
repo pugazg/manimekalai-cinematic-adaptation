@@ -29,6 +29,9 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Give survivors ownership of testimony and continuing life; vigilance is not cowardice, trauma is not a permanent personality and cinematic expansion beyond the poem must remain explicit.
 - Treat sincere desire as distinct from consent; royal charisma and previous-life connection do not create a present claim, and death is not romantic purification.
 - Let mentors listen, equip and challenge without owning a student's conscience; Buddhist conviction remains explicit while teacher authority, karmic explanation and philosophical claims stay open to evidence and review.
+- Treat artistic-household survival strategies with social seriousness while preserving responsibility when protection becomes possession.
+- Keep grief emotionally real without allowing royal custody, secrecy, apology or spiritual recognition to conceal coercion or erase accountability.
+- Show that compassion precedes miracles; feeding requires labour and recipient agency, prosperity remains good, and sacred self-relinquishment must not become a universal demand for self-erasure.
 
 ## Evidence labels
 
@@ -94,10 +97,13 @@ The repository contains:
 - the Sudhamathi character bible;
 - the Udayakumaran character bible;
 - the Aravana Adigal character bible;
-- 226 registered evidence records;
-- 117 registered adaptation decisions;
-- 104 preliminary screenplay scene records;
+- the Chitrapathi character bible;
+- the Rajamadevi character bible;
+- the Aputhiran character bible;
+- 278 registered evidence records;
+- 142 registered adaptation decisions;
+- 128 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, Buddhist-logic review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Buddhist-logic review, animal-welfare review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
