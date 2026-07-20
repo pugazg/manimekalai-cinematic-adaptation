@@ -1,0 +1,8 @@
+evidence_id,evidence_type,title,source_work,chapter_or_location,claim_or_observation,rights_status,verification_status,notes
+EV-0122,TEXT,King must rule justly,Manimekalai,Chapter 7,"A king's unjust rule affects rain crops and people; citizens are his life",citation_only,provisional,"Verify Tamil terminology"
+EV-0123,TEXT,Prison transformed into care,Manimekalai,Chapter 19,"The king changes the prison into a place for compassionate living and feeding",citation_only,provisional,"Verify institutional terminology"
+EV-0124,TEXT,Queen harms Manimekalai,Manimekalai,Chapter 23,"Queen uses palace power against Manimekalai after prince's death",citation_only,provisional,"Requires line-level Tamil review"
+EV-0125,TEXT,Karma and responsibility discussion,Manimekalai,Chapter 23,"Manimekalai explains previous births while discussing suffering and action",citation_only,provisional,"Separate theology from legal judgement"
+EV-0126,TEXT,Punniyarajan and kingly duty,Manimekalai,Chapter 25,"Minister reminds king that protecting lives is king's dharma",citation_only,provisional,"Verify political terminology"
+EV-0127,CROSS,Failed royal justice memory,Silappathikaram,Madurai narrative,"Royal error can destroy legitimacy",citation_only,provisional,"Cross-text comparison"
+EV-0128,CAUTION,No later court projection,Project methodology,Justice dossier,"Later judicial institutions cannot automatically represent epic period",original,approved,"Production rule"
