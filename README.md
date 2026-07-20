@@ -27,6 +27,8 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Build character psychology from traceable evidence and clearly labelled interpretation; do not convert literary figures into modern clinical cases or flawless icons.
 - Treat artistic knowledge as biography rather than moral contamination; renunciation does not erase skill, labour, household responsibility or the autonomy of the next generation.
 - Give survivors ownership of testimony and continuing life; vigilance is not cowardice, trauma is not a permanent personality and cinematic expansion beyond the poem must remain explicit.
+- Treat sincere desire as distinct from consent; royal charisma and previous-life connection do not create a present claim, and death is not romantic purification.
+- Let mentors listen, equip and challenge without owning a student's conscience; Buddhist conviction remains explicit while teacher authority, karmic explanation and philosophical claims stay open to evidence and review.
 
 ## Evidence labels
 
@@ -90,10 +92,12 @@ The repository contains:
 - the Manimekalai character bible;
 - the Madhavi character bible;
 - the Sudhamathi character bible;
-- 194 registered evidence records;
-- 100 registered adaptation decisions;
-- 88 preliminary screenplay scene records;
+- the Udayakumaran character bible;
+- the Aravana Adigal character bible;
+- 226 registered evidence records;
+- 117 registered adaptation decisions;
+- 104 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, Buddhist-logic review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
