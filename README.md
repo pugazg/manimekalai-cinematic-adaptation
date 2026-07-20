@@ -32,6 +32,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Treat artistic-household survival strategies with social seriousness while preserving responsibility when protection becomes possession.
 - Keep grief emotionally real without allowing royal custody, secrecy, apology or spiritual recognition to conceal coercion or erase accountability.
 - Show that compassion precedes miracles; feeding requires labour and recipient agency, prosperity remains good, and sacred self-relinquishment must not become a universal demand for self-erasure.
+- Separate observation from proof and care from ownership; mistaken identity, jealousy and fate may explain a violent convergence but never turn lethal judgement into honour, accident or innocence.
 
 ## Evidence labels
 
@@ -100,10 +101,11 @@ The repository contains:
 - the Chitrapathi character bible;
 - the Rajamadevi character bible;
 - the Aputhiran character bible;
-- 278 registered evidence records;
-- 142 registered adaptation decisions;
-- 128 preliminary screenplay scene records;
+- the Kanchanan character bible;
+- 294 registered evidence records;
+- 152 registered adaptation decisions;
+- 137 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Buddhist-logic review, animal-welfare review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
+These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Buddhist-logic review, animal-welfare review, gender-violence review, trauma-informed character testing and specialist consultation must be added before screenplay, casting or production designs are treated as final.
