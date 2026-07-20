@@ -17,6 +17,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Present Puhar as a sophisticated maritime culture without declaring an exact ancient hull, rig or harbour layout proven before specialist review.
 - Reconstruct costume through early texts, archaeology, social function and movement; do not use later Bharatanatyam or medieval imperial Chola styling as automatic evidence.
 - Represent religious and philosophical plurality without imposing a modern Hindu-versus-Buddhist binary or reducing rival positions to caricature.
+- Treat hunger as a political, institutional and ethical system; the Amudhasurabhi does not erase labour, water, access, distribution or recipient dignity.
 
 ## Evidence labels
 
@@ -71,10 +72,11 @@ The repository contains:
 - the maritime trade and ships dossier;
 - the costume, textiles and personal ornament dossier;
 - the religious communities and philosophical schools dossier;
-- 47 registered evidence records;
-- 20 registered adaptation decisions;
-- 14 preliminary screenplay scene records;
-- 19 registered research sources;
+- the food, hunger, famine and Amudhasurabhi dossier;
+- 67 registered evidence records;
+- 30 registered adaptation decisions;
+- 24 preliminary screenplay scene records;
+- 23 registered research sources;
 - source-rights safeguards and automated validation.
 
 These remain working research editions. Original Tamil passages, cross-textual concordances, full excavation reports and specialist review must be added before screenplay and production designs are treated as final.
