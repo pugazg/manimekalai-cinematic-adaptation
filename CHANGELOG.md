@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.19.0 — 2026-07-20
+
+- Added `docs/04-characters/04J_punniyarajan_character_bible.md`.
+- Established Punniyarajan as a present king shaped by previous-life memory rather than a simple return of Āputhiran.
+- Separated rebirth continuity, present identity, royal duty and personal spiritual longing.
+- Preserved his adoption by Bhumichandran, knowledge of Sāli's abandonment and emotional disturbance without reducing him to inherited trauma alone.
+- Established Janamithran's counsel as a major ethical conflict: liberation cannot be pursued by abandoning living subjects who depend on governance.
+- Treated Manipallavam as a place of recognition and responsibility rather than escape.
+- Connected the Amudhasurabhi memory to service and hunger relief rather than possession of a magical object.
+- Required prosperity to remain socially good while avoiding automatic claims that abundance comes only from one individual.
+- Left same-actor casting between Aputhiran and Punniyarajan unresolved.
+- Added evidence records `EV-0295` to `EV-0306`.
+- Added adaptation decisions `AD-0153` to `AD-0162`.
+- Added screenplay scene concepts `SC-138` to `SC-147`.
+- Updated the character-bible index through 04J.
+- Expanded the evidence archive from 294 to 306 records.
+- Expanded the adaptation-decision archive from 152 to 162 decisions.
+- Expanded the screenplay matrix from 137 to 147 scenes.
+- Source register remains at 44 sources because 04J synthesises the registered primary translation, Aputhiran dossier, Manipallavam dossier and kingship framework.
+
 ## 0.18.0 — 2026-07-20
 
 - Added `docs/04-characters/04I_kanchanan_character_bible.md`.
@@ -18,26 +38,3 @@
 - Expanded the adaptation-decision archive from 142 to 152 decisions.
 - Expanded the screenplay matrix from 128 to 137 scenes.
 - Source register remains at 44 sources because 04I synthesises the registered primary translation, gender-agency framework, Udayakumaran dossier and causation framework.
-
-## 0.17.0 — 2026-07-20
-
-- Added `docs/04-characters/04H_aputhiran_character_bible.md`.
-- Established Aputhiran as an abandoned child sustained by a cow who becomes a learned dissenter, ordinary feeder, custodian of the Amudhasurabhi and famine-bound traveller rather than a detachable miracle legend.
-- Preserved the cow's care, adoptive household education, sacrificial-cow intervention, birth-based humiliation and Madurai feeding as the ethical formation preceding the divine vessel.
-- Required exact Tamil and caste-history review before using modern social labels or the translation's provisional birth-status vocabulary.
-- Protected Sali from functioning only as a sexually shamed origin for the hero while preserving accountability and uncertainty around abandonment.
-- Established recipient agency, disability access, food-service labour, water, sanitation and distribution as continuing requirements after the miracle.
-- Treated Indra's rain and resulting prosperity as socially good while exploring Aputhiran's destabilisation when his identity has become dependent on visible need.
-- Added animal-welfare and ritual-history safeguards for the sacrificial-cow sequence.
-- Treated the Manipallavam fast as sacred within the poem and ethically tragic, prohibiting romanticisation, procedural detail or the claim that compassion requires self-erasure.
-- Kept Punniyarajan as karmic continuity with a distinct present identity and left same-actor casting unresolved.
-- Added evidence records `EV-0261` to `EV-0278`.
-- Added adaptation decisions `AD-0133` to `AD-0142`.
-- Added character-spine scene concepts `SC-120` to `SC-128`.
-- Updated the character-bible index through 04H.
-- Corrected the root README, which had remained at the 04E totals despite completion of 04F and 04G.
-- Restored the complete changelog after the 0.16.0 update had truncated releases 0.14.0 through 0.1.0.
-- Expanded the evidence archive from 260 to 278 records.
-- Expanded the adaptation-decision archive from 132 to 142 decisions.
-- Expanded the screenplay matrix from 119 to 128 scenes.
-- Source register remains at 44 sources because 04H synthesises the registered primary translation, hunger dossier, geography dossier and Buddhist research foundation.
