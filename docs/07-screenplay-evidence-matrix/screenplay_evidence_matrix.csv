@@ -1,0 +1,5 @@
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-001,Dawn at the Kaveri mouth,Puhar river-sea harbour,Festival day 1,"Establish maritime city, labour and civic scale","EV-0005;EV-0007;EV-0008;EV-0010","AD-0003",concept
+SC-002,The proclamation drum,Puhar civic route,Festival day 1,"Announce festival and its promise of order and abundance","EV-0001;EV-0002;EV-0003;EV-0004","AD-0001;AD-0002",concept
+SC-003,Madhavi's silent house,Puhar performance quarter,Festival day 1,"Contrast public celebration with private renunciation and inherited grief","","",concept
+SC-004,The city of abundance,Puhar multiple districts,Festival day 1,"Reveal wealth, religious plurality and those excluded from prosperity","EV-0003;EV-0004;EV-0005","AD-0001",concept
