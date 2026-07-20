@@ -1,11 +1,11 @@
-scene_id,scene_title,function,evidence_links,decision_links,status
-SC-138,The King Without Hunger,Introduce prosperous ruler before memory crisis,EV-0295 EV-0299,AD-0153 AD-0156,proposed
-SC-139,The News of Another Life,Reveal abandonment and previous birth tension,EV-0297 EV-0298,AD-0154,proposed
-SC-140,The Minister's Warning,Conflict between liberation and responsibility,EV-0300,AD-0155 AD-0157,proposed
-SC-141,The Sea Journey,Portray Manipallavam as inward journey,EV-0301,AD-0158,proposed
-SC-142,The Mirror of the Peedihai,Reveal Aputhiran memory,EV-0302,AD-0154,proposed
-SC-143,The Bowl and the Beggar,Connect king with former service,EV-0303 EV-0304,AD-0159,proposed
-SC-144,The King Returns,Resolve temptation to abandon throne,EV-0305 EV-0306,AD-0160 AD-0161,proposed
-SC-145,The Granary Question,Show governance through compassion,AD-0161,proposed
-SC-146,The Vessel's Lesson,Separate ownership from service,EV-0305,AD-0159,proposed
-SC-147,Two Lives One Duty,Close rebirth arc without erasing present identity,EV-0305,AD-0153 AD-0162,proposed
+scene_id,working_scene_title,location,time_period,dramatic_function,evidence_ids,adaptation_decision_ids,status
+SC-138,The King Without Hunger,Punniyarajan's prosperous garden and court,Act III branch opening,"Introduce a ruler whose land appears abundant while establishing pleasure status and incomplete self-knowledge before Manimekalai's challenge","EV-0295;EV-0297;EV-0299","AD-0153;AD-0156",concept
+SC-139,The News of Another Life,Punniyarajan's palace,Act III branch opening,"Show reported knowledge of previous abandonment and the king's loss of interest in former pleasures without treating present relationships as false","EV-0298;EV-0305","AD-0154;AD-0153",concept
+SC-140,The Minister's Warning,Administrative or royal audience chamber,Act III branch turn,"Give Janamithran moral authority to place mothers children creatures and royal duty inside the king's private search for liberation","EV-0299;EV-0300","AD-0155;AD-0156;AD-0157",concept
+SC-141,One Month Away,Palace workrooms harbour and departure route,Act III branch turn,"Make the king's journey a negotiated time-limited absence with visible delegation boat construction and unresolved risks","EV-0301","AD-0157;AD-0158",concept
+SC-142,The Mirror of the Peedihai,Manipallavam Dharma Peedihai,Act III branch midpoint,"Reveal Aputhiran's prior life in layers while preserving Punniyarajan's present body relationships and political identity","EV-0295;EV-0302;EV-0305","AD-0153;AD-0154;AD-0162",concept
+SC-143,The Night Sindhadevi Came,Manipallavam memory space linked to Madurai feeding,Act III branch memory,"Centre remembered inability to feed and the vessel's entrusted service rather than royal entitlement to the Amudhasurabhi","EV-0303;EV-0304","AD-0159",concept
+SC-144,Bones Beneath the Punnai Tree,Gomukhi pond and punnai-tree shore,Act III branch climax,"Use Deepathilahai's revelation of the nine merchants to complicate Aputhiran's self-relinquishment through visible unintended consequence","EV-0302;EV-0304;EV-0306","AD-0160",concept
+SC-145,The King Who Wants to Disappear,Manipallavam shoreline or departure camp,Act III branch crisis,"Let Punniyarajan consider whether remembered holiness releases him from present kingship and make Manimekalai or the remembered ministerial warning return duty to the frame","EV-0300;EV-0305;EV-0306","AD-0155;AD-0158;AD-0160",concept
+SC-146,Return Is Also a Vow,Sea journey and home harbour,Act III branch resolution,"Turn return into an active spiritual decision rather than defeat by reconnecting the king with delegated government and waiting subjects","EV-0301;EV-0305;EV-0306","AD-0158;AD-0161",concept
+SC-147,Two Lives One Present Duty,Punniyarajan's court and public food system,Act III branch coda,"Close the rebirth arc through accountable present rule and explicitly label any institutional reforms as adaptation rather than direct textual fact","EV-0299;EV-0300;EV-0305;EV-0306","AD-0153;AD-0155;AD-0156;AD-0161;AD-0162",concept
