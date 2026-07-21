@@ -15,8 +15,8 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Approved screenplay insertions: none
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
 - Stage 1 decisions: `VENPA-USE-011` and `VENPA-USE-027` revision paths selected; both remain unapproved
-- Stage 2 decisions: linked Aadhirai pair `VENPA-USE-007` and `VENPA-USE-008` revised to a source-conservative prepared-household-food path; both remain unapproved
-- Active work: Stage 3 short character-and-emotion decisions
+- Stage 2 decisions: `VENPA-USE-007` and `VENPA-USE-008` revised as a linked source-conservative Aadhirai pair; both remain unapproved
+- Stage 3 progress: `VENPA-USE-016` revision path selected; `VENPA-USE-004` is active next
 - Visual scan-page verification: still pending
 
 ## Documents
@@ -32,6 +32,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Stage 1 explicit decision record](venpa-stage-1-explicit-decision-record.md)
 - [VENPA-USE-007/008 Aadhirai linked options](venpa-use-007-008-aadhirai-linked-decision-options.md)
 - [Stage 2 Aadhirai explicit decision record](venpa-stage-2-aadhirai-explicit-decision-record.md)
+- [VENPA-USE-016 Aputhiran decision options](venpa-use-016-aputhiran-decision-options.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -58,4 +59,4 @@ Evidence preparation and decision-option work may continue. Screenplay insertion
 - performance or blocking review supports the selected wording;
 - an explicit final approve or reject decision is entered in the master register.
 
-Stage 1 and Stage 2 revision paths are selected but not approved. The next authorised activity is Stage 3 review, beginning with `VENPA-USE-016` and continuing through `VENPA-USE-004`, `VENPA-USE-028` and `VENPA-USE-001`. No screenplay edit or master-status change is authorised automatically.
+Stage 1 and Stage 2 decision paths and the Aputhiran Stage 3 path are selected but not approved. The next authorised activity is `VENPA-USE-004` — Sudhamathi's practical doorway method, followed by `VENPA-USE-028` and `VENPA-USE-001`. No screenplay edit or master-status change is authorised automatically.
