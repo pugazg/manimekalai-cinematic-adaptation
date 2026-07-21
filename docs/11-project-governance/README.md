@@ -6,12 +6,25 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Current documents
 
+- [Full repository audit — 2026-07-21](2026-07-21-full-repository-audit.md)
+- [Per-file audit ledger](repository-file-audit.csv)
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
 - [Adaptation risk register](adaptation-risk-register.md)
 - [Specialist review register](specialist-review-register.csv)
 - [Private source handling](private-source-handling.md)
 - [Project status dashboard](../../STATUS.md)
 - [Contributing guide](../../CONTRIBUTING.md)
+
+## Audited baseline
+
+- current tracked paths audited: 175
+- registered sources: 45
+- evidence records: 318 (`EV-0001`–`EV-0318`)
+- adaptation decisions: 170 (`AD-0001`–`AD-0170`)
+- screenplay-source concepts: 154 (`SC-001`–`SC-154`)
+- active screenplay units: 72
+- English–Tamil scene and TRACE parity: statically verified
+- executable validator result: not yet recorded
 
 ## Governance principles
 
@@ -23,12 +36,17 @@ This phase makes repository status, external review, contribution rules, special
 6. Rejected and deferred decisions remain in the audit trail.
 7. Repository discoverability must not overstate screenplay readiness.
 8. Licensing must distinguish original repository work from third-party texts and images.
+9. A static audit must not be represented as an executed validator or CI pass.
+10. Every material structural change requires a refreshed file ledger and validation record.
 
 ## Active governance blockers
 
-- reproducible validation result not yet recorded;
-- printed-page verification pending for proposed Venpa uses;
+- executable regression and validator result not yet recorded;
+- printed-page verification pending for Venpa uses;
 - restored Tamil Sequences 05–07 not yet dialogue-reviewed;
+- Sequence 03 requires semantic comparison;
+- Tamil naming and character-cue policy requires normalization;
 - licence decision pending;
+- changelog reconciliation after 0.24.0 remains open;
 - repository description and topics require manual GitHub-setting changes;
-- storyboard and production-design visual intake awaits rights metadata rules and specialist review.
+- storyboard and production-design visual intake awaits rights metadata and specialist review.
