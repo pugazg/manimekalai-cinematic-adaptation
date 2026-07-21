@@ -14,8 +14,9 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Current feature decisions: 31 total — 13 proposed, 7 deferred, 11 rejected
 - Approved screenplay insertions: none
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
-- Mandatory revision flags: `VENPA-USE-011` and `VENPA-USE-027`
-- Revision-option memos: prepared; explicit decisions still pending
+- Stage 1 decisions: `VENPA-USE-011` and `VENPA-USE-027` revision paths selected; both remain unapproved
+- Stage 2 decisions: linked Aadhirai pair `VENPA-USE-007` and `VENPA-USE-008` revised to a source-conservative prepared-household-food path; both remain unapproved
+- Active work: Stage 3 short character-and-emotion decisions
 - Visual scan-page verification: still pending
 
 ## Documents
@@ -28,6 +29,9 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Decision readiness queue](venpa-decision-readiness-queue.md)
 - [VENPA-USE-011 Kayasandihai revision options](venpa-use-011-kayasandihai-revision-options.md)
 - [VENPA-USE-027 Manimekalai grief reinterpretation options](venpa-use-027-manimekalai-grief-reinterpretation-options.md)
+- [Stage 1 explicit decision record](venpa-stage-1-explicit-decision-record.md)
+- [VENPA-USE-007/008 Aadhirai linked options](venpa-use-007-008-aadhirai-linked-decision-options.md)
+- [Stage 2 Aadhirai explicit decision record](venpa-stage-2-aadhirai-explicit-decision-record.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -41,16 +45,17 @@ This phase preserves later retellings, interpretive works and other non-primary 
 7. Make any approved screenplay change in English and Tamil together.
 8. Preserve scene numbers and TRACE metadata unless a separately authorised structural revision reopens them.
 9. Retain rejected and deferred decisions for auditability.
-10. Treat a primary-source compatibility finding as evidence preparation, not automatic approval.
+10. Treat a primary-source compatibility finding or selected revision path as evidence preparation, not automatic approval.
 
 ## Current gate
 
-Evidence preparation may continue. Screenplay insertion remains frozen until:
+Evidence preparation and decision-option work may continue. Screenplay insertion remains frozen until:
 
 - regression tests and full bilingual validation pass;
 - exact Venpa scan pages are recorded through visual or lawful printed-copy review;
-- primary-source compatibility flags, especially `VENPA-USE-011` and `VENPA-USE-027`, receive explicit decisions;
-- terminology and spoken-Tamil gates pass;
-- an explicit approve, revise or reject decision is entered in the master register.
+- chosen Tamil primary-edition lines are recorded;
+- terminology, specialist and spoken-Tamil gates pass;
+- performance or blocking review supports the selected wording;
+- an explicit final approve or reject decision is entered in the master register.
 
-The next authorised activity is to record explicit decisions for `VENPA-USE-011` and `VENPA-USE-027` after reviewing their option memos. Supporting visual-source, specialist and spoken-Tamil work may continue, but no screenplay edit or master-status change is authorised automatically.
+Stage 1 and Stage 2 revision paths are selected but not approved. The next authorised activity is Stage 3 review, beginning with `VENPA-USE-016` and continuing through `VENPA-USE-004`, `VENPA-USE-028` and `VENPA-USE-001`. No screenplay edit or master-status change is authorised automatically.
