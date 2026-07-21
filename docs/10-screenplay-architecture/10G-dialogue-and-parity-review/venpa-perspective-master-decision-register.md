@@ -8,16 +8,17 @@
 **TRACE records changed:** No  
 **Scene count changed:** No  
 **Runtime parity gate:** Still unconfirmed  
-**Authority:** This file consolidates decisions; the detailed review memos remain the evidence and reasoning record.
+**Authority:** This file consolidates decisions; the detailed review, evidence and approval memos remain the reasoning record.
 
 ## Decision totals
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `PROPOSED` | 13 | A narrowly defined change may be considered after all listed gates pass. It is not approved for insertion. |
+| `APPROVED` | 2 | The owner approved the linked Aadhirai pair and it has been implemented bilingually; post-implementation validation and quality gates remain open. |
+| `PROPOSED` | 11 | A narrowly defined change may be considered after all listed gates pass. It is not approved for insertion. |
 | `DEFERRED` | 7 | The idea is not actionable until missing evidence, terminology review or performance testing is completed. |
 | `REJECTED` | 11 | The idea conflicts with the current adaptation architecture and must not be inserted unless a future adaptation explicitly reopens that decision. |
-| **Total** | **31** | No record is currently authorised for screenplay insertion. |
+| **Total** | **31** | Only `VENPA-USE-007` and `VENPA-USE-008` are currently approved and implemented. |
 
 ## Global gate codes
 
@@ -42,11 +43,11 @@
 | `VENPA-USE-004` | Sudhamathi | Seq 02, Scene `#8#`; `FU-007 / SC-082 / ABSORBS SC-056` | `THEMATIC` | `PROPOSED` | Add the practical method: count doors before faces because a door can become a witness. | Verify Sudhamathi protector and practical-interpreter movement. | `G1 G2 G3 G4 G7` | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
 | `VENPA-USE-005` | Sudhamathi | Seq 02, Scene `#9#`; `FU-008 / SC-055 / ABSORBS SC-005, SC-083, SC-089` | `THEMATIC` | `DEFERRED` | Consider protective blocking between Udayakumaran and Manimekalai without displacing Manimekalai's own refusal. | Performance evidence rather than additional source exposition. | `G1 G7 G8` | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
 | `VENPA-USE-006` | Sudhamathi | Seq 02, Scene `#8#`; `FU-007 / SC-082 / ABSORBS SC-056` | `DIRECT` or `ADAPTED` | `REJECTED` | Do not fully dramatise the violence in Sudhamathi's past; concrete knowledge is needed, not trauma spectacle. | None under current ethical architecture. | Closed under current architecture. | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
-| `VENPA-USE-007` | Aadhirai | Seq 04, Scene `#31#`; `FU-021 / SC-153 / ABSORBS SC-017, SC-154` | `ADAPTED` | `PROPOSED` | Replace the symbolic handful of grain with cooked rice and curry that Aadhirai visibly uses to fill the vessel; retain the existing dialogue. | Verify `ஆதிரை வரவேற்பு`, `ஆதிரை கறியோடு சோறிட்டாள்` and related verses; check culinary meaning and primary-source compatibility. | `G1 G2 G3 G4 G6 G8` | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) |
-| `VENPA-USE-008` | Aadhirai | Seq 04, Scene `#32#`; `FU-022 / SC-068 / ABSORBS SC-006, SC-018` | `ADAPTED` | `PROPOSED` | Reveal inexhaustibility only after Manimekalai serves Aadhirai's prepared food and the level remains unchanged. | Verify the offering-to-public-feeding order in the Venpa and primary source. | `G1 G2 G3 G4 G8`; decide with `VENPA-USE-007`. | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) |
+| `VENPA-USE-007` | Aadhirai | Seq 04, Scene `#31#`; `FU-021 / SC-153 / ABSORBS SC-017, SC-154` | `ADAPTED` | `APPROVED` | Implemented: Aadhirai fills the vessel with cooked rice and curry from her household; ghee catches the light; existing dialogue and quiet threshold remain. | Venpa e-text and primary Chapter 16 core recorded; visual scan, culinary terminology and spoken-Tamil checks remain. | Implemented bilingually; `G1 G2 G6 G7` remain post-implementation quality gates. | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) · [approval record](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) |
+| `VENPA-USE-008` | Aadhirai | Seq 04, Scene `#32#`; `FU-022 / SC-068 / ABSORBS SC-006, SC-018` | `ADAPTED` | `APPROVED` | Implemented: Manimekalai serves Aadhirai's prepared food, looks back and sees that the level has not fallen before crowd pressure begins. | Venpa order and primary offering/fullness movement recorded; visual source and blocking review remain. | Implemented with `VENPA-USE-007`; `G1 G2 G7` remain post-implementation quality gates. | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) · [approval record](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) |
 | `VENPA-USE-009` | Aadhirai | Seq 04, Scenes `#31#–#32#` | `DIRECT` | `REJECTED` | Do not move the whole crowd to Aadhirai's doorstep; preserve the intimate threshold followed by public gathering. | None under the present cinematic architecture. | Closed under current architecture. | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) |
 | `VENPA-USE-010` | Aadhirai | Seq 04, Scene `#31#`; `FU-021 / SC-153` | `THEMATIC` | `DEFERRED` | A warm spoken welcome is possible, but opening the stores may already communicate welcome more strongly. | Verify exact welcome movement and test dialogue economy. | `G1 G2 G6 G7 G8` | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) |
-| `VENPA-USE-011` | Kayasandihai | Seq 04, Scene `#33#`; `FU-023 / SC-019` | `THEMATIC` | `PROPOSED` | Let Kayasandihai answer that she needs water, rest and news of the roads she left, giving her a future beyond hunger. | Verify the hunger-relief movement and ensure no unsupported destination is invented. | `G1 G2 G3 G4 G6` | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
+| `VENPA-USE-011` | Kayasandihai | Seq 04, Scene `#33#`; `FU-023 / SC-019` | `THEMATIC` | `PROPOSED` | Let Kayasandihai identify immediate needs and recover a counsellor function after hunger relief; exact revised wording remains undecided. | Verify Chapter 17 and Bharathidasan movement; use the revision-options memo rather than the superseded original line. | `G1 G2 G3 G4 G6 G7` | [Kayasandihai review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) · [revision options](../10H-source-perspectives/venpa-use-011-kayasandihai-revision-options.md) |
 | `VENPA-USE-012` | Kayasandihai | Seq 05, Scene `#37#`; `BR-009 / SC-131 / ABSORBS SC-129, SC-130` | `ADAPTED` | `DEFERRED` | A Kayasandihai-centred image may balance Kanchanan's search montage, but her departure, intention or fate must not be invented. | Exact Venpa and primary-source verification of her separate movement. | `G2 G3 G5 G6` | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-013` | Kanchanan | Seq 05, Scene `#39#`; `FU-029 / SC-133 / ABSORBS SC-093` | `THEMATIC` | `REJECTED` | Do not let Kanchanan knowingly hear the complete refusal and attack anyway; preserve fatal inference from partial evidence. | None under the current causality architecture. | Closed under current architecture. | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-014` | Kanchanan | Seq 05, Scenes `#41#–#42#`; `FU-031–FU-032` | `DIRECT` or `THEMATIC` | `REJECTED` | Do not make fate or an older causal chain move the sword; Kanchanan's present choice remains decisive. | None under the current accountability architecture. | Closed under current architecture. | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
@@ -62,15 +63,15 @@
 | `VENPA-USE-024` | Prison / education | Seq 04, Scene `#34#`; `FU-024 / SC-020` | `ADAPTED` or `THEMATIC` | `DEFERRED` | Do not declare a literal modern school without stronger evidence; the smaller records-and-literacy beat remains the supportable option. | Exact evidence for a literal prison-to-school conversion and historical-form review. | `G2 G3 G6 G8` | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
 | `VENPA-USE-025` | Public protest | Seq 05, Scene `#43#`; `FU-033 / SC-069` | `DIRECT` | `REJECTED` | Do not stage a weapon-breaking crowd rescue; preserve nonviolent witness, records and the later hearing. | None under the current institutional-accountability arc. | Closed under current architecture. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
 | `VENPA-USE-026` | Udayakumaran evidence | Seq 06, Scene `#44#`; `FU-034 / SC-050` | `COMBINED` | `PROPOSED` | The court scribe places five refusals, warnings and returns in chronological order before motive is named. | Verify the repeated-approach, warning and death sequence; review restored Tamil hearing language. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
-| `VENPA-USE-027` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `ADAPTED` | `PROPOSED` | Manimekalai grieves the ended life but refuses to rename his failure to hear her as love. | Verify `இறந்த உதயனுக்கு அழுதாள் மணிமேகலை` against a reliable edition; perform spoken-Tamil review. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
+| `VENPA-USE-027` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `ADAPTED` | `PROPOSED` | Permit grief while preserving the truth of present refusal; the preferred source-aware reinterpretation explicitly distinguishes previous-life memory from the current-life answer. | Verify the Chapter 21 lament and Bharathidasan passage; complete Buddhist, consent and performance review. | `G1 G2 G3 G4 G5 G6 G7 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [reinterpretation options](../10H-source-perspectives/venpa-use-027-manimekalai-grief-reinterpretation-options.md) |
 | `VENPA-USE-028` | Rajamadevi / Vasantavai | Seq 06, Scene `#45#`; `FU-035 / SC-112 / ABSORBS SC-052, SC-094, SC-111` | `COMBINED` | `PROPOSED` | Vasantavai permits mourning the son while refusing to make pursuit that harmed another woman his memorial. | Verify the death-and-grief movement; test terminology and restored Tamil dialogue. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-029` | Udayakumaran | Seq 05, Scene `#41#`; `FU-031 / SC-135` | `DIRECT`, `ADAPTED` or `THEMATIC` | `REJECTED` | Do not add mutual-love closure, a Lakshmi–Ragulan reunion, a kiss or posthumous consent. | None; death cannot supply consent refused during life. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-030` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069` | `DIRECT` | `REJECTED` | Do not imply that Manimekalai's thought, fear, disguise or refusal caused the killing. | None under the current responsibility architecture. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-031` | Fate and accountability | Seq 05, Scenes `#41#–#42#`; `FU-031–FU-032` | `DIRECT` or `THEMATIC` | `REJECTED` | Do not make fate, karma or supernatural necessity directly move the prince or the sword; prior causes do not remove present choice. | None under the current causality architecture. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 
-## Proposed-decision batches
+## Decision batches
 
-The proposed records should not be approved as one undifferentiated package.
+The remaining proposed records must not be approved as one undifferentiated package.
 
 ### Batch A — character agency and emotional precision
 
@@ -81,14 +82,14 @@ The proposed records should not be approved as one undifferentiated package.
 - `VENPA-USE-027`
 - `VENPA-USE-028`
 
-These are short beats or lines. Each still requires source verification and bilingual performance review.
+These are short beats or lines. Each still requires its listed source, terminology and performance gates.
 
-### Batch B — first offering and abundance
+### Batch B — first offering and abundance — approved and implemented
 
 - `VENPA-USE-007`
 - `VENPA-USE-008`
 
-These form one causal unit and should be approved, revised or rejected together.
+These were approved together as one causal unit and inserted in both languages. Their post-implementation validator, visual-source, culinary terminology and performance gates remain open.
 
 ### Batch C — institutional continuity and public evidence
 
@@ -102,23 +103,21 @@ These proposals interact through records, distributed authority and public evide
 
 ## Current locks
 
-1. No `PROPOSED` record is approved.
-2. No `DEFERRED` record may enter a screenplay edit queue.
-3. No `REJECTED` record may be inserted into the current 72-scene feature.
-4. Source verification must distinguish Bharathidasan's interpretive perspective from the primary epic source.
-5. Any approved change must be inserted in both languages in the same change set.
-6. Scene numbers and TRACE signatures must remain unchanged unless a separately authorised structural revision reopens them.
-7. Tamil Sequences 05–07 require dedicated line-by-line and spoken-Tamil quality review before dialogue lock.
-8. The regression tests and full bilingual validator must pass after every approved insertion batch.
+1. No remaining `PROPOSED` record is approved for insertion.
+2. `VENPA-USE-007` and `VENPA-USE-008` are approved and implemented; removing or materially altering them requires a new recorded decision.
+3. No `DEFERRED` record may enter a screenplay edit queue.
+4. No `REJECTED` record may be inserted into the current 72-scene feature.
+5. Source verification must distinguish Bharathidasan's interpretive perspective from the primary epic source.
+6. Any approved change must be inserted in English and Tamil together.
+7. Scene numbers and TRACE signatures must remain unchanged unless a separately authorised structural revision reopens them.
+8. Tamil Sequences 05–07 require dedicated line-by-line and spoken-Tamil quality review before dialogue lock.
+9. The regression tests and full bilingual validator must pass after every approved insertion batch.
 
 ## Next authorised activity
 
-The next safe activity is **evidence preparation**, not screenplay editing:
+1. Run and record regression tests and the full bilingual validator for the implemented Aadhirai pair.
+2. Complete visual-source, culinary terminology and spoken-Tamil checks for Scenes `#31#–#32#`.
+3. Record an explicit decision on the prepared revision options for `VENPA-USE-011` and `VENPA-USE-027` before editing either scene.
+4. Continue remaining evidence and duplication review without inserting other proposed records.
 
-1. build a source-verification packet for the thirteen `PROPOSED` records;
-2. identify exact Venpa pages or printed-edition locations;
-3. identify the corresponding primary-source passages;
-4. flag terminology requiring specialist review;
-5. then submit each proposed batch for an explicit approve, revise or reject decision.
-
-Until those gates pass, this register authorises documentation and evidence work only.
+Until those gates pass, only the approved Aadhirai pair is authorised in the screenplay.
