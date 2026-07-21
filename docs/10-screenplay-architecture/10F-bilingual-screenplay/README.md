@@ -29,9 +29,9 @@ Dialogue may be reshaped for natural Tamil rhythm, but it must not alter charact
 |---|---:|---:|---|---|
 | Act I | 01–03 | 1–17 | authoritative | draft 0.1 complete |
 | Act II | 04–06 | 18–49 | authoritative | draft 0.1 complete |
-| Act III | 07–10 | 50–72 | authoritative | in progress — SEQ-07 and SEQ-08 complete |
+| Act III | 07–10 | 50–72 | authoritative | in progress — SEQ-07 through SEQ-09 complete |
 
-**Current Tamil coverage:** Sequences 01–08, scenes `#1#`–`#59#`.
+**Current Tamil coverage:** Sequences 01–09, scenes `#1#`–`#65#`.
 
 “Draft complete” means the Tamil Fountain adaptation exists with scene and trace alignment. It does not mean dialogue lock or specialist terminology approval.
 
@@ -47,6 +47,7 @@ Tamil screenplay files use the same sequence numbers as the English master:
 - `TA/SEQ-06_துயரத்தின்_அரண்மனை.fountain`
 - `TA/SEQ-07_அரசி_கேட்கக்_கற்ற_நாள்.fountain`
 - `TA/SEQ-08_பிச்சைக்காரனாக_இருந்த_மன்னன்.fountain`
+- `TA/SEQ-09_உண்மையின்_கேள்விகள்.fountain`
 - through Sequence 10.
 
 ## Review gates
