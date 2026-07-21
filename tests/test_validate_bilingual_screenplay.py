@@ -28,6 +28,12 @@ class ParseTraceTests(unittest.TestCase):
             ("FU-001", "SC-001", ("SC-002", "SC-003")),
         )
 
+    def test_lowercase_absorbs_label(self):
+        self.assertEqual(
+            self.parse("FU-001 | SC-001 | absorbs: SC-002, SC-003"),
+            ("FU-001", "SC-001", ("SC-002", "SC-003")),
+        )
+
     def test_mixed_delimiters_and_whitespace(self):
         self.assertEqual(
             self.parse("FU-001 | SC-001 | ABSORBS: SC-002 ;SC-003,  SC-004"),
