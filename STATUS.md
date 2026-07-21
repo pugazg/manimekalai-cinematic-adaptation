@@ -6,7 +6,7 @@ _Last updated: 2026-07-21_
 
 **Active phase:** `10G — Dialogue, parity and evidence review`
 
-The 72-scene English structural screenplay and Tamil bilingual draft are present. Creative text remains frozen while structural validation, source verification, spoken-Tamil review and terminology review are completed.
+The 72-scene English structural screenplay and Tamil bilingual draft are present. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair has been implemented in English and Tamil Scenes `#31#–#32#`. Structural validation, source verification, spoken-Tamil review and terminology review remain active.
 
 ## Roadmap
 
@@ -19,10 +19,10 @@ The 72-scene English structural screenplay and Tamil bilingual draft are present
 | 10B | Scene selection and consolidation | Complete | 72 active screenplay units |
 | 10C | Beat sheets, runtime and continuity | Complete | 45 / 60 / 60-minute act allocation |
 | 10D | Feature treatment | Complete | All 72 units traced |
-| 10E | English Screenplay Draft 0.1 | Structurally complete | Dialogue lock not granted |
-| 10F | Tamil bilingual screenplay | Structurally complete | Spoken-Tamil and terminology lock not granted |
-| 10G | Dialogue, parity and perspective review | Active | Runtime validator result is not yet recorded; Tamil Sequences 05–07 require dedicated review |
-| 10H | Source perspectives and evidence packets | Active | Venpa scan-page and primary-source verification pending |
+| 10E | English Screenplay Draft 0.1 | Structurally complete; approved Aadhirai pair inserted | Dialogue lock not granted |
+| 10F | Tamil bilingual screenplay | Structurally complete; approved Aadhirai pair inserted | Spoken-Tamil and terminology lock not granted |
+| 10G | Dialogue, parity and perspective review | Active | Full validator result after the Aadhirai insertion is not yet recorded; Tamil Sequences 05–07 require dedicated review |
+| 10H | Source perspectives and evidence packets | Active | 2 Venpa decisions approved and implemented; visual-source and remaining proposal gates remain open |
 | 11 | Project governance and external review | Active | Collaboration, risk and specialist-review processes being formalised |
 
 ## Current measurable baseline
@@ -38,7 +38,7 @@ The 72-scene English structural screenplay and Tamil bilingual draft are present
 | Preliminary screenplay scene records | 154 |
 | Registered research sources | 44 |
 | Venpa perspective decisions | 31 |
-| Venpa decisions proposed / deferred / rejected | 13 / 7 / 11 |
+| Venpa decisions approved / proposed / deferred / rejected | 2 / 11 / 7 / 11 |
 
 ## Validation status
 
@@ -46,26 +46,29 @@ The 72-scene English structural screenplay and Tamil bilingual draft are present
 - Bilingual screenplay validator: present.
 - Regression tests for TRACE parsing: present.
 - GitHub Actions workflow: present.
-- Latest reproducible full 72-scene runtime result: **not yet recorded as passed**.
+- Approved Aadhirai pair: manual patch audit confirms only intended Scene `#31#–#32#` content changes and preserved TRACE signatures.
+- Latest reproducible full 72-scene runtime result after the Aadhirai insertion: **not yet recorded as passed**.
 - Tamil Sequences 05–07: restored from the English structural masters after truncated files were discovered; dedicated line-by-line and spoken-Tamil review remains mandatory.
 
 ## Active blockers
 
-1. Run and record the regression suite and full bilingual validator against the actual repository checkout.
-2. Verify the 13 proposed Venpa uses against reliable scan pages or a printed edition; OCR/e-text headings alone are insufficient for close adaptation.
-3. Verify corresponding passages in the primary epic and distinguish direct support from Bharathidasan's interpretive expansion.
-4. Complete line-by-line and spoken-Tamil review of restored Sequences 05–07.
-5. Complete terminology, transliteration and historical-register review.
-6. Review the proposed institutional additions together to prevent thematic duplication.
-7. Decide repository licensing before adding a licence badge or inviting broad derivative contributions.
+1. Run and record the regression suite and full bilingual validator against the actual repository checkout after the approved Aadhirai insertion.
+2. Verify the Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice for culinary and historical register.
+3. Verify the 11 remaining proposed Venpa uses against reliable scan pages or a printed edition.
+4. Complete explicit final decisions for the selected Kayasandihai and Manimekalai-grief revisions before editing those scenes.
+5. Complete line-by-line and spoken-Tamil review of restored Sequences 05–07.
+6. Complete terminology, transliteration and historical-register review.
+7. Review the proposed institutional additions together to prevent thematic duplication.
+8. Decide repository licensing before adding a licence badge or inviting broad derivative contributions.
 
 ## Current locks
 
-- No `VENPA-USE` proposal is approved for insertion.
+- `VENPA-USE-007` and `VENPA-USE-008` are approved and implemented; material alteration requires a new recorded decision.
+- No other `VENPA-USE` proposal is approved for insertion.
 - No one-language-only screenplay change is permitted.
 - Scene numbers and TRACE signatures remain frozen.
 - Dialogue lock, specialist terminology approval and performance-timing approval are not granted.
-- Repository documentation may continue to improve while the screenplay remains frozen.
+- Repository documentation and evidence review may continue without automatically authorising screenplay edits.
 
 ## Key links
 
@@ -73,6 +76,7 @@ The 72-scene English structural screenplay and Tamil bilingual draft are present
 - [Documentation index](docs/INDEX.md)
 - [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
 - [Venpa master decision register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
+- [Aadhirai approval and implementation record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Venpa proposed evidence packet](docs/10-screenplay-architecture/10H-source-perspectives/venpa-proposed-evidence-packet.md)
 - [External review reconciliation](docs/11-project-governance/2026-07-21-external-repository-review.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
