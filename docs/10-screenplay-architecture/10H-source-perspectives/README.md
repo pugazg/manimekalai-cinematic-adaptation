@@ -13,12 +13,14 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Status: independent interpretive witness
 - Current feature decisions: 31 total — 13 proposed, 7 deferred, 11 rejected
 - Approved screenplay insertions: none
+- Evidence preparation: e-text anchors and stable digital location crosswalk recorded; visual scan-page verification still pending
 
 ## Documents
 
 - [Perspective assessment](manimekalai-venpa-perspective.md)
 - [Adaptation audit](manimekalai-venpa-adaptation-audit.md)
 - [Proposed evidence packet](venpa-proposed-evidence-packet.md)
+- [Digital location crosswalk](venpa-digital-location-crosswalk.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -38,7 +40,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 Evidence preparation may continue. Screenplay insertion remains frozen until:
 
 - regression tests and full bilingual validation pass;
-- exact Venpa scan pages are recorded;
+- exact Venpa scan pages are recorded through visual or lawful printed-copy review;
 - primary-source compatibility is reviewed;
 - terminology and spoken-Tamil gates pass;
 - an explicit approve, revise or reject decision is entered in the master register.
