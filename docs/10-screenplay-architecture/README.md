@@ -13,6 +13,11 @@ This phase converts the research archive, character bibles, philosophy bible, ad
 7. [10C — Unit Runtime Matrix](10C_unit_runtime_matrix.csv)
 8. [10C — Character State Progression](10C_character_state_progression.csv)
 9. [10C — Continuity and Draft-Readiness Checklist](10C_continuity_checklist.md)
+10. [10D — Master Feature Treatment](10D_feature_treatment.md)
+11. [10D — Act I Treatment](10D_act_i_treatment.md)
+12. [10D — Act II Treatment](10D_act_ii_treatment.md)
+13. [10D — Act III Treatment](10D_act_iii_treatment.md)
+14. [10D — Treatment Traceability Appendix](10D_traceability_appendix.csv)
 
 ## 10B result
 
@@ -28,7 +33,7 @@ The working feature backbone contains **72 active screenplay units** within the 
 
 ## 10C result
 
-Every active unit now has:
+Every active unit has:
 
 - a sequence position;
 - a dramatic objective;
@@ -44,13 +49,20 @@ The runtime matrix totals exactly **165 minutes**:
 - Act II: 60 minutes;
 - Act III: 60 minutes.
 
+## 10D result
+
+The complete prose treatment now follows all 72 active units and is divided into:
+
+- **Act I — The City That Desires**: inherited identity, refusal, pursuit, Manipallavam and responsibility;
+- **Act II — The Bowl That Cannot Be Owned**: Aravana's teaching, Aputhiran and Aadhirai branch stories, public feeding, Udayakumaran's death and palace coercion;
+- **Act III — Compassion as Governance**: Rajamadevi's relinquishment, Punniyarajan's present duty, Vanji inquiry, Kanchi famine and disciplined compassionate continuation.
+
+The traceability appendix maps every unit from order 1 through 72 to its primary `SC-*` record, sequence, act, treatment section and target runtime. Its totals remain exactly 45 minutes for Act I, 60 minutes for Act II and 60 minutes for Act III.
+
 ## Planned
 
-10. **10D — Feature Treatment**  
-    Produce a prose treatment with verified causation, locations, branch-story transitions, unit-level continuity and ending logic.
-
-11. **10E — Screenplay Draft 0.1**  
-    Write the first source-traceable feature screenplay only after the treatment passes continuity review.
+15. **10E — Screenplay Draft 0.1**  
+    Convert the approved treatment into source-traceable screenplay scenes with headings, action, dialogue and inherited evidence controls.
 
 ## Architecture rules
 
@@ -61,6 +73,7 @@ The runtime matrix totals exactly **165 minutes**:
 - A merged scene inherits relevant evidence and binding adaptation decisions from every absorbed concept.
 - Reserve material may return only after runtime and continuity consequences are recalculated.
 - Omitted standalone scenes remain valid research references but are not events in the working screenplay.
-- The 165-minute target remains a ceiling for the first treatment.
+- The 165-minute target remains a ceiling for Screenplay Draft 0.1.
 - Philosophy appears through inquiry, inference, material consequence and practice.
-- No dialogue draft begins before the 10D treatment reconciles all 72 units and passes the 10C checklist.
+- No dialogue draft begins until the 10D treatment has been reconciled against the 10C checklist and 10D traceability appendix.
+- Treatment prose does not authorise unreviewed exact Tamil terminology, ritual detail, caste terminology, archaeological certainty or technical philosophical vocabulary.
