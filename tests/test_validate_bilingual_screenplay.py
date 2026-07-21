@@ -49,6 +49,37 @@ class ParseTraceTests(unittest.TestCase):
         )
         self.assertTrue(any("Invalid absorbed scene ID" in error for error in errors))
 
+    def test_primary_scene_cannot_absorb_itself(self):
+        errors: list[str] = []
+        validator.parse_trace(
+            "FU-001 | SC-001 | ABSORBS: SC-001",
+            Path("fixture.fountain"),
+            errors,
+        )
+        self.assertTrue(any("also appears in ABSORBS" in error for error in errors))
+
+    def test_duplicate_absorbed_scene_is_reported(self):
+        errors: list[str] = []
+        validator.parse_trace(
+            "FU-001 | SC-001 | ABSORBS: SC-002; SC-002",
+            Path("fixture.fountain"),
+            errors,
+        )
+        self.assertTrue(any("Duplicate absorbed scene ID" in error for error in errors))
+
+    def test_corpus_rejects_duplicate_unit_and_scene_use(self):
+        errors: list[str] = []
+        validator.validate_corpus_trace_uniqueness(
+            "English",
+            [
+                (1, (("FU-001", "SC-001", ("SC-002",)),)),
+                (2, (("FU-001", "SC-003", ("SC-002",)),)),
+            ],
+            errors,
+        )
+        self.assertTrue(any("Duplicate unit ID FU-001" in error for error in errors))
+        self.assertTrue(any("Duplicate source-scene use SC-002" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()
