@@ -22,7 +22,7 @@ A later gate must not conceal failure at an earlier gate. Natural dialogue canno
 - Automated parity checker: `../../../scripts/validate_bilingual_screenplay.py`
 - Venpa decision authority: [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md)
 
-The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 13 proposed, 7 deferred and 11 rejected decisions. No proposed record is approved for screenplay insertion.
+The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 2 approved, 11 proposed, 7 deferred and 11 rejected decisions. The approved Aadhirai pair is implemented in English and Tamil Scenes `#31#–#32#`; no other proposal is authorised for insertion.
 
 ## Current baseline
 
@@ -36,6 +36,8 @@ The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its cur
 - Performance timing approval: **not granted**
 
 The parity validator and GitHub Actions workflow have been committed. A passing CI result must be recorded before the structural gate is marked complete; repository presence alone is not treated as an executed validation.
+
+The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Full runtime validation must still be executed and recorded after the approved content change.
 
 ## Structural parity gate
 
@@ -98,6 +100,7 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 
 - `review_register.csv` — gate status by sequence
 - [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register for all Venpa-derived proposals
+- [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance for the first approved Venpa pair
 - detailed perspective memos — reasoning and source notes behind each `VENPA-USE-*` record
 - future issue logs should cite sequence, scene, trace unit, exact line and proposed change
 
