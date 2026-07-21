@@ -20,6 +20,7 @@ A later gate must not conceal failure at an earlier gate. Natural dialogue canno
 - Tamil performance adaptation: `../10F-bilingual-screenplay/TA/`
 - Translation rules: `../10F-bilingual-screenplay/translation_guidelines.md`
 - Automated parity checker: `../../../scripts/validate_bilingual_screenplay.py`
+- Sequence review register: [`review_register.csv`](review_register.csv)
 - Venpa decision authority: [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md)
 
 The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 2 approved, 11 proposed, 7 deferred and 11 rejected decisions. The approved Aadhirai pair is implemented in English and Tamil Scenes `#31#–#32#`; no other proposal is authorised for insertion.
@@ -28,22 +29,25 @@ The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its cur
 
 - English sequences present: 10
 - Tamil sequences present: 10
-- Intended paired scenes: 72
-- Intended scene range: `#1#`–`#72#`
-- Tamil Draft 0.1: structurally drafted
+- Paired scenes: 72
+- Scene range: `#1#`–`#72#`
+- Static scene and TRACE audit: **complete**
+- Executable regression and validator result: **not recorded**
+- Tamil Draft 0.1: structurally complete
 - Dialogue lock: **not granted**
 - Specialist terminology approval: **not granted**
 - Performance timing approval: **not granted**
 
-The parity validator and GitHub Actions workflow have been committed. A passing CI result must be recorded before the structural gate is marked complete; repository presence alone is not treated as an executed validation.
+The full repository audit read every English and Tamil sequence directly and confirmed identical scene order, TRACE signatures and recognised endings. This static result is not a substitute for executing the validator in a repository checkout or CI runner.
 
-The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Full runtime validation must still be executed and recorded after the approved content change.
+The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Tamil Sequences 05–07 remain subject to dedicated line-by-line and spoken-performance review. Sequence 03 is structurally aligned but materially compressed in Tamil and requires semantic review.
 
 ## Structural parity gate
 
 Run:
 
 ```bash
+python3 -m unittest discover -s tests -p 'test_*.py'
 python3 scripts/validate_bilingual_screenplay.py
 ```
 
@@ -54,6 +58,8 @@ The checker requires:
 - identical English–Tamil scene order;
 - one `TRACE` record per scene;
 - identical `FU-*` / `BR-*`, primary `SC-*` and `ABSORBS` signatures;
+- no duplicated unit or source-scene use within either language;
+- no primary scene repeated inside `ABSORBS`;
 - recognised screenplay ending markers.
 
 Structural changes after a passing run require the validator to be rerun.
@@ -98,10 +104,11 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 
 ## Working records
 
-- `review_register.csv` — gate status by sequence
-- [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register for all Venpa-derived proposals
-- [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance for the first approved Venpa pair
-- detailed perspective memos — reasoning and source notes behind each `VENPA-USE-*` record
-- future issue logs should cite sequence, scene, trace unit, exact line and proposed change
+- [`review_register.csv`](review_register.csv) — sequence-level static findings and open gates
+- [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register
+- [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance
+- detailed perspective memos — historical reasoning and source notes behind each `VENPA-USE-*` record
+
+The creative revision queue and the original Aadhirai proposal memo preserve pre-approval history. Where they state that no screenplay change has occurred, the later approval record and master register supersede that status statement while their reasoning remains part of the audit trail.
 
 This remains a review edition, not a shooting script, dubbing script or final subtitle file.
