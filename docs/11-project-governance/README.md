@@ -6,6 +6,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Current documents
 
+- [Project handover — 2026-07-21](2026-07-21-project-handover.md)
 - [Full repository audit — 2026-07-21](2026-07-21-full-repository-audit.md)
 - [Per-file audit ledger](repository-file-audit.csv)
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
@@ -17,14 +18,15 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- current tracked paths audited: 175
-- registered sources: 45
-- evidence records: 318 (`EV-0001`–`EV-0318`)
-- adaptation decisions: 170 (`AD-0001`–`AD-0170`)
-- screenplay-source concepts: 154 (`SC-001`–`SC-154`)
-- active screenplay units: 72
-- English–Tamil scene and TRACE parity: statically verified
-- executable validator result: not yet recorded
+- tracked paths in the completed audit: 175;
+- post-audit control document: project handover;
+- registered sources: 45;
+- evidence records: 318 (`EV-0001`–`EV-0318`);
+- adaptation decisions: 170 (`AD-0001`–`AD-0170`);
+- screenplay-source concepts: 154 (`SC-001`–`SC-0154`);
+- active screenplay units: 72;
+- English–Tamil scene and TRACE parity: statically verified;
+- executable validator result: not yet recorded.
 
 ## Governance principles
 
