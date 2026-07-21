@@ -12,7 +12,7 @@ The English screenplay remains the structural authority for scene order, unit ID
 
 ## Alignment contract
 
-Every Tamil sequence must preserve:
+Every Tamil sequence preserves:
 
 1. the same sequence number;
 2. the same scene numbers;
@@ -29,15 +29,15 @@ Dialogue may be reshaped for natural Tamil rhythm, but it must not alter charact
 |---|---:|---:|---|---|
 | Act I | 01–03 | 1–17 | authoritative | draft 0.1 complete |
 | Act II | 04–06 | 18–49 | authoritative | draft 0.1 complete |
-| Act III | 07–10 | 50–72 | authoritative | in progress — SEQ-07 through SEQ-09 complete |
+| Act III | 07–10 | 50–72 | authoritative | draft 0.1 complete |
 
-**Current Tamil coverage:** Sequences 01–09, scenes `#1#`–`#65#`.
+**Current bilingual coverage:** English and Tamil Sequences 01–10, scenes `#1#`–`#72#`.
 
-“Draft complete” means the Tamil Fountain adaptation exists with scene and trace alignment. It does not mean dialogue lock or specialist terminology approval.
+**Draft 0.1 status:** structurally complete in both languages. All 72 Tamil scenes exist with aligned unit and source-scene trace metadata.
 
-## File naming
+“Draft complete” means the Tamil Fountain adaptation exists with scene and trace alignment. It does not mean dialogue lock, specialist terminology approval or shooting-script lock.
 
-Tamil screenplay files use the same sequence numbers as the English master:
+## Tamil sequence files
 
 - `TA/SEQ-01_புயலுக்கு_முன்_நகரம்.fountain`
 - `TA/SEQ-02_விதியை_மறுக்கும்_பெண்.fountain`
@@ -48,17 +48,18 @@ Tamil screenplay files use the same sequence numbers as the English master:
 - `TA/SEQ-07_அரசி_கேட்கக்_கற்ற_நாள்.fountain`
 - `TA/SEQ-08_பிச்சைக்காரனாக_இருந்த_மன்னன்.fountain`
 - `TA/SEQ-09_உண்மையின்_கேள்விகள்.fountain`
-- through Sequence 10.
+- `TA/SEQ-10_உரிமையாளரைக்_கடந்த_பாத்திரம்.fountain`
 
 ## Review gates
 
-A Tamil sequence is not dialogue-locked until it passes:
+The next phase must include:
 
-- scene and trace parity review;
+- automated scene and trace parity audit;
 - natural spoken-Tamil review;
-- literary/classical terminology review;
+- literary and classical terminology review;
 - Buddhist and philosophical terminology review;
 - character-voice differentiation review;
-- read-aloud timing review.
+- read-aloud timing review;
+- English–Tamil dramatic-beat comparison.
 
-This is a working bilingual screenplay, not yet a shooting script or final dubbed/subtitled edition.
+This is a complete working bilingual screenplay draft, not yet a shooting script or final dubbed/subtitled edition.
