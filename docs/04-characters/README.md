@@ -17,6 +17,7 @@ Each dossier must separate:
 2. [04B — Madhavi Character Bible](04B_madhavi_character_bible.md)
 3. [04C — Sudhamathi Character Bible](04C_sudhamathi_character_bible.md)
 4. [04D — Udayakumaran Character Bible](04D_udayakumaran_character_bible.md)
+   - [Decision crosswalk errata](04D_udayakumaran_decision_crosswalk_errata.md) — canonical Udayakumaran decisions are `AD-0101`–`AD-0107`; `AD-0108`–`AD-0110` belong to Aravana Adigal.
 5. [04E — Aravana Adigal Character Bible](04E_aravana_adigal_character_bible.md)
 6. [04F — Chitrapathi Character Bible](04F_chitrapathi_character_bible.md)
 7. [04G — Rajamadevi Character Bible](04G_rajamadevi_character_bible.md)
@@ -28,6 +29,8 @@ Each dossier must separate:
 ## Character phase status
 
 The principal and priority supporting-character cycle is complete for screenplay-architecture purposes. Additional supporting dossiers may still be opened when scene consolidation reveals that a character carries independent dramatic, ethical or continuity weight.
+
+The Aadhirai dossier was restored during the full repository audit after a truncated replacement was discovered. It now includes the complete evidence, decision and approved screenplay-implementation crosswalk.
 
 ## Character-dossier rule
 
