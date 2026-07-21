@@ -2,19 +2,20 @@
 
 ## Status
 
-**Scope:** thirteen `PROPOSED` perspective-use records  
+**Scope:** all thirteen originally proposed perspective-use records  
 **Authority:** supporting queue only; statuses remain authoritative in the master decision register  
-**Screenplay text changed:** No  
+**Screenplay text changed through Stage 2:** Yes — approved Aadhirai pair only  
 **TRACE records changed:** No  
-**Approved insertions:** None
+**Approved insertions:** `VENPA-USE-007`, `VENPA-USE-008`
 
-The source-verification packet, digital-location crosswalk, primary-source compatibility packet, Stage 1–2 decision records and the first Stage 3 decision are now present. This queue identifies the remaining work before each selected revision may receive final approval or rejection.
+The source-verification packet, digital-location crosswalk, primary-source compatibility packet, Stage 1–2 decision records and the first Stage 3 decision are now present. This queue identifies remaining pre-approval work for unapproved records and post-implementation gates for the approved Aadhirai pair.
 
 ## Readiness categories
 
 | Category | Meaning |
 |---|---|
-| `REVISED / GATES OPEN` | An explicit revision path has been selected, but source, specialist, performance or validation gates remain. |
+| `APPROVED / VALIDATION PENDING` | The owner approved and the bilingual screenplay implements the decision; post-implementation validation and quality gates remain. |
+| `REVISED / GATES OPEN` | An explicit revision path has been selected, but source, specialist, performance or validation gates remain before approval. |
 | `SOURCE-READY / GATES OPEN` | The proposal has a compatible primary core, but scan, terminology, performance or validation gates remain. |
 | `THEMATIC / PROVISIONAL` | The proposal relies mainly on later interpretation or screenplay synthesis; direct primary support is limited. |
 
@@ -24,8 +25,8 @@ The source-verification packet, digital-location crosswalk, primary-source compa
 |---:|---|---|---|---|---|---|
 | 1 | `VENPA-USE-011` | Kayasandihai after hunger relief | `REVISED / GATES OPEN` | Venpa and primary Chapter 17 checked; compressed-counsel revision selected | Visual source page, chosen Tamil-edition lines, terminology, spoken-Tamil and performance review | Test selected line for duplication with Scene `#32#`; retain no-line fallback if it fails |
 | 2 | `VENPA-USE-027` | Manimekalai's grief for Udayakumaran | `REVISED / GATES OPEN` | Venpa grief and primary Chapter 21 checked; source-aware ethical reinterpretation selected with no-line fallback | Visual source page, Buddhist-literary review, consent review and restored-Sequence-05 performance | Test selected line against the existing physical grief beat and Scenes `#36#`, `#44#`, `#45#` |
-| 3 | `VENPA-USE-007` | Aadhirai's prepared offering | `REVISED / GATES OPEN` | Prepared household food selected without locking unverified curry/ghee detail | Visual scan page, culinary terminology, food-history, Tamil performance and primary-edition comparison | Verify household-food wording and threshold blocking together with `008` |
-| 4 | `VENPA-USE-008` | Delayed reveal of inexhaustibility | `REVISED / GATES OPEN` | Discovery of unchanged food level after first portions selected | Visual page, exact source order and blocking test | Confirm reveal does not weaken crowd pressure, logistics or the child's near-fall |
+| 3 | `VENPA-USE-007` | Aadhirai's prepared offering | `APPROVED / VALIDATION PENDING` | Owner approved Venpa-forward cooked rice, curry, ghee and two-handed filling; implemented bilingually | Full validator, visual page, culinary terminology, food-history and performance review | Validate Scene `#31#`; retain source attribution to Bharathidasan for culinary specificity |
+| 4 | `VENPA-USE-008` | Delayed reveal of inexhaustibility | `APPROVED / VALIDATION PENDING` | Owner approved discovery of unchanged food level after first portions; implemented bilingually | Full validator, visual source order and blocking test | Confirm the reveal preserves crowd pressure, logistics and the child's near-fall |
 | 5 | `VENPA-USE-016` | Aputhiran turns refusal back to feeding | `REVISED / GATES OPEN` | Primary Chapter 14 checked; decision selects turning from Indra to serve an existing waiting recipient rather than inventing a new elderly traveller | Exact Venpa stanza, Tamil action rhythm and blocking review | Confirm the beat preserves the later critique of pride and does not reduce the recipient to a prop |
 | 6 | `VENPA-USE-004` | Sudhamathi doorway method | `SOURCE-READY / GATES OPEN` | Protector and autobiographical-counsel movements located | Visual Venpa page, historical register and spoken-Tamil test | Compare the current metaphorical line with a shorter practical alternative |
 | 7 | `VENPA-USE-028` | Vasanthavai separates mourning from memorialisation | `SOURCE-READY / GATES OPEN` | Primary Chapter 23 elder-counsel function verified | Visual Venpa evidence, restored-Tamil review and historical register | Compare the current line with a version closer to Vasanthavai's source function without sanctifying pursuit |
@@ -43,10 +44,12 @@ The source-verification packet, digital-location crosswalk, primary-source compa
 - `VENPA-USE-011` — compressed counsel selected
 - `VENPA-USE-027` — source-aware ethical reinterpretation selected; no-line fallback retained
 
-### Stage 2 — Linked Aadhirai pair: decision paths selected
+### Stage 2 — Linked Aadhirai pair: approved and implemented
 
-- `VENPA-USE-007` — prepared household food selected
-- `VENPA-USE-008` — unchanged food level discovered after first portions selected
+- `VENPA-USE-007` — Venpa-forward prepared rice, curry and ghee offering implemented
+- `VENPA-USE-008` — unchanged food level discovered after first portions implemented
+
+Stage 2 now requires post-implementation validation and quality review, not another content decision.
 
 ### Stage 3 — Short character and emotion beats: active
 
@@ -69,12 +72,15 @@ The institutional batch must be reduced for duplication before any individual li
 
 - visual Venpa scan-page or lawful printed-copy verification;
 - chosen Tamil primary-edition page and exact-line verification;
-- terminology and transliteration review;
+- culinary, terminology and transliteration review;
 - dedicated line-by-line and spoken-Tamil review of restored Sequences 05–07;
 - performance or blocking review for dialogue/action additions;
 - regression tests and full bilingual validator execution;
-- explicit final master-register approval or rejection.
+- explicit final master-register approval or rejection for every remaining proposal.
 
 ## Next authorised activity
 
-Prepare the Stage 3 decision memo for `VENPA-USE-004` — Sudhamathi's practical doorway method. No screenplay edit or master-status change is authorised automatically.
+1. Run and record validation for the approved Aadhirai pair.
+2. Prepare the Stage 3 decision memo for `VENPA-USE-004` — Sudhamathi's practical doorway method.
+
+No additional screenplay edit or master-status change is authorised automatically.
