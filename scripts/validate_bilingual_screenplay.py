@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Validate structural parity between the English and Tamil screenplay drafts.
 
-This validator uses only the Python standard library. It checks that each paired
-sequence preserves scene order and the complete TRACE signature, including
-primary and absorbed SC identifiers.
+The validator uses only the Python standard library. It compares paired sequence
+files, approved scene ranges, and complete TRACE signatures. ABSORBS lists may
+use commas or semicolons because both forms occur in the screenplay corpus.
 """
 from __future__ import annotations
 
@@ -12,4 +12,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-ROOT = Path(__
+ROOT = Path(__file__).resolve().parents[1]
+EN_DIR = ROOT / "docs/10-screenplay-architecture/10E-screenplay-draft"
+TA_DIR = ROOT / "docs/10-screenplay-architecture/10F-bilingual-screenplay/TA"
+
