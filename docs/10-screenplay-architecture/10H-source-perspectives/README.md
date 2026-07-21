@@ -24,6 +24,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Proposed evidence packet](venpa-proposed-evidence-packet.md)
 - [Digital location crosswalk](venpa-digital-location-crosswalk.md)
 - [Primary-source compatibility packet](venpa-primary-source-compatibility-packet.md)
+- [Decision readiness queue](venpa-decision-readiness-queue.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -48,3 +49,5 @@ Evidence preparation may continue. Screenplay insertion remains frozen until:
 - primary-source compatibility flags, especially `VENPA-USE-011` and `VENPA-USE-027`, receive explicit decisions;
 - terminology and spoken-Tamil gates pass;
 - an explicit approve, revise or reject decision is entered in the master register.
+
+The next authorised activity is to prepare revision-option memos for `VENPA-USE-011` and `VENPA-USE-027` without editing the screenplay.
