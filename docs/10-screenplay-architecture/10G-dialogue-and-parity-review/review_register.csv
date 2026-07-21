@@ -1,0 +1,11 @@
+sequence,scene_range,structural_static_audit,runtime_validator,spoken_tamil,terminology,character_voice,read_aloud_timing,notes
+SEQ-01,#1-#6,PASS_STATIC,RUNTIME_PENDING,OPEN,OPEN,OPEN,OPEN,"Exact English-Tamil scene and TRACE parity; ending verified"
+SEQ-02,#7-#13,PASS_STATIC,RUNTIME_PENDING,OPEN,OPEN,OPEN,OPEN,"Exact structural parity; Sudhamathi doorway proposal remains unimplemented"
+SEQ-03,#14-#17,PASS_STATIC,RUNTIME_PENDING,REVIEW_REQUIRED,OPEN,OPEN,OPEN,"Tamil is a materially compressed performance adaptation; verify omitted sensory and epistemic beats"
+SEQ-04,#18-#34,PASS_STATIC,RUNTIME_PENDING,REVIEW_REQUIRED,REVIEW_REQUIRED,OPEN,OPEN,"Approved Aadhirai Venpa pair aligned bilingually; culinary and performance gates remain"
+SEQ-05,#35-#43,PASS_STATIC,RUNTIME_PENDING,CRITICAL_REVIEW,REVIEW_REQUIRED,OPEN,OPEN,"Tamil restored from English master; fatal-inference and responsibility structure preserved"
+SEQ-06,#44-#49,PASS_STATIC,RUNTIME_PENDING,CRITICAL_REVIEW,REVIEW_REQUIRED,OPEN,OPEN,"Tamil restored from English master; court, custody and deprivation architecture preserved"
+SEQ-07,#50-#53,PASS_STATIC,RUNTIME_PENDING,CRITICAL_REVIEW,REVIEW_REQUIRED,OPEN,OPEN,"Tamil restored from English master; accountability and unconditional release preserved"
+SEQ-08,#54-#59,PASS_STATIC,RUNTIME_PENDING,REVIEW_REQUIRED,OPEN,OPEN,OPEN,"Structural and substantive parity; governance and rebirth terminology require specialist review"
+SEQ-09,#60-#65,PASS_STATIC,RUNTIME_PENDING,REVIEW_REQUIRED,CRITICAL_REVIEW,OPEN,OPEN,"Philosophical schools and perception-inference lesson aligned; technical vocabulary review required"
+SEQ-10,#66-#72,PASS_STATIC,RUNTIME_PENDING,REVIEW_REQUIRED,REVIEW_REQUIRED,OPEN,OPEN,"Systems ending aligned; institutional and public-administration register review required"
