@@ -39,6 +39,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Give rival philosophical positions their strongest intelligible form; Manimekalai's Buddhist commitment gains meaning through serious listening, disciplined reasoning and ethical consequence rather than easy victory.
 - Distinguish private experience, testimony, inference and public proof; true sacred experience within the epic does not remove the need for intellectual humility.
 - Consolidate scene concepts without deleting their evidence functions; every merged concept remains traceable to a surviving screenplay unit.
+- Convert architecture into treatment without weakening evidence controls; treatment prose cannot silently create factual certainty, final dialogue or unreviewed terminology.
 
 ## Evidence labels
 
@@ -117,12 +118,21 @@ The repository contains:
   - 10 `RESERVE` concepts;
   - 3 `OMIT` concepts;
   - 72 active screenplay units in narrative order;
+- the completed 10C beat-sheet architecture:
+  - objectives, reversals and exit states for all 72 units;
+  - a 45-minute Act I, 60-minute Act II and 60-minute Act III runtime matrix;
+  - character-state progression across all ten sequences;
+  - continuity and draft-readiness controls;
+- the completed 10D feature treatment:
+  - master treatment and governing rules;
+  - complete Act I, Act II and Act III prose treatments;
+  - every active unit mapped to its treatment section and target runtime;
 - 318 registered evidence records;
 - 170 registered adaptation decisions;
 - 154 preliminary screenplay scene records;
 - 44 registered research sources;
 - source-rights safeguards and automated modular-register validation.
 
-The next planned stage is `10C — Sequence Beat Sheets`, which will assign objectives, reversals, knowledge changes, emotional turns and working runtime ranges to the 72 active units before treatment or dialogue drafting.
+The next planned stage is `10E — Screenplay Draft 0.1`, which will convert the approved treatment into scene headings, action and dialogue while inheriting all evidence, adaptation and continuity controls.
 
 These remain working research and adaptation editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Indian-philosophy review, Buddhist-logic review, animal-welfare review, trauma-informed character testing and specialist consultation must be completed before screenplay, casting or production designs are treated as final.
