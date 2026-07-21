@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.24.0 — 2026-07-21
+
+- Added `docs/10-screenplay-architecture/10D_feature_treatment.md` as the master 165-minute treatment document.
+- Added complete prose treatments for:
+  - `10D_act_i_treatment.md` — 45 minutes, `SEQ-01` through `SEQ-03`;
+  - `10D_act_ii_treatment.md` — 60 minutes, `SEQ-04` through `SEQ-06`;
+  - `10D_act_iii_treatment.md` — 60 minutes, `SEQ-07` through `SEQ-10`.
+- Added `10D_traceability_appendix.csv`, mapping all 72 active units to primary scene IDs, sequences, acts, treatment sections and target runtimes.
+- Preserved Manimekalai's movement from externally assigned identity through refusal, responsibility, organised service, grief without false guilt, disciplined inquiry and active compassionate practice.
+- Kept the Aputhiran, Aadhirai and Kanchanan histories as compressed causal branches rather than competing feature films.
+- Preserved the distinction between previous-life continuity, present identity, consent and political duty.
+- Preserved Rajamadevi's grief while keeping deceptive custody, drugging, defamation and starvation visible as accountable institutional violence.
+- Established the final Kanchi movement as an operational relief system involving water, access, livelihood, translation, sanitation, governance and recipient agency rather than a miracle-only resolution.
+- Ended with the Amudhasurabhi inside a continuing system of care rather than as private treasure or proof of solitary holiness.
+- Verified that the traceability appendix contains 72 units and totals exactly 45 minutes for Act I, 60 minutes for Act II and 60 minutes for Act III.
+- Updated the screenplay-architecture index and root README through 10D.
+- Added no new permanent evidence, adaptation-decision or `SC-*` identifiers.
+- Archive totals remain 318 evidence records, 170 adaptation decisions, 154 registered scene concepts and 44 research sources.
+
+## 0.23.0 — 2026-07-21
+
+- Added `docs/10-screenplay-architecture/10C_sequence_beat_sheets.md`.
+- Assigned every one of the 72 active units a dramatic objective, reversal or knowledge change and exit state.
+- Added `10C_unit_runtime_matrix.csv` with target, minimum and maximum runtimes, intensity, presentation balance and transition type for all active units.
+- Locked the working treatment allocation at exactly 165 minutes:
+  - Act I: 45 minutes;
+  - Act II: 60 minutes;
+  - Act III: 60 minutes.
+- Added `10C_character_state_progression.csv`, tracking Manimekalai and ten priority supporting characters across all ten sequences.
+- Added `10C_continuity_checklist.md`, covering evidence inheritance, causal order, knowledge order, branch transitions, geography, chronology, costume, disguise, Amudhasurabhi custody, food-service logistics, palace and prison systems, philosophy and runtime control.
+- Required each branch beat to enter through a present-tense question and leave by changing present action or understanding.
+- Prohibited dialogue drafting before the 72 units were reconciled through the beat sheets and continuity gate.
+- Added no new permanent evidence, adaptation-decision or `SC-*` identifiers.
+- This release had previously been implemented in repository files but was missing from the root README and changelog; 0.24.0 repairs that integration gap.
+
 ## 0.22.0 — 2026-07-20
 
 - Added `docs/10-screenplay-architecture/10B_scene_selection_and_consolidation.md`.
