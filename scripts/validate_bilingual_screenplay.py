@@ -54,10 +54,10 @@ def parse_trace(raw: str, path: Path, errors: list[str]) -> tuple[str, str, tupl
     if not SC_RE.fullmatch(primary):
         errors.append(f"Invalid primary scene ID {primary!r} in {path}")
     for component in parts[2:]:
-        if not component.startswith("ABSORBS:"):
+        label, separator, value = component.partition(":")
+        if not separator or label.strip().upper() != "ABSORBS":
             errors.append(f"Unknown TRACE component {component!r} in {path}")
             continue
-        value = component.removeprefix("ABSORBS:").strip()
         for scene_id in filter(None, (item.strip() for item in re.split(r"[,;]", value))):
             if not SC_RE.fullmatch(scene_id):
                 errors.append(f"Invalid absorbed scene ID {scene_id!r} in {path}")
