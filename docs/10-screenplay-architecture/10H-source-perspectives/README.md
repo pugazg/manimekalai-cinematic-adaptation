@@ -13,7 +13,9 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Status: independent interpretive witness
 - Current feature decisions: 31 total — 13 proposed, 7 deferred, 11 rejected
 - Approved screenplay insertions: none
-- Evidence preparation: e-text anchors and stable digital location crosswalk recorded; visual scan-page verification still pending
+- Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
+- Mandatory revision flags: `VENPA-USE-011` and `VENPA-USE-027`
+- Visual scan-page verification: still pending
 
 ## Documents
 
@@ -21,6 +23,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Adaptation audit](manimekalai-venpa-adaptation-audit.md)
 - [Proposed evidence packet](venpa-proposed-evidence-packet.md)
 - [Digital location crosswalk](venpa-digital-location-crosswalk.md)
+- [Primary-source compatibility packet](venpa-primary-source-compatibility-packet.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -34,6 +37,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 7. Make any approved screenplay change in English and Tamil together.
 8. Preserve scene numbers and TRACE metadata unless a separately authorised structural revision reopens them.
 9. Retain rejected and deferred decisions for auditability.
+10. Treat a primary-source compatibility finding as evidence preparation, not automatic approval.
 
 ## Current gate
 
@@ -41,6 +45,6 @@ Evidence preparation may continue. Screenplay insertion remains frozen until:
 
 - regression tests and full bilingual validation pass;
 - exact Venpa scan pages are recorded through visual or lawful printed-copy review;
-- primary-source compatibility is reviewed;
+- primary-source compatibility flags, especially `VENPA-USE-011` and `VENPA-USE-027`, receive explicit decisions;
 - terminology and spoken-Tamil gates pass;
 - an explicit approve, revise or reject decision is entered in the master register.
