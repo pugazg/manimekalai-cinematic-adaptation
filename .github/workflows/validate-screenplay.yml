@@ -1,0 +1,32 @@
+name: Validate screenplay
+
+on:
+  push:
+    paths:
+      - "docs/10-screenplay-architecture/10E-screenplay-draft/**"
+      - "docs/10-screenplay-architecture/10F-bilingual-screenplay/**"
+      - "scripts/validate_bilingual_screenplay.py"
+      - ".github/workflows/validate-screenplay.yml"
+  pull_request:
+    paths:
+      - "docs/10-screenplay-architecture/10E-screenplay-draft/**"
+      - "docs/10-screenplay-architecture/10F-bilingual-screenplay/**"
+      - "scripts/validate_bilingual_screenplay.py"
+      - ".github/workflows/validate-screenplay.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bilingual-parity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate bilingual screenplay parity
+        run: python3 scripts/validate_bilingual_screenplay.py
