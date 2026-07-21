@@ -8,7 +8,7 @@
 **TRACE records changed:** No  
 **Approved insertions:** None
 
-The source-verification packet, digital-location crosswalk and preliminary primary-source compatibility packet are now present. This queue identifies what must happen before each proposal can receive an explicit `APPROVE`, `REVISE` or `REJECT` decision.
+The source-verification packet, digital-location crosswalk, preliminary primary-source compatibility packet and mandatory revision-option memos are now present. This queue identifies what must happen before each proposal can receive an explicit `APPROVE`, `REVISE` or `REJECT` decision.
 
 ## Readiness categories
 
@@ -22,8 +22,8 @@ The source-verification packet, digital-location crosswalk and preliminary prima
 
 | Order | ID | Area | Category | Completed evidence | Blocking work | Next decision action |
 |---:|---|---|---|---|---|---|
-| 1 | `VENPA-USE-011` | Kayasandihai after hunger relief | `REVISION FIRST` | Venpa movement located; primary Chapter 17 checked | Current line underuses Kayasandihai's source-supported counsel and departure | Prepare three options: compressed primary-compatible revision, deliberate non-specific retention, or rejection |
-| 2 | `VENPA-USE-027` | Manimekalai's grief for Udayakumaran | `REVISION FIRST` | Venpa grief headings located; primary Chapter 21 checked | Primary lament includes previous-life attachment and causal language; current line is a deliberate ethical reinterpretation | Prepare explicit reinterpretation memo with Buddhist, consent, responsibility and performance safeguards |
+| 1 | `VENPA-USE-011` | Kayasandihai after hunger relief | `REVISION FIRST` | Venpa movement located; primary Chapter 17 checked; three-option revision memo prepared | Visual source page, chosen Tamil-edition lines, terminology and spoken-Tamil review | Choose `REVISE`, `RETAIN` or `REJECT`; memo recommends the compressed-counsel revision |
+| 2 | `VENPA-USE-027` | Manimekalai's grief for Udayakumaran | `REVISION FIRST` | Venpa grief headings located; primary Chapter 21 checked; reinterpretation options and safeguards prepared | Visual source page, Buddhist-literary review, consent review and spoken-Tamil performance | Choose `REVISE`, `RETAIN` or `REJECT`; memo recommends source-aware reinterpretation, with no insertion as fallback |
 | 3 | `VENPA-USE-007` | Aadhirai's prepared offering | `SOURCE-READY / GATES OPEN` | Venpa and primary Chapter 16 movement located | Visual scan page, culinary terminology, Tamil performance and primary-edition comparison | Decide together with `008` after food-history and Tamil review |
 | 4 | `VENPA-USE-008` | Delayed reveal of inexhaustibility | `SOURCE-READY / GATES OPEN` | Venpa order and primary offering/fullness movement located | Visual page, exact source order and blocking test | Decide together with `007` as one causal batch |
 | 5 | `VENPA-USE-016` | Aputhiran turns refusal back to feeding | `SOURCE-READY / GATES OPEN` | Primary Chapter 14 reward refusal and feeding ethic located | Exact Venpa stanza, Tamil line review and performance economy | Decide whether invented elderly traveller is necessary or whether a silent return to existing recipients is stronger |
@@ -43,7 +43,7 @@ The source-verification packet, digital-location crosswalk and preliminary prima
 1. `VENPA-USE-011`
 2. `VENPA-USE-027`
 
-Neither record may enter an approval batch in its present wording.
+Revision analysis is complete, but neither record may enter an approval batch until an explicit decision is recorded.
 
 ### Stage 2 — Review the linked Aadhirai pair
 
@@ -81,4 +81,4 @@ The institutional batch must be reduced for duplication before any individual li
 
 ## Next authorised activity
 
-Prepare revision-option memos for `VENPA-USE-011` and `VENPA-USE-027`. These memos may compare alternatives and recommend a decision, but they must not edit the screenplay or change master-register status without explicit approval.
+Record explicit `REVISE`, `RETAIN` or `REJECT` decisions for `VENPA-USE-011` and `VENPA-USE-027` after reviewing the two option memos. Supporting source and spoken-Tamil analysis may continue, but Stage 2 approval work and screenplay editing remain frozen until those decisions are entered.
