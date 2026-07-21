@@ -9,6 +9,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 ### Bharathidasan — *Manimekalai Venpa*
 
 - Perspective ID: `VENPA-BHARATHIDASAN`
+- Registered source: `SRC-0045`
 - Source: Bharathidasan, *Manimekalai Venpa*, Pari Nilayam, 1990; Project Madurai UTF-8 e-text prepared from a Tamil Virtual Academy scan
 - Status: independent interpretive witness
 - Current feature decisions: 31 total — 2 approved, 11 proposed, 7 deferred, 11 rejected
@@ -21,8 +22,8 @@ This phase preserves later retellings, interpretive works and other non-primary 
 
 ## Documents
 
-- [Perspective assessment](manimekalai-venpa-perspective.md)
-- [Adaptation audit](manimekalai-venpa-adaptation-audit.md)
+- [Historical perspective register](../../11-source-perspectives/manimekalai-venpa-perspective-register.md)
+- [Historical adaptation audit](../../11-source-perspectives/manimekalai-venpa-adaptation-audit.md)
 - [Proposed evidence packet](venpa-proposed-evidence-packet.md)
 - [Digital location crosswalk](venpa-digital-location-crosswalk.md)
 - [Primary-source compatibility packet](venpa-primary-source-compatibility-packet.md)
@@ -35,6 +36,8 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Aadhirai final approval and implementation record](venpa-use-007-008-aadhirai-approval.md)
 - [VENPA-USE-016 Aputhiran decision options](venpa-use-016-aputhiran-decision-options.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
+
+The historical perspective register, adaptation audit, creative queue and original Aadhirai proposal memo preserve the reasoning state before the owner-approved Aadhirai exception. Current status is governed by the master register and final approval record.
 
 ## Use rules
 
@@ -52,9 +55,9 @@ This phase preserves later retellings, interpretive works and other non-primary 
 
 ## Current gate
 
-The Aadhirai pair is implemented but remains subject to post-implementation validation and quality review. Other screenplay insertions remain frozen until:
+The Aadhirai pair is implemented and has passed a complete static file-and-TRACE audit. Executable regression and validator results are still not recorded. Other screenplay insertions remain frozen until:
 
-- regression tests and full bilingual validation pass;
+- regression tests and full bilingual validation pass in an actual checkout or CI run;
 - exact Venpa scan pages are recorded through visual or lawful printed-copy review;
 - chosen Tamil primary-edition lines are recorded;
 - terminology, specialist and spoken-Tamil gates pass;
@@ -63,6 +66,6 @@ The Aadhirai pair is implemented but remains subject to post-implementation vali
 
 The next authorised activities are:
 
-1. validate the implemented Aadhirai pair and complete its culinary, visual-source and performance checks;
+1. complete the Aadhirai culinary, visual-source and performance checks;
 2. continue the Stage 3 decision memo for `VENPA-USE-004` — Sudhamathi's practical doorway method;
 3. do not make another screenplay edit or master-status change automatically.
