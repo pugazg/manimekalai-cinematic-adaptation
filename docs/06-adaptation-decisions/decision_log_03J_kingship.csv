@@ -1,0 +1,6 @@
+decision_id,title,status,source_observation,risk,decision,rationale,evidence_ids,required_review
+AD-0056,Kingship is responsibility,binding,"Epic connects ruler conduct with public welfare","Royal spectacle may replace ethical role","Show king through protection and institutions","Keeps moral centre",EV-0122,"Tamil political history"
+AD-0057,Desire cannot override autonomy,binding,"Udayakumaran pursues Manimekalai despite her choice","Prince becomes romantic hero without accountability","Treat refusal as central dramatic conflict","Protects character ethics",EV-0122,"Gender history"
+AD-0058,Karma is not legal judgement,binding,"Previous births explain moral causation","Victims may be blamed","Separate belief system from legal responsibility","Avoids victim blaming",EV-0125,"Buddhist studies"
+AD-0059,Prison reform is institutional,binding,"Prison becomes compassionate institution","Reform becomes symbolic only","Show kitchens learning care and service","Makes politics visible",EV-0123,"Institutional history"
+AD-0060,Grief does not justify abuse,binding,"Queen harms Manimekalai after son's death","Villain-only portrayal loses complexity","Show grief transformation","Preserves character depth",EV-0124,"Gender and political history"
