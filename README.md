@@ -1,10 +1,65 @@
 # Manimekalai Cinematic Adaptation
 
-A version-controlled research and development repository for a serious Tamil cinematic adaptation of *Manimekalai*.
+A version-controlled research and development repository for a serious, source-traceable Tamil cinematic adaptation of *Manimekalai*.
+
+> **Current phase:** English Screenplay Draft 0.1 and the Tamil bilingual draft are structurally present. Dialogue, source-perspective, terminology and performance review remain active. No screenplay lock has been granted.
+
+## Navigation
+
+- [Project status dashboard](STATUS.md)
+- [Documentation index](docs/INDEX.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
+- [Screenplay architecture](docs/10-screenplay-architecture/)
+- [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
+- [Venpa master decision register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
+- [Venpa evidence packet](docs/10-screenplay-architecture/10H-source-perspectives/venpa-proposed-evidence-packet.md)
+- [External review reconciliation](docs/11-project-governance/2026-07-21-external-repository-review.md)
+- [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
+
+## Table of contents
+
+1. [Project goal](#project-goal)
+2. [Current status](#current-status)
+3. [Core adaptation principles](#core-adaptation-principles)
+4. [Evidence labels](#evidence-labels)
+5. [Repository map](#repository-map)
+6. [Source handling](#source-handling)
+7. [Validation](#validation)
+8. [Current research and adaptation baseline](#current-research-and-adaptation-baseline)
+9. [Open gates](#open-gates)
 
 ## Project goal
 
-Build a source-traceable adaptation archive supporting research, screenplay development, character performance, storyboards, production design and scholarly review.
+Build a source-traceable adaptation archive supporting research, screenplay development, bilingual performance, character work, storyboards, production design and scholarly review.
+
+The repository separates:
+
+- primary textual evidence;
+- cross-textual support;
+- historical evidence;
+- interpretive reconstruction;
+- adaptation decisions;
+- screenplay units;
+- bilingual implementation;
+- specialist and performance review.
+
+## Current status
+
+| Area | State |
+|---|---|
+| Research foundation | Complete working foundation; specialist review remains open |
+| Character bibles | 11 principal and priority supporting-character bibles completed |
+| Philosophy bible | Active and integrated with the feature architecture |
+| Feature architecture | 165 minutes, ten sequences, 72 active screenplay units |
+| English Screenplay Draft 0.1 | Structurally complete; dialogue lock not granted |
+| Tamil bilingual draft | Structurally complete; spoken-Tamil and terminology lock not granted |
+| Dialogue and parity review | Active |
+| Venpa perspective review | 31 decisions: 13 proposed, 7 deferred, 11 rejected; none approved for insertion |
+| Runtime validation | Validators and workflow are present; latest reproducible full pass is not yet recorded |
+| Storyboard and production design | Foundation present; systematic visual population pending rights and specialist controls |
+
+See [STATUS.md](STATUS.md) for blockers, locks and the phase roadmap.
 
 ## Core adaptation principles
 
@@ -39,7 +94,7 @@ Build a source-traceable adaptation archive supporting research, screenplay deve
 - Give rival philosophical positions their strongest intelligible form; Manimekalai's Buddhist commitment gains meaning through serious listening, disciplined reasoning and ethical consequence rather than easy victory.
 - Distinguish private experience, testimony, inference and public proof; true sacred experience within the epic does not remove the need for intellectual humility.
 - Consolidate scene concepts without deleting their evidence functions; every merged concept remains traceable to a surviving screenplay unit.
-- Convert architecture into treatment without weakening evidence controls; treatment prose cannot silently create factual certainty, final dialogue or unreviewed terminology.
+- Convert architecture into treatment and screenplay without weakening evidence controls; prose and dialogue cannot silently create factual certainty or unreviewed terminology.
 
 ## Evidence labels
 
@@ -63,76 +118,77 @@ docs/
   08-storyboard-bible/
   09-production-design/
   10-screenplay-architecture/
+  11-project-governance/
 evidence/
 sources/
-private_sources/      # ignored; for lawfully held source files
+private_sources/      # ignored; lawfully held source files only
 scripts/
+tests/
 .github/workflows/
 ```
 
 ## Source handling
 
-The supplied full English translation is **not committed** to this repository by default. Place lawfully held source files in `private_sources/`; this directory is excluded through `.gitignore`. Public research notes should cite passages precisely while respecting copyright and source licence terms.
+The supplied full translations, scans and other protected sources are **not committed** by default. Place lawfully held source files in `private_sources/`; the directory is excluded through `.gitignore`.
+
+Public research notes should cite passages precisely while respecting copyright and licence terms. Follow [private-source handling](docs/11-project-governance/private-source-handling.md) for filenames, metadata, hashes, consultation notes and visual references.
 
 ## Validation
 
-Run:
+Repository-register integrity:
 
 ```bash
 python3 scripts/validate_repository.py
 ```
 
-The validator merges all evidence, adaptation-decision and screenplay-scene CSV registers in their respective directories. It checks required fields, permanent ID formats, global uniqueness and cross-register references.
+Bilingual screenplay structure:
 
-## Current state
+```bash
+python3 scripts/validate_bilingual_screenplay.py
+```
+
+Regression tests:
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py'
+```
+
+The register validator checks required fields, permanent-ID formats, global uniqueness and cross-register references. The bilingual validator checks sequence discovery, scene ranges, TRACE records, English–Tamil TRACE parity and recognised ending markers.
+
+A validator's presence is not proof that it has passed. A successful run must be executed and recorded against the actual repository checkout before the structural gate is marked complete.
+
+## Current research and adaptation baseline
 
 The repository contains:
 
-- the initial vision and literary-analysis foundation;
-- the complete Historical Tamilakam working volume;
-- historical, religious, social, political and production dossiers;
-- 11 completed principal and priority supporting-character bibles:
-  - Manimekalai;
-  - Madhavi;
-  - Sudhamathi;
-  - Udayakumaran;
-  - Aravana Adigal;
-  - Chitrapathi;
-  - Rajamadevi;
-  - Aputhiran;
-  - Kanchanan;
-  - Punniyarajan;
-  - Aadhirai;
-- an active Philosophy Bible containing:
-  - philosophical map;
-  - knowledge and debate foundation;
-  - ethics, hunger and liberation foundation;
-  - philosophical-schools deep dive;
-  - Manimekalai's intellectual-journey map;
-  - philosophy-to-screen matrix;
-- the 165-minute master feature architecture and ten-sequence map;
-- the completed 10B scene-selection architecture:
-  - 61 principal `KEEP` scenes;
-  - 11 embedded `BRANCH` beats;
-  - 69 `MERGE` concepts mapped to surviving scenes;
-  - 10 `RESERVE` concepts;
-  - 3 `OMIT` concepts;
-  - 72 active screenplay units in narrative order;
-- the completed 10C beat-sheet architecture:
-  - objectives, reversals and exit states for all 72 units;
-  - a 45-minute Act I, 60-minute Act II and 60-minute Act III runtime matrix;
-  - character-state progression across all ten sequences;
-  - continuity and draft-readiness controls;
-- the completed 10D feature treatment:
-  - master treatment and governing rules;
-  - complete Act I, Act II and Act III prose treatments;
-  - every active unit mapped to its treatment section and target runtime;
+- the vision and literary-analysis foundation;
+- the Historical Tamilakam working volume and production-oriented historical dossiers;
+- 11 character bibles: Manimekalai, Madhavi, Sudhamathi, Udayakumaran, Aravana Adigal, Chitrapathi, Rajamadevi, Aputhiran, Kanchanan, Punniyarajan and Aadhirai;
+- a working Philosophy Bible with school, knowledge, ethics, hunger, liberation and intellectual-journey documents;
+- a 165-minute, ten-sequence feature architecture;
+- 61 principal `KEEP` scenes and 11 embedded `BRANCH` beats consolidated into 72 active units;
+- 45 / 60 / 60-minute act allocations and continuity controls;
+- a complete feature treatment;
+- structurally complete English and Tamil screenplay drafts;
+- dialogue, parity and source-perspective reviews;
 - 318 registered evidence records;
 - 170 registered adaptation decisions;
 - 154 preliminary screenplay scene records;
 - 44 registered research sources;
-- source-rights safeguards and automated modular-register validation.
+- 31 Venpa perspective decisions with a master register and evidence-preparation packet;
+- source-rights safeguards, risk tracking, specialist-review tracking and automated validation foundations.
 
-The next planned stage is `10E — Screenplay Draft 0.1`, which will convert the approved treatment into scene headings, action and dialogue while inheriting all evidence, adaptation and continuity controls.
+## Open gates
 
-These remain working research and adaptation editions. Original Tamil passages, cross-textual concordances, full excavation reports, historical GIS work, craft reconstructions, numismatic analysis, gender-history review, caste-history review, Indian-philosophy review, Buddhist-logic review, animal-welfare review, trauma-informed character testing and specialist consultation must be completed before screenplay, casting or production designs are treated as final.
+The project is not dialogue-locked, casting-ready or production-final. Major open gates include:
+
+1. a recorded successful regression and bilingual-validator run;
+2. scan-page verification for the thirteen proposed Venpa uses;
+3. primary-epic compatibility review;
+4. dedicated line-by-line and spoken-Tamil review of restored Sequences 05–07;
+5. terminology and transliteration review;
+6. historical, Buddhist, philosophical, maritime, costume, gender, animal-welfare and rights consultation;
+7. rights-labelled storyboard and production-design pilots;
+8. a repository licence decision separating original work from third-party source material.
+
+These remain working research, adaptation and screenplay-review editions—not a shooting script, dubbing script, final subtitle file or production claim.
