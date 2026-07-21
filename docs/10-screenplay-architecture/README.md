@@ -1,8 +1,8 @@
 # Screenplay Architecture
 
-This phase converts the research archive, character bibles, philosophy bible, adaptation decisions and registered scene concepts into a coherent feature-film structure.
+This phase converts the research archive, character bibles, philosophy bible, adaptation decisions and registered scene concepts into a coherent feature-film structure and its bilingual review pipeline.
 
-## Completed
+## Completed and active records
 
 1. [10A — Master Feature Architecture](10A_master_feature_architecture.md)
 2. [10A — Sequence Map](10A_sequence_map.csv)
@@ -18,8 +18,12 @@ This phase converts the research archive, character bibles, philosophy bible, ad
 12. [10D — Act II Treatment](10D_act_ii_treatment.md)
 13. [10D — Act III Treatment](10D_act_iii_treatment.md)
 14. [10D — Treatment Traceability Appendix](10D_traceability_appendix.csv)
+15. [10E — English Screenplay Draft 0.1](10E-screenplay-draft/README.md)
+16. [10F — Bilingual Screenplay Edition](10F-bilingual-screenplay/README.md)
+17. [10G — Dialogue and Parity Review](10G-dialogue-and-parity-review/README.md)
+18. [10H — Source Perspectives](10H-source-perspectives/README.md)
 
-## 10B result
+## Architecture baseline
 
 The 154 registered scene concepts are classified as:
 
@@ -29,9 +33,7 @@ The 154 registered scene concepts are classified as:
 - 10 `RESERVE` concepts for an extended cut or alternate structure;
 - 3 `OMIT` concepts retained only as research and production texture.
 
-The working feature backbone contains **72 active screenplay units** within the 165-minute ten-sequence architecture.
-
-## 10C result
+The working feature contains **72 active screenplay units** within a 165-minute ten-sequence architecture.
 
 Every active unit has:
 
@@ -41,7 +43,8 @@ Every active unit has:
 - an exit state;
 - a target runtime and working range;
 - an intensity and presentation classification;
-- and continuity controls for evidence, causation, geography, character state, props, costume, institutions and philosophy.
+- continuity controls for evidence, causation, geography, character state, props, costume, institutions and philosophy;
+- a matching English and Tamil screenplay scene with identical TRACE metadata.
 
 The runtime matrix totals exactly **165 minutes**:
 
@@ -49,20 +52,17 @@ The runtime matrix totals exactly **165 minutes**:
 - Act II: 60 minutes;
 - Act III: 60 minutes.
 
-## 10D result
+## Treatment and screenplay state
 
-The complete prose treatment now follows all 72 active units and is divided into:
+The complete treatment follows all 72 active units across:
 
 - **Act I — The City That Desires**: inherited identity, refusal, pursuit, Manipallavam and responsibility;
 - **Act II — The Bowl That Cannot Be Owned**: Aravana's teaching, Aputhiran and Aadhirai branch stories, public feeding, Udayakumaran's death and palace coercion;
 - **Act III — Compassion as Governance**: Rajamadevi's relinquishment, Punniyarajan's present duty, Vanji inquiry, Kanchi famine and disciplined compassionate continuation.
 
-The traceability appendix maps every unit from order 1 through 72 to its primary `SC-*` record, sequence, act, treatment section and target runtime. Its totals remain exactly 45 minutes for Act I, 60 minutes for Act II and 60 minutes for Act III.
+English and Tamil Draft 0.1 contain ten paired sequences and Scenes `#1#–#72#`. The approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#` without changing scene numbers or TRACE signatures.
 
-## Planned
-
-15. **10E — Screenplay Draft 0.1**  
-    Convert the approved treatment into source-traceable screenplay scenes with headings, action, dialogue and inherited evidence controls.
+A complete static repository audit found no missing screenplay scene or TRACE mismatch. Runtime validation, spoken-Tamil review, terminology review and read-aloud timing remain open.
 
 ## Architecture rules
 
@@ -73,7 +73,7 @@ The traceability appendix maps every unit from order 1 through 72 to its primary
 - A merged scene inherits relevant evidence and binding adaptation decisions from every absorbed concept.
 - Reserve material may return only after runtime and continuity consequences are recalculated.
 - Omitted standalone scenes remain valid research references but are not events in the working screenplay.
-- The 165-minute target remains a ceiling for Screenplay Draft 0.1.
+- The 165-minute target remains a ceiling for Draft 0.1.
 - Philosophy appears through inquiry, inference, material consequence and practice.
-- No dialogue draft begins until the 10D treatment has been reconciled against the 10C checklist and 10D traceability appendix.
-- Treatment prose does not authorise unreviewed exact Tamil terminology, ritual detail, caste terminology, archaeological certainty or technical philosophical vocabulary.
+- Treatment and earlier architecture terminology may preserve historical draft wording; the current screenplay and recorded approval decisions govern implemented scene text.
+- No dialogue, source-perspective or structural revision is approved merely because it appears in a proposal memo.
