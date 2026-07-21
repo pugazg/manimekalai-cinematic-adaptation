@@ -10,7 +10,7 @@
 
 This folder converts the approved 10D treatment into scene headings, action and dialogue.
 
-The English dialogue is provisional adaptation writing. It is not a translation of the source poem and must not be treated as final Tamil dialogue. Exact Tamil philosophical, ritual, caste-historical, geographical and institutional terminology requires specialist review before a Tamil dialogue pass.
+The English dialogue is provisional adaptation writing. It is not a translation of the source poem and must not be treated as final Tamil dialogue. Exact Tamil philosophical, ritual, caste-historical, geographical and institutional terminology requires specialist review before dialogue lock.
 
 ## Draft files
 
@@ -24,7 +24,14 @@ The English dialogue is provisional adaptation writing. It is not a translation 
 8. `SEQ-08_the_king_who_was_a_beggar.fountain` — scenes 54–59
 9. `SEQ-09_the_questions_of_truth.fountain` — scenes 60–65
 10. `SEQ-10_the_bowl_beyond_its_owner.fountain` — scenes 66–72
-11. `10E_scene_traceability.csv` — screenplay-scene and feature-unit mapping
+
+Traceability is maintained through:
+
+- non-printing `TRACE` comments embedded in every scene;
+- [`../10D_traceability_appendix.csv`](../10D_traceability_appendix.csv), which maps all 72 units to treatment sections and runtimes;
+- [`../../../scripts/validate_bilingual_screenplay.py`](../../../scripts/validate_bilingual_screenplay.py), which checks scene and TRACE architecture against the Tamil edition.
+
+The previously listed `10E_scene_traceability.csv` never existed and has been removed from this index.
 
 ## Fountain conventions
 
@@ -50,4 +57,6 @@ The English dialogue is provisional adaptation writing. It is not a translation 
 
 ## Draft status
 
-Draft 0.1 is a source-controlled dramatic construction for internal review. It is not yet a shooting script, dialogue-locked screenplay, production draft or authorised Tamil-language version.
+Draft 0.1 is structurally complete. A complete static audit confirmed ten sequences, Scenes `#1#–#72#`, one TRACE record per scene and English–Tamil TRACE equality. The executable validator result, dialogue lock, terminology approval and performance timing remain pending.
+
+The approved Aadhirai Venpa pair is present in Scenes `#31#–#32#`; all other Venpa proposals remain governed by the master decision register.
