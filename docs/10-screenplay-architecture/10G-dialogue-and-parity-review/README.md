@@ -20,6 +20,9 @@ A later gate must not conceal failure at an earlier gate. Natural dialogue canno
 - Tamil performance adaptation: `../10F-bilingual-screenplay/TA/`
 - Translation rules: `../10F-bilingual-screenplay/translation_guidelines.md`
 - Automated parity checker: `../../../scripts/validate_bilingual_screenplay.py`
+- Venpa decision authority: [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md)
+
+The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 13 proposed, 7 deferred and 11 rejected decisions. No proposed record is approved for screenplay insertion.
 
 ## Current baseline
 
@@ -94,6 +97,8 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 ## Working records
 
 - `review_register.csv` — gate status by sequence
+- [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register for all Venpa-derived proposals
+- detailed perspective memos — reasoning and source notes behind each `VENPA-USE-*` record
 - future issue logs should cite sequence, scene, trace unit, exact line and proposed change
 
 This remains a review edition, not a shooting script, dubbing script or final subtitle file.
