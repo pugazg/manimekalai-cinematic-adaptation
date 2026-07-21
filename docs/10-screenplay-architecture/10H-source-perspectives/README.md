@@ -15,6 +15,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Approved screenplay insertions: none
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
 - Mandatory revision flags: `VENPA-USE-011` and `VENPA-USE-027`
+- Revision-option memos: prepared; explicit decisions still pending
 - Visual scan-page verification: still pending
 
 ## Documents
@@ -25,6 +26,8 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Digital location crosswalk](venpa-digital-location-crosswalk.md)
 - [Primary-source compatibility packet](venpa-primary-source-compatibility-packet.md)
 - [Decision readiness queue](venpa-decision-readiness-queue.md)
+- [VENPA-USE-011 Kayasandihai revision options](venpa-use-011-kayasandihai-revision-options.md)
+- [VENPA-USE-027 Manimekalai grief reinterpretation options](venpa-use-027-manimekalai-grief-reinterpretation-options.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 ## Use rules
@@ -50,4 +53,4 @@ Evidence preparation may continue. Screenplay insertion remains frozen until:
 - terminology and spoken-Tamil gates pass;
 - an explicit approve, revise or reject decision is entered in the master register.
 
-The next authorised activity is to prepare revision-option memos for `VENPA-USE-011` and `VENPA-USE-027` without editing the screenplay.
+The next authorised activity is to record explicit decisions for `VENPA-USE-011` and `VENPA-USE-027` after reviewing their option memos. Supporting visual-source, specialist and spoken-Tamil work may continue, but no screenplay edit or master-status change is authorised automatically.
