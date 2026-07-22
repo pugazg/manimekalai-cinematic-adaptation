@@ -47,6 +47,10 @@ EXPECTED_IDS = {
     "decision": tuple(f"AD-{number:04d}" for number in range(1, 171)),
     "scene": tuple(f"SC-{number:03d}" for number in range(1, 155)),
 }
+CROSSWALK = ROOT / "evidence/evidence_source_crosswalk.csv"
+CROSSWALK_FIELDS = {
+    "evidence_id", "source_ids", "crosswalk_status", "source_work", "notes"
+}
 
 
 def relative(path: Path) -> str:
@@ -95,6 +99,8 @@ def read_registers(
 ) -> tuple[list[dict[str, str]], list[Path]]:
     """Read every canonical register matching a directory pattern."""
     paths = sorted(directory.glob(pattern))
+    if label == "evidence":
+        paths = [path for path in paths if path != CROSSWALK]
     if not paths:
         errors.append(f"No {label} register files found in {relative(directory)}")
         return [], []
@@ -180,6 +186,49 @@ def detect_misplaced_registers(errors: list[str]) -> None:
             )
 
 
+def validate_source_crosswalk(
+    evidence_rows: list[dict[str, str]],
+    known_sources: set[str],
+    errors: list[str],
+) -> None:
+    """Require one provenance crosswalk row for every EV record."""
+    with CROSSWALK.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        missing = CROSSWALK_FIELDS - set(reader.fieldnames or [])
+        if missing:
+            errors.append(
+                f"{relative(CROSSWALK)} missing fields: {', '.join(sorted(missing))}"
+            )
+            return
+        rows = list(reader)
+    evidence_by_id = {row["evidence_id"]: row for row in evidence_rows}
+    seen: set[str] = set()
+    for line, row in enumerate(rows, start=2):
+        evidence_id = row["evidence_id"].strip()
+        if evidence_id in seen:
+            errors.append(f"Duplicate crosswalk row for {evidence_id} at {relative(CROSSWALK)}:{line}")
+        seen.add(evidence_id)
+        if evidence_id not in evidence_by_id:
+            errors.append(f"Unknown evidence ID {evidence_id} in {relative(CROSSWALK)}:{line}")
+            continue
+        if row["source_work"].strip() != evidence_by_id[evidence_id]["source_work"].strip():
+            errors.append(f"{evidence_id} source_work differs between evidence record and crosswalk")
+        source_ids = split_ids(row["source_ids"])
+        for source_id in source_ids:
+            if source_id not in known_sources:
+                errors.append(f"{evidence_id} crosswalk references unknown source {source_id}")
+        if row["crosswalk_status"] != "INTERNAL_PROJECT_RECORD" and not source_ids:
+            errors.append(f"{evidence_id} crosswalk has no registered source")
+    expected = set(EXPECTED_IDS["evidence"])
+    if seen != expected:
+        missing = sorted(expected - seen)
+        extra = sorted(seen - expected)
+        if missing:
+            errors.append(f"Crosswalk missing evidence IDs: {', '.join(missing)}")
+        if extra:
+            errors.append(f"Crosswalk has unexpected evidence IDs: {', '.join(extra)}")
+
+
 def main() -> int:
     errors: list[str] = []
     detect_misplaced_registers(errors)
@@ -202,6 +251,7 @@ def main() -> int:
 
     known_evidence = set(evidence_ids)
     known_decisions = set(decision_ids)
+    validate_source_crosswalk(evidence_rows, set(source_ids), errors)
 
     validate_references(
         decision_rows,

@@ -14,10 +14,11 @@ This index is the shortest route into the repository. It does not replace the de
 - [External review reconciliation](11-project-governance/2026-07-21-external-repository-review.md)
 - [Adaptation risk register](11-project-governance/adaptation-risk-register.md)
 - [Specialist review register](11-project-governance/specialist-review-register.csv)
+- [Evidence-to-source crosswalk](11-project-governance/evidence-source-crosswalk.md)
 
 ## Audited repository baseline
 
-- 184 current tracked paths audited;
+- 187 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
