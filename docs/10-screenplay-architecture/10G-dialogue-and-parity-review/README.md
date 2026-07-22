@@ -106,6 +106,7 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 
 - [`review_register.csv`](review_register.csv) — sequence-level static findings and open gates
 - [`tamil-sequence-03-semantic-review.md`](tamil-sequence-03-semantic-review.md) — completed internal semantic comparison and restoration record for Scenes `#14#–#17#`
+- [`tamil-sequence-05-spoken-performance-review.md`](tamil-sequence-05-spoken-performance-review.md) — completed internal speakability, voice and causality pass for Scenes `#35#–#43#`
 - [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register
 - [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance
 - detailed perspective memos — historical reasoning and source notes behind each `VENPA-USE-*` record
