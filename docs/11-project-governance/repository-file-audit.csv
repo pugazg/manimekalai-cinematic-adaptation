@@ -108,7 +108,7 @@ docs/10-screenplay-architecture/10F-bilingual-screenplay/README.md,PASS_STATIC
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/README.md,PASS_STATIC
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-01_புயலுக்கு_முன்_நகரம்.fountain,PASS_STRUCTURE_REVIEW_OPEN
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-02_விதியை_மறுக்கும்_பெண்.fountain,PASS_STRUCTURE_REVIEW_OPEN
-docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-03_நினைவின்_தீவு.fountain,PASS_STRUCTURE_SEMANTIC_REVIEW
+docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-03_நினைவின்_தீவு.fountain,PASS_STRUCTURE_INTERNAL_SEMANTIC_COMPLETE
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-04_பாத்திரமும்_பசியுற்ற_நகரமும்.fountain,PASS_STATIC_IMPLEMENTED
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-05_அரசகுமாரனும்_நிழலும்.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-06_துயரத்தின்_அரண்மனை.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW
@@ -125,6 +125,7 @@ docs/10-screenplay-architecture/10G-dialogue-and-parity-review/madhavi-sequences
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/prison-education-institutional-reform-sequences-04-07-perspective-review.md,PASS_PROPOSAL_RECORD
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/review_register.csv,CREATED_AUDIT_CONTROL
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/sudhamathi-sequences-01-02-review.md,PASS_PROPOSAL_RECORD
+docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-03-semantic-review.md,PASS_INTERNAL_SEMANTIC_REVIEW
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/udayakumaran-grief-accountability-sequences-02-07-perspective-review.md,PASS_PROPOSAL_RECORD
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-creative-revision-queue.md,HISTORICAL_SUPERSEDED_STATUS
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md,PASS_AUTHORITY

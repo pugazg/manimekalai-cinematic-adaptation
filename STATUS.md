@@ -29,7 +29,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 178 |
+| Current tracked paths audited | 179 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -45,7 +45,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **178 current paths recorded**.
+- Per-file audit ledger: **179 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Decision archive: **`AD-0001`–`AD-0170` statically reconciled**.
@@ -74,8 +74,8 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 1. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
 2. Verify the 11 remaining proposed Venpa uses against reliable source pages.
-3. Complete semantic review of Tamil Sequence 03.
-4. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
+3. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
+4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
 5. Normalize Rajamadevi spelling and Tamil/Roman character-cue policy.
 6. Review the institutional proposals together to prevent duplication and false historical certainty.
 7. Decide repository licensing before broad derivative collaboration or licence badges.
@@ -97,6 +97,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Documentation index](docs/INDEX.md)
 - [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
 - [Sequence review register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/review_register.csv)
+- [Tamil Sequence 03 semantic review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-03-semantic-review.md)
 - [Venpa master decision register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 - [Aadhirai approval record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
