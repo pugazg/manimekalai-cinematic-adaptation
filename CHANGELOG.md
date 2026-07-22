@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.33.0 — 2026-07-22
+
+- Completed the final disposition of the two Stage 1 source-sensitive Venpa proposals.
+- Implemented Kayasandihai's compressed post-hunger counsel in English and Tamil Scene `#33#`.
+- Selected the no-line fallback for Manimekalai's grief because Scenes `#36#`, `#43#`, `#44#` and `#45#` already preserve grief, consent and responsibility without repetition.
+- Updated the decision totals to 5 approved, 5 proposed, 7 deferred and 14 rejected.
+
 ## 0.32.0 — 2026-07-22
 
 - Completed the Venpa Stage 3 short-beat decisions.

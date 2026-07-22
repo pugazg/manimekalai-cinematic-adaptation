@@ -1,5 +1,7 @@
 # Venpa Primary-Source Compatibility Packet
 
+> Compatibility-stage record. Later final dispositions in the master register and Stage 1 final record supersede any `PROPOSED` status language retained below for audit history.
+
 ## Status
 
 **Scope:** the thirteen `PROPOSED` records in the Venpa master decision register  

@@ -30,14 +30,14 @@ A version-controlled research, screenplay and review repository for a serious, s
 | English Screenplay Draft 0.1 | Structurally complete; dialogue lock not granted |
 | Tamil bilingual draft | Structurally complete; spoken-Tamil and terminology lock not granted |
 | Static bilingual audit | 10 + 10 sequences, 72 paired scenes, matching TRACE signatures and valid endings |
-| Venpa perspective review | 31 decisions: 4 approved, 7 proposed, 7 deferred, 13 rejected |
+| Venpa perspective review | 31 decisions: 5 approved, 5 proposed, 7 deferred, 14 rejected |
 | Approved Venpa use | Aadhirai Scenes `#31#–#32#`, implemented bilingually |
 | Runtime validation | Local full pass recorded; hosted `validate` and `bilingual-parity` checks passed on draft PR #2 |
 | Storyboard and production design | Policy foundations only; visual population pending rights and specialist controls |
 
 ## Audited baseline
 
-- current tracked paths audited: **188**
+- current tracked paths audited: **189**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)

@@ -18,14 +18,14 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 188 current tracked paths audited;
+- 189 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
 - 154 screenplay-source concepts;
 - 72 active feature units;
 - ten English and ten Tamil screenplay sequences;
-- 4 approved, 7 proposed, 7 deferred and 13 rejected Venpa decisions.
+- 5 approved, 5 proposed, 7 deferred and 14 rejected Venpa decisions.
 
 ## Research and adaptation phases
 

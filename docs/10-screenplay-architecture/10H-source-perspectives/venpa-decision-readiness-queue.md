@@ -6,9 +6,9 @@
 **Authority:** supporting queue only; statuses remain authoritative in the master decision register  
 **Screenplay text changed through Stage 2:** Yes — approved Aadhirai pair only  
 **TRACE records changed:** No  
-**Approved insertions:** `VENPA-USE-001`, `VENPA-USE-007`, `VENPA-USE-008`, `VENPA-USE-016`
+**Approved insertions:** `VENPA-USE-001`, `VENPA-USE-007`, `VENPA-USE-008`, `VENPA-USE-011`, `VENPA-USE-016`
 
-The source-verification packet, digital-location crosswalk, primary-source compatibility packet, Stage 1–2 decision records and the first Stage 3 decision are now present. This queue identifies remaining pre-approval work for unapproved records and post-implementation gates for the approved Aadhirai pair.
+The source-verification packet, digital-location crosswalk, primary-source compatibility packet and Stage 1–3 decision records are present. This queue identifies the five remaining institutional proposals and post-implementation quality gates for approved beats.
 
 ## Readiness categories
 
@@ -24,8 +24,8 @@ The source-verification packet, digital-location crosswalk, primary-source compa
 
 | Order | ID | Area | Category | Completed evidence and decision | Blocking work | Next action |
 |---:|---|---|---|---|---|---|
-| 1 | `VENPA-USE-011` | Kayasandihai after hunger relief | `REVISED / GATES OPEN` | Venpa and primary Chapter 17 checked; compressed-counsel revision selected | Visual source page, chosen Tamil-edition lines, terminology, spoken-Tamil and performance review | Test selected line for duplication with Scene `#32#`; retain no-line fallback if it fails |
-| 2 | `VENPA-USE-027` | Manimekalai's grief for Udayakumaran | `REVISED / GATES OPEN` | Venpa grief and primary Chapter 21 checked; source-aware ethical reinterpretation selected with no-line fallback | Visual source page, Buddhist-literary review, consent review and restored-Sequence-05 performance | Test selected line against the existing physical grief beat and Scenes `#36#`, `#44#`, `#45#` |
+| 1 | `VENPA-USE-011` | Kayasandihai after hunger relief | `APPROVED / VALIDATION PENDING` | Compressed counsel implemented bilingually | Spoken-Tamil and blocking review | Confirm the line restores agency without promising an invented destination |
+| 2 | `VENPA-USE-027` | Manimekalai's grief for Udayakumaran | `REJECTED / RESOLVED` | No-line fallback selected after comparison with Scenes `#36#`, `#43#`, `#44#` and `#45#` | None under the current cut | Preserve physical grief and the existing accountability sequence |
 | 3 | `VENPA-USE-007` | Aadhirai's prepared offering | `APPROVED / VALIDATION PENDING` | Owner approved Venpa-forward cooked rice, curry, ghee and two-handed filling; implemented bilingually | Full validator, visual page, culinary terminology, food-history and performance review | Validate Scene `#31#`; retain source attribution to Bharathidasan for culinary specificity |
 | 4 | `VENPA-USE-008` | Delayed reveal of inexhaustibility | `APPROVED / VALIDATION PENDING` | Owner approved discovery of unchanged food level after first portions; implemented bilingually | Full validator, visual source order and blocking test | Confirm the reveal preserves crowd pressure, logistics and the child's near-fall |
 | 5 | `VENPA-USE-016` | Aputhiran turns refusal back to feeding | `APPROVED / VALIDATION PENDING` | Implemented bilingually: Aputhiran turns from Indra and serves people already waiting | Blocking and performance review | Confirm the beat preserves the later critique of pride; retain the existing pride line |
@@ -40,10 +40,10 @@ The source-verification packet, digital-location crosswalk, primary-source compa
 
 ## Mandatory review order
 
-### Stage 1 — Source conflicts: decision paths selected
+### Stage 1 — Source conflicts: final dispositions complete
 
-- `VENPA-USE-011` — compressed counsel selected
-- `VENPA-USE-027` — source-aware ethical reinterpretation selected; no-line fallback retained
+- `VENPA-USE-011` — compressed counsel approved and implemented
+- `VENPA-USE-027` — no-line fallback selected; proposal rejected as duplicative
 
 ### Stage 2 — Linked Aadhirai pair: approved and implemented
 
@@ -82,6 +82,6 @@ The institutional batch must be reduced for duplication before any individual li
 ## Next authorised activity
 
 1. Run and record validation for the approved Aadhirai pair.
-2. Resolve the remaining Stage 1 records `VENPA-USE-011` and `027`, then perform the Stage 4 institutional duplication review.
+2. Perform the Stage 4 institutional duplication review.
 
 No additional screenplay edit or master-status change is authorised automatically.

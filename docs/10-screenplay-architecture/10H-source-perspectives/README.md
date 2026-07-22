@@ -12,10 +12,10 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Registered source: `SRC-0045`
 - Source: Bharathidasan, *Manimekalai Venpa*, Pari Nilayam, 1990; Project Madurai UTF-8 e-text prepared from a Tamil Virtual Academy scan
 - Status: independent interpretive witness
-- Current feature decisions: 31 total — 4 approved, 7 proposed, 7 deferred, 13 rejected
-- Approved screenplay insertions: `VENPA-USE-001`, `007`, `008` and `016`, implemented bilingually
+- Current feature decisions: 31 total — 5 approved, 5 proposed, 7 deferred, 14 rejected
+- Approved screenplay insertions: `VENPA-USE-001`, `007`, `008`, `011` and `016`, implemented bilingually
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
-- Stage 1 decisions: `VENPA-USE-011` and `VENPA-USE-027` revision paths selected; both remain unapproved
+- Stage 1 final: Kayasandihai compressed counsel implemented; Manimekalai grief proposal closed with the no-line fallback
 - Stage 2 decision: Aadhirai linked pair finally approved and implemented using the stronger Venpa-forward cooked-rice, curry and ghee movement
 - Stage 3 complete: Madhavi and Aputhiran beats implemented; Sudhamathi and Vasantavai additions rejected as duplicative
 - Visual scan-page verification: still pending
@@ -31,6 +31,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [VENPA-USE-011 Kayasandihai revision options](venpa-use-011-kayasandihai-revision-options.md)
 - [VENPA-USE-027 Manimekalai grief reinterpretation options](venpa-use-027-manimekalai-grief-reinterpretation-options.md)
 - [Stage 1 explicit decision record](venpa-stage-1-explicit-decision-record.md)
+- [Stage 1 final disposition](venpa-stage-1-final-disposition.md)
 - [VENPA-USE-007/008 Aadhirai linked options](venpa-use-007-008-aadhirai-linked-decision-options.md)
 - [Stage 2 Aadhirai explicit decision record](venpa-stage-2-aadhirai-explicit-decision-record.md)
 - [Aadhirai final approval and implementation record](venpa-use-007-008-aadhirai-approval.md)
@@ -68,6 +69,5 @@ The Aadhirai pair is implemented and has passed a complete static file-and-TRACE
 The next authorised activities are:
 
 1. complete the Aadhirai culinary, visual-source and performance checks;
-2. resolve the remaining Stage 1 proposals `VENPA-USE-011` and `027`;
-3. review the institutional proposals as one duplication-controlled batch;
-4. do not make another screenplay edit or master-status change automatically.
+2. review the institutional proposals as one duplication-controlled batch;
+3. do not make another screenplay edit or master-status change automatically.
