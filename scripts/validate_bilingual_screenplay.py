@@ -27,7 +27,9 @@ SEQ_RE = re.compile(r"SEQ-(\d{2})_")
 SCENE_RE = re.compile(r"#(\d{1,3})#")
 TRACE_RE = re.compile(r"/\*\s*TRACE:\s*(.*?)\s*\*/")
 ROMAN_CUE_RE = re.compile(r"(?m)^[A-Z][A-Z '()\-]+$")
-PROHIBITED_TAMIL_NAME_RE = re.compile(r"ராஜமாதேவி|(?<!இ)ராசமாதேவி")
+PROHIBITED_TAMIL_NAME_RE = re.compile(
+    r"இ{2,}ராசமாதேவி|ராஜமாதேவி|(?<!இ)ராசமாதேவி"
+)
 UNIT_RE = re.compile(r"^(?:FU|BR)-\d{3}$")
 SC_RE = re.compile(r"^SC-\d{3}$")
 Trace = tuple[str, str, tuple[str, ...]]

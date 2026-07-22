@@ -111,10 +111,10 @@ docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-02_விதி�
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-03_நினைவின்_தீவு.fountain,PASS_STRUCTURE_INTERNAL_SEMANTIC_COMPLETE
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-04_பாத்திரமும்_பசியுற்ற_நகரமும்.fountain,PASS_STATIC_IMPLEMENTED
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-05_அரசகுமாரனும்_நிழலும்.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW
-docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-06_துயரத்தின்_அரண்மனை.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW
-docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-07_அரசி_கேட்கக்_கற்ற_நாள்.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW
+docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-06_துயரத்தின்_அரண்மனை.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW_NAME_REGRESSION_REPAIRED
+docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-07_அரசி_கேட்கக்_கற்ற_நாள்.fountain,PASS_STRUCTURE_CRITICAL_LANGUAGE_REVIEW_NAME_REGRESSION_REPAIRED
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-08_பிச்சைக்காரனாக_இருந்த_மன்னன்.fountain,PASS_STRUCTURE_REVIEW_OPEN
-docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-09_உண்மையின்_கேள்விகள்.fountain,PASS_STRUCTURE_REPAIRED_TRACE
+docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-09_உண்மையின்_கேள்விகள்.fountain,PASS_STRUCTURE_REPAIRED_TRACE_NAME_REGRESSION_REPAIRED
 docs/10-screenplay-architecture/10F-bilingual-screenplay/TA/SEQ-10_உரிமையாளரைக்_கடந்த_பாத்திரம்.fountain,PASS_STRUCTURE_REPAIRED_TRACE
 docs/10-screenplay-architecture/10F-bilingual-screenplay/translation_guidelines.md,OPEN_POLICY_NORMALIZATION
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md,REPAIRED

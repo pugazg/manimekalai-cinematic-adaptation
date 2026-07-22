@@ -118,6 +118,13 @@ class ParseTraceTests(unittest.TestCase):
         )
         self.assertTrue(any("use இராசமாதேவி" in error for error in errors))
 
+    def test_tamil_style_rejects_duplicated_initial_in_rajamadevi(self):
+        errors: list[str] = []
+        validator.validate_tamil_style(
+            "இஇராசமாதேவி\n\nஉரையாடல்.\n", Path("tamil.fountain"), errors
+        )
+        self.assertTrue(any("use இராசமாதேவி" in error for error in errors))
+
     def test_tamil_style_accepts_tamil_cue_and_canonical_name(self):
         errors: list[str] = []
         validator.validate_tamil_style(
