@@ -22,14 +22,14 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10E | English Screenplay Draft 0.1 | Structurally complete | Dialogue lock not granted |
 | 10F | Tamil bilingual screenplay | Structurally complete | Semantic, spoken-Tamil and terminology gates remain |
 | 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
-| 10H | Source perspectives and evidence packets | Active | 2 Venpa decisions approved; 11 remain proposed |
+| 10H | Source perspectives and evidence packets | Active | 4 Venpa decisions approved; 7 remain proposed |
 | 11 | Governance and audit | Active | Full audit and per-file ledger complete; licence and changelog decisions remain |
 
 ## Current measurable baseline
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 187 |
+| Current tracked paths audited | 188 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -40,12 +40,12 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | Paired scenes | 72 |
 | Scene range | `#1#–#72#` |
 | Runtime allocation | 45 / 60 / 60 = 165 minutes |
-| Venpa decisions approved / proposed / deferred / rejected | 2 / 11 / 7 / 11 |
+| Venpa decisions approved / proposed / deferred / rejected | 4 / 7 / 7 / 13 |
 
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **187 current paths recorded**.
+- Per-file audit ledger: **188 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -75,7 +75,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Active blockers
 
 1. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
-2. Verify the 11 remaining proposed Venpa uses against reliable source pages.
+2. Resolve the 7 remaining proposed Venpa uses; reliable visual-source verification remains an external quality gate for close adaptation.
 3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
 4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
 5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
@@ -84,7 +84,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 ## Current locks
 
-- `VENPA-USE-007` and `VENPA-USE-008` are approved and implemented; material alteration requires a new recorded decision.
+- `VENPA-USE-001`, `007`, `008` and `016` are approved and implemented; material alteration requires a new recorded decision.
 - No other `VENPA-USE` proposal is approved for insertion.
 - No one-language-only screenplay change is permitted.
 - Scene numbers and TRACE signatures remain frozen.

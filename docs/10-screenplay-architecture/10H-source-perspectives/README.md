@@ -12,12 +12,12 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Registered source: `SRC-0045`
 - Source: Bharathidasan, *Manimekalai Venpa*, Pari Nilayam, 1990; Project Madurai UTF-8 e-text prepared from a Tamil Virtual Academy scan
 - Status: independent interpretive witness
-- Current feature decisions: 31 total — 2 approved, 11 proposed, 7 deferred, 11 rejected
-- Approved screenplay insertions: `VENPA-USE-007` and `VENPA-USE-008`, implemented bilingually in Scenes `#31#–#32#`
+- Current feature decisions: 31 total — 4 approved, 7 proposed, 7 deferred, 13 rejected
+- Approved screenplay insertions: `VENPA-USE-001`, `007`, `008` and `016`, implemented bilingually
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
 - Stage 1 decisions: `VENPA-USE-011` and `VENPA-USE-027` revision paths selected; both remain unapproved
 - Stage 2 decision: Aadhirai linked pair finally approved and implemented using the stronger Venpa-forward cooked-rice, curry and ghee movement
-- Stage 3 progress: `VENPA-USE-016` revision path selected; `VENPA-USE-004` is active next
+- Stage 3 complete: Madhavi and Aputhiran beats implemented; Sudhamathi and Vasantavai additions rejected as duplicative
 - Visual scan-page verification: still pending
 
 ## Documents
@@ -35,6 +35,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Stage 2 Aadhirai explicit decision record](venpa-stage-2-aadhirai-explicit-decision-record.md)
 - [Aadhirai final approval and implementation record](venpa-use-007-008-aadhirai-approval.md)
 - [VENPA-USE-016 Aputhiran decision options](venpa-use-016-aputhiran-decision-options.md)
+- [Stage 3 short-beats decision record](venpa-stage-3-short-beats-decision-record.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 The historical perspective register, adaptation audit, creative queue and original Aadhirai proposal memo preserve the reasoning state before the owner-approved Aadhirai exception. Current status is governed by the master register and final approval record.
@@ -67,5 +68,6 @@ The Aadhirai pair is implemented and has passed a complete static file-and-TRACE
 The next authorised activities are:
 
 1. complete the Aadhirai culinary, visual-source and performance checks;
-2. continue the Stage 3 decision memo for `VENPA-USE-004` — Sudhamathi's practical doorway method;
-3. do not make another screenplay edit or master-status change automatically.
+2. resolve the remaining Stage 1 proposals `VENPA-USE-011` and `027`;
+3. review the institutional proposals as one duplication-controlled batch;
+4. do not make another screenplay edit or master-status change automatically.
