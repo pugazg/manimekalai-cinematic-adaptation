@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.28.0 — 2026-07-22
+
+### Tamil screenplay review
+
+- Completed the internal spoken-performance, character-voice and delegated-harm review of Tamil Sequence 06, Scenes `#44#–#49#`.
+- Clarified testimony, refusal, inference, concealed custody, coerced labour, evidence preservation, fabricated accusation and administrative starvation.
+- Replaced literal constructions that obscured agency while preserving every scene, TRACE signature and action outcome.
+- Left actor-led timing, Rajamadevi spelling and institutional terminology open.
+
+### Validation and governance
+
+- Added a dedicated Sequence 06 review record and refreshed the exhaustive file ledger to 181 paths.
+
 ## 0.27.0 — 2026-07-22
 
 ### Tamil screenplay review

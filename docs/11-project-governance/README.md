@@ -19,7 +19,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current completed audit: 180;
+- tracked paths in the current completed audit: 181;
 - post-audit control document: project handover;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
@@ -46,7 +46,7 @@ This phase makes repository status, external review, contribution rules, special
 ## Active governance blockers
 
 - printed-page verification pending for Venpa uses;
-- restored Tamil Sequences 06–07 not yet dialogue-reviewed; Sequence 05 internal performance review is complete;
+- restored Tamil Sequence 07 is not yet dialogue-reviewed; Sequences 05–06 internal performance review is complete;
 - Sequence 03 internal semantic comparison is complete; specialist terminology, voice and read-aloud gates remain;
 - Tamil naming and character-cue policy requires normalization;
 - licence decision pending;
