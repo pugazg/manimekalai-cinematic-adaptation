@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.27.0 — 2026-07-22
+
+### Tamil screenplay review
+
+- Completed the internal spoken-performance, character-voice and causality review of Tamil Sequence 05, Scenes `#35#–#43#`.
+- Replaced translation-shaped and abstract phrasing while preserving Chitrapathi's material fear, Udayakumaran's sincere entitlement, Manimekalai's complete refusal and Kanchanan's accountable inference failure.
+- Preserved all scene numbers, TRACE signatures, action outcomes and the English structural master.
+- Left actor-led timing, causation terminology and global cue policy open.
+
+### Validation and governance
+
+- Added a dedicated Sequence 05 review record and refreshed the exhaustive file ledger to 180 paths.
+
 ## 0.26.0 — 2026-07-22
 
 ### Tamil screenplay review
