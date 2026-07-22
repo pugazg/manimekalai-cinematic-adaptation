@@ -104,6 +104,27 @@ class ParseTraceTests(unittest.TestCase):
             result = validator.main()
         self.assertEqual(result, 0, output.getvalue())
 
+    def test_tamil_style_rejects_roman_character_cue(self):
+        errors: list[str] = []
+        validator.validate_tamil_style(
+            "MANIMEKALAI\n\nஉரையாடல்.\n", Path("tamil.fountain"), errors
+        )
+        self.assertTrue(any("Roman-script character cue" in error for error in errors))
+
+    def test_tamil_style_rejects_noncanonical_rajamadevi(self):
+        errors: list[str] = []
+        validator.validate_tamil_style(
+            "ராஜமாதேவி\n\nஉரையாடல்.\n", Path("tamil.fountain"), errors
+        )
+        self.assertTrue(any("use இராசமாதேவி" in error for error in errors))
+
+    def test_tamil_style_accepts_tamil_cue_and_canonical_name(self):
+        errors: list[str] = []
+        validator.validate_tamil_style(
+            "இராசமாதேவி\n\nஉரையாடல்.\n", Path("tamil.fountain"), errors
+        )
+        self.assertEqual(errors, [])
+
 
 if __name__ == "__main__":
     unittest.main()

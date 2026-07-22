@@ -1,0 +1,29 @@
+term_id,area,english_or_function,tamil_form,status,review_gate,notes
+TERM-TA-001,character,Manimekalai,மணிமேகலை,LOCKED_EDITORIAL,NONE,Principal screenplay form
+TERM-TA-002,character,Madhavi,மாதவி,LOCKED_EDITORIAL,NONE,Principal screenplay form
+TERM-TA-003,character,Sudhamathi,சுதமதி,LOCKED_EDITORIAL,NONE,Principal screenplay form
+TERM-TA-004,character,Chitrapathi,சித்திராபதி,LOCKED_EDITORIAL,NONE,Principal screenplay form
+TERM-TA-005,character,Udayakumaran,உதயகுமரன்,LOCKED_EDITORIAL,NONE,Principal screenplay form
+TERM-TA-006,character,Aravana Adigal,அறவண அடிகள்,LOCKED_NAME_RANK_OPEN,BUDDHIST_TAMIL_REVIEW,Name locked while rank and institutional meaning remain open
+TERM-TA-007,character,Deepathilakai,தீவதிலகை,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Unifies two inherited English spellings
+TERM-TA-008,character,Aputhiran,ஆபுத்திரன்,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Principal screenplay form
+TERM-TA-009,character,Aadhirai,ஆதிரை,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Principal screenplay form
+TERM-TA-010,character,Kayasandihai,காயசண்டிகை,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Principal screenplay form
+TERM-TA-011,character,Kanchanan,காஞ்சனன்,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Principal screenplay form
+TERM-TA-012,character,Rajamadevi,இராசமாதேவி,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Other Tamil screenplay variants prohibited
+TERM-TA-013,character,Punniyarajan,புண்ணியராசன்,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Principal screenplay form
+TERM-TA-014,object,Amudhasurabhi,அமுதசுரபி,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Miraculous service vessel
+TERM-TA-015,place,Manipallavam,மணிபல்லவம்,LOCKED_EDITORIAL,GEOGRAPHY_REVIEW,Name locked while location remains uncertain
+TERM-TA-016,place,Ulaga Aravi,உலக அறவி,LOCKED_EDITORIAL,PRIMARY_TAMIL_REVIEW,Public service setting
+TERM-TA-017,religion,Indra festival,இந்திர விழா,LOCKED_WITH_CAUTION,EARLY_TAMIL_RELIGION_REVIEW,Do not project later iconography automatically
+TERM-TA-018,religion,Buddhist renunciant,பௌத்தத் துறவி,PROVISIONAL,BUDDHIST_TAMIL_REVIEW,Current descriptive form
+TERM-TA-019,philosophy,Ajivika teacher,ஆசீவக ஆசிரியர்,PROVISIONAL,PHILOSOPHY_REVIEW,School label requires specialist confirmation
+TERM-TA-020,philosophy,Nikandavadi teacher,நிகண்டவாத ஆசிரியர்,PROVISIONAL,PHILOSOPHY_REVIEW,School label requires specialist confirmation
+TERM-TA-021,philosophy,Vaisheshika teacher,வைசேடிக ஆசிரியர்,PROVISIONAL,PHILOSOPHY_REVIEW,School label requires specialist confirmation
+TERM-TA-022,philosophy,materialist or Bhutavadi,பூதவாதி,PROVISIONAL,PHILOSOPHY_REVIEW,Reconcile with பொருள்முதல்வாதி used elsewhere
+TERM-TA-023,philosophy,causal chain,விளைவுச் சங்கிலி,PROVISIONAL,BUDDHIST_TAMIL_REVIEW,Performance wording is not a doctrinal lock
+TERM-TA-024,institution,testimony,வாக்குமூலம்,PROVISIONAL,EARLY_TAMIL_INSTITUTIONS_REVIEW,Modern clarity may exceed period certainty
+TERM-TA-025,institution,relief administration,நிவாரணம்,PROVISIONAL,EARLY_TAMIL_INSTITUTIONS_REVIEW,Functional screenplay vocabulary
+TERM-TA-026,food,cooked rice,சோறு,APPROVED_PERSPECTIVE_VISUAL_OPEN,FOOD_HISTORY_REVIEW,Approved Aadhirai Venpa use
+TERM-TA-027,food,curry or accompaniment,கறி,APPROVED_PERSPECTIVE_VISUAL_OPEN,FOOD_HISTORY_REVIEW,Meaning and visual form require review
+TERM-TA-028,food,cow ghee,பசுநெய்,APPROVED_PERSPECTIVE_VISUAL_OPEN,FOOD_HISTORY_REVIEW,Source image and material depiction pending

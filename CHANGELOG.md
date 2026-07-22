@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.30.0 — 2026-07-22
+
+- Converted all 194 remaining Roman-script character cues in the Tamil screenplay to Tamil script and normalized continuation markers.
+- Normalized all Tamil screenplay occurrences of the Queen's name to the locked form `இராசமாதேவி`.
+- Added validator rules and regression tests preventing Roman cues and prohibited Rajamadevi variants from returning.
+- Added a Tamil terminology and cue policy plus a 28-entry controlled register separating editorial locks from specialist-open questions.
+- Refreshed the exhaustive file ledger to 184 paths; scene numbers, TRACE signatures and English screenplay content remain unchanged.
+
 ## 0.29.0 — 2026-07-22
 
 - Completed the internal spoken-performance, character-voice and accountable-release review of Tamil Sequence 07, Scenes `#50#–#53#`.

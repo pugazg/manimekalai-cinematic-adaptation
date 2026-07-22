@@ -29,7 +29,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 182 |
+| Current tracked paths audited | 184 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -45,7 +45,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **182 current paths recorded**.
+- Per-file audit ledger: **184 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Decision archive: **`AD-0001`–`AD-0170` statically reconciled**.
@@ -76,7 +76,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 2. Verify the 11 remaining proposed Venpa uses against reliable source pages.
 3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
 4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
-5. Normalize Rajamadevi spelling and Tamil/Roman character-cue policy.
+5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
 6. Review the institutional proposals together to prevent duplication and false historical certainty.
 7. Decide repository licensing before broad derivative collaboration or licence badges.
 
