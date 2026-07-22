@@ -26,6 +26,8 @@ FEATURE_MATRIX = ROOT / "docs/10-screenplay-architecture/10B_feature_unit_matrix
 SEQ_RE = re.compile(r"SEQ-(\d{2})_")
 SCENE_RE = re.compile(r"#(\d{1,3})#")
 TRACE_RE = re.compile(r"/\*\s*TRACE:\s*(.*?)\s*\*/")
+ROMAN_CUE_RE = re.compile(r"(?m)^[A-Z][A-Z '()\-]+$")
+PROHIBITED_TAMIL_NAME_RE = re.compile(r"ராஜமாதேவி|(?<!இ)ராசமாதேவி")
 UNIT_RE = re.compile(r"^(?:FU|BR)-\d{3}$")
 SC_RE = re.compile(r"^SC-\d{3}$")
 Trace = tuple[str, str, tuple[str, ...]]
@@ -143,6 +145,22 @@ def parse(path: Path, number: int, errors: list[str]) -> tuple[Trace, ...]:
     return traces
 
 
+def validate_tamil_style(text: str, path: Path, errors: list[str]) -> None:
+    """Enforce Tamil-edition cue script and already-locked name forms."""
+    roman_cues = sorted(set(ROMAN_CUE_RE.findall(text)))
+    if roman_cues:
+        errors.append(
+            f"{path}: Roman-script character cue(s) in Tamil edition: "
+            f"{', '.join(roman_cues)}"
+        )
+    prohibited_names = sorted(set(PROHIBITED_TAMIL_NAME_RE.findall(text)))
+    if prohibited_names:
+        errors.append(
+            f"{path}: non-canonical Rajamadevi form(s): "
+            f"{', '.join(prohibited_names)}; use இராசமாதேவி"
+        )
+
+
 def validate_corpus_trace_uniqueness(
     language: str,
     traces_by_sequence: list[tuple[int, tuple[Trace, ...]]],
@@ -203,6 +221,7 @@ def main() -> int:
             continue
         en_traces = parse(english[number], number, errors)
         ta_traces = parse(tamil[number], number, errors)
+        validate_tamil_style(tamil[number].read_text(encoding="utf-8"), tamil[number], errors)
         english_corpus.append((number, en_traces))
         tamil_corpus.append((number, ta_traces))
         if en_traces != ta_traces:

@@ -105,6 +105,8 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 ## Working records
 
 - [`review_register.csv`](review_register.csv) — sequence-level static findings and open gates
+- [`tamil-terminology-and-cue-policy.md`](tamil-terminology-and-cue-policy.md) — locked editorial rules separated from specialist-open terminology
+- [`tamil-terminology-register.csv`](tamil-terminology-register.csv) — controlled Tamil forms and their remaining review gates
 - [`tamil-sequence-03-semantic-review.md`](tamil-sequence-03-semantic-review.md) — completed internal semantic comparison and restoration record for Scenes `#14#–#17#`
 - [`tamil-sequence-05-spoken-performance-review.md`](tamil-sequence-05-spoken-performance-review.md) — completed internal speakability, voice and causality pass for Scenes `#35#–#43#`
 - [`tamil-sequence-06-spoken-performance-review.md`](tamil-sequence-06-spoken-performance-review.md) — completed internal speakability, voice and delegated-state-harm pass for Scenes `#44#–#49#`

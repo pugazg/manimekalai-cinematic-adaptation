@@ -37,7 +37,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **182**
+- current tracked paths audited: **184**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -143,7 +143,7 @@ The local executable pass and hosted GitHub Actions results are recorded in the 
 2. Complete culinary and historical review of the implemented Aadhirai food detail.
 3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
 4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
-5. Normalize Tamil naming and character-cue policy.
+5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
 6. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
 7. Begin rights-labelled storyboard and production-design pilots.
 8. Decide repository licensing separately for original work and third-party material.

@@ -17,7 +17,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 182 current tracked paths audited;
+- 184 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -49,6 +49,8 @@ This index is the shortest route into the repository. It does not replace the de
 - [Bilingual screenplay edition](10-screenplay-architecture/10F-bilingual-screenplay/README.md)
 - [10G dialogue and parity review](10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
 - [Sequence review register](10-screenplay-architecture/10G-dialogue-and-parity-review/review_register.csv)
+- [Tamil terminology and cue policy](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-and-cue-policy.md)
+- [Tamil terminology register](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-register.csv)
 - [Tamil Sequence 03 semantic review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-03-semantic-review.md)
 - [Tamil Sequence 05 spoken-performance review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-05-spoken-performance-review.md)
 - [Tamil Sequence 06 spoken-performance review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-06-spoken-performance-review.md)
