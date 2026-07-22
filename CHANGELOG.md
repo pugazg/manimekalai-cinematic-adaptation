@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.31.1 — 2026-07-22
+
+- Corrected an over-applied Tamil Queen-name normalization that produced `இஇராசமாதேவி` in Sequences 06, 07 and 09.
+- Extended the bilingual validator and regression suite to reject duplicated initial characters while retaining `இராசமாதேவி` as the canonical form.
+- Preserved scene numbers, TRACE signatures, dialogue meaning and the English screenplay.
+
 ## 0.31.0 — 2026-07-22
 
 - Added a deterministic 318-row evidence-to-source crosswalk connecting `EV-*` records to registered `SRC-*` identifiers.

@@ -70,6 +70,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 6. Added a sequence review register and exhaustive per-file audit ledger.
 7. Hardened both validators and their CI regression coverage.
 8. Executed the full suite, repaired real-corpus schema and TRACE defects, and recorded the passing baseline.
+9. Corrected the duplicated-initial Queen-name regression in Tamil Sequences 06, 07 and 09 and added a validator regression guard.
 
 ## Active blockers
 
