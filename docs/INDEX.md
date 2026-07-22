@@ -17,7 +17,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 180 current tracked paths audited;
+- 181 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -51,6 +51,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Sequence review register](10-screenplay-architecture/10G-dialogue-and-parity-review/review_register.csv)
 - [Tamil Sequence 03 semantic review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-03-semantic-review.md)
 - [Tamil Sequence 05 spoken-performance review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-05-spoken-performance-review.md)
+- [Tamil Sequence 06 spoken-performance review](10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-06-spoken-performance-review.md)
 - [Venpa master decision register](10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 - [Venpa perspective and evidence index](10-screenplay-architecture/10H-source-perspectives/README.md)
 - [Aadhirai approval record](10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
