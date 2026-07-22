@@ -2,7 +2,7 @@
 
 A version-controlled research, screenplay and review repository for a serious, source-traceable Tamil cinematic adaptation of *Manimekalai*.
 
-> **Current phase:** English Screenplay Draft 0.1 and the Tamil bilingual draft are structurally complete. A full static and local executable audit has verified all 72 paired scenes and TRACE signatures. Dialogue, source, terminology, performance and hosted-CI gates remain open.
+> **Current phase:** English Screenplay Draft 0.1 and the Tamil bilingual draft are structurally complete. A full static, local executable and hosted-CI audit has verified all 72 paired scenes and TRACE signatures. Dialogue, source, terminology and performance gates remain open.
 
 ## Navigation
 
@@ -32,7 +32,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Static bilingual audit | 10 + 10 sequences, 72 paired scenes, matching TRACE signatures and valid endings |
 | Venpa perspective review | 31 decisions: 2 approved, 11 proposed, 7 deferred, 11 rejected |
 | Approved Venpa use | Aadhirai Scenes `#31#–#32#`, implemented bilingually |
-| Runtime validation | Local full pass recorded on 2026-07-22; hosted GitHub Actions result remains separate |
+| Runtime validation | Local full pass recorded; hosted `validate` and `bilingual-parity` checks passed on draft PR #2 |
 | Storyboard and production design | Policy foundations only; visual population pending rights and specialist controls |
 
 ## Audited baseline
@@ -135,19 +135,17 @@ python3 scripts/validate_bilingual_screenplay.py
 
 The repository validator enforces exact 45 / 318 / 170 / 154 register ranges, required fields, evidence and decision references, and canonical register placement. Evidence records currently use textual `source_work` provenance rather than direct `SRC-*` crosswalks. The bilingual validator checks sequence discovery, scene ranges, parity against the authoritative 10B feature-unit matrix, duplicate units or source-scene use, invalid absorption and recognised endings.
 
-The local executable pass is recorded in the 2026-07-22 audit. A hosted GitHub Actions pass remains a separate CI claim.
+The local executable pass and hosted GitHub Actions results are recorded in the 2026-07-22 audit.
 
 ## Open gates
 
-1. Obtain and preserve a hosted GitHub Actions result for the current audited commit.
-2. Complete scan-page verification and specialist review for Venpa uses.
-3. Complete culinary and historical review of the implemented Aadhirai food detail.
-4. Complete semantic review of Tamil Sequence 03.
-5. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
-6. Normalize Tamil naming and character-cue policy.
-7. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
-8. Reconcile the changelog after release 0.24.0.
-9. Begin rights-labelled storyboard and production-design pilots.
-10. Decide repository licensing separately for original work and third-party material.
+1. Complete scan-page verification and specialist review for Venpa uses.
+2. Complete culinary and historical review of the implemented Aadhirai food detail.
+3. Complete semantic review of Tamil Sequence 03.
+4. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
+5. Normalize Tamil naming and character-cue policy.
+6. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
+7. Begin rights-labelled storyboard and production-design pilots.
+8. Decide repository licensing separately for original work and third-party material.
 
 These remain working research, adaptation and screenplay-review editions—not a shooting script, dubbing script, final subtitle file or production claim.

@@ -30,7 +30,12 @@ Additional checks:
 - `git diff --check` reports no whitespace errors;
 - `git fsck --no-dangling` reports no object-integrity errors.
 
-GitHub Actions execution remains a separate CI claim. This document records a local executable pass, not a hosted Actions pass.
+GitHub Actions also passed on draft PR #2 after publication:
+
+- `validate` — passed;
+- `bilingual-parity` — passed.
+
+The hosted checks independently ran the repository tests and validators under the workflow's Python 3.12 environment.
 
 ## Aadhirai post-implementation validation
 

@@ -28,7 +28,7 @@ This phase makes repository status, external review, contribution rules, special
 - active screenplay units: 72;
 - English–Tamil scene and TRACE parity: statically verified;
 - local executable validator result: passed and recorded on 2026-07-22;
-- hosted GitHub Actions result: not yet recorded.
+- hosted GitHub Actions: `validate` and `bilingual-parity` passed on draft PR #2.
 
 ## Governance principles
 
@@ -45,12 +45,10 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Active governance blockers
 
-- hosted GitHub Actions result not yet recorded;
 - printed-page verification pending for Venpa uses;
 - restored Tamil Sequences 05–07 not yet dialogue-reviewed;
 - Sequence 03 requires semantic comparison;
 - Tamil naming and character-cue policy requires normalization;
 - licence decision pending;
-- changelog reconciliation after 0.24.0 remains open;
 - repository description and topics require manual GitHub-setting changes;
 - storyboard and production-design visual intake awaits rights metadata and specialist review.

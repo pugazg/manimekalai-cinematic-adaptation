@@ -115,7 +115,7 @@ Do not bypass these rules:
 9. Rajamadevi’s grief cannot erase delegated institutional harm or compel forgiveness.
 10. Hunger cannot be solved by miracle alone; water, access, labour, sanitation, livelihood and governance must remain visible.
 11. Aputhiran’s final fast cannot be romanticised as a universal ethical model.
-12. The recorded local executable pass cannot be described as a hosted GitHub Actions pass.
+12. Future structural changes must preserve both local validation and hosted GitHub Actions results.
 13. Dialogue lock, specialist terminology approval, performance timing approval and production lock are not granted.
 
 ## Completed executable baseline
@@ -185,16 +185,15 @@ A proposed or deferred item cannot become approved merely because it has been wr
 
 ## Current known open blockers
 
-1. Hosted GitHub Actions status is not yet recorded for the audited release.
-2. Aadhirai’s `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice need specialist visual/culinary review.
-3. Eleven proposed Venpa uses require reliable page verification.
-4. Tamil Sequence 03 requires semantic review.
-5. Tamil Sequences 05–07 require spoken-performance review.
-6. Tamil spelling and character-cue policy is unresolved.
-7. Institutional proposals may duplicate one another or create false historical certainty if approved separately.
-8. Evidence records use `source_work` labels and are not yet directly crosswalked to permanent `SRC-*` IDs.
-9. No repository licence has been selected.
-10. Storyboard and production-design phases contain foundations only, not populated deliverables.
+1. Aadhirai’s `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice need specialist visual/culinary review.
+2. Eleven proposed Venpa uses require reliable page verification.
+3. Tamil Sequence 03 requires semantic review.
+4. Tamil Sequences 05–07 require spoken-performance review.
+5. Tamil spelling and character-cue policy is unresolved.
+6. Institutional proposals may duplicate one another or create false historical certainty if approved separately.
+7. Evidence records use `source_work` labels and are not yet directly crosswalked to permanent `SRC-*` IDs.
+8. No repository licence has been selected.
+9. Storyboard and production-design phases contain foundations only, not populated deliverables.
 
 ## How to continue safely
 

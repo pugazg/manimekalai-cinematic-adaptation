@@ -5,6 +5,7 @@
 ### Validation
 
 - Executed and recorded the complete local regression and validation suite.
+- Confirmed passing hosted `validate` and `bilingual-parity` checks on draft PR #2.
 - Confirmed 45 sources, 318 evidence records, 170 adaptation decisions, 154 source-scene concepts, 72 feature units and 72 paired bilingual scenes.
 - Added corpus-level regression tests so isolated unit tests can no longer pass while the real repository fails.
 - Made bilingual TRACE validation derive its expected signatures from the authoritative 10B feature-unit matrix.

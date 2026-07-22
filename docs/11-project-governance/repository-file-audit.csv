@@ -1,6 +1,6 @@
 path,audit_status
-.github/workflows/validate-screenplay.yml,CONTROL_PRESENT_LOCAL_PASS_CI_PENDING
-.github/workflows/validate.yml,CONTROL_PRESENT_LOCAL_PASS_CI_PENDING
+.github/workflows/validate-screenplay.yml,CONTROL_HOSTED_CI_PASS
+.github/workflows/validate.yml,CONTROL_HOSTED_CI_PASS
 .gitignore,PASS_STATIC
 CHANGELOG.md,RECONCILED_0_25_0
 CONTRIBUTING.md,PASS_STATIC

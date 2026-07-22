@@ -73,4 +73,4 @@ Regression tests:
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-The 2026-07-22 audit records a successful local execution of all tests and both validators. Hosted GitHub Actions remains a separate CI claim.
+The 2026-07-22 audit records successful local execution and passing hosted `validate` and `bilingual-parity` checks on draft PR #2.
