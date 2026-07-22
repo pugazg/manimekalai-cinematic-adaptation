@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.29.0 — 2026-07-22
+
+- Completed the internal spoken-performance, character-voice and accountable-release review of Tamil Sequence 07, Scenes `#50#–#53#`.
+- Clarified grief, present choice, responsibility, possessive care, public testimony, repair and unconditional release.
+- Preserved Rajamadevi's recognition without treating it as absolution or requiring Manimekalai to validate her change.
+- Preserved every scene, TRACE signature and action outcome; actor-led timing and global terminology remain open.
+- Added the Sequence 07 review record and refreshed the exhaustive file ledger to 182 paths.
+
 ## 0.28.0 — 2026-07-22
 
 ### Tamil screenplay review
