@@ -32,7 +32,7 @@ The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its cur
 - Paired scenes: 72
 - Scene range: `#1#`–`#72#`
 - Static scene and TRACE audit: **complete**
-- Executable regression and validator result: **not recorded**
+- Executable regression and validator result: **passed locally after the Sequence 03 semantic restoration**
 - Tamil Draft 0.1: structurally complete
 - Dialogue lock: **not granted**
 - Specialist terminology approval: **not granted**
@@ -40,7 +40,7 @@ The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its cur
 
 The full repository audit read every English and Tamil sequence directly and confirmed identical scene order, TRACE signatures and recognised endings. This static result is not a substitute for executing the validator in a repository checkout or CI runner.
 
-The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Tamil Sequences 05–07 remain subject to dedicated line-by-line and spoken-performance review. Sequence 03 is structurally aligned but materially compressed in Tamil and requires semantic review.
+The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Tamil Sequences 05–07 remain subject to dedicated line-by-line and spoken-performance review. Sequence 03 has completed its internal semantic comparison; the sensory, vulnerability and epistemic beats necessary for parity are restored, while specialist and performance gates remain open.
 
 ## Structural parity gate
 
@@ -105,6 +105,7 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 ## Working records
 
 - [`review_register.csv`](review_register.csv) — sequence-level static findings and open gates
+- [`tamil-sequence-03-semantic-review.md`](tamil-sequence-03-semantic-review.md) — completed internal semantic comparison and restoration record for Scenes `#14#–#17#`
 - [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register
 - [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance
 - detailed perspective memos — historical reasoning and source notes behind each `VENPA-USE-*` record

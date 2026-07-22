@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.26.0 — 2026-07-22
+
+### Tamil screenplay review
+
+- Completed the internal English–Tamil semantic comparison of Sequence 03, Scenes `#14#–#17#`.
+- Restored necessary physical-vulnerability, sensory-observation, memory, consent, private-experience and testimony beats without changing scene numbers or TRACE signatures.
+- Corrected the Tamil action line that had reversed the intended relationship between sacred transport and physical vulnerability.
+- Preserved Manimekalai's incomplete knowledge, Sudhamathi's disciplined testimony and the distinction between sacred experience and public proof.
+
+### Validation and governance
+
+- Reran all 17 regression tests, the bilingual validator and the repository-register validator successfully after the restoration.
+- Marked the executable structural gate as passed for all ten sequences while leaving specialist terminology, character voice and read-aloud timing open.
+- Added a dedicated Sequence 03 semantic-review record and refreshed the exhaustive file ledger to 179 tracked paths.
+
 ## 0.25.0 — 2026-07-22
 
 ### Validation
