@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.31.0 — 2026-07-22
+
+- Added a deterministic 318-row evidence-to-source crosswalk connecting `EV-*` records to registered `SRC-*` identifiers.
+- Resolved broad archaeology and scholarship labels at record level while keeping internal project records distinct.
+- Added a generator that fails on unrecognized provenance and a governance record defining crosswalk statuses.
+- Extended repository validation to require exact coverage, known source references and agreement with each evidence record's `source_work`.
+- Refreshed the exhaustive file ledger to 187 paths without changing evidence claims or verification status.
+
 ## 0.30.0 — 2026-07-22
 
 - Converted all 194 remaining Roman-script character cues in the Tamil screenplay to Tamil script and normalized continuation markers.

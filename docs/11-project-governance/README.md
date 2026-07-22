@@ -14,15 +14,17 @@ This phase makes repository status, external review, contribution rules, special
 - [Adaptation risk register](adaptation-risk-register.md)
 - [Specialist review register](specialist-review-register.csv)
 - [Private source handling](private-source-handling.md)
+- [Evidence-to-source crosswalk](evidence-source-crosswalk.md)
 - [Project status dashboard](../../STATUS.md)
 - [Contributing guide](../../CONTRIBUTING.md)
 
 ## Audited baseline
 
-- tracked paths in the current completed audit: 184;
+- tracked paths in the current completed audit: 187;
 - post-audit control document: project handover;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
+- evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
 - adaptation decisions: 170 (`AD-0001`–`AD-0170`);
 - screenplay-source concepts: 154 (`SC-001`–`SC-0154`);
 - active screenplay units: 72;

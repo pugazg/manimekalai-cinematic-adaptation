@@ -153,6 +153,7 @@ docs/11-project-governance/2026-07-21-project-handover.md,PASS_AUTHORITY_HISTORI
 docs/11-project-governance/2026-07-22-executable-validation-and-full-audit.md,CREATED_AUDIT_CONTROL_EXECUTED_PASS
 docs/11-project-governance/README.md,REFRESHED_CURRENT_STATE
 docs/11-project-governance/adaptation-risk-register.md,PASS_STATIC
+docs/11-project-governance/evidence-source-crosswalk.md,PASS_GOVERNANCE_RECORD
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXHAUSTIVE_LEDGER
 docs/11-project-governance/specialist-review-register.csv,REPAIRED_AFTER_AUDIT
@@ -175,7 +176,9 @@ evidence/evidence_register_04H_aputhiran.csv,PASS_STATIC
 evidence/evidence_register_04I_kanchanan.csv,PASS_STATIC
 evidence/evidence_register_04J_punniyarajan.csv,PASS_STATIC
 evidence/evidence_register_04K_aadhirai.csv,PASS_STATIC
+evidence/evidence_source_crosswalk.csv,PASS_318_RECORD_SOURCE_CROSSWALK
 evidence/geography_evidence_register.csv,PASS_STATIC
+scripts/build_evidence_source_crosswalk.py,PASS_DETERMINISTIC_GENERATOR
 scripts/validate_bilingual_screenplay.py,HARDENED_EXECUTED_PASS
 scripts/validate_repository.py,HARDENED_EXECUTED_PASS
 sources/primary/README.md,PASS_STATIC

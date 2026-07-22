@@ -37,7 +37,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **184**
+- current tracked paths audited: **187**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -133,7 +133,7 @@ python3 scripts/validate_repository.py
 python3 scripts/validate_bilingual_screenplay.py
 ```
 
-The repository validator enforces exact 45 / 318 / 170 / 154 register ranges, required fields, evidence and decision references, and canonical register placement. Evidence records currently use textual `source_work` provenance rather than direct `SRC-*` crosswalks. The bilingual validator checks sequence discovery, scene ranges, parity against the authoritative 10B feature-unit matrix, duplicate units or source-scene use, invalid absorption and recognised endings.
+The repository validator enforces exact 45 / 318 / 170 / 154 register ranges, required fields, evidence and decision references, canonical placement, and complete `EV-*` to `SRC-*` provenance coverage. Internal project-method records are explicitly distinguished from externally sourced claims. The bilingual validator checks sequence discovery, scene ranges, parity against the authoritative 10B feature-unit matrix, duplicate units or source-scene use, invalid absorption, Tamil cue/name policy and recognised endings.
 
 The local executable pass and hosted GitHub Actions results are recorded in the 2026-07-22 audit.
 
