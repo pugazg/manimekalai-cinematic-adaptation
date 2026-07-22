@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.32.0 — 2026-07-22
+
+- Completed the Venpa Stage 3 short-beat decisions.
+- Implemented Madhavi's evidence-first choice in Scene `#13#` and Aputhiran's return to active service in Scene `#24#`, bilingually.
+- Rejected the additional Sudhamathi doorway line and Vasantavai memorial line because the current screenplay already performs those functions more strongly.
+- Preserved all scene numbers and TRACE signatures; updated the decision totals to 4 approved, 7 proposed, 7 deferred and 13 rejected.
+
 ## 0.31.1 — 2026-07-22
 
 - Corrected an over-applied Tamil Queen-name normalization that produced `இஇராசமாதேவி` in Sequences 06, 07 and 09.

@@ -14,11 +14,11 @@
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `APPROVED` | 2 | The owner approved the linked Aadhirai pair and it has been implemented bilingually; post-implementation validation and quality gates remain open. |
-| `PROPOSED` | 11 | A narrowly defined change may be considered after all listed gates pass. It is not approved for insertion. |
+| `APPROVED` | 4 | The Aadhirai pair plus the Madhavi and Aputhiran Stage 3 beats are implemented bilingually; post-implementation quality gates remain open. |
+| `PROPOSED` | 7 | A narrowly defined change may be considered after all listed gates pass. It is not approved for insertion. |
 | `DEFERRED` | 7 | The idea is not actionable until missing evidence, terminology review or performance testing is completed. |
-| `REJECTED` | 11 | The idea conflicts with the current adaptation architecture and must not be inserted unless a future adaptation explicitly reopens that decision. |
-| **Total** | **31** | Only `VENPA-USE-007` and `VENPA-USE-008` are currently approved and implemented. |
+| `REJECTED` | 13 | The idea conflicts with, duplicates or is already satisfied by the current adaptation architecture. |
+| **Total** | **31** | `VENPA-USE-001`, `007`, `008` and `016` are approved and implemented. |
 
 ## Global gate codes
 
@@ -37,10 +37,10 @@
 
 | ID | Area | Destination | Use type | Status | Consolidated decision | Evidence requirement | Approval dependency | Detailed memo |
 |---|---|---|---|---|---|---|---|---|
-| `VENPA-USE-001` | Madhavi | Seq 02, Scene `#13#`; `FU-012 / SC-085 / ABSORBS SC-076` | `THEMATIC` | `PROPOSED` | Madhavi stops before raising the household alarm and asks Sudhamathi for witnessed truth rather than the city's story. | Verify Madhavi grief, daughter and renunciation movement. | `G1 G2 G3 G4 G8` | [Madhavi review](madhavi-sequences-01-02-review.md) |
+| `VENPA-USE-001` | Madhavi | Seq 02, Scene `#13#`; `FU-012 / SC-085 / ABSORBS SC-076` | `THEMATIC` | `APPROVED` | Implemented: Madhavi stops before raising the household alarm and asks Sudhamathi for witnessed truth rather than the city's story. | Primary reporting and grief movement checked; action remains screenplay synthesis. | Implemented bilingually; performance timing remains open. | [Madhavi review](madhavi-sequences-01-02-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
 | `VENPA-USE-002` | Madhavi | Seq 01, Scene `#4#`; `BR-001 / SC-097` | `ADAPTED` | `REJECTED` | Do not add further Kovalan–Kannagi exposition; the scene already contains the necessary history and present consequence. | None unless a different adaptation brief reopens prior-epic exposition. | Closed under current architecture. | [Madhavi review](madhavi-sequences-01-02-review.md) |
 | `VENPA-USE-003` | Madhavi | Seq 01, Scene `#5#`; `FU-004 / SC-075` | `THEMATIC` | `DEFERRED` | Possible line: Madhavi's fear must not name Manimekalai's life. Current action may already communicate this. | Verify source movement; determine whether dialogue adds meaning or merely repeats performance. | `G1 G2 G7 G8` | [Madhavi review](madhavi-sequences-01-02-review.md) |
-| `VENPA-USE-004` | Sudhamathi | Seq 02, Scene `#8#`; `FU-007 / SC-082 / ABSORBS SC-056` | `THEMATIC` | `PROPOSED` | Add the practical method: count doors before faces because a door can become a witness. | Verify Sudhamathi protector and practical-interpreter movement. | `G1 G2 G3 G4 G7` | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
+| `VENPA-USE-004` | Sudhamathi | Seq 02, Scene `#8#`; `FU-007 / SC-082 / ABSORBS SC-056` | `THEMATIC` | `REJECTED` | Do not add the doorway line: Scene `#7#` already dramatizes Sudhamathi choosing doors as witnesses, so Scene `#8#` should not explain the image again. | Existing bilingual screenplay action reviewed. | Closed as duplicative under the current cut. | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
 | `VENPA-USE-005` | Sudhamathi | Seq 02, Scene `#9#`; `FU-008 / SC-055 / ABSORBS SC-005, SC-083, SC-089` | `THEMATIC` | `DEFERRED` | Consider protective blocking between Udayakumaran and Manimekalai without displacing Manimekalai's own refusal. | Performance evidence rather than additional source exposition. | `G1 G7 G8` | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
 | `VENPA-USE-006` | Sudhamathi | Seq 02, Scene `#8#`; `FU-007 / SC-082 / ABSORBS SC-056` | `DIRECT` or `ADAPTED` | `REJECTED` | Do not fully dramatise the violence in Sudhamathi's past; concrete knowledge is needed, not trauma spectacle. | None under current ethical architecture. | Closed under current architecture. | [Sudhamathi review](sudhamathi-sequences-01-02-review.md) |
 | `VENPA-USE-007` | Aadhirai | Seq 04, Scene `#31#`; `FU-021 / SC-153 / ABSORBS SC-017, SC-154` | `ADAPTED` | `APPROVED` | Implemented: Aadhirai fills the vessel with cooked rice and curry from her household; ghee catches the light; existing dialogue and quiet threshold remain. | Venpa e-text and primary Chapter 16 core recorded; visual scan, culinary terminology and spoken-Tamil checks remain. | Implemented bilingually; `G1 G2 G6 G7` remain post-implementation quality gates. | [Aadhirai review](aadhirai-sequence-04-perspective-review.md) · [approval record](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) |
@@ -52,7 +52,7 @@
 | `VENPA-USE-013` | Kanchanan | Seq 05, Scene `#39#`; `FU-029 / SC-133 / ABSORBS SC-093` | `THEMATIC` | `REJECTED` | Do not let Kanchanan knowingly hear the complete refusal and attack anyway; preserve fatal inference from partial evidence. | None under the current causality architecture. | Closed under current architecture. | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-014` | Kanchanan | Seq 05, Scenes `#41#–#42#`; `FU-031–FU-032` | `DIRECT` or `THEMATIC` | `REJECTED` | Do not make fate or an older causal chain move the sword; Kanchanan's present choice remains decisive. | None under the current accountability architecture. | Closed under current architecture. | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-015` | Kayasandihai | Seq 05, Scene `#42#`; `FU-032 / SC-136` | `DIRECT` or `ADAPTED` | `DEFERRED` | Do not specify Kayasandihai's final destination or fate until textual and terminology evidence is secure. | Exact source wording, edition comparison and terminology review. | `G2 G3 G5 G6` | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
-| `VENPA-USE-016` | Aputhiran | Seq 04, Scene `#24#`; `BR-005 / SC-124` | `THEMATIC` | `PROPOSED` | After rejecting Indra's reward, Aputhiran turns immediately to serve an elderly hungry traveller. | Verify the reward-refusal and hunger-relief passage. | `G1 G2 G3 G4 G6` | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
+| `VENPA-USE-016` | Aputhiran | Seq 04, Scene `#24#`; `BR-005 / SC-124` | `THEMATIC` | `APPROVED` | Implemented: after rejecting Indra's reward, Aputhiran turns from heaven and serves people already waiting at the feeding place. | Reward-refusal and hunger-relief movement checked; exact action remains screenplay synthesis. | Implemented bilingually; blocking and performance timing remain open. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
 | `VENPA-USE-017` | Aputhiran / Punniyarajan | Seq 08, Scene `#59#`; `FU-049 / SC-146 / ABSORBS SC-147` | `COMBINED` | `PROPOSED` | Require relief routes and store access to continue without one ruler, seal or heroic life by naming local custodians. | Verify the collective-giving movement and test institutional/historical register. | `G1 G2 G3 G4 G6` | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
 | `VENPA-USE-018` | Aputhiran | Seq 04, Scene `#24#`; `BR-005 / SC-124` | `DIRECT` or `ADAPTED` | `REJECTED` | Do not expand the Indra exchange into a long cosmological debate that displaces hunger and service. | None under the current scene purpose. | Closed under current architecture. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
 | `VENPA-USE-019` | Aputhiran | Seq 04, Scene `#22#`; `BR-003 / SC-121` | `DIRECT` or `ADAPTED` | `DEFERRED` | An organised reactionary conspiracy is not supportable from the present OCR evidence. | Reliable page image establishing action, chronology and agency. | `G2 G3 G6` | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
@@ -64,7 +64,7 @@
 | `VENPA-USE-025` | Public protest | Seq 05, Scene `#43#`; `FU-033 / SC-069` | `DIRECT` | `REJECTED` | Do not stage a weapon-breaking crowd rescue; preserve nonviolent witness, records and the later hearing. | None under the current institutional-accountability arc. | Closed under current architecture. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
 | `VENPA-USE-026` | Udayakumaran evidence | Seq 06, Scene `#44#`; `FU-034 / SC-050` | `COMBINED` | `PROPOSED` | The court scribe places five refusals, warnings and returns in chronological order before motive is named. | Verify the repeated-approach, warning and death sequence; review restored Tamil hearing language. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-027` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `ADAPTED` | `PROPOSED` | Permit grief while preserving the truth of present refusal; the preferred source-aware reinterpretation explicitly distinguishes previous-life memory from the current-life answer. | Verify the Chapter 21 lament and Bharathidasan passage; complete Buddhist, consent and performance review. | `G1 G2 G3 G4 G5 G6 G7 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [reinterpretation options](../10H-source-perspectives/venpa-use-027-manimekalai-grief-reinterpretation-options.md) |
-| `VENPA-USE-028` | Rajamadevi / Vasantavai | Seq 06, Scene `#45#`; `FU-035 / SC-112 / ABSORBS SC-052, SC-094, SC-111` | `COMBINED` | `PROPOSED` | Vasantavai permits mourning the son while refusing to make pursuit that harmed another woman his memorial. | Verify the death-and-grief movement; test terminology and restored Tamil dialogue. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
+| `VENPA-USE-028` | Rajamadevi / Vasantavai | Seq 06, Scene `#45#`; `FU-035 / SC-112 / ABSORBS SC-052, SC-094, SC-111` | `COMBINED` | `REJECTED` | Do not add a memorial line: Vasantavai already refuses to turn persistence into virtue and distinguishes maternal grief from coercive royal power. | Final bilingual Scene `#45#` and primary elder-counsel function reviewed. | Closed as already satisfied by stronger existing dialogue. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
 | `VENPA-USE-029` | Udayakumaran | Seq 05, Scene `#41#`; `FU-031 / SC-135` | `DIRECT`, `ADAPTED` or `THEMATIC` | `REJECTED` | Do not add mutual-love closure, a Lakshmi–Ragulan reunion, a kiss or posthumous consent. | None; death cannot supply consent refused during life. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-030` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069` | `DIRECT` | `REJECTED` | Do not imply that Manimekalai's thought, fear, disguise or refusal caused the killing. | None under the current responsibility architecture. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
 | `VENPA-USE-031` | Fate and accountability | Seq 05, Scenes `#41#–#42#`; `FU-031–FU-032` | `DIRECT` or `THEMATIC` | `REJECTED` | Do not make fate, karma or supernatural necessity directly move the prince or the sword; prior causes do not remove present choice. | None under the current causality architecture. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
@@ -75,14 +75,14 @@ The remaining proposed records must not be approved as one undifferentiated pack
 
 ### Batch A — character agency and emotional precision
 
-- `VENPA-USE-001`
-- `VENPA-USE-004`
+- `VENPA-USE-001` — approved and implemented
+- `VENPA-USE-004` — rejected as duplicative
 - `VENPA-USE-011`
-- `VENPA-USE-016`
+- `VENPA-USE-016` — approved and implemented
 - `VENPA-USE-027`
-- `VENPA-USE-028`
+- `VENPA-USE-028` — rejected as already satisfied
 
-These are short beats or lines. Each still requires its listed source, terminology and performance gates.
+The unresolved records in this batch are now `VENPA-USE-011` and `027`; their selected revision paths still require final disposition.
 
 ### Batch B — first offering and abundance — approved and implemented
 
