@@ -1,5 +1,7 @@
 # Venpa Stage 1 — Explicit Decision Record
 
+> Historical selection record. Final approval/rejection is governed by [Venpa Stage 1 — Final Disposition](venpa-stage-1-final-disposition.md).
+
 ## Status
 
 **Decision scope:** `VENPA-USE-011` and `VENPA-USE-027`  

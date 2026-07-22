@@ -1,5 +1,7 @@
 # VENPA-USE-027 — Manimekalai Grief Reinterpretation Options
 
+> Historical options record. The final disposition selects the no-line fallback and marks the proposal `REJECTED` in [Venpa Stage 1 — Final Disposition](venpa-stage-1-final-disposition.md); statements below that retain `PROPOSED` status describe the earlier gate state.
+
 ## Status
 
 **Decision record:** `VENPA-USE-027`  

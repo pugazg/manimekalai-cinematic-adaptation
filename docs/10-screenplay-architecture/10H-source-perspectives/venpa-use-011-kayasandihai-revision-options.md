@@ -1,5 +1,7 @@
 # VENPA-USE-011 — Kayasandihai Revision Options
 
+> Historical options record. The final disposition is `APPROVED — IMPLEMENTED` in [Venpa Stage 1 — Final Disposition](venpa-stage-1-final-disposition.md); statements below that retain `PROPOSED` status describe the earlier gate state.
+
 ## Status
 
 **Decision record:** `VENPA-USE-011`  
