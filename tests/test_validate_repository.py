@@ -3,6 +3,9 @@
 from __future__ import annotations
 
 import importlib.util
+import contextlib
+import io
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -66,6 +69,20 @@ class RepositoryValidatorTests(unittest.TestCase):
         self.assertEqual(validator.EXPECTED_IDS["evidence"][-1], "EV-0318")
         self.assertEqual(validator.EXPECTED_IDS["decision"][-1], "AD-0170")
         self.assertEqual(validator.EXPECTED_IDS["scene"][-1], "SC-154")
+
+    def test_current_repository_corpus_passes(self) -> None:
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            result = validator.main()
+        self.assertEqual(result, 0, output.getvalue())
+
+    def test_read_csv_reports_short_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "decision.csv"
+            path.write_text("decision_id,title\nAD-0001\n", encoding="utf-8")
+            errors: list[str] = []
+            validator.read_csv(path, "decision", errors)
+        self.assertTrue(any("missing CSV field" in error for error in errors))
 
 
 if __name__ == "__main__":

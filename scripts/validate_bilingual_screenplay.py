@@ -2,6 +2,7 @@
 """Validate structural parity between English and Tamil screenplay drafts."""
 from __future__ import annotations
 
+import csv
 import re
 import sys
 from pathlib import Path
@@ -21,12 +22,48 @@ EXPECTED = {
     9: range(60, 66),
     10: range(66, 73),
 }
+FEATURE_MATRIX = ROOT / "docs/10-screenplay-architecture/10B_feature_unit_matrix.csv"
 SEQ_RE = re.compile(r"SEQ-(\d{2})_")
 SCENE_RE = re.compile(r"#(\d{1,3})#")
 TRACE_RE = re.compile(r"/\*\s*TRACE:\s*(.*?)\s*\*/")
 UNIT_RE = re.compile(r"^(?:FU|BR)-\d{3}$")
 SC_RE = re.compile(r"^SC-\d{3}$")
 Trace = tuple[str, str, tuple[str, ...]]
+
+
+def load_expected_traces(errors: list[str]) -> dict[str, Trace]:
+    """Load the approved unit-to-source-scene mapping from the 10B matrix."""
+    expected: dict[str, Trace] = {}
+    try:
+        with FEATURE_MATRIX.open(encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            required = {
+                "feature_unit_id",
+                "primary_scene_id",
+                "absorbed_scene_ids",
+            }
+            missing = required - set(reader.fieldnames or [])
+            if missing:
+                errors.append(
+                    f"{FEATURE_MATRIX} missing fields: {', '.join(sorted(missing))}"
+                )
+                return expected
+            for row_number, row in enumerate(reader, start=2):
+                unit = row["feature_unit_id"].strip()
+                primary = row["primary_scene_id"].strip()
+                absorbed = tuple(
+                    item.strip()
+                    for item in row["absorbed_scene_ids"].split(";")
+                    if item.strip()
+                )
+                if unit in expected:
+                    errors.append(
+                        f"Duplicate feature unit {unit} in {FEATURE_MATRIX}:{row_number}"
+                    )
+                expected[unit] = (unit, primary, absorbed)
+    except OSError as exc:
+        errors.append(f"Cannot read feature-unit matrix {FEATURE_MATRIX}: {exc}")
+    return expected
 
 
 def discover(folder: Path, errors: list[str]) -> dict[int, Path]:
@@ -63,10 +100,11 @@ def parse_trace(raw: str, path: Path, errors: list[str]) -> Trace | None:
     if not SC_RE.fullmatch(primary):
         errors.append(f"Invalid primary scene ID {primary!r} in {path}")
     for component in parts[2:]:
-        label, separator, value = component.partition(":")
-        if not separator or label.strip().upper() != "ABSORBS":
+        match = re.fullmatch(r"ABSORBS\s*:?[ \t]+(.+)", component, re.IGNORECASE)
+        if not match:
             errors.append(f"Unknown TRACE component {component!r} in {path}")
             continue
+        value = match.group(1)
         for scene_id in filter(None, (item.strip() for item in re.split(r"[,;]", value))):
             if not SC_RE.fullmatch(scene_id):
                 errors.append(f"Invalid absorbed scene ID {scene_id!r} in {path}")
@@ -98,7 +136,9 @@ def parse(path: Path, number: int, errors: list[str]) -> tuple[Trace, ...]:
         errors.append(f"{path}: expected scenes {expected}, got {scenes}")
     if len(traces) != len(expected):
         errors.append(f"{path}: expected {len(expected)} TRACE records, got {len(traces)}")
-    if not text.rstrip().endswith(("END.", f"END SEQUENCE {number:02d}")):
+    if not text.rstrip().endswith(
+        ("END.", f"END SEQUENCE {number:02d}", "CUT TO BLACK.")
+    ):
         errors.append(f"{path}: missing recognised ending marker")
     return traces
 
@@ -107,6 +147,7 @@ def validate_corpus_trace_uniqueness(
     language: str,
     traces_by_sequence: list[tuple[int, tuple[Trace, ...]]],
     errors: list[str],
+    expected_traces: dict[str, Trace] | None = None,
 ) -> None:
     """Reject duplicate units or source-scene roles inside one language corpus."""
     seen_units: dict[str, str] = {}
@@ -128,10 +169,29 @@ def validate_corpus_trace_uniqueness(
                     )
                 else:
                     seen_scenes[scene_id] = f"{location} ({role})"
+    if expected_traces is not None:
+        actual_traces = {
+            trace[0]: trace
+            for _, traces in traces_by_sequence
+            for trace in traces
+        }
+        missing_units = sorted(set(expected_traces) - set(actual_traces))
+        extra_units = sorted(set(actual_traces) - set(expected_traces))
+        if missing_units:
+            errors.append(f"{language} corpus missing units: {', '.join(missing_units)}")
+        if extra_units:
+            errors.append(f"{language} corpus has unexpected units: {', '.join(extra_units)}")
+        for unit in sorted(set(expected_traces) & set(actual_traces)):
+            if actual_traces[unit] != expected_traces[unit]:
+                errors.append(
+                    f"{language} {unit} TRACE differs from 10B feature-unit matrix: "
+                    f"expected {expected_traces[unit]}, got {actual_traces[unit]}"
+                )
 
 
 def main() -> int:
     errors: list[str] = []
+    expected_traces = load_expected_traces(errors)
     english = discover(EN_DIR, errors)
     tamil = discover(TA_DIR, errors)
     english_corpus: list[tuple[int, tuple[Trace, ...]]] = []
@@ -149,8 +209,10 @@ def main() -> int:
             errors.append(f"Sequence {number:02d}: English/Tamil TRACE signatures differ")
         audited += len(tuple(EXPECTED[number]))
 
-    validate_corpus_trace_uniqueness("English", english_corpus, errors)
-    validate_corpus_trace_uniqueness("Tamil", tamil_corpus, errors)
+    validate_corpus_trace_uniqueness(
+        "English", english_corpus, errors, expected_traces
+    )
+    validate_corpus_trace_uniqueness("Tamil", tamil_corpus, errors, expected_traces)
 
     if errors:
         print("Bilingual screenplay validation failed:")

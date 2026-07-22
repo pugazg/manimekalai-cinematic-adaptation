@@ -27,11 +27,13 @@ REQUIRED_FIELDS = {
         "evidence_id",
         "evidence_type",
         "title",
-        "source_id",
+        "source_work",
         "rights_status",
         "verification_status",
     },
-    "decision": {"decision_id", "title", "evidence_ids"},
+    # A small number of governance decisions (for example AD-0004, which
+    # controls private-source handling) intentionally do not cite an EV record.
+    "decision": {"decision_id", "title"},
     "scene": {
         "scene_id",
         "working_scene_title",
@@ -68,8 +70,20 @@ def read_csv(path: Path, label: str, errors: list[str]) -> list[dict[str, str]]:
         for row_number, row in enumerate(rows, start=2):
             row["_source_file"] = relative(path)
             row["_source_line"] = str(row_number)
+            if None in row:
+                errors.append(
+                    f"{relative(path)}:{row_number} has extra CSV field(s): {row[None]}"
+                )
+            missing_columns = sorted(
+                field for field in fields if row.get(field) is None
+            )
+            if missing_columns:
+                errors.append(
+                    f"{relative(path)}:{row_number} is missing CSV field(s): "
+                    f"{', '.join(missing_columns)}"
+                )
             for field in REQUIRED_FIELDS[label]:
-                if not row.get(field, "").strip():
+                if not (row.get(field) or "").strip():
                     errors.append(
                         f"{relative(path)}:{row_number} has an empty required field {field!r}"
                     )
@@ -186,18 +200,9 @@ def main() -> int:
     decision_ids = validate_ids("decision", decision_rows, "decision_id", errors)
     scene_ids = validate_ids("scene", scene_rows, "scene_id", errors)
 
-    known_sources = set(source_ids)
     known_evidence = set(evidence_ids)
     known_decisions = set(decision_ids)
 
-    validate_references(
-        evidence_rows,
-        "evidence_id",
-        "source_id",
-        known_sources,
-        "source",
-        errors,
-    )
     validate_references(
         decision_rows,
         "decision_id",

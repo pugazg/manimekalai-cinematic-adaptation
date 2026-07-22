@@ -698,16 +698,13 @@ His death must not retroactively rewrite every earlier scene as pure love or pur
 
 The following decisions are registered separately:
 
-- **AD-0101:** Exact age and succession terminology remain unresolved; cast an adult performer.
-- **AD-0102:** Sincere desire never overrides refusal.
-- **AD-0103:** Charisma and public competence remain visible.
-- **AD-0104:** Pursuit escalates through privilege and interpretation, not a modern diagnosis.
-- **AD-0105:** The goddess's warning is an unrealised lesson in kingship.
-- **AD-0106:** Previous-life connection creates no present romantic claim.
-- **AD-0107:** Royal access and surveillance are not heroic romance devices.
-- **AD-0108:** His death is a multi-agent causal tragedy, not deserved punishment.
-- **AD-0109:** Death does not purify pursuit or justify vengeance.
-- **AD-0110:** The character ends with unrealised capacity rather than invented redemption.
+- **AD-0101:** Sincerity does not override autonomy.
+- **AD-0102:** The prince is not a one-dimensional villain.
+- **AD-0103:** Royal access changes consequences.
+- **AD-0104:** Previous births do not create ownership.
+- **AD-0105:** Death is a multi-causal tragedy.
+- **AD-0106:** Fatal violence must not be aestheticised.
+- **AD-0107:** Do not invent heroic achievements.
 
 ---
 

@@ -6,7 +6,7 @@
 
 - **Repository:** `pugazg/manimekalai-cinematic-adaptation`
 - **Default branch:** `main`
-- **Current head when this handover was prepared:** `50564f7fcd87f8ea665e6799886463de4ed0fb39`
+- **Current audited release:** `0.25.0` (see the 2026-07-22 executable audit for its checkout baseline)
 - **Project status:** English and Tamil Screenplay Draft 0.1 are structurally complete; dialogue, specialist and production locks are not granted.
 - **Active phase:** `10G–10H — dialogue, bilingual parity, source and evidence review`
 
@@ -15,13 +15,14 @@ Read these authority documents first:
 1. `STATUS.md`
 2. `docs/11-project-governance/2026-07-21-project-handover.md`
 3. `docs/11-project-governance/2026-07-21-full-repository-audit.md`
-4. `docs/11-project-governance/repository-file-audit.csv`
-5. `docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md`
-6. `docs/10-screenplay-architecture/10H-source-perspectives/README.md`
+4. `docs/11-project-governance/2026-07-22-executable-validation-and-full-audit.md`
+5. `docs/11-project-governance/repository-file-audit.csv`
+6. `docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md`
+7. `docs/10-screenplay-architecture/10H-source-perspectives/README.md`
 
 ## Verified repository baseline
 
-The completed static audit covered all **175 tracked paths** that existed at the audited baseline.
+The current static and executable audit covers all **178 repository paths** in the refreshed ledger.
 
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
@@ -114,40 +115,20 @@ Do not bypass these rules:
 9. Rajamadevi’s grief cannot erase delegated institutional harm or compel forgiveness.
 10. Hunger cannot be solved by miracle alone; water, access, labour, sanitation, livelihood and governance must remain visible.
 11. Aputhiran’s final fast cannot be romanticised as a universal ethical model.
-12. Static audit completion cannot be described as an executed test or CI pass.
+12. The recorded local executable pass cannot be described as a hosted GitHub Actions pass.
 13. Dialogue lock, specialist terminology approval, performance timing approval and production lock are not granted.
 
-## Immediate next activity
+## Completed executable baseline
 
-The next task is to establish a reproducible executable validation baseline.
-
-Run from a real repository checkout or CI runner:
+The full local validation suite passed under Python 3.11.3 and is preserved in the 2026-07-22 audit. Rerun it after every controlled screenplay or register change:
 
 ```bash
-python3 -m unittest tests/test_validate_repository.py
+python3 -m unittest discover -s tests -p 'test_*.py'
 python3 scripts/validate_repository.py
-python3 -m unittest tests/test_validate_bilingual_screenplay.py
 python3 scripts/validate_bilingual_screenplay.py
 ```
 
-Record:
-
-- commit SHA;
-- Python version;
-- exact commands;
-- stdout/stderr or CI run URL;
-- pass/fail result;
-- any files changed after execution.
-
-Recommended output file:
-
-```text
-docs/11-project-governance/YYYY-MM-DD-validation-result.md
-```
-
-Do not claim a pass unless the commands actually execute successfully and the result is preserved.
-
-## Work order after validation
+## Immediate next activity
 
 ### 1. Tamil critical review
 
@@ -204,14 +185,14 @@ A proposed or deferred item cannot become approved merely because it has been wr
 
 ## Current known open blockers
 
-1. Full validator and regression suite has not been reproducibly executed and recorded.
+1. Hosted GitHub Actions status is not yet recorded for the audited release.
 2. Aadhirai’s `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice need specialist visual/culinary review.
 3. Eleven proposed Venpa uses require reliable page verification.
 4. Tamil Sequence 03 requires semantic review.
 5. Tamil Sequences 05–07 require spoken-performance review.
 6. Tamil spelling and character-cue policy is unresolved.
 7. Institutional proposals may duplicate one another or create false historical certainty if approved separately.
-8. `CHANGELOG.md` is not reconciled beyond 0.24.0.
+8. Evidence records use `source_work` labels and are not yet directly crosswalked to permanent `SRC-*` IDs.
 9. No repository licence has been selected.
 10. Storyboard and production-design phases contain foundations only, not populated deliverables.
 
@@ -230,4 +211,4 @@ For every material change:
 
 ## Instruction for the new chat
 
-Continue work directly in `pugazg/manimekalai-cinematic-adaptation` without asking the user to repeat repository history. Begin by reading the authority documents listed above. Preserve the current screenplay freeze and permanent-ID system. The first task is to execute and record the complete validation suite. After that, proceed to the Tamil semantic and spoken-performance review. Do not approve or insert any additional Venpa proposal unless its source, primary-text compatibility, bilingual wording and decision record are complete.
+Continue work directly in `pugazg/manimekalai-cinematic-adaptation` without asking the user to repeat repository history. Begin by reading the authority documents listed above. Preserve the current screenplay freeze and permanent-ID system. Proceed to Tamil Sequence 03 semantic comparison, followed by spoken-performance review of Sequences 05–07. Rerun the complete validation suite after every controlled batch. Do not approve or insert any additional Venpa proposal unless its source, primary-text compatibility, bilingual wording and decision record are complete.

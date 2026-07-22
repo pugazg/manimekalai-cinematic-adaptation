@@ -1,4 +1,6 @@
 import importlib.util
+import contextlib
+import io
 import unittest
 from pathlib import Path
 
@@ -31,6 +33,12 @@ class ParseTraceTests(unittest.TestCase):
     def test_lowercase_absorbs_label(self):
         self.assertEqual(
             self.parse("FU-001 | SC-001 | absorbs: SC-002, SC-003"),
+            ("FU-001", "SC-001", ("SC-002", "SC-003")),
+        )
+
+    def test_legacy_absorbs_without_colon(self):
+        self.assertEqual(
+            self.parse("FU-001 | SC-001 | absorbs SC-002, SC-003"),
             ("FU-001", "SC-001", ("SC-002", "SC-003")),
         )
 
@@ -79,6 +87,22 @@ class ParseTraceTests(unittest.TestCase):
         )
         self.assertTrue(any("Duplicate unit ID FU-001" in error for error in errors))
         self.assertTrue(any("Duplicate source-scene use SC-002" in error for error in errors))
+
+    def test_feature_matrix_contains_all_active_units(self):
+        errors: list[str] = []
+        expected = validator.load_expected_traces(errors)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(expected), 72)
+        self.assertEqual(
+            expected["FU-001"],
+            ("FU-001", "SC-039", ("SC-001", "SC-004", "SC-034")),
+        )
+
+    def test_current_bilingual_corpus_passes(self):
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            result = validator.main()
+        self.assertEqual(result, 0, output.getvalue())
 
 
 if __name__ == "__main__":

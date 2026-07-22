@@ -8,6 +8,7 @@ This phase makes repository status, external review, contribution rules, special
 
 - [Project handover — 2026-07-21](2026-07-21-project-handover.md)
 - [Full repository audit — 2026-07-21](2026-07-21-full-repository-audit.md)
+- [Executable validation and current full audit — 2026-07-22](2026-07-22-executable-validation-and-full-audit.md)
 - [Per-file audit ledger](repository-file-audit.csv)
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
 - [Adaptation risk register](adaptation-risk-register.md)
@@ -18,7 +19,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the completed audit: 175;
+- tracked paths in the current completed audit: 178;
 - post-audit control document: project handover;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
@@ -26,7 +27,8 @@ This phase makes repository status, external review, contribution rules, special
 - screenplay-source concepts: 154 (`SC-001`–`SC-0154`);
 - active screenplay units: 72;
 - English–Tamil scene and TRACE parity: statically verified;
-- executable validator result: not yet recorded.
+- local executable validator result: passed and recorded on 2026-07-22;
+- hosted GitHub Actions result: not yet recorded.
 
 ## Governance principles
 
@@ -43,7 +45,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Active governance blockers
 
-- executable regression and validator result not yet recorded;
+- hosted GitHub Actions result not yet recorded;
 - printed-page verification pending for Venpa uses;
 - restored Tamil Sequences 05–07 not yet dialogue-reviewed;
 - Sequence 03 requires semantic comparison;
