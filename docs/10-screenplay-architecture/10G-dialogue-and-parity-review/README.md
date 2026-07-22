@@ -108,6 +108,7 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 - [`tamil-sequence-03-semantic-review.md`](tamil-sequence-03-semantic-review.md) — completed internal semantic comparison and restoration record for Scenes `#14#–#17#`
 - [`tamil-sequence-05-spoken-performance-review.md`](tamil-sequence-05-spoken-performance-review.md) — completed internal speakability, voice and causality pass for Scenes `#35#–#43#`
 - [`tamil-sequence-06-spoken-performance-review.md`](tamil-sequence-06-spoken-performance-review.md) — completed internal speakability, voice and delegated-state-harm pass for Scenes `#44#–#49#`
+- [`tamil-sequence-07-spoken-performance-review.md`](tamil-sequence-07-spoken-performance-review.md) — completed internal speakability, voice and accountable-release pass for Scenes `#50#–#53#`
 - [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register
 - [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance
 - detailed perspective memos — historical reasoning and source notes behind each `VENPA-USE-*` record

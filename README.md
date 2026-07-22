@@ -37,7 +37,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **181**
+- current tracked paths audited: **182**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -141,7 +141,7 @@ The local executable pass and hosted GitHub Actions results are recorded in the 
 
 1. Complete scan-page verification and specialist review for Venpa uses.
 2. Complete culinary and historical review of the implemented Aadhirai food detail.
-3. Complete critical line-by-line and spoken-Tamil review of restored Sequence 07; Sequences 05–06 internal review is complete.
+3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
 4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
 5. Normalize Tamil naming and character-cue policy.
 6. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
