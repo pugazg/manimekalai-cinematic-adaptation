@@ -2,24 +2,24 @@
 
 ## Status
 
-**Audit date:** 2026-07-21  
-**Affected document:** `04D_udayakumaran_character_bible.md`  
-**Canonical registers changed:** No  
+**Audit date:** 2026-07-22
+**Affected document:** `04D_udayakumaran_character_bible.md`
+**Canonical register repaired:** Yes — malformed CSV field alignment in `AD-0102`–`AD-0107`
 **Screenplay changed:** No
 
 ## Finding
 
-The Udayakumaran character bible's binding-decision summary extends through `AD-0110`. That prose crosswalk is incorrect.
+The Udayakumaran character bible previously extended its binding-decision summary through `AD-0110`. That prose crosswalk was incorrect and has now been repaired.
 
 The canonical decision register for Udayakumaran is:
 
-- `AD-0101` — prince as sincere but entitled;
-- `AD-0102` — preserve public virtue and charisma;
-- `AD-0103` — previous-life connection does not create present consent;
-- `AD-0104` — Chitrapathi influences but does not determine his actions;
-- `AD-0105` — pursuit escalates through access and secrecy;
-- `AD-0106` — killing is a tragic causal convergence without romantic purification;
-- `AD-0107` — no automatic inherited authority or later office is asserted.
+- `AD-0101` — sincerity does not override autonomy;
+- `AD-0102` — the prince is not a one-dimensional villain;
+- `AD-0103` — royal access changes consequences;
+- `AD-0104` — previous births do not create ownership;
+- `AD-0105` — death is a multi-causal tragedy;
+- `AD-0106` — fatal violence must not be aestheticised;
+- `AD-0107` — do not invent heroic achievements.
 
 `AD-0108` through `AD-0110` belong to Aravana Adigal and must not be cited as Udayakumaran decisions:
 
@@ -29,7 +29,7 @@ The canonical decision register for Udayakumaran is:
 
 ## Authority rule
 
-Until the next full edition of `04D_udayakumaran_character_bible.md`, this errata is authoritative for its decision crosswalk. The canonical CSV registers and the Udayakumaran screenplay evidence matrix were already correct and were not renumbered.
+The corrected character bible and canonical decision register now agree with this crosswalk. Permanent IDs were not renumbered.
 
 ## Audit consequence
 

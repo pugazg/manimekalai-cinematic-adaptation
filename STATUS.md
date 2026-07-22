@@ -1,12 +1,12 @@
 # Project Status Dashboard
 
-_Last updated: 2026-07-21_
+_Last updated: 2026-07-22_
 
 ## Current phase
 
 **Active phase:** `10G–10H — Dialogue, parity, source and evidence review`
 
-The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static audit has reviewed all 175 tracked files and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
+The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static and local executable audit has reviewed the current repository and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
 
 ## Roadmap
 
@@ -21,7 +21,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10D | Feature treatment | Complete | All 72 units traced; some Aadhirai terminology is historically stale |
 | 10E | English Screenplay Draft 0.1 | Structurally complete | Dialogue lock not granted |
 | 10F | Tamil bilingual screenplay | Structurally complete | Semantic, spoken-Tamil and terminology gates remain |
-| 10G | Dialogue and parity review | Active | Static audit complete; executable validator result not recorded |
+| 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
 | 10H | Source perspectives and evidence packets | Active | 2 Venpa decisions approved; 11 remain proposed |
 | 11 | Governance and audit | Active | Full audit and per-file ledger complete; licence and changelog decisions remain |
 
@@ -29,7 +29,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 175 |
+| Current tracked paths audited | 178 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -45,7 +45,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **175 current paths recorded**.
+- Per-file audit ledger: **178 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Decision archive: **`AD-0001`–`AD-0170` statically reconciled**.
@@ -56,7 +56,8 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - Bilingual validator: hardened with duplicate and absorption integrity checks.
 - Regression tests: added or expanded.
 - GitHub Actions workflows: present.
-- Latest reproducible executable full pass: **not recorded**.
+- Latest reproducible executable full pass: **recorded on 2026-07-22 under Python 3.11.3**.
+- Hosted GitHub Actions: **`validate` and `bilingual-parity` passed on draft PR #2**.
 
 ## Repairs completed in the full audit
 
@@ -67,18 +68,17 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 5. Repaired 10E and 10H broken links and updated the architecture index through 10H.
 6. Added a sequence review register and exhaustive per-file audit ledger.
 7. Hardened both validators and their CI regression coverage.
+8. Executed the full suite, repaired real-corpus schema and TRACE defects, and recorded the passing baseline.
 
 ## Active blockers
 
-1. Run and record the full regression and validator suite in an actual checkout or CI runner.
-2. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
-3. Verify the 11 remaining proposed Venpa uses against reliable source pages.
-4. Complete semantic review of Tamil Sequence 03.
-5. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
-6. Normalize Rajamadevi spelling and Tamil/Roman character-cue policy.
-7. Review the institutional proposals together to prevent duplication and false historical certainty.
-8. Reconcile `CHANGELOG.md` after release 0.24.0.
-9. Decide repository licensing before broad derivative collaboration or licence badges.
+1. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
+2. Verify the 11 remaining proposed Venpa uses against reliable source pages.
+3. Complete semantic review of Tamil Sequence 03.
+4. Complete critical line-by-line and spoken-Tamil review of restored Sequences 05–07.
+5. Normalize Rajamadevi spelling and Tamil/Roman character-cue policy.
+6. Review the institutional proposals together to prevent duplication and false historical certainty.
+7. Decide repository licensing before broad derivative collaboration or licence badges.
 
 ## Current locks
 

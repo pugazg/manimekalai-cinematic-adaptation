@@ -7,6 +7,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Project status dashboard](../STATUS.md)
 - [Root README](../README.md)
 - [Full repository audit](11-project-governance/2026-07-21-full-repository-audit.md)
+- [Executable validation and current full audit](11-project-governance/2026-07-22-executable-validation-and-full-audit.md)
 - [Per-file audit ledger](11-project-governance/repository-file-audit.csv)
 - [Contributing guide](../CONTRIBUTING.md)
 - [Changelog](../CHANGELOG.md)
@@ -16,7 +17,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 175 current tracked paths audited;
+- 178 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -72,4 +73,4 @@ Regression tests:
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-The full static audit confirms current structure and references. A successful local or CI execution must still be recorded before an executable structural gate is marked complete.
+The 2026-07-22 audit records successful local execution and passing hosted `validate` and `bilingual-parity` checks on draft PR #2.

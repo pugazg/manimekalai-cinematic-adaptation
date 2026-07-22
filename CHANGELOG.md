@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.25.0 — 2026-07-22
+
+### Validation
+
+- Executed and recorded the complete local regression and validation suite.
+- Confirmed passing hosted `validate` and `bilingual-parity` checks on draft PR #2.
+- Confirmed 45 sources, 318 evidence records, 170 adaptation decisions, 154 source-scene concepts, 72 feature units and 72 paired bilingual scenes.
+- Added corpus-level regression tests so isolated unit tests can no longer pass while the real repository fails.
+- Made bilingual TRACE validation derive its expected signatures from the authoritative 10B feature-unit matrix.
+
+### Repairs
+
+- Aligned the repository validator with the established `source_work` evidence schema and intentionally evidence-free governance decisions.
+- Repaired malformed Udayakumaran decision rows `AD-0102`–`AD-0107` and synchronized the related prose crosswalks.
+- Restored eight missing merged-scene TRACE inheritances in paired English and Tamil Sequences 09–10.
+- Added support and regression coverage for legacy `absorbs` TRACE labels and the Sequence 01 `CUT TO BLACK.` ending.
+- Normalized final newlines in older text files.
+
+### Audit and governance
+
+- Added the 2026-07-22 executable-validation and full-audit record.
+- Refreshed current status, navigation and the exhaustive per-file ledger.
+- Preserved the approved Aadhirai Venpa implementation without changing screenplay dialogue, action, scene numbering or runtime.
+
 ## 0.24.0 — 2026-07-21
 
 - Added `docs/10-screenplay-architecture/10D_feature_treatment.md` as the master 165-minute treatment document.
