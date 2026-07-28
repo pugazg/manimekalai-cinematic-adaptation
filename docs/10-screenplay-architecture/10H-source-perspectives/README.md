@@ -12,12 +12,13 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - Registered source: `SRC-0045`
 - Source: Bharathidasan, *Manimekalai Venpa*, Pari Nilayam, 1990; Project Madurai UTF-8 e-text prepared from a Tamil Virtual Academy scan
 - Status: independent interpretive witness
-- Current feature decisions: 31 total — 5 approved, 5 proposed, 7 deferred, 14 rejected
-- Approved screenplay insertions: `VENPA-USE-001`, `007`, `008`, `011` and `016`, implemented bilingually
+- Current feature decisions: 31 total — 6 approved, 0 proposed, 7 deferred, 18 rejected
+- Approved screenplay insertions: `VENPA-USE-001`, `007`, `008`, `011`, `016` and `021`, implemented bilingually
 - Evidence preparation: e-text anchors, stable digital location crosswalk and preliminary primary-source compatibility classification recorded
 - Stage 1 final: Kayasandihai compressed counsel implemented; Manimekalai grief proposal closed with the no-line fallback
 - Stage 2 decision: Aadhirai linked pair finally approved and implemented using the stronger Venpa-forward cooked-rice, curry and ghee movement
 - Stage 3 complete: Madhavi and Aputhiran beats implemented; Sudhamathi and Vasantavai additions rejected as duplicative
+- Stage 4 complete: minimal prison learning/record correction implemented; four repetitive institutional additions rejected
 - Visual scan-page verification: still pending
 
 ## Documents
@@ -37,6 +38,7 @@ This phase preserves later retellings, interpretive works and other non-primary 
 - [Aadhirai final approval and implementation record](venpa-use-007-008-aadhirai-approval.md)
 - [VENPA-USE-016 Aputhiran decision options](venpa-use-016-aputhiran-decision-options.md)
 - [Stage 3 short-beats decision record](venpa-stage-3-short-beats-decision-record.md)
+- [Stage 4 institutional batch decision record](venpa-stage-4-institutional-batch-decision-record.md)
 - [Master decision register](../10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 
 The historical perspective register, adaptation audit, creative queue and original Aadhirai proposal memo preserve the reasoning state before the owner-approved Aadhirai exception. Current status is governed by the master register and final approval record.
@@ -69,5 +71,5 @@ The Aadhirai pair is implemented and has passed a complete static file-and-TRACE
 The next authorised activities are:
 
 1. complete the Aadhirai culinary, visual-source and performance checks;
-2. review the institutional proposals as one duplication-controlled batch;
-3. do not make another screenplay edit or master-status change automatically.
+2. complete specialist, visual-source and performance checks for approved beats;
+3. keep deferred records outside the current feature unless new evidence reopens them.

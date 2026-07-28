@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.34.0 — 2026-07-28
+
+- Completed the five-item Venpa institutional duplication review.
+- Implemented one minimal public read-aloud and record-correction practice in bilingual Scene `#34#` without claiming a modern school or exact ancient bureaucracy.
+- Rejected four additional record, custody, chronology and distributed-authority beats because Scenes `#43#`, `#44#`, `#53#` and `#59#` already perform those functions.
+- Closed the Venpa feature decision queue at 6 approved, 0 proposed, 7 deferred and 18 rejected.
+
 ## 0.33.0 — 2026-07-22
 
 - Completed the final disposition of the two Stage 1 source-sensitive Venpa proposals.

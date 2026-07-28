@@ -14,11 +14,11 @@
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `APPROVED` | 5 | The Madhavi, Aadhirai, Kayasandihai and Aputhiran decisions are implemented bilingually; post-implementation quality gates remain open. |
-| `PROPOSED` | 5 | A narrowly defined change may be considered after all listed gates pass. It is not approved for insertion. |
+| `APPROVED` | 6 | The Madhavi, Aadhirai, Kayasandihai, Aputhiran and prison-learning decisions are implemented bilingually; post-implementation quality gates remain open. |
+| `PROPOSED` | 0 | No Venpa proposal remains awaiting a feature-film decision. |
 | `DEFERRED` | 7 | The idea is not actionable until missing evidence, terminology review or performance testing is completed. |
-| `REJECTED` | 14 | The idea conflicts with, duplicates or is already satisfied by the current adaptation architecture. |
-| **Total** | **31** | `VENPA-USE-001`, `007`, `008`, `011` and `016` are approved and implemented. |
+| `REJECTED` | 18 | The idea conflicts with, duplicates or is already satisfied by the current adaptation architecture. |
+| **Total** | **31** | `VENPA-USE-001`, `007`, `008`, `011`, `016` and `021` are approved and implemented. |
 
 ## Global gate codes
 
@@ -53,16 +53,16 @@
 | `VENPA-USE-014` | Kanchanan | Seq 05, Scenes `#41#–#42#`; `FU-031–FU-032` | `DIRECT` or `THEMATIC` | `REJECTED` | Do not make fate or an older causal chain move the sword; Kanchanan's present choice remains decisive. | None under the current accountability architecture. | Closed under current architecture. | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-015` | Kayasandihai | Seq 05, Scene `#42#`; `FU-032 / SC-136` | `DIRECT` or `ADAPTED` | `DEFERRED` | Do not specify Kayasandihai's final destination or fate until textual and terminology evidence is secure. | Exact source wording, edition comparison and terminology review. | `G2 G3 G5 G6` | [Kayasandihai–Kanchanan review](kayasandihai-kanchanan-sequences-04-05-perspective-review.md) |
 | `VENPA-USE-016` | Aputhiran | Seq 04, Scene `#24#`; `BR-005 / SC-124` | `THEMATIC` | `APPROVED` | Implemented: after rejecting Indra's reward, Aputhiran turns from heaven and serves people already waiting at the feeding place. | Reward-refusal and hunger-relief movement checked; exact action remains screenplay synthesis. | Implemented bilingually; blocking and performance timing remain open. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
-| `VENPA-USE-017` | Aputhiran / Punniyarajan | Seq 08, Scene `#59#`; `FU-049 / SC-146 / ABSORBS SC-147` | `COMBINED` | `PROPOSED` | Require relief routes and store access to continue without one ruler, seal or heroic life by naming local custodians. | Verify the collective-giving movement and test institutional/historical register. | `G1 G2 G3 G4 G6` | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
+| `VENPA-USE-017` | Aputhiran / Punniyarajan | Seq 08, Scene `#59#`; `FU-049 / SC-146 / ABSORBS SC-147` | `COMBINED` | `REJECTED` | Do not add local-custodian instructions: inspectable grain records and complete relief routes already distribute access, while a named administrative form would exceed the evidence. | Final bilingual Scene `#59#` and institutional batch reviewed. | Closed as already satisfied under the current cut. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) · [Stage 4 record](../10H-source-perspectives/venpa-stage-4-institutional-batch-decision-record.md) |
 | `VENPA-USE-018` | Aputhiran | Seq 04, Scene `#24#`; `BR-005 / SC-124` | `DIRECT` or `ADAPTED` | `REJECTED` | Do not expand the Indra exchange into a long cosmological debate that displaces hunger and service. | None under the current scene purpose. | Closed under current architecture. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
 | `VENPA-USE-019` | Aputhiran | Seq 04, Scene `#22#`; `BR-003 / SC-121` | `DIRECT` or `ADAPTED` | `DEFERRED` | An organised reactionary conspiracy is not supportable from the present OCR evidence. | Reliable page image establishing action, chronology and agency. | `G2 G3 G6` | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
 | `VENPA-USE-020` | Aputhiran | Seq 04, Scene `#27#`; `BR-008 / SC-128` | `THEMATIC` | `REJECTED` | Do not present the final fast as a triumphant ideal for Manimekalai or Punniyarajan to imitate. | None under the shared-service architecture. | Closed under current architecture. | [Aputhiran review](aputhiran-sequences-04-08-perspective-review.md) |
-| `VENPA-USE-021` | Prison / education | Seq 04, Scene `#34#`; `FU-024 / SC-020 / ABSORBS SC-037, SC-051` | `COMBINED` | `PROPOSED` | Make one former cell an open records-and-learning room where people can read and challenge entries. | Verify prison-worker, public-responsibility and education–feeding passages; review historical register. | `G1 G2 G3 G4 G6 G8` | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
-| `VENPA-USE-022` | Prison / public witness | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `THEMATIC` | `PROPOSED` | The former prisoner records the guards, sending official and stated destination so the arrest cannot proceed anonymously. | Verify public protest, supporter and prison-worker witness movement. | `G1 G2 G3 G4 G5 G6 G8` | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
-| `VENPA-USE-023` | Custody records | Seq 07, Scene `#53#`; `FU-043 / SC-119 / ABSORBS SC-053, SC-079` | `COMBINED` | `PROPOSED` | Rajamadevi establishes that no one may be released in one record and confined in another; doors, guards and withheld rations share one public account. | Verify prison witness and public-responsibility movement; test institutional terminology. | `G1 G2 G3 G4 G5 G6 G8` | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
+| `VENPA-USE-021` | Prison / education | Seq 04, Scene `#34#`; `FU-024 / SC-020 / ABSORBS SC-037, SC-051` | `COMBINED` | `APPROVED` | Implemented: one opened room lets a scribe read names, needs and hearing requests aloud so affected people can correct the account before it is kept at the public threshold. | Primary prison transformation and Venpa education comparison checked; exact procedure remains cinematic reconstruction. | Implemented bilingually; historical-form and performance review remain open. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) · [Stage 4 record](../10H-source-perspectives/venpa-stage-4-institutional-batch-decision-record.md) |
+| `VENPA-USE-022` | Prison / public witness | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `THEMATIC` | `REJECTED` | Do not add an arrest ledger: recipients and workers already witness the arrest, and Scene `#44#` separately records testimony. | Final bilingual Scenes `#43#–#44#` reviewed. | Closed as duplicative under the current cut. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) · [Stage 4 record](../10H-source-perspectives/venpa-stage-4-institutional-batch-decision-record.md) |
+| `VENPA-USE-023` | Custody records | Seq 07, Scene `#53#`; `FU-043 / SC-119 / ABSORBS SC-053, SC-079` | `COMBINED` | `REJECTED` | Do not add a second custody-policy speech: Rajamadevi already orders a public account of the cup, payment, withheld food and every office carrying the orders. | Final bilingual Scene `#53#` reviewed. | Closed as already satisfied under the current cut. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) · [Stage 4 record](../10H-source-perspectives/venpa-stage-4-institutional-batch-decision-record.md) |
 | `VENPA-USE-024` | Prison / education | Seq 04, Scene `#34#`; `FU-024 / SC-020` | `ADAPTED` or `THEMATIC` | `DEFERRED` | Do not declare a literal modern school without stronger evidence; the smaller records-and-literacy beat remains the supportable option. | Exact evidence for a literal prison-to-school conversion and historical-form review. | `G2 G3 G6 G8` | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
 | `VENPA-USE-025` | Public protest | Seq 05, Scene `#43#`; `FU-033 / SC-069` | `DIRECT` | `REJECTED` | Do not stage a weapon-breaking crowd rescue; preserve nonviolent witness, records and the later hearing. | None under the current institutional-accountability arc. | Closed under current architecture. | [Institutional reform review](prison-education-institutional-reform-sequences-04-07-perspective-review.md) |
-| `VENPA-USE-026` | Udayakumaran evidence | Seq 06, Scene `#44#`; `FU-034 / SC-050` | `COMBINED` | `PROPOSED` | The court scribe places five refusals, warnings and returns in chronological order before motive is named. | Verify the repeated-approach, warning and death sequence; review restored Tamil hearing language. | `G1 G2 G3 G4 G5 G6 G8` | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
+| `VENPA-USE-026` | Udayakumaran evidence | Seq 06, Scene `#44#`; `FU-034 / SC-050` | `COMBINED` | `REJECTED` | Do not add a five-entry display: the hearing already presents accounts sequentially, separates refusal from assumption and preserves each statement independently. | Final bilingual Scene `#44#` reviewed. | Closed as already satisfied under the current cut. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [Stage 4 record](../10H-source-perspectives/venpa-stage-4-institutional-batch-decision-record.md) |
 | `VENPA-USE-027` | Manimekalai's grief | Seq 05, Scene `#43#`; `FU-033 / SC-069 / ABSORBS SC-096` | `ADAPTED` | `REJECTED` | Select the no-line fallback. Scenes `#36#`, `#43#`, `#44#` and `#45#` already preserve grief, present refusal and accountable choice; another line would repeat completed argument at the body. | Final bilingual scene sequence and source-aware reinterpretation options reviewed. | Closed under the current cut; physical grief remains. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [final disposition](../10H-source-perspectives/venpa-stage-1-final-disposition.md) |
 | `VENPA-USE-028` | Rajamadevi / Vasantavai | Seq 06, Scene `#45#`; `FU-035 / SC-112 / ABSORBS SC-052, SC-094, SC-111` | `COMBINED` | `REJECTED` | Do not add a memorial line: Vasantavai already refuses to turn persistence into virtue and distinguishes maternal grief from coercive royal power. | Final bilingual Scene `#45#` and primary elder-counsel function reviewed. | Closed as already satisfied by stronger existing dialogue. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) · [Stage 3 record](../10H-source-perspectives/venpa-stage-3-short-beats-decision-record.md) |
 | `VENPA-USE-029` | Udayakumaran | Seq 05, Scene `#41#`; `FU-031 / SC-135` | `DIRECT`, `ADAPTED` or `THEMATIC` | `REJECTED` | Do not add mutual-love closure, a Lakshmi–Ragulan reunion, a kiss or posthumous consent. | None; death cannot supply consent refused during life. | Closed under current architecture. | [Udayakumaran review](udayakumaran-grief-accountability-sequences-02-07-perspective-review.md) |
@@ -91,19 +91,19 @@ This batch is resolved: `001`, `011` and `016` are implemented; `004`, `027` and
 
 These were approved together as one causal unit and inserted in both languages. Their post-implementation validator, visual-source, culinary terminology and performance gates remain open.
 
-### Batch C — institutional continuity and public evidence
+### Batch C — institutional continuity and public evidence — resolved
 
-- `VENPA-USE-017`
-- `VENPA-USE-021`
-- `VENPA-USE-022`
-- `VENPA-USE-023`
-- `VENPA-USE-026`
+- `VENPA-USE-017` — rejected as already satisfied
+- `VENPA-USE-021` — approved and implemented
+- `VENPA-USE-022` — rejected as duplicative
+- `VENPA-USE-023` — rejected as already satisfied
+- `VENPA-USE-026` — rejected as already satisfied
 
-These proposals interact through records, distributed authority and public evidence. They require a duplication review so the feature does not over-explain its institutional theme.
+The batch retains one visible learning-and-correction practice and closes four repetitive additions.
 
 ## Current locks
 
-1. No remaining `PROPOSED` record is approved for insertion.
+1. No `PROPOSED` record remains in the current feature decision queue.
 2. `VENPA-USE-007` and `VENPA-USE-008` are approved and implemented; removing or materially altering them requires a new recorded decision.
 3. No `DEFERRED` record may enter a screenplay edit queue.
 4. No `REJECTED` record may be inserted into the current 72-scene feature.
@@ -115,9 +115,6 @@ These proposals interact through records, distributed authority and public evide
 
 ## Next authorised activity
 
-1. Run and record regression tests and the full bilingual validator for the implemented Aadhirai pair.
-2. Complete visual-source, culinary terminology and spoken-Tamil checks for Scenes `#31#–#32#`.
-3. Record an explicit decision on the prepared revision options for `VENPA-USE-011` and `VENPA-USE-027` before editing either scene.
-4. Continue remaining evidence and duplication review without inserting other proposed records.
-
-Until those gates pass, only the approved Aadhirai pair is authorised in the screenplay.
+1. Run and record regression tests and the full bilingual validator for all six implemented decisions.
+2. Complete visual-source, culinary terminology and spoken-performance checks for the approved beats.
+3. Keep all seven `DEFERRED` records outside the current feature unless new evidence or a future adaptation brief reopens them.
