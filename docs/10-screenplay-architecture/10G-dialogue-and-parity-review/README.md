@@ -23,7 +23,7 @@ A later gate must not conceal failure at an earlier gate. Natural dialogue canno
 - Sequence review register: [`review_register.csv`](review_register.csv)
 - Venpa decision authority: [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md)
 
-The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 5 approved, 5 proposed, 7 deferred and 14 rejected decisions. The approved Madhavi, Aadhirai, Kayasandihai and Aputhiran beats are implemented bilingually; no other proposal is authorised for insertion.
+The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its current state is 6 approved, 0 proposed, 7 deferred and 18 rejected decisions. The approved Madhavi, Aadhirai, Kayasandihai, Aputhiran and prison-learning beats are implemented bilingually. No Venpa proposal remains awaiting a feature-film decision.
 
 ## Current baseline
 

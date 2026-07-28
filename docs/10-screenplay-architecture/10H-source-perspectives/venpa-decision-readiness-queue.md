@@ -8,7 +8,7 @@
 **TRACE records changed:** No  
 **Approved insertions:** `VENPA-USE-001`, `VENPA-USE-007`, `VENPA-USE-008`, `VENPA-USE-011`, `VENPA-USE-016`
 
-The source-verification packet, digital-location crosswalk, primary-source compatibility packet and Stage 1–3 decision records are present. This queue identifies the five remaining institutional proposals and post-implementation quality gates for approved beats.
+The source-verification packet, digital-location crosswalk, primary-source compatibility packet and Stage 1–4 decision records are present. No `PROPOSED` record remains. This queue now preserves final dispositions and post-implementation quality gates.
 
 ## Readiness categories
 
@@ -31,12 +31,12 @@ The source-verification packet, digital-location crosswalk, primary-source compa
 | 5 | `VENPA-USE-016` | Aputhiran turns refusal back to feeding | `APPROVED / VALIDATION PENDING` | Implemented bilingually: Aputhiran turns from Indra and serves people already waiting | Blocking and performance review | Confirm the beat preserves the later critique of pride; retain the existing pride line |
 | 6 | `VENPA-USE-004` | Sudhamathi doorway method | `REJECTED / RESOLVED` | Scene `#7#` already dramatizes doors as witnesses | None under the current cut | Preserve the visual action; do not explain it again in Scene `#8#` |
 | 7 | `VENPA-USE-028` | Vasantavai separates mourning from memorialisation | `REJECTED / RESOLVED` | Scene `#45#` already carries a stronger source-compatible distinction | None under the current cut | Preserve the existing dialogue; do not add a parallel memorial line |
-| 8 | `VENPA-USE-026` | Hearing chronology of refusals and warnings | `SOURCE-READY / GATES OPEN` | Primary Chapters 4–5, 18 and 20 support duration and repetition | Restored Tamil Sequence 06 review; duplication with other record/accountability proposals | Audit the five entries against final screenplay chronology and remove unsupported or redundant items |
-| 9 | `VENPA-USE-023` | One-door/one-record custody safeguard | `SOURCE-READY / GATES OPEN` | Primary Chapter 23 supports apparent release followed by concealed coercion | Historical institutional register, restored Tamil Sequence 07 review and Batch C duplication | Test whether the rule can be expressed as accountable action rather than modern policy speech |
-| 10 | `VENPA-USE-021` | Records-and-learning room | `SOURCE-READY / GATES OPEN` | Primary prison transformation and Venpa education comparison located | Historical form, terminology and duplication with `017`, `022`, `023`, `026` | Review Batch C together and retain only the minimum visible institutional additions |
-| 11 | `VENPA-USE-017` | Distributed relief authority | `SOURCE-READY / GATES OPEN` | Primary Punniyarajan duty/delegation/return movement and Venpa collective-giving movement located | Historical-administrative register and Batch C duplication | Decide whether local custodians are necessary after reviewing existing Scene `#59#` administration |
+| 8 | `VENPA-USE-026` | Hearing chronology of refusals and warnings | `REJECTED / RESOLVED` | Scene `#44#` already preserves sequential, separate testimony | None under the current cut | Retain the existing hearing |
+| 9 | `VENPA-USE-023` | One-door/one-record custody safeguard | `REJECTED / RESOLVED` | Scene `#53#` already orders a public account of the entire harm chain | None under the current cut | Retain the existing accountable-release action |
+| 10 | `VENPA-USE-021` | Records-and-learning room | `APPROVED / VALIDATION PENDING` | Minimal read-aloud and public-correction process implemented bilingually in Scene `#34#` | Historical-form and performance review | Preserve the non-modern, non-school classification |
+| 11 | `VENPA-USE-017` | Distributed relief authority | `REJECTED / RESOLVED` | Scene `#59#` already requires inspectable grain records and complete delivery routes | None under the current cut | Do not add unsupported local-office detail |
 | 12 | `VENPA-USE-001` | Madhavi asks for witnessed truth | `APPROVED / VALIDATION PENDING` | Implemented bilingually as an explicit evidence-first choice | Performance and Scene `#13#` timing | Confirm that the alarm gesture reads without overstating household procedure |
-| 13 | `VENPA-USE-022` | Former prisoner records the arrest | `THEMATIC / PROVISIONAL` | Venpa public/prison-worker movement located; no primary ledger action found | Visual page, restored Tamil Sequence 05 review, historical register and Batch C duplication | Determine whether existing court witnesses already carry the function without adding a ledger beat |
+| 13 | `VENPA-USE-022` | Former prisoner records the arrest | `REJECTED / RESOLVED` | Existing public witnesses and the Scene `#44#` hearing already carry the function | None under the current cut | Do not add a ledger beat |
 
 ## Mandatory review order
 
@@ -59,15 +59,10 @@ Stage 2 now requires post-implementation validation and quality review, not anot
 - `VENPA-USE-016` — approved and implemented using existing waiting people rather than a new recipient
 - `VENPA-USE-028` — rejected because Scene `#45#` already carries a stronger form of the intended counsel
 
-### Stage 4 — Institutional proposals as one system
+### Stage 4 — Institutional proposals as one system: complete
 
-1. `VENPA-USE-017`
-2. `VENPA-USE-021`
-3. `VENPA-USE-022`
-4. `VENPA-USE-023`
-5. `VENPA-USE-026`
-
-The institutional batch must be reduced for duplication before any individual line is approved.
+- `VENPA-USE-021` — approved and implemented
+- `VENPA-USE-017`, `022`, `023`, `026` — rejected as duplicative, already satisfied or overly specific
 
 ## Cross-cutting gates still open
 
@@ -82,6 +77,6 @@ The institutional batch must be reduced for duplication before any individual li
 ## Next authorised activity
 
 1. Run and record validation for the approved Aadhirai pair.
-2. Perform the Stage 4 institutional duplication review.
+2. Complete the remaining specialist, visual-source and performance gates for approved beats.
 
 No additional screenplay edit or master-status change is authorised automatically.
