@@ -106,7 +106,7 @@ Manimekalai enters a quiet enclosure only after the relief system is functioning
 
 The closing movement returns to vessels, hands and thresholds. Grain passes from storage to cooking, from cooking to measured serving, from serving to recipients who are seen as people rather than proof of charity. Translators, cleaners, water carriers, administrators and former recipients participate.
 
-Manimekalai places the Amudhasurabhi within this living system. She is still responsible for it, but she no longer carries responsibility as solitary ownership. Madhavi’s household door, Aadhirai’s first handful, Aputhiran’s relinquishment, the prison kitchen, Punniyarajan’s return and Kanchi’s relief network converge in one principle: compassion survives only when it can continue beyond the person who first acts.
+Manimekalai places the Amudhasurabhi within this living system. She is still responsible for it, but she no longer carries responsibility as solitary ownership. Madhavi’s household door, Aadhirai’s prepared first meal, Aputhiran’s relinquishment, the prison kitchen, Punniyarajan’s return and Kanchi’s relief network converge in one principle: compassion survives only when it can continue beyond the person who first acts.
 
 Manimekalai walks onward through the city. The camera does not abandon the people to follow her as a solitary holy figure. It remains long enough to show the work continuing.
 

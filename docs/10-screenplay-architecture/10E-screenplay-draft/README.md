@@ -57,6 +57,6 @@ The previously listed `10E_scene_traceability.csv` never existed and has been re
 
 ## Draft status
 
-Draft 0.1 is structurally complete. A complete static audit confirmed ten sequences, Scenes `#1#–#72#`, one TRACE record per scene and English–Tamil TRACE equality. The executable validator result, dialogue lock, terminology approval and performance timing remain pending.
+Draft 0.1 is structurally complete. Static, local executable and hosted checks confirm ten sequences, Scenes `#1#–#72#`, one TRACE record per scene and English–Tamil TRACE equality. Dialogue lock, specialist terminology approval and performance timing remain pending.
 
-The approved Aadhirai Venpa pair is present in Scenes `#31#–#32#`; all other Venpa proposals remain governed by the master decision register.
+All six approved Venpa decisions are implemented bilingually. No proposal remains pending for the current feature; deferred and rejected records remain governed by the master decision register.

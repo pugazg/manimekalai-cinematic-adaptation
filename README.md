@@ -9,6 +9,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Project status dashboard](STATUS.md)
 - [Full repository audit](docs/11-project-governance/2026-07-21-full-repository-audit.md)
 - [Executable validation and current full audit](docs/11-project-governance/2026-07-22-executable-validation-and-full-audit.md)
+- [Latest exhaustive repository audit](docs/11-project-governance/2026-07-28-exhaustive-repository-audit.md)
 - [Per-file audit ledger](docs/11-project-governance/repository-file-audit.csv)
 - [Documentation index](docs/INDEX.md)
 - [Contributing guide](CONTRIBUTING.md)
@@ -31,13 +32,13 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Tamil bilingual draft | Structurally complete; spoken-Tamil and terminology lock not granted |
 | Static bilingual audit | 10 + 10 sequences, 72 paired scenes, matching TRACE signatures and valid endings |
 | Venpa perspective review | 31 decisions: 6 approved, 0 proposed, 7 deferred, 18 rejected |
-| Approved Venpa use | Aadhirai Scenes `#31#–#32#`, implemented bilingually |
-| Runtime validation | Local full pass recorded; hosted `validate` and `bilingual-parity` checks passed on draft PR #2 |
+| Approved Venpa use | Six approved decisions implemented bilingually; no proposal remains pending |
+| Runtime validation | Local full pass recorded; both hosted workflows passed on merged PR #12 |
 | Storyboard and production design | Policy foundations only; visual population pending rights and specialist controls |
 
 ## Audited baseline
 
-- current tracked paths audited: **190**
+- current tracked paths audited: **193**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -131,11 +132,12 @@ Public research notes should cite exact passages while respecting copyright and 
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 scripts/validate_repository.py
 python3 scripts/validate_bilingual_screenplay.py
+python3 scripts/audit_all_tracked_files.py
 ```
 
 The repository validator enforces exact 45 / 318 / 170 / 154 register ranges, required fields, evidence and decision references, canonical placement, and complete `EV-*` to `SRC-*` provenance coverage. Internal project-method records are explicitly distinguished from externally sourced claims. The bilingual validator checks sequence discovery, scene ranges, parity against the authoritative 10B feature-unit matrix, duplicate units or source-scene use, invalid absorption, Tamil cue/name policy and recognised endings.
 
-The local executable pass and hosted GitHub Actions results are recorded in the 2026-07-22 audit.
+The latest exhaustive file audit is recorded in the 2026-07-28 audit. Hosted GitHub Actions passed for the completed Venpa institutional batch in merged PR #12.
 
 ## Open gates
 

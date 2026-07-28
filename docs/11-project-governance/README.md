@@ -9,6 +9,7 @@ This phase makes repository status, external review, contribution rules, special
 - [Project handover — 2026-07-21](2026-07-21-project-handover.md)
 - [Full repository audit — 2026-07-21](2026-07-21-full-repository-audit.md)
 - [Executable validation and current full audit — 2026-07-22](2026-07-22-executable-validation-and-full-audit.md)
+- [Exhaustive repository audit — 2026-07-28](2026-07-28-exhaustive-repository-audit.md)
 - [Per-file audit ledger](repository-file-audit.csv)
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
 - [Adaptation risk register](adaptation-risk-register.md)
@@ -20,8 +21,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current completed audit: 187;
-- post-audit control document: project handover;
+- tracked paths in the current completed audit: 193;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
@@ -30,7 +30,7 @@ This phase makes repository status, external review, contribution rules, special
 - active screenplay units: 72;
 - English–Tamil scene and TRACE parity: statically verified;
 - local executable validator result: passed and recorded on 2026-07-22;
-- hosted GitHub Actions: `validate` and `bilingual-parity` passed on draft PR #2.
+- hosted GitHub Actions: both workflows passed on merged PR #12 for the completed Venpa decision cycle.
 
 ## Governance principles
 

@@ -166,7 +166,7 @@ The fire episode, if retained in the feature, must remain a brief, safeguarded b
 
 The Amudhasurabhi sequence develops through:
 
-- Aadhirai's first handful;
+- Aadhirai's prepared household offering of rice and curry;
 - food leaving private space;
 - Ulaga Aravi;
 - recurring recipients;

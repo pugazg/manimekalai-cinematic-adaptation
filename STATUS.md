@@ -1,6 +1,6 @@
 # Project Status Dashboard
 
-_Last updated: 2026-07-22_
+_Last updated: 2026-07-28_
 
 ## Current phase
 
@@ -18,7 +18,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10A | Master feature architecture | Complete | 165-minute, ten-sequence structure |
 | 10B | Scene selection and consolidation | Complete | 154 source concepts reconciled to 72 active units |
 | 10C | Beat sheets, runtime and continuity | Complete | 45 / 60 / 60-minute allocation verified |
-| 10D | Feature treatment | Complete | All 72 units traced; some Aadhirai terminology is historically stale |
+| 10D | Feature treatment | Complete | All 72 units traced; Aadhirai's approved prepared-food sequence is synchronized |
 | 10E | English Screenplay Draft 0.1 | Structurally complete | Dialogue lock not granted |
 | 10F | Tamil bilingual screenplay | Structurally complete | Semantic, spoken-Tamil and terminology gates remain |
 | 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
@@ -29,7 +29,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 190 |
+| Current tracked paths audited | 193 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -58,7 +58,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - Regression tests: added or expanded.
 - GitHub Actions workflows: present.
 - Latest reproducible executable full pass: **recorded on 2026-07-22 under Python 3.11.3**.
-- Hosted GitHub Actions: **`validate` and `bilingual-parity` passed on draft PR #2**.
+- Hosted GitHub Actions: **both workflows passed on merged PR #12 for the completed Venpa decision cycle**.
 
 ## Repairs completed in the full audit
 
@@ -79,7 +79,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
 4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
 5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
-6. Review the institutional proposals together to prevent duplication and false historical certainty.
+6. Complete the storyboard and production-design foundations with rights-labelled, evidence-aware deliverables.
 7. Decide repository licensing before broad derivative collaboration or licence badges.
 
 ## Current locks
@@ -95,6 +95,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 - [Root README](README.md)
 - [Full repository audit](docs/11-project-governance/2026-07-21-full-repository-audit.md)
+- [Latest exhaustive repository audit](docs/11-project-governance/2026-07-28-exhaustive-repository-audit.md)
 - [Per-file audit ledger](docs/11-project-governance/repository-file-audit.csv)
 - [Documentation index](docs/INDEX.md)
 - [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)

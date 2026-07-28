@@ -8,6 +8,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Root README](../README.md)
 - [Full repository audit](11-project-governance/2026-07-21-full-repository-audit.md)
 - [Executable validation and current full audit](11-project-governance/2026-07-22-executable-validation-and-full-audit.md)
+- [Latest exhaustive repository audit](11-project-governance/2026-07-28-exhaustive-repository-audit.md)
 - [Per-file audit ledger](11-project-governance/repository-file-audit.csv)
 - [Contributing guide](../CONTRIBUTING.md)
 - [Changelog](../CHANGELOG.md)
@@ -18,7 +19,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 190 current tracked paths audited;
+- 193 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -74,10 +75,16 @@ Bilingual screenplay structure:
 python3 scripts/validate_bilingual_screenplay.py
 ```
 
+Every tracked file and the per-file ledger:
+
+```bash
+python3 scripts/audit_all_tracked_files.py
+```
+
 Regression tests:
 
 ```bash
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-The 2026-07-22 audit records successful local execution and passing hosted `validate` and `bilingual-parity` checks on draft PR #2.
+The 2026-07-28 audit records the latest exhaustive path-level pass. Both hosted workflows passed on merged PR #12 for the completed Venpa decision cycle.
