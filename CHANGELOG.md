@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.35.0 — 2026-07-28
+
+- Audited every tracked repository path and added a deterministic exhaustive file auditor with corpus regression coverage.
+- Confirmed UTF-8, terminal-newline, CSV-width, local-link and exact per-file ledger integrity.
+- Synchronized the master architecture and feature treatment with the approved Aadhirai prepared-food sequence.
+- Refreshed the handover, screenplay index, dashboard and governance indexes to the current 6 / 0 / 7 / 18 Venpa baseline.
+- Added Python cache exclusions and recorded the passing hosted validation of merged PR #12.
+
 ## 0.34.0 — 2026-07-28
 
 - Completed the five-item Venpa institutional duplication review.

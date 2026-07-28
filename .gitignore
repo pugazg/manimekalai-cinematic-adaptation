@@ -7,3 +7,5 @@ private_sources/**
 !private_sources/.gitkeep
 research_cache/
 exports/
+__pycache__/
+*.py[cod]

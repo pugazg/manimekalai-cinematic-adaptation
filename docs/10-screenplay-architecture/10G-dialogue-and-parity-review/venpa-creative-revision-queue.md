@@ -1,5 +1,7 @@
 # Manimekalai Venpa — Creative Revision Queue
 
+> **Archival status:** This queue initiated the review cycle. The authoritative current outcomes are in `venpa-perspective-master-decision-register.md`; the current feature has 6 approved, 0 proposed, 7 deferred and 18 rejected records. Structural and hosted validation have passed.
+
 ## Purpose
 
 This queue converts the *Manimekalai Venpa* perspective audit into a controlled screenplay-review process. It does not modify the existing 72-scene bilingual screenplay. It identifies what should be reviewed, what evidence is required, and what may eventually be proposed after the bilingual parity gate passes.
@@ -10,8 +12,8 @@ This queue converts the *Manimekalai Venpa* perspective audit into a controlled 
 - Existing Tamil screenplay: structurally frozen.
 - Validator integrity: restored and verified by read-back.
 - Regression tests: committed.
-- GitHub Actions runtime result: not yet confirmed.
-- Creative insertions: prohibited until parity is confirmed.
+- GitHub Actions runtime result: confirmed for the completed decision batches.
+- Creative insertions: governed by the closed master decision register; no proposal remains pending.
 
 ## Review principles
 
