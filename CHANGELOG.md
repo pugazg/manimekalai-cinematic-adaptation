@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.37.0 — 2026-07-29
+
+- Converted all 13 open specialist-review rows into bounded external-review assignments.
+- Added coordinated packets for Tamil and textual review, religion and philosophy, history and material culture, and rights and licensing.
+- Added a reusable specialist response template with evidence, severity, uncertainty and disposition fields.
+- Added a 28-term Tamil terminology source crosswalk linking every controlled form to its internal basis, specialist ownership and required external output.
+- Marked the packets `READY_FOR_EXTERNAL_REVIEW` without representing preparation as specialist approval.
+
 ## 0.36.0 — 2026-07-29
 
 - Completed internal semantic, character-voice and spoken-performance review for all ten Tamil sequences.

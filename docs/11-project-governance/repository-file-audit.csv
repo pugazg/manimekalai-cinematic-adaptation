@@ -137,6 +137,7 @@ docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-09
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-sequence-10-internal-review.md,PASS_INTERNAL_PERFORMANCE_REVIEW
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-and-cue-policy.md,PASS_EDITORIAL_POLICY
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-register.csv,PASS_CONTROLLED_REGISTER_SPECIALIST_OPEN
+docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-source-crosswalk.csv,PASS_28_TERM_SPECIALIST_CROSSWALK
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/udayakumaran-grief-accountability-sequences-02-07-perspective-review.md,PASS_PROPOSAL_RECORD
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-creative-revision-queue.md,HISTORICAL_SUPERSEDED_STATUS
 docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md,PASS_AUTHORITY
@@ -167,6 +168,12 @@ docs/11-project-governance/evidence-source-crosswalk.md,PASS_GOVERNANCE_RECORD
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXHAUSTIVE_LEDGER
 docs/11-project-governance/specialist-review-register.csv,REPAIRED_AFTER_AUDIT
+docs/11-project-governance/specialist-review-packets/README.md,CREATED_EXTERNAL_REVIEW_INDEX
+docs/11-project-governance/specialist-review-packets/history-and-material-culture-review.md,CREATED_BOUNDED_REVIEW_PACKET
+docs/11-project-governance/specialist-review-packets/religion-and-philosophy-review.md,CREATED_BOUNDED_REVIEW_PACKET
+docs/11-project-governance/specialist-review-packets/rights-and-licensing-review.md,CREATED_BOUNDED_REVIEW_PACKET
+docs/11-project-governance/specialist-review-packets/specialist-response-template.md,CREATED_REVIEW_RESPONSE_SCHEMA
+docs/11-project-governance/specialist-review-packets/tamil-textual-and-performance-review.md,CREATED_BOUNDED_REVIEW_PACKET
 docs/11-source-perspectives/manimekalai-venpa-adaptation-audit.md,HISTORICAL_FOUNDATION
 docs/11-source-perspectives/manimekalai-venpa-perspective-register.md,HISTORICAL_FOUNDATION
 docs/INDEX.md,REFRESHED_CURRENT_STATE

@@ -1,6 +1,6 @@
 # Project Status Dashboard
 
-_Last updated: 2026-07-28_
+_Last updated: 2026-07-29_
 
 ## Current phase
 
@@ -23,7 +23,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10F | Tamil bilingual screenplay | Structurally complete | Semantic, spoken-Tamil and terminology gates remain |
 | 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
 | 10H | Source perspectives and evidence packets | Decision-complete; quality review active | 6 approved, 0 proposed; 7 deferred remain outside the feature |
-| 11 | Governance and audit | Active | Full audit and per-file ledger complete; licence and changelog decisions remain |
+| 11 | Governance and audit | Active | Full audit complete; all 13 specialist assignments are packaged and ready for named external reviewers; licence decision remains |
 
 ## Current measurable baseline
 
@@ -77,10 +77,10 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 1. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
 2. Complete visual-source and specialist quality review of the 6 implemented Venpa decisions; all feature-film decisions are resolved.
 3. Conduct actor-led table reads and timing for Sequences 01–10; internal semantic and spoken-performance review is complete.
-4. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions.
-5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
+4. Assign named reviewers to the 13 prepared specialist packets and record their findings; internal preparation is complete but external approval is not.
+5. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions; every term now has a source and reviewer crosswalk.
 6. Complete the storyboard and production-design foundations with rights-labelled, evidence-aware deliverables.
-7. Decide repository licensing before broad derivative collaboration or licence badges.
+7. Obtain a reviewed licensing recommendation and record the owner's decision before broad derivative collaboration or licence badges.
 
 ## Current locks
 
@@ -104,3 +104,5 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Venpa master decision register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 - [Aadhirai approval record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
+- [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
+- [Tamil terminology source crosswalk](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-source-crosswalk.csv)
