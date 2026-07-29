@@ -19,6 +19,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Venpa master decision register](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/venpa-perspective-master-decision-register.md)
 - [Aadhirai approval record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
+- [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
 
 ## Current status
 
@@ -144,8 +145,7 @@ The latest exhaustive file audit is recorded in the 2026-07-28 audit. Hosted Git
 1. Complete scan-page verification and specialist review for Venpa uses.
 2. Complete culinary and historical review of the implemented Aadhirai food detail.
 3. Conduct actor-led table reads and timing for all ten internally reviewed Tamil sequences.
-4. Complete specialist review of the controlled terminology register.
-5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
+4. Assign named reviewers to the prepared specialist packets and complete the controlled terminology review; Tamil cue script and `இராசமாதேவி` spelling are already normalized and validator-enforced.
 6. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
 7. Begin rights-labelled storyboard and production-design pilots.
 8. Decide repository licensing separately for original work and third-party material.

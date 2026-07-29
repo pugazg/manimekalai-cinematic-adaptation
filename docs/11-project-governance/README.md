@@ -14,6 +14,7 @@ This phase makes repository status, external review, contribution rules, special
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
 - [Adaptation risk register](adaptation-risk-register.md)
 - [Specialist review register](specialist-review-register.csv)
+- [Specialist review packets](specialist-review-packets/)
 - [Private source handling](private-source-handling.md)
 - [Evidence-to-source crosswalk](evidence-source-crosswalk.md)
 - [Project status dashboard](../../STATUS.md)
@@ -49,7 +50,7 @@ This phase makes repository status, external review, contribution rules, special
 
 - printed-page verification pending for Venpa uses;
 - all ten Tamil sequences have completed internal semantic and spoken-performance review; actor-led timing remains open;
-- specialist doctrine, philosophy, institutional, culinary and historical terminology review remains open;
+- all 13 specialist assignments have bounded packets and are ready for named external reviewers; approval remains open;
 - Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced; specialist terminology remains open;
 - licence decision pending;
 - repository description and topics require manual GitHub-setting changes;

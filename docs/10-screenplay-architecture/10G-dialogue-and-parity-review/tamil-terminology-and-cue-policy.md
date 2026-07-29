@@ -34,6 +34,8 @@ The cue conversion does not settle these questions:
 
 These remain visible in `tamil-terminology-register.csv` until the relevant specialist gate is completed.
 
+The companion `tamil-terminology-source-crosswalk.csv` records the current source or editorial basis, the internal classification, the responsible specialist rows and the exact output required. `READY_FOR_EXTERNAL_REVIEW` means the question is prepared; it does not mean that a specialist has approved the term.
+
 ## Performance rule
 
 Editorial consistency does not grant dialogue lock. Tamil cues and spellings may be correct while a line still requires actor-led rhythm, breath, interruption or register review.
