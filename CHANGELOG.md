@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.38.0 — 2026-07-29
+
+- Added a deterministic 216-shot storyboard matrix assigning entry, decision and consequence frames to every active feature unit.
+- Added storyboard visual-language, evidence, generated-asset and rights controls.
+- Generated and corrected the first Puhar festival-dawn proof-of-method frame; rejected the initial tower and European-rig defects before registration.
+- Added a twelve-family production-design control matrix with evidence boundaries, prohibited defaults and specialist ownership.
+- Extended the exhaustive auditor to recognise registered raster assets while retaining exact ledger coverage.
+
 ## 0.37.0 — 2026-07-29
 
 - Converted all 13 open specialist-review rows into bounded external-review assignments.

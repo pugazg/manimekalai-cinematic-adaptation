@@ -76,8 +76,14 @@ docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04H_aputhiran.csv,
 docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04I_kanchanan.csv,PASS_STATIC
 docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04J_punniyarajan.csv,PASS_STATIC
 docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04K_aadhirai.csv,PASS_STATIC
-docs/08-storyboard-bible/README.md,FOUNDATION_ONLY
-docs/09-production-design/README.md,FOUNDATION_ONLY
+docs/08-storyboard-bible/README.md,EXPANDED_216_SHOT_FOUNDATION
+docs/08-storyboard-bible/assets/sequence-01/SB-001-1_puhar-festival-dawn_v1.png,REGISTERED_INTERPRETIVE_ASSET
+docs/08-storyboard-bible/prompts/SB-001-1_puhar-festival-dawn.md,PASS_PROMPT_PROVENANCE
+docs/08-storyboard-bible/storyboard-asset-register.csv,PASS_ASSET_RIGHTS_REGISTER
+docs/08-storyboard-bible/storyboard-shot-matrix.csv,PASS_216_SHOT_TRACE_MATRIX
+docs/08-storyboard-bible/visual-language-and-evidence-policy.md,PASS_VISUAL_GOVERNANCE
+docs/09-production-design/README.md,EXPANDED_CONTROLLED_FOUNDATION
+docs/09-production-design/production-design-control-matrix.csv,PASS_12_FAMILY_CONTROL_MATRIX
 docs/10-screenplay-architecture/10A_master_feature_architecture.md,SYNCHRONIZED_AADHIRAI_WORDING
 docs/10-screenplay-architecture/10A_sequence_map.csv,PASS_STATIC
 docs/10-screenplay-architecture/10B_feature_unit_matrix.csv,PASS_STATIC
@@ -196,6 +202,7 @@ evidence/evidence_register_04K_aadhirai.csv,PASS_STATIC
 evidence/evidence_source_crosswalk.csv,PASS_318_RECORD_SOURCE_CROSSWALK
 evidence/geography_evidence_register.csv,PASS_STATIC
 scripts/audit_all_tracked_files.py,CREATED_EXHAUSTIVE_AUDITOR
+scripts/build_storyboard_shot_matrix.py,PASS_DETERMINISTIC_STORYBOARD_GENERATOR
 scripts/build_evidence_source_crosswalk.py,PASS_DETERMINISTIC_GENERATOR
 scripts/validate_bilingual_screenplay.py,HARDENED_EXECUTED_PASS
 scripts/validate_repository.py,HARDENED_EXECUTED_PASS
@@ -203,5 +210,6 @@ sources/primary/README.md,PASS_STATIC
 sources/secondary/README.md,PASS_STATIC
 sources/source_register.csv,REPAIRED
 tests/test_audit_all_tracked_files.py,CREATED_CORPUS_REGRESSION
+tests/test_build_storyboard_shot_matrix.py,CREATED_STORYBOARD_GENERATOR_REGRESSION
 tests/test_validate_bilingual_screenplay.py,EXPANDED_EXECUTED_PASS
 tests/test_validate_repository.py,EXPANDED_EXECUTED_PASS

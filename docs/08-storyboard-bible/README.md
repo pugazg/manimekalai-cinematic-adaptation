@@ -2,6 +2,14 @@
 
 No panel is final until its scene cites the screenplay evidence matrix.
 
+## Current deliverables
+
+- [Visual language and evidence policy](visual-language-and-evidence-policy.md)
+- [216-shot active-unit matrix](storyboard-shot-matrix.csv)
+- [Storyboard asset register](storyboard-asset-register.csv)
+
+The matrix assigns entry, decision and consequence frames to all 72 active feature units. `DESCRIPTION_READY` is a planning state, not a completed drawn panel.
+
 Each storyboard sequence should record:
 
 - scene ID;
@@ -15,3 +23,5 @@ Each storyboard sequence should record:
 - VFX/practical note;
 - evidence IDs;
 - adaptation decision IDs.
+
+Every generated or commissioned panel must also enter the asset register with its prompt or creator, file hash, review state and rights status.

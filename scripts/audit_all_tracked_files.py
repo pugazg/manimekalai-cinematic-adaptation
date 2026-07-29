@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "docs/11-project-governance/repository-file-audit.csv"
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*]\(([^)]+)\)")
+BINARY_SUFFIXES = {".gif", ".jpeg", ".jpg", ".png", ".webp"}
 
 
 @dataclass
@@ -22,6 +23,7 @@ class AuditResult:
     markdown: int = 0
     csv_files: int = 0
     fountain: int = 0
+    binary_assets: int = 0
     local_links: int = 0
     ledger_rows: int = 0
     issues: list[str] = field(default_factory=list)
@@ -112,6 +114,9 @@ def run_audit() -> AuditResult:
         if not data:
             result.issues.append(f"{relative}: empty file")
             continue
+        if path.suffix.lower() in BINARY_SUFFIXES:
+            result.binary_assets += 1
+            continue
         if b"\0" in data:
             result.issues.append(f"{relative}: contains NUL byte")
         try:
@@ -136,7 +141,8 @@ def summary(result: AuditResult) -> str:
     return (
         f"Tracked-file audit {state}: {result.tracked} files; "
         f"{result.markdown} Markdown; {result.csv_files} CSV; "
-        f"{result.fountain} Fountain; {result.local_links} local links; "
+        f"{result.fountain} Fountain; {result.binary_assets} binary assets; "
+        f"{result.local_links} local links; "
         f"{result.ledger_rows} ledger rows; {len(result.issues)} issues."
     )
 
@@ -153,13 +159,16 @@ def render_report(result: AuditResult) -> str:
         f"| Markdown files | {result.markdown} |",
         f"| CSV files | {result.csv_files} |",
         f"| Fountain files | {result.fountain} |",
+        f"| Registered binary assets | {result.binary_assets} |",
         f"| Repository-relative Markdown links | {result.local_links} |",
         f"| Per-file ledger rows | {result.ledger_rows} |",
         f"| Issues | {len(result.issues)} |",
         "",
         "## Checks",
         "",
-        "- every tracked file is non-empty UTF-8 text without NUL bytes;",
+        "- every tracked file is non-empty;",
+        "- non-image text files are UTF-8 without NUL bytes;",
+        "- registered image suffixes are counted as binary assets rather than decoded as text;",
         "- every tracked text file ends with a newline;",
         "- every CSV row matches its header width;",
         "- every repository-relative Markdown link resolves;",

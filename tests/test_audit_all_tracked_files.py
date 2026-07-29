@@ -22,6 +22,7 @@ class TrackedFileAuditTests(unittest.TestCase):
         result = MODULE.run_audit()
         self.assertEqual([], result.issues)
         self.assertEqual(result.tracked, result.ledger_rows)
+        self.assertGreaterEqual(result.binary_assets, 1)
 
 
 if __name__ == "__main__":
