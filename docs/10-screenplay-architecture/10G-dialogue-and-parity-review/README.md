@@ -32,15 +32,16 @@ The Venpa register consolidates `VENPA-USE-001` through `VENPA-USE-031`. Its cur
 - Paired scenes: 72
 - Scene range: `#1#`–`#72#`
 - Static scene and TRACE audit: **complete**
-- Executable regression and validator result: **passed locally after the Sequence 03 semantic restoration**
+- Executable regression and validator result: **passed locally and in hosted CI through the completed Venpa decision cycle**
 - Tamil Draft 0.1: structurally complete
+- Internal semantic and spoken-performance review: **complete for Sequences 01–10**
 - Dialogue lock: **not granted**
 - Specialist terminology approval: **not granted**
 - Performance timing approval: **not granted**
 
 The full repository audit read every English and Tamil sequence directly and confirmed identical scene order, TRACE signatures and recognised endings. This static result is not a substitute for executing the validator in a repository checkout or CI runner.
 
-The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Tamil Sequences 05–07 remain subject to dedicated line-by-line and spoken-performance review. Sequence 03 has completed its internal semantic comparison; the sensory, vulnerability and epistemic beats necessary for parity are restored, while specialist and performance gates remain open.
+The Aadhirai insertion retains the same Scene `#31#–#32#` numbers and TRACE signatures in both languages. Every Tamil sequence now has an internal semantic and spoken-performance review record. Those internal passes do not replace specialist terminology, source-edition or actor-led timing approval.
 
 ## Structural parity gate
 
@@ -107,10 +108,16 @@ Only after P1–P5 may a sequence be considered dialogue-locked.
 - [`review_register.csv`](review_register.csv) — sequence-level static findings and open gates
 - [`tamil-terminology-and-cue-policy.md`](tamil-terminology-and-cue-policy.md) — locked editorial rules separated from specialist-open terminology
 - [`tamil-terminology-register.csv`](tamil-terminology-register.csv) — controlled Tamil forms and their remaining review gates
+- [`tamil-sequence-01-internal-review.md`](tamil-sequence-01-internal-review.md) — labour, civic duty, household and philosophical-plurality review for Scenes `#1#–#6#`
+- [`tamil-sequence-02-internal-review.md`](tamil-sequence-02-internal-review.md) — survivor knowledge, refusal and household testimony review for Scenes `#7#–#13#`
 - [`tamil-sequence-03-semantic-review.md`](tamil-sequence-03-semantic-review.md) — completed internal semantic comparison and restoration record for Scenes `#14#–#17#`
+- [`tamil-sequence-04-internal-review.md`](tamil-sequence-04-internal-review.md) — Aputhiran, Aadhirai, Kayasandihai and prison-reform review for Scenes `#18#–#34#`
 - [`tamil-sequence-05-spoken-performance-review.md`](tamil-sequence-05-spoken-performance-review.md) — completed internal speakability, voice and causality pass for Scenes `#35#–#43#`
 - [`tamil-sequence-06-spoken-performance-review.md`](tamil-sequence-06-spoken-performance-review.md) — completed internal speakability, voice and delegated-state-harm pass for Scenes `#44#–#49#`
 - [`tamil-sequence-07-spoken-performance-review.md`](tamil-sequence-07-spoken-performance-review.md) — completed internal speakability, voice and accountable-release pass for Scenes `#50#–#53#`
+- [`tamil-sequence-08-internal-review.md`](tamil-sequence-08-internal-review.md) — rebirth, identity, royal absence and governance review for Scenes `#54#–#59#`
+- [`tamil-sequence-09-internal-review.md`](tamil-sequence-09-internal-review.md) — debate, evidence, inference and cue-policy review for Scenes `#60#–#65#`
+- [`tamil-sequence-10-internal-review.md`](tamil-sequence-10-internal-review.md) — famine, livelihood, accountability and shared-ending review for Scenes `#66#–#72#`
 - [`venpa-perspective-master-decision-register.md`](venpa-perspective-master-decision-register.md) — authoritative status, destination, evidence and dependency register
 - [`../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md`](../10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md) — owner approval and implementation provenance
 - detailed perspective memos — historical reasoning and source notes behind each `VENPA-USE-*` record

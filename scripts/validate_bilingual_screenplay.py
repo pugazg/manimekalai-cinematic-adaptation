@@ -26,7 +26,7 @@ FEATURE_MATRIX = ROOT / "docs/10-screenplay-architecture/10B_feature_unit_matrix
 SEQ_RE = re.compile(r"SEQ-(\d{2})_")
 SCENE_RE = re.compile(r"#(\d{1,3})#")
 TRACE_RE = re.compile(r"/\*\s*TRACE:\s*(.*?)\s*\*/")
-ROMAN_CUE_RE = re.compile(r"(?m)^[A-Z][A-Z '()\-]+$")
+ROMAN_CUE_RE = re.compile(r"(?m)^[A-Z][A-Z '()/\-]+$")
 PROHIBITED_TAMIL_NAME_RE = re.compile(
     r"இ{2,}ராசமாதேவி|ராஜமாதேவி|(?<!இ)ராசமாதேவி"
 )

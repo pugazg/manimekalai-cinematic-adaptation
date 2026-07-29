@@ -21,7 +21,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current completed audit: 193;
+- tracked paths in the current ledger: 199;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
@@ -48,8 +48,8 @@ This phase makes repository status, external review, contribution rules, special
 ## Active governance blockers
 
 - printed-page verification pending for Venpa uses;
-- restored Tamil Sequences 05–07 have completed internal performance review; actor-led timing remains open;
-- Sequence 03 internal semantic comparison is complete; specialist terminology, voice and read-aloud gates remain;
+- all ten Tamil sequences have completed internal semantic and spoken-performance review; actor-led timing remains open;
+- specialist doctrine, philosophy, institutional, culinary and historical terminology review remains open;
 - Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced; specialist terminology remains open;
 - licence decision pending;
 - repository description and topics require manual GitHub-setting changes;
