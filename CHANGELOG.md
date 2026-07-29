@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.41.0 — 2026-07-29
+
+- Expanded the production foundation into a twelve-part Production Design Bible 0.1.
+- Added twenty-four explicit visual uncertainties with prohibited claims and specialist gates.
+- Added a Puhar production relationship map labelled as interpretation rather than geography.
+- Defined department-wide rules for labour, water, costume, food, Amudhasurabhi, music, weapons, ecology and animal welfare.
+- Added regression coverage for all design families, uncertainty records and SVG validity.
+
 ## 0.40.0 — 2026-07-29
 
 - Added registered concept frames for Manipallavam's memory pond, Aadhirai's first offering and Kanchi's multilingual relief centre.

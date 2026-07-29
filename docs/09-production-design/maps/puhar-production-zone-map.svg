@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Puhar production relationship zones</title>
+  <desc id="desc">An interpretation-labelled production diagram showing functional relationships among Puhar zones. It is not a geographic map.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#665c46"/>
+    </marker>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2f6f8f"/>
+    </marker>
+    <style>
+      .zone { fill:#efe5cf; stroke:#665c46; stroke-width:3; rx:22; }
+      .water { fill:#d9edf2; stroke:#2f6f8f; stroke-width:4; rx:22; }
+      .care { fill:#e1ecd8; stroke:#507047; stroke-width:3; rx:22; }
+      .restricted { fill:#efe0de; stroke:#8d4f48; stroke-width:4; rx:22; }
+      .margin { fill:#ebe8e1; stroke:#777; stroke-width:3; stroke-dasharray:10 8; rx:22; }
+      .label { font-family:Arial, sans-serif; font-size:25px; fill:#27231c; text-anchor:middle; }
+      .small { font-family:Arial, sans-serif; font-size:18px; fill:#3f3a31; text-anchor:middle; }
+      .flow { fill:none; stroke:#665c46; stroke-width:4; marker-end:url(#arrow); }
+      .waterflow { fill:none; stroke:#2f6f8f; stroke-width:4; marker-end:url(#blueArrow); }
+      .story { fill:none; stroke:#8d4f48; stroke-width:4; stroke-dasharray:12 9; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="20" y="20" width="1560" height="960" rx="30" fill="#faf7ef" stroke="#777" stroke-width="3" stroke-dasharray="12 9"/>
+  <text x="800" y="62" class="label">PUHAR PRODUCTION RELATIONSHIPS — [INTERPRETATION], NOT A GEOGRAPHIC MAP</text>
+
+  <rect x="70" y="110" width="360" height="170" class="water"/>
+  <text x="250" y="170" class="label">Kaveri mouth + tidal edge</text>
+  <text x="250" y="208" class="small">water, pilots, landing labour</text>
+  <text x="250" y="238" class="small">small craft + offshore transfer</text>
+
+  <rect x="500" y="105" width="360" height="180" class="zone"/>
+  <text x="680" y="165" class="label">Cargo + storage interface</text>
+  <text x="680" y="205" class="small">grain, ceramics, rope, repair</text>
+  <text x="680" y="235" class="small">weighing and risk</text>
+
+  <rect x="940" y="105" width="360" height="180" class="zone"/>
+  <text x="1120" y="165" class="label">Occupational streets</text>
+  <text x="1120" y="205" class="small">craft, flowers, markets</text>
+  <text x="1120" y="235" class="small">homes + workshops</text>
+
+  <rect x="190" y="365" width="350" height="175" class="zone"/>
+  <text x="365" y="425" class="label">Festival civic route</text>
+  <text x="365" y="465" class="small">proclamation, crowds, debate</text>
+  <text x="365" y="495" class="small">cleaning + water pressure</text>
+
+  <rect x="630" y="360" width="350" height="180" class="zone"/>
+  <text x="805" y="420" class="label">Performance households</text>
+  <text x="805" y="460" class="small">training, kinship, patronage</text>
+  <text x="805" y="490" class="small">Madhavi + Manimekalai</text>
+
+  <rect x="1070" y="355" width="350" height="190" class="restricted"/>
+  <text x="1245" y="415" class="label">Royal / custody interface</text>
+  <text x="1245" y="455" class="small">court, guards, controlled doors</text>
+  <text x="1245" y="485" class="small">records + delegated orders</text>
+
+  <rect x="300" y="660" width="350" height="185" class="care"/>
+  <text x="475" y="720" class="label">Ulaga Aravi + feeding</text>
+  <text x="475" y="760" class="small">water, serving, access, rest</text>
+  <text x="475" y="790" class="small">translation + cleaning</text>
+
+  <rect x="760" y="655" width="350" height="190" class="restricted"/>
+  <text x="935" y="715" class="label">Prison → care institution</text>
+  <text x="935" y="755" class="small">cells, kitchen, records</text>
+  <text x="935" y="785" class="small">custody transformed</text>
+
+  <rect x="1190" y="675" width="300" height="160" class="margin"/>
+  <text x="1340" y="730" class="label">Quiet margins</text>
+  <text x="1340" y="768" class="small">garden, Chakravala,</text>
+  <text x="1340" y="798" class="small">cremation-ground transition</text>
+
+  <path d="M430 195 C470 195,470 195,500 195" class="flow"/>
+  <path d="M860 195 C900 195,900 195,940 195" class="flow"/>
+  <path d="M1120 285 C1030 330,970 350,900 375" class="flow"/>
+  <path d="M680 285 C590 330,510 355,440 385" class="flow"/>
+  <path d="M540 450 C580 450,590 450,630 450" class="flow"/>
+  <path d="M980 450 C1020 450,1030 450,1070 450" class="story"/>
+  <path d="M365 540 C370 590,410 620,455 660" class="flow"/>
+  <path d="M805 540 C785 600,700 655,650 715" class="story"/>
+  <path d="M1245 545 C1200 610,1100 660,1080 700" class="story"/>
+  <path d="M650 750 C700 750,720 750,760 750" class="flow"/>
+  <path d="M1110 750 C1140 750,1160 750,1190 750" class="story"/>
+
+  <path d="M250 280 C250 440,320 560,400 660" class="waterflow"/>
+  <path d="M250 280 C400 320,610 330,760 360" class="waterflow"/>
+  <path d="M250 280 C600 300,870 300,1110 355" class="waterflow"/>
+
+  <rect x="70" y="880" width="1460" height="70" rx="18" fill="#fffdf8" stroke="#aaa"/>
+  <text x="800" y="912" class="small">Solid = material/labour flow • Blue = water dependency • Dashed red = story or controlled transition</text>
+  <text x="800" y="940" class="small">Orientation, distance, street geometry and archaeological identity remain unresolved.</text>
+</svg>
