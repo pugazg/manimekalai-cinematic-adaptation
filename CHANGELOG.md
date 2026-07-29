@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.39.0 — 2026-07-29
+
+- Added deterministic English and Tamil Draft 0.1 release packages in Fountain and Markdown.
+- Verified ten source sequences and Scenes `#1#`–`#72#` exactly once in each language package.
+- Verified equal 72-record TRACE coverage and emitted a bilingual release manifest.
+- Added SHA-256 checksums and byte-for-byte rebuild regression coverage.
+- Kept dialogue lock, external specialist approval, actor timing and licensing explicitly open.
+
 ## 0.38.0 — 2026-07-29
 
 - Added a deterministic 216-shot storyboard matrix assigning entry, decision and consequence frames to every active feature unit.

@@ -20,6 +20,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Aadhirai approval record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
+- [Bilingual Screenplay Release 0.1](releases/0.1/)
 
 ## Current status
 
@@ -31,6 +32,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Feature architecture | 165 minutes, ten sequences, 72 active screenplay units |
 | English Screenplay Draft 0.1 | Structurally complete; dialogue lock not granted |
 | Tamil bilingual draft | Structurally complete; internal semantic and spoken-performance review complete; specialist and actor lock not granted |
+| Bilingual release package | Deterministic English and Tamil Fountain + Markdown package complete; 72 scenes and 72 TRACE records per language |
 | Static bilingual audit | 10 + 10 sequences, 72 paired scenes, matching TRACE signatures and valid endings |
 | Venpa perspective review | 31 decisions: 6 approved, 0 proposed, 7 deferred, 18 rejected |
 | Approved Venpa use | Six approved decisions implemented bilingually; no proposal remains pending |
@@ -39,7 +41,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **214**
+- current tracked paths audited: **223**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -119,6 +121,7 @@ private_sources/      # ignored; lawfully held source files only
 scripts/
 tests/
 .github/workflows/
+releases/0.1/
 ```
 
 ## Source handling
