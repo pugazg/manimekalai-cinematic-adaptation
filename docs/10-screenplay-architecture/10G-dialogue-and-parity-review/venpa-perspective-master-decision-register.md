@@ -7,7 +7,7 @@
 **Screenplay text changed by this register:** No  
 **TRACE records changed:** No  
 **Scene count changed:** No  
-**Runtime parity gate:** Still unconfirmed  
+**Runtime parity gate:** Confirmed by the full bilingual validator and deterministic release rebuild; actor-led timing remains open
 **Authority:** This file consolidates decisions; the detailed review, evidence and approval memos remain the reasoning record.
 
 ## Decision totals
@@ -115,6 +115,6 @@ The batch retains one visible learning-and-correction practice and closes four r
 
 ## Next authorised activity
 
-1. Run and record regression tests and the full bilingual validator for all six implemented decisions.
-2. Complete visual-source, culinary terminology and spoken-performance checks for the approved beats.
+1. Preserve the passing regression, bilingual-parity and deterministic-release baseline for all six implemented decisions.
+2. Complete visual-source, culinary terminology, named-specialist and actor-led spoken-performance checks for the approved beats.
 3. Keep all seven `DEFERRED` records outside the current feature unless new evidence or a future adaptation brief reopens them.
