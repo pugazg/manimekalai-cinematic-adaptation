@@ -13,7 +13,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | Phase | Deliverable | State | Gate or blocker |
 |---|---|---|---|
 | 01–07 | Vision, research, historical world, characters, philosophy, decisions and evidence matrix | Complete working foundation | Specialist review remains open |
-| 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; first corrected concept frame registered; remaining panels and specialist review required |
+| 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; four corrected anchor frames registered; remaining panels and specialist review required |
 | 09 | Production design | Active foundation | Twelve controlled design families defined; detailed plates and specialist review required |
 | 10A | Master feature architecture | Complete | 165-minute, ten-sequence structure |
 | 10B | Scene selection and consolidation | Complete | 154 source concepts reconciled to 72 active units |
@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 223 |
+| Current tracked paths audited | 231 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **223 current paths recorded**.
+- Per-file audit ledger: **231 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -80,7 +80,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 3. Conduct actor-led table reads and timing for Sequences 01–10; internal semantic and spoken-performance review is complete.
 4. Assign named reviewers to the 13 prepared specialist packets and record their findings; internal preparation is complete but external approval is not.
 5. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions; every term now has a source and reviewer crosswalk.
-6. Expand the registered 216-shot storyboard plan beyond the first proof-of-method frame and complete the twelve production-design families under rights and specialist controls.
+6. Expand the registered 216-shot storyboard plan beyond the four proof-of-method anchor frames and complete the twelve production-design families under rights and specialist controls.
 7. Obtain a reviewed licensing recommendation and record the owner's decision before broad derivative collaboration or licence badges.
 
 ## Current locks

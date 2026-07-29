@@ -15,6 +15,7 @@ This phase makes repository status, external review, contribution rules, special
 - [Adaptation risk register](adaptation-risk-register.md)
 - [Specialist review register](specialist-review-register.csv)
 - [Specialist review packets](specialist-review-packets/)
+- [Owner rights and licensing decision](owner-rights-and-licensing-decision.md)
 - [Private source handling](private-source-handling.md)
 - [Evidence-to-source crosswalk](evidence-source-crosswalk.md)
 - [Project status dashboard](../../STATUS.md)
