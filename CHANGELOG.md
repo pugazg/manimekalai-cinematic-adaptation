@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.43.0 — 2026-07-29
+
+- Audited every item in the merged post-PR-20 repository and recorded the final completion-readiness result.
+- Confirmed 34 regression tests, 72 bilingual scene pairs, deterministic EN/TA releases, 216 storyboard descriptions, 318 evidence-source crosswalk rows and exact registered-asset hashes.
+- Updated the Venpa register from stale “runtime unconfirmed” wording to the executed passing parity baseline while retaining actor-led timing as external.
+- Repaired the governance index's stale path count and visual-intake statement.
+- Separated internally complete work from named-specialist, actor, rights, licensing and remaining-rendered-storyboard gates that cannot be self-approved.
+
 ## 0.42.0 — 2026-07-29
 
 - Completed a ten-frame sequence-anchor set, giving every screenplay sequence one registered visual concept.

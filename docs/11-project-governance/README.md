@@ -10,6 +10,7 @@ This phase makes repository status, external review, contribution rules, special
 - [Full repository audit — 2026-07-21](2026-07-21-full-repository-audit.md)
 - [Executable validation and current full audit — 2026-07-22](2026-07-22-executable-validation-and-full-audit.md)
 - [Exhaustive repository audit — 2026-07-28](2026-07-28-exhaustive-repository-audit.md)
+- [Final completion-readiness audit — 2026-07-29](2026-07-29-final-completion-readiness-audit.md)
 - [Per-file audit ledger](repository-file-audit.csv)
 - [External repository review reconciliation](2026-07-21-external-repository-review.md)
 - [Adaptation risk register](adaptation-risk-register.md)
@@ -23,7 +24,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current ledger: 199;
+- tracked paths in the current ledger: 249;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
@@ -55,4 +56,6 @@ This phase makes repository status, external review, contribution rules, special
 - Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced; specialist terminology remains open;
 - licence decision pending;
 - repository description and topics require manual GitHub-setting changes;
-- storyboard and production-design visual intake awaits rights metadata and specialist review.
+- ten sequence-anchor visual assets are registered with rights metadata;
+  specialist review, clearance and the remaining 206 rendered shots remain
+  open.
