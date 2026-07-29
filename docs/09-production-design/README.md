@@ -1,14 +1,11 @@
 # Production Design
 
-Planned dossiers:
+## Control documents
 
-- Puhar master atlas
-- Indra festival visual system
-- ships and maritime trade
-- architecture and construction
-- costume and textiles
-- jewellery and body ornament
-- food, vessels and Amudhasurabhi
-- music and performance
-- weapons and guards
-- ecology and seasonal continuity
+- [Production-design control matrix](production-design-control-matrix.csv)
+
+The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
+
+## Binding rule
+
+Production design is a historically informed reconstruction, not a claim to reproduce one exact ancient world. Every plate must distinguish evidence-supported detail, comparative possibility, production interpretation and unresolved questions.
