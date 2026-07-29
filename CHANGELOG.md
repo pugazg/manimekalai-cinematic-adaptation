@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.36.0 — 2026-07-29
+
+- Completed internal semantic, character-voice and spoken-performance review for all ten Tamil sequences.
+- Repaired three Sequence 04 semantic constructions, including tribute versus trust and the meaning of indispensability.
+- Converted nine slash-joined Roman character cues in Sequence 09 to Tamil and expanded validator regression coverage.
+- Restored the master-weaver ledger and child-at-the-loom closing image omitted from Tamil Scene `#68#`.
+- Kept specialist terminology and actor-led timing as explicit external gates.
+
 ## 0.35.0 — 2026-07-28
 
 - Audited every tracked repository path and added a deterministic exhaustive file auditor with corpus regression coverage.

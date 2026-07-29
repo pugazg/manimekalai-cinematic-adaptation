@@ -22,7 +22,7 @@ Read first:
 
 ## Verified baseline
 
-- tracked repository paths in the current ledger: **190**
+- tracked repository paths in the current ledger: **199**
 - sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -78,8 +78,8 @@ No Venpa proposal remains undecided for the current feature. Deferred records st
 
 ## Remaining work
 
-1. finish internal semantic, voice and spoken-performance review of the Tamil sequences;
-2. prepare specialist-ready terminology, source, food, history, philosophy and performance packets;
+1. conduct external Tamil specialist and actor-led review using the completed ten-sequence internal packet;
+2. complete specialist-ready terminology, source, food, history, philosophy and performance packets;
 3. populate the storyboard and production-design phases with evidence-labelled deliverables;
 4. obtain owner and rights-specialist decisions on licensing;
 5. assemble combined English and Tamil Fountain packages and verify final exports;

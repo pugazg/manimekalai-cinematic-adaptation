@@ -111,6 +111,15 @@ class ParseTraceTests(unittest.TestCase):
         )
         self.assertTrue(any("Roman-script character cue" in error for error in errors))
 
+    def test_tamil_style_rejects_slash_joined_roman_character_cue(self):
+        errors = []
+        validator.validate_tamil_style(
+            "UNKNOWN SAGE / MANIMEKALAI\n",
+            Path("TA/SEQ-09_test.fountain"),
+            errors,
+        )
+        self.assertTrue(any("Roman-script character cue" in error for error in errors))
+
     def test_tamil_style_rejects_noncanonical_rajamadevi(self):
         errors: list[str] = []
         validator.validate_tamil_style(

@@ -29,7 +29,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 193 |
+| Current tracked paths audited | 199 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -76,8 +76,8 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 1. Verify the implemented Aadhirai Venpa passage visually and review `சோறு`, `கறி`, `பசுநெய்`, vessels and serving practice.
 2. Complete visual-source and specialist quality review of the 6 implemented Venpa decisions; all feature-film decisions are resolved.
-3. Conduct actor-led table reads and timing for internally reviewed Sequences 03 and 05–07.
-4. Complete specialist terminology and character-voice review of Sequence 03 after its internal semantic restoration.
+3. Conduct actor-led table reads and timing for Sequences 01–10; internal semantic and spoken-performance review is complete.
+4. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions.
 5. Complete specialist review of the controlled terminology register; Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced.
 6. Complete the storyboard and production-design foundations with rights-labelled, evidence-aware deliverables.
 7. Decide repository licensing before broad derivative collaboration or licence badges.
