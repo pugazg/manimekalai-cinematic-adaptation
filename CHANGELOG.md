@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.42.0 — 2026-07-29
+
+- Completed a ten-frame sequence-anchor set, giving every screenplay sequence one registered visual concept.
+- Added refusal, incomplete-inference, institutional-starvation, relinquishment, governance-return and materialist-challenge frames.
+- Recorded prompts, rejected-draft findings, remaining uncertainties, evidence and decision inheritance, specialist gates, rights status and SHA-256 hashes.
+- Preserved every new frame as `[INTERPRETATION]`; no image is asserted as archaeological or historical proof.
+- Expanded storyboard-asset regression coverage from four to ten registered assets while keeping the remaining 206 described shots explicitly unrendered.
+
 ## 0.41.0 — 2026-07-29
 
 - Expanded the production foundation into a twelve-part Production Design Bible 0.1.
