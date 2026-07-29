@@ -24,12 +24,13 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
 | 10H | Source perspectives and evidence packets | Decision-complete; quality review active | 6 approved, 0 proposed; 7 deferred remain outside the feature |
 | 11 | Governance and audit | Active | Full audit complete; all 13 specialist assignments are packaged and ready for named external reviewers; licence decision remains |
+| Release 0.1 | English–Tamil screenplay package | Structurally verified | Fountain and Markdown outputs, manifest and checksums complete; dialogue and specialist lock remain open |
 
 ## Current measurable baseline
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 214 |
+| Current tracked paths audited | 223 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -45,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **214 current paths recorded**.
+- Per-file audit ledger: **223 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -108,3 +109,4 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Tamil terminology source crosswalk](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-source-crosswalk.csv)
 - [Storyboard shot matrix](docs/08-storyboard-bible/storyboard-shot-matrix.csv)
 - [Production-design control matrix](docs/09-production-design/production-design-control-matrix.csv)
+- [Bilingual Screenplay Release 0.1](releases/0.1/)

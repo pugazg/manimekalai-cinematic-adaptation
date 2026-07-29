@@ -1,0 +1,3259 @@
+# MANIMEKALAI — English Screenplay Draft 0.1
+
+This is the structurally complete English working screenplay. Dialogue lock and external specialist approval are not granted.
+
+Scene and TRACE identifiers are preserved from the bilingual source files.
+
+## SEQUENCE 01 — THE CITY BEFORE THE STORM
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-01_the_city_before_the_storm.fountain`
+
+```fountain
+# SEQUENCE 01 — THE CITY BEFORE THE STORM
+
+/* TRACE: FU-001 | SC-039 | absorbs SC-001, SC-004, SC-034 */
+
+EXT. PUHAR — KAVERI MOUTH AND HARBOUR — PRE-DAWN #1#
+
+Black water. A low tide breathing against timber, rope and stone.
+
+A WATER CARRIER lowers a clay vessel into a public well. Two HARBOUR WORKERS shoulder a wet beam beneath a ship's stern. A ROPE MAKER runs fibre through his palms. FLOWER WORKERS sort unopened jasmine by touch. CLEANERS scrape yesterday's refuse from the ceremonial road.
+
+No one is watching them except one another.
+
+A boy dozes beside a basket of grain. His mother nudges him awake before a cart wheel reaches his foot.
+
+MOTHER
+Move. The city will call this festival by sunrise.
+
+BOY
+What is it now?
+
+MOTHER
+Work.
+
+A drum is tested somewhere inland. One strike. Then silence.
+
+The harbour begins to brighten. Ships appear not as a single fleet but as different working bodies: fishing craft, river boats, coastal traders, larger merchant vessels under repair.
+
+A SAILOR tastes water from a barrel and spits it out.
+
+SAILOR
+Change it before the sun. No one crosses a sea on ceremony.
+
+Near the market route, a WOMAN ties a splint to an exhausted pack animal. A merchant complains about delay.
+
+WOMAN
+It carries your wealth. It can stop before you do.
+
+The merchant has no answer.
+
+The first light reveals Puhar's splendour assembled from hundreds of hands.
+
+CUT TO:
+
+/* TRACE: FU-002 | SC-002 | absorbs SC-048 */
+
+EXT. PUHAR — FESTIVAL ROUTE / ROYAL TERRACE — DAWN #2#
+
+A PROCLAMATION DRUMMER walks beneath garlands not yet fully hung. CIVIC MESSENGERS repeat his words through different quarters.
+
+DRUMMER
+Let the streets be cleared. Let water be drawn. Let strangers be received. Let the festival begin under a just sceptre and a generous sky.
+
+The proclamation reaches a crowded grain lane.
+
+GRAIN WOMAN
+A generous sky does not measure the grain.
+
+PORTER
+No. But a just sceptre might ask who does.
+
+On a modest royal terrace, the CHOLA KING listens to the drum below. Beside him stands a MINISTER with wax tablets and tied palm leaves.
+
+KING
+They praise rain before it falls.
+
+MINISTER
+They praise the duty to prepare for it.
+
+KING
+And if it does not fall?
+
+MINISTER
+Then the praise becomes a question.
+
+The King looks down at water carriers waiting for access to a guarded storage court.
+
+KING
+Open the eastern cistern during the festival.
+
+MINISTER
+For the festival days?
+
+KING
+For thirst.
+
+The order moves down through officers. Some obey quickly. Others calculate cost.
+
+The drum continues toward the performance quarter.
+
+CUT TO:
+
+/* TRACE: FU-003 | SC-073 | absorbs SC-003, SC-040, SC-074, SC-105, SC-106 */
+
+INT. MADHAVI'S HOUSE — PERFORMANCE COURTYARD — MORNING #3#
+
+The proclamation drum passes the outer wall.
+
+Inside: stillness.
+
+A rehearsal floor bears faint geometric wear from years of feet. Instruments remain wrapped. Garlands have not been ordered. A row of young STUDENTS waits without knowing whether to leave.
+
+CHITRAPATHI, composed and alert, examines household accounts. She hears the drum fade.
+
+CHITRAPATHI
+They will say we insulted the city.
+
+MADHAVI sits beside an unlit lamp. Her clothing is plain but her posture carries the discipline of a celebrated performer.
+
+MADHAVI
+The city survived my silence yesterday.
+
+CHITRAPATHI
+The city, perhaps. The people who work behind this door may not survive a season of it.
+
+She gestures toward the wrapped instruments, the teachers, the flower woman waiting for payment.
+
+CHITRAPATHI (CONT'D)
+Prestige feeds badly. It still feeds.
+
+MANIMEKALAI stands at a window lattice, watching festival colour pass outside. SUDHAMATHI folds cloth nearby, listening.
+
+MADHAVI
+No one will be compelled to remain.
+
+MUSIC TEACHER
+And those who remain?
+
+Madhavi turns to him. She does not evade the question.
+
+MADHAVI
+We account for wages today. We sell what can be sold without selling a person.
+
+Chitrapathi closes the account bundle.
+
+CHITRAPATHI
+A house cannot renounce its debts by changing its clothes.
+
+Manimekalai turns from the window.
+
+MANIMEKALAI
+Then let us speak of debts. Mine first.
+
+The room shifts toward her.
+
+CHITRAPATHI
+Your future is not a debt.
+
+MANIMEKALAI
+It is discussed like one.
+
+A small silence. Madhavi's hand tightens over the lamp wick.
+
+MATCH CUT TO:
+
+/* TRACE: BR-001 | SC-097 */
+
+INT. ARAVANA ADIGAL'S DWELLING — MEMORY — NIGHT #4#
+
+Rain against a low roof.
+
+A younger MADHAVI sits before ARAVANA ADIGAL. She is still dressed in the remnants of public life, but mud stains the hem. Her hands will not be still.
+
+ARAVANA does not ask her to compose herself.
+
+MADHAVI
+They speak his death as though the words can finish it.
+
+Aravana waits.
+
+MADHAVI (CONT'D)
+Kovalan is dead. Kannagi has burned through a kingdom. And everyone who looks at me asks what I will become now.
+
+ARAVANA
+What do you hear when they ask?
+
+MADHAVI
+That grief must become useful to them.
+
+He gives her water. She cannot lift it yet.
+
+ARAVANA
+Then do not answer them tonight.
+
+MADHAVI
+I have a daughter.
+
+ARAVANA
+That is not an answer. It is a life beside yours.
+
+Madhavi finally takes the cup.
+
+BACK TO PRESENT:
+
+/* TRACE: FU-004 | SC-075 | absorbs SC-054, SC-057, SC-064, SC-108 */
+
+INT. MADHAVI'S HOUSE — COUNCIL ROOM — LATER #5#
+
+The household has narrowed to MADHAVI, CHITRAPATHI, MANIMEKALAI and SUDHAMATHI.
+
+Chitrapathi lays out three objects: an account cord, a performance anklet, a plain folded robe.
+
+CHITRAPATHI
+This is not a story with one cruel choice and one pure choice. The anklet means training, patrons, protection, obligations. The robe means another institution, other obligations. The account cord remains in either life.
+
+MANIMEKALAI
+Then why is everyone choosing which object I must lift?
+
+MADHAVI
+Because I know what the anklet can cost.
+
+MANIMEKALAI
+You know what it cost you.
+
+The answer wounds without being intended as cruelty.
+
+MADHAVI
+Yes.
+
+MANIMEKALAI
+And Grandmother knows what it paid for.
+
+CHITRAPATHI
+Yes.
+
+MANIMEKALAI
+I know what happens when a room decides a woman's meaning before she speaks.
+
+SUDHAMATHI watches Manimekalai, ready to intervene but not to replace her voice.
+
+CHITRAPATHI
+What do you choose?
+
+MANIMEKALAI
+Not to be offered to the city because the city remembers my mother.
+
+MADHAVI
+And beyond refusal?
+
+MANIMEKALAI
+I do not know yet.
+
+Madhavi studies her daughter. The uncertainty frightens her more than a clear answer.
+
+MADHAVI
+Not knowing will not keep you safe.
+
+MANIMEKALAI
+Neither will being known by the wrong name.
+
+Sudhamathi places the folded robe aside, away from all three objects.
+
+SUDHAMATHI
+She can walk before she names the road.
+
+Chitrapathi looks at her.
+
+CHITRAPATHI
+Roads name women quickly.
+
+SUDHAMATHI
+Then we should learn which roads are listening.
+
+CUT TO:
+
+/* TRACE: FU-005 | SC-009 */
+
+INT. PUHAR — FESTIVAL DEBATE HALL — DAY #6#
+
+An open hall divided by pillars, shade and gathered communities. No single platform dominates.
+
+A VEDIC RECITER speaks of order maintained through right relation and disciplined rite. An AJIVIKA ASCETIC answers that human pride exaggerates choice. A NIKANDAVADI TEACHER speaks of restraint and the consequences of harm. A MATERIALIST LAUGHS when a merchant invokes an invisible cause for a visible debt.
+
+MATERIALIST
+When the measure is short, do not blame a former birth. We can see the hand on the scale.
+
+Some laugh. Others object.
+
+Manimekalai and Sudhamathi stand at the edge, partly hidden by a pillar.
+
+MANIMEKALAI
+Do they ever agree?
+
+SUDHAMATHI
+Agreement is not what draws the crowd.
+
+MANIMEKALAI
+What does?
+
+SUDHAMATHI
+The hope that someone else will carry the uncertainty.
+
+A Buddhist mendicant listens without interrupting. Manimekalai notices the listening more than the argument.
+
+Outside, the festival surges toward the flower gardens.
+
+CHITRAPATHI appears at the hall entrance, searching for Manimekalai. Madhavi remains farther behind, unwilling to turn concern into pursuit.
+
+SUDHAMATHI
+We should return by the shaded route.
+
+MANIMEKALAI
+I promised flowers for the lamp.
+
+SUDHAMATHI
+Then we take the safer side of the street.
+
+They leave together.
+
+The debate continues behind them.
+
+CUT TO BLACK.
+```
+
+## SEQUENCE 02 — THE WOMAN WHO REFUSES A DESTINY
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-02_the_woman_who_refuses_a_destiny.fountain`
+
+```fountain
+# SEQUENCE 02 — THE WOMAN WHO REFUSES A DESTINY
+
+/* TRACE: FU-006 | SC-081 */
+
+EXT. PUHAR — SHADED MARKET STREET — DAY #7#
+
+MANIMEKALAI and SUDHAMATHI move against festival traffic.
+
+Sudhamathi does not look frightened. She looks trained by experience.
+
+She chooses the inside edge of the road, where doorways offer witnesses. She waits for mounted officers to pass before crossing.
+
+MANIMEKALAI
+You know every danger before it arrives.
+
+SUDHAMATHI
+No. I know the signs that people ignore.
+
+She watches a young woman pulled aside by a wealthy patron's servants. A crowd sees. Nobody speaks.
+
+Sudhamathi keeps walking.
+
+/* TRACE: FU-007 | SC-082 | ABSORBS: SC-056 */
+
+EXT. PUHAR — QUIET GARDEN PATH — LATER #8#
+
+Sudhamathi tells Manimekalai about the violence that changed how she reads streets.
+
+The story is not a performance of suffering. It is practical knowledge passed from survivor to friend.
+
+SUDHAMATHI
+A city tells you who is safe by who is allowed to be heard.
+
+Manimekalai looks back toward the festival road.
+
+The same city now appears different.
+
+/* TRACE: FU-008 | SC-055 | ABSORBS: SC-005; SC-083; SC-089 */
+
+EXT. PUHAR — FESTIVAL ROUTE — DAY #9#
+
+The crowd parts.
+
+UDAYAKUMARAN arrives with royal attendants.
+
+People notice him before he speaks. They notice Manimekalai before she chooses to be noticed.
+
+The prince sees beauty.
+
+Sudhamathi sees exposure.
+
+/* TRACE: FU-009 | SC-058 | ABSORBS: SC-049; SC-065; SC-084; SC-091 */
+
+EXT. TEMPLE COURTYARD — EVENING #10#
+
+Udayakumaran approaches Manimekalai.
+
+He speaks gently. He does not see that gentleness can still carry power.
+
+UDAYAKUMARAN
+Why do you run from a person who wishes you no harm?
+
+MANIMEKALAI
+Because my life is not a path another person may choose for me.
+
+A silence.
+
+The refusal is complete.
+
+/* TRACE: FU-010 | SC-090 */
+
+EXT. PALACE TERRACE — NIGHT #11#
+
+A warning reaches the prince.
+
+A VOICE from beyond the visible court does not threaten him. It names consequence.
+
+VOICE
+Desire without discipline becomes danger.
+
+The prince listens, but does not change.
+
+/* TRACE: FU-011 | SC-059 | ABSORBS: SC-025 */
+
+EXT. PUHAR — SACRED SPACE — NIGHT #12#
+
+Manimekalai is separated from the immediate pursuit.
+
+The city disappears behind her.
+
+What looks like escape becomes responsibility.
+
+/* TRACE: FU-012 | SC-085 | ABSORBS: SC-076 */
+
+INT. MADHAVI'S HOUSE — NIGHT #13#
+
+Madhavi enters the room where her daughter should be.
+
+It is empty.
+
+Madhavi reaches toward the household alarm. Stops.
+
+She turns to Sudhamathi instead.
+
+MADHAVI
+Tell me what you saw. Not what the city will say happened.
+
+Sudhamathi cannot explain everything she witnessed.
+
+But she can tell the truth of what she saw.
+
+The house waits in uncertainty.
+
+END SEQUENCE 02
+```
+
+## SEQUENCE 03 — THE ISLAND OF MEMORY
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-03_the_island_of_memory.fountain`
+
+```fountain
+# SEQUENCE 03 — THE ISLAND OF MEMORY
+
+/* TRACE: FU-013 | SC-066 | ABSORBS: SC-026 */
+
+EXT. MANIPALLAVAM SHORE — DAWN #14#
+
+MANIMEKALAI wakes where sea, sand and sky offer no human answer.
+
+She sits up too quickly. The horizon turns. She lowers her head and waits for her body to settle.
+
+No attendants. No Sudhamathi. No city noise.
+
+She tests the wet sand with her fingers. Watches the direction of birds. Measures the sun against the water. Finds her own footprints and no others.
+
+MANIMEKALAI
+Sudhamathi?
+
+Only surf answers.
+
+She walks inland, afraid but attentive. Sacred removal has not made her invulnerable. It has taken away every familiar protection.
+
+At the edge of a grove, she hears water.
+
+
+/* TRACE: FU-014 | SC-027 */
+
+EXT. GOMUKHI POND AND SACRED SEAT — MORNING #15#
+
+A still pond lies inside the island. Nearby, the sacred seat holds light without becoming spectacle.
+
+DEEPATHILAHAI approaches. Her presence is calm, but Manimekalai does not immediately trust what she sees.
+
+DEEPATHILAHAI
+You have reached the place where memory returns.
+
+MANIMEKALAI
+Memory belongs to the person who remembers it.
+
+DEEPATHILAHAI
+And consequence belongs to more than one life.
+
+Manimekalai circles the sacred seat.
+
+Fragments rise — not a complete history, but sensations with moral weight:
+
+A hand once held.
+
+A promise once made.
+
+A death carried into another birth.
+
+Udayakumaran's face appears within the memory, then separates from it.
+
+MANIMEKALAI
+What was true before does not command what I choose now.
+
+DEEPATHILAHAI
+No memory can make consent for the living.
+
+Manimekalai absorbs this. Revelation has enlarged her identity, not surrendered it.
+
+She touches the edge of the sacred seat.
+
+The experience is real to her. It is not yet an argument she can require others to accept.
+
+
+/* TRACE: FU-015 | SC-015 | ABSORBS: SC-067 */
+
+EXT. GOMUKHI POND — LATER #16#
+
+The pond changes.
+
+Water gathers toward one point. The AMUDHASURABHI rises within reach.
+
+Manimekalai does not seize it. She waits.
+
+DEEPATHILAHAI
+It answers hunger.
+
+MANIMEKALAI
+Then why was it left here?
+
+DEEPATHILAHAI
+Because abundance can be possessed as easily as it can be served.
+
+Manimekalai lifts the vessel.
+
+It is not physically heavy. The responsibility is.
+
+She looks into it and sees no treasure, only the possibility of unknown lives depending on what she does next.
+
+MANIMEKALAI
+I do not know how to carry this among people.
+
+DEEPATHILAHAI
+Knowing that is safer than believing you already do.
+
+Manimekalai holds the vessel against her body.
+
+She has accepted obligation, not completion.
+
+
+/* TRACE: FU-016 | SC-086 */
+
+INTERCUT — MANIPALLAVAM / MADHAVI'S HOUSE — DAY #17#
+
+On the island, Manimekalai prepares to return.
+
+In Puhar, SUDHAMATHI sits before MADHAVI and reconstructs the disappearance.
+
+SUDHAMATHI
+I saw the prince follow. I saw her refuse him. I saw the night change around her.
+
+MADHAVI
+Where did she go?
+
+SUDHAMATHI
+I cannot tell you what I did not see.
+
+Madhavi wants certainty. Sudhamathi refuses to invent it.
+
+SUDHAMATHI (CONT'D)
+I know she did not leave by choice. I know she was alive when I lost sight of her.
+
+On Manipallavam, Manimekalai turns toward the sea with the vessel.
+
+In Puhar, Sudhamathi's testimony gives the household something narrower than consolation and stronger than rumour: an honest account of its limits.
+
+Manimekalai returns toward a city that knows her as Madhavi's daughter and the object of a prince's desire.
+
+She now carries a responsibility the city cannot yet understand.
+
+END SEQUENCE 03
+```
+
+## SEQUENCE 04 — THE BOWL AND THE HUNGRY CITY
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-04_the_bowl_and_the_hungry_city.fountain`
+
+```fountain
+# SEQUENCE 04 — THE BOWL AND THE HUNGRY CITY
+
+/* TRACE: FU-017 | SC-098 */
+
+INT. ARAVANA ADIGAL'S DWELLING — DAY #18#
+
+MANIMEKALAI enters carrying the Amudhasurabhi.
+
+MADHAVI and SUDHAMATHI enter with her, not behind her.
+
+ARAVANA ADIGAL rises slowly. Age has altered his movement, not his attention.
+
+He looks first at Madhavi, whose grief he once received. Then at Sudhamathi, whose account held the household together. Finally at Manimekalai and the vessel.
+
+ARAVANA ADIGAL
+Three women have come. Three accounts must be heard.
+
+No one is invited to surrender her knowledge to the others.
+
+
+/* TRACE: FU-018 | SC-099 */
+
+INT. ARAVANA ADIGAL'S DWELLING — CONTINUOUS #19#
+
+Manimekalai tells the story without interruption.
+
+She describes the pursuit, the disappearance, waking alone, the sacred seat, fragments of previous-life memory and the vessel rising from the pond.
+
+MANIMEKALAI
+I remember something that joins the prince to another life.
+
+MADHAVI stiffens.
+
+MANIMEKALAI (CONT'D)
+It explains why his face was familiar. It does not decide what I owe him now.
+
+Aravana lets the sentence remain hers.
+
+MANIMEKALAI (CONT'D)
+The vessel answers hunger. I do not know why it came to me.
+
+ARAVANA ADIGAL
+Then hear the life that carried it before you.
+
+
+/* TRACE: FU-019 | SC-100 */
+
+INT. ARAVANA ADIGAL'S DWELLING — DAY #20#
+
+Aravana places an ordinary begging bowl beside the Amudhasurabhi.
+
+ARAVANA ADIGAL
+Do not begin with the miracle.
+
+He touches the ordinary bowl.
+
+ARAVANA ADIGAL (CONT'D)
+Begin with hunger.
+
+The room darkens into memory.
+
+
+/* TRACE: BR-002 | SC-120 */
+
+EXT. SOUTHERN GROVE — MEMORY — DAWN #21#
+
+An abandoned INFANT cries beneath trees.
+
+A COW approaches cautiously. She smells the child, settles beside him and keeps him alive across passing days.
+
+Human feet cross distant paths without noticing.
+
+Care arrives before doctrine, ancestry or social recognition.
+
+
+/* TRACE: BR-003 | SC-121 */
+
+EXT. RITUAL ENCLOSURE — MEMORY — DAY #22#
+
+APUTHIRAN, now a learned young man, sees a frightened cow restrained for sacrifice.
+
+He reads the animal's body before he hears the officiants' explanation.
+
+APUTHIRAN
+It does not consent to your holiness.
+
+Murmurs turn hostile.
+
+He releases the animal and accepts the social danger that follows.
+
+Men attack his ancestry. Stones strike the earth around him and are dropped into his begging vessel.
+
+Aputhiran does not answer birth-based humiliation with shame.
+
+He leaves with the rescued cow moving ahead of him.
+
+
+/* TRACE: BR-004 | SC-123 | ABSORBS: SC-122 */
+
+EXT. MADURAI — SINDHADEVI PRECINCT — MEMORY — EVENING #23#
+
+Aputhiran gathers ordinary food from several thresholds.
+
+He serves an elderly woman who cannot stand in a public queue. A labourer with an injured hand. A child who first feeds a stray dog before eating.
+
+Only after others have eaten does Aputhiran take what remains.
+
+He sleeps near the empty serving place with the ordinary bowl beside him.
+
+Compassion is already a practice. No miracle has created it.
+
+
+/* TRACE: BR-005 | SC-124 */
+
+INT./EXT. SINDHADEVI FEEDING SPACE — MEMORY — NIGHT #24#
+
+SINDHADEVI entrusts Aputhiran with the inexhaustible vessel.
+
+Later, INDRA offers reward.
+
+INDRA
+Ask what heaven may give you.
+
+APUTHIRAN
+Give food to those you left hungry.
+
+People are already waiting beside the serving place.
+
+Aputhiran turns from Indra and serves them before heaven can answer.
+
+The refusal is courageous. Pride flickers inside it.
+
+Aputhiran has begun to measure his worth through being needed.
+
+
+/* TRACE: BR-006 | SC-125 | ABSORBS: SC-016 */
+
+EXT. FORMER FEEDING HALL — MEMORY — DAY #25#
+
+Rain has come. Fields recover. The feeding hall stands empty.
+
+This is good news.
+
+Aputhiran waits anyway.
+
+No one arrives.
+
+He looks at the vessel as though it has lost its meaning. Then at himself, as though he has.
+
+A passing farmer bows in gratitude and continues toward a full household.
+
+Aputhiran cannot yet understand how to serve people who no longer depend on him.
+
+
+/* TRACE: BR-007 | SC-127 | ABSORBS: SC-028; SC-126 */
+
+EXT. MERCHANT VESSEL / MANIPALLAVAM SHORE — MEMORY — NIGHT #26#
+
+Travellers bring news of famine across the sea.
+
+Aputhiran joins a merchant voyage. Sailors repair rope, ration water and read weather. The vessel's movement depends on many hands.
+
+At Manipallavam, storm, fatigue and confused signals separate Aputhiran from the ship.
+
+He returns to the landing after darkness.
+
+The vessel is already beyond reach.
+
+No villain watches from the deck. No one aboard fully understands who has been left behind.
+
+Consequence does not require deliberate betrayal.
+
+
+/* TRACE: BR-008 | SC-128 */
+
+EXT. GOMUKHI POND — MEMORY — DAWN #27#
+
+Aputhiran carries the Amudhasurabhi to the pond.
+
+APUTHIRAN
+Let it reach a hand that can serve without owning.
+
+He releases it into the water.
+
+His final fast is held at a distance. The screenplay offers no ritualised procedure and no triumphant image of self-erasure.
+
+The empty shore remains tragic.
+
+The vessel waits beyond its first custodian.
+
+
+/* TRACE: FU-020 | SC-101 | ABSORBS: SC-077 */
+
+INT. ARAVANA ADIGAL'S DWELLING — DAY #28#
+
+The memory ends.
+
+Manimekalai looks from the ordinary bowl to the Amudhasurabhi.
+
+MANIMEKALAI
+He gave everything until he could not imagine himself without giving.
+
+ARAVANA ADIGAL
+Compassion is not the wish to be indispensable.
+
+He gestures toward the doorway.
+
+ARAVANA ADIGAL (CONT'D)
+Do not hide the vessel here. Let the hungry teach you what service requires.
+
+Madhavi studies her daughter.
+
+MADHAVI
+Once you cross that threshold, the city will claim your actions even if it cannot claim your life.
+
+MANIMEKALAI
+Then I must learn to act where they can see me.
+
+
+/* TRACE: BR-010 | SC-150 | ABSORBS: SC-043; SC-044; SC-148; SC-149 */
+
+INT./EXT. AADHIRAI'S HOUSE / MERCHANT QUARTER — MEMORY — DAY #29#
+
+News of a broken ship reaches AADHIRAI through frightened survivors.
+
+Possibility becomes certainty as it travels from mouth to mouth.
+
+SADHUVAN is declared dead before knowledge is complete.
+
+Household grief closes around Aadhirai. Social expectation presses her toward death by fire.
+
+The act is interrupted by the textually supported voice that announces Sāduvan lives.
+
+The fire does not become proof of ideal wifehood. The important fact is that Aadhirai remains alive after society treated her life as finished.
+
+Elsewhere, Sāduvan survives shipwreck among strangers who could exploit him. His vulnerability teaches him the moral claim of the shipwrecked person.
+
+
+/* TRACE: BR-011 | SC-152 | ABSORBS: SC-151 */
+
+INT. AADHIRAI'S HOUSE — MEMORY — EVENING #30#
+
+Sāduvan returns.
+
+Aadhirai opens the door but does not run into his arms.
+
+SADHUVAN
+I came back changed.
+
+AADHIRAI
+You came back. Change must be lived after arrival.
+
+He accepts the distinction.
+
+They enter the same house as altered people. Reunion does not erase abandonment, rumour or the life Aadhirai maintained alone.
+
+
+/* TRACE: FU-021 | SC-153 | ABSORBS: SC-017; SC-154 */
+
+EXT. AADHIRAI'S HOUSE — THRESHOLD — DAY #31#
+
+Manimekalai stands with the Amudhasurabhi.
+
+Aadhirai brings a household pot of cooked rice and curry to the threshold.
+
+No crowd witnesses the beginning.
+
+AADHIRAI
+Food kept behind a door protects one house.
+
+She serves with both hands until the Amudhasurabhi is full. A line of ghee catches the light across the rice.
+
+AADHIRAI (CONT'D)
+May this cross every door that has been closed to hunger.
+
+Manimekalai receives the offering as trust, not tribute.
+
+The wish travels beyond the threshold.
+
+
+/* TRACE: FU-022 | SC-068 | ABSORBS: SC-006; SC-018 */
+
+EXT. ULAGA ARAVI — PUBLIC FEEDING SPACE — DAY #32#
+
+Manimekalai serves the first portions of Aadhirai's rice and curry.
+
+She looks back into the vessel.
+
+The level has not fallen.
+
+The first crowd forms faster than Manimekalai can organise it.
+
+She continues serving. People press forward. Water runs short. A child is nearly knocked down.
+
+SUDHAMATHI takes control of one line.
+
+SUDHAMATHI
+Those who cannot stand do not wait behind those who can.
+
+A WATER CARRIER establishes a second route. A FORMER RECIPIENT begins cleaning bowls. A woman translates for travellers who do not understand the instructions. Someone brings food to animals at the edge of the crowd.
+
+Manimekalai stops serving long enough to watch the system forming around her.
+
+MANIMEKALAI
+I thought the vessel was the work.
+
+SUDHAMATHI
+The vessel is food. The work is everyone reaching it safely.
+
+Manimekalai changes the arrangement.
+
+Compassion becomes logistics.
+
+
+/* TRACE: FU-023 | SC-019 */
+
+EXT. ULAGA ARAVI — LATER #33#
+
+KAYASANDIHAI eats.
+
+At first she moves with the urgency of a body that no longer trusts food to remain.
+
+Then the hunger releases.
+
+Her breath slows. Her shoulders lower. She notices sound, shade and the people near her.
+
+KAYASANDIHAI
+Enough.
+
+The word is not comic and not miraculous theatre.
+
+Manimekalai kneels at the same level.
+
+MANIMEKALAI
+What do you need now?
+
+KAYASANDIHAI
+Water. Rest. Then I will tell you where hunger waits beyond this courtyard.
+
+Kayasandihai considers a future beyond the next mouthful.
+
+
+/* TRACE: FU-024 | SC-020 | ABSORBS: SC-037; SC-051 */
+
+INT. ROYAL PRISON — DAY #34#
+
+A key turns.
+
+Not to admit another prisoner — to open the rooms.
+
+Guards remove restraints from walls. Workers carry in water vessels, cooking stones, bedding and storage jars. Former cells become sleeping spaces. A guarded courtyard becomes a kitchen.
+
+In one opened room, a SCRIBE reads names, needs and requests for a hearing aloud. The people named may correct the account before it is kept at the public threshold.
+
+Writing becomes a tool people can question, not another locked room.
+
+A ROYAL OFFICIAL watches the transformation with unease.
+
+ROYAL OFFICIAL
+A prison teaches fear. What will this place teach now?
+
+MANIMEKALAI
+Whether rule can recognise a life before punishing it.
+
+She hands the first ladle to a former prisoner who knows the building better than any official.
+
+The Amudhasurabhi supplies food.
+
+People reorganise power.
+
+END SEQUENCE 04
+```
+
+## SEQUENCE 05 — THE PRINCE AND THE SHADOW
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-05_the_prince_and_the_shadow.fountain`
+
+```fountain
+# SEQUENCE 05 — THE PRINCE AND THE SHADOW
+
+/* TRACE: FU-025 | SC-107 */
+
+INT. CHITRAPATHI'S RECEIVING ROOM — LATE AFTERNOON #35#
+
+CHITRAPATHI receives UDAYAKUMARAN without musicians, incense or ceremony.
+
+The room carries the evidence of an artistic household under strain: instruments maintained but unused, account cords retied, a costume chest left unopened.
+
+CHITRAPATHI
+A house like ours survives because powerful people remember its value.
+
+UDAYAKUMARAN
+You asked for me because Manimekalai has forgotten mine.
+
+CHITRAPATHI
+No. I asked because the city has begun to treat her refusal as protection enough.
+
+She places an account cord between them.
+
+CHITRAPATHI (CONT'D)
+Refusal does not pay workers. Renunciation does not prevent men from speaking her name. A royal regard could make others cautious.
+
+UDAYAKUMARAN
+You want my protection.
+
+CHITRAPATHI
+I want the danger around her to fear something.
+
+UDAYAKUMARAN
+And what does she want?
+
+Chitrapathi does not answer quickly enough.
+
+The prince sees the omission and mistakes it for permission.
+
+CHITRAPATHI
+Do not make my fear into your right.
+
+UDAYAKUMARAN
+I would never harm her.
+
+CHITRAPATHI
+Power rarely recognises itself as harm.
+
+He rises. The warning has reached him. Whether it governs him remains his choice.
+
+
+/* TRACE: FU-026 | SC-092 */
+
+EXT. ULAGA ARAVI — SERVICE COURTYARD — EVENING #36#
+
+Manimekalai serves food while workers close the public lines for the night.
+
+Udayakumaran waits beyond the recipients. He has dismissed his attendants, but not the authority their absence implies.
+
+UDAYAKUMARAN
+You remember me.
+
+MANIMEKALAI
+I remember another life touching this one.
+
+Hope enters his face too quickly.
+
+UDAYAKUMARAN
+Then what I feel is not without cause.
+
+MANIMEKALAI
+Cause is not permission.
+
+She closes the lid of a water jar.
+
+MANIMEKALAI (CONT'D)
+A memory may explain why a face is familiar. It cannot decide what the living person owes.
+
+UDAYAKUMARAN
+You speak as though affection were violence.
+
+MANIMEKALAI
+No. I speak as though affection can become violence when it refuses an answer.
+
+He absorbs the sentence but cannot yet accept the world it requires.
+
+UDAYAKUMARAN
+I will wait until you understand me.
+
+MANIMEKALAI
+You are still making my understanding the end of your story.
+
+She walks back into the feeding space.
+
+The prince remains outside it.
+
+
+/* TRACE: BR-009 | SC-131 | ABSORBS: SC-129; SC-130 */
+
+MONTAGE — KANCHANAN'S SEARCH — MEMORY #37#
+
+— KANCHANAN and KAYASANDIHAI travel together through a crowded festival road. She laughs at his impatience.
+
+— Later, illness has changed her body. He brings food that cannot satisfy her hunger.
+
+— An Indra festival passes. He searches Puhar's lodging houses.
+
+— Another festival. He questions merchants arriving from distant ports.
+
+— Another. Garlands change, drums change, children grow taller. Kanchanan keeps the same small ornament that belonged to Kayasandihai.
+
+— He sleeps beside a road after following a false report.
+
+— He wakes and continues.
+
+His loyalty is real.
+
+So is the expectation that years of searching must eventually be rewarded by recognition.
+
+
+/* TRACE: FU-028 | SC-132 | ABSORBS: SC-007; SC-060 */
+
+EXT. ULAGA ARAVI — OUTER COURTYARD — NIGHT #38#
+
+Manimekalai now bears KAYASANDIHAI'S FORM so she may continue service without drawing the prince directly toward recipients.
+
+The disguise changes her face, voice and danger. It does not give her Kayasandihai's history.
+
+Kanchanan enters the courtyard.
+
+He sees his wife's face.
+
+For one suspended moment, years of searching end.
+
+KANCHANAN
+Kayasandihai.
+
+Manimekalai turns.
+
+She does not know him.
+
+Kanchanan approaches slowly, afraid that haste will break the moment.
+
+KANCHANAN (CONT'D)
+I counted every festival after you vanished.
+
+MANIMEKALAI
+You have mistaken me.
+
+Her voice carries the altered form, but not the intimacy he expects.
+
+KANCHANAN
+You are angry.
+
+MANIMEKALAI
+I am telling you I am not the person you name.
+
+He shows her the small ornament.
+
+KANCHANAN
+You wore its pair.
+
+Manimekalai cannot explain the disguise without exposing herself and the people around her to the prince's pursuit.
+
+MANIMEKALAI
+A face is not an answer.
+
+Kanchanan hears secrecy where she has offered uncertainty.
+
+
+/* TRACE: FU-029 | SC-133 | ABSORBS: SC-093 */
+
+EXT. ULAGA ARAVI — COLUMNED WALK — LATER #39#
+
+Udayakumaran enters through a side passage.
+
+Manimekalai sees him and immediately moves away from the crowded sleeping area.
+
+Kanchanan watches from behind a column.
+
+He sees Udayakumaran follow the woman with Kayasandihai's face.
+
+He does not hear the beginning of their exchange.
+
+UDAYAKUMARAN
+How many forms will you take to avoid one truth?
+
+MANIMEKALAI
+As many as your power makes necessary.
+
+Kanchanan hears only fragments — FORMS. TRUTH. NECESSARY.
+
+Udayakumaran reaches toward her. She steps beyond his hand.
+
+MANIMEKALAI (CONT'D)
+Do not enter the sleeping court again.
+
+UDAYAKUMARAN
+Then meet me where no one else is endangered.
+
+MANIMEKALAI
+No place makes refusal disappear.
+
+She leaves.
+
+From Kanchanan's position, distance resembles intimacy, concealment resembles betrayal and the prince's persistence resembles invitation.
+
+Kanchanan touches the ornament in his palm.
+
+KANCHANAN
+She denied her own name for him.
+
+No witness confirms it.
+
+The conclusion becomes more certain because it answers his fear.
+
+
+/* TRACE: FU-030 | SC-134 */
+
+INT. ABANDONED SERVICE PASSAGE — NIGHT #40#
+
+Kanchanan sits alone with a sword across his knees.
+
+He does not draw it in sudden rage. He prepares.
+
+From the passage he can see three possible exits.
+
+He could leave.
+
+He could wake the workers sleeping nearby.
+
+He could confront the woman in daylight.
+
+He could ask one question.
+
+Instead, he tests the blade against his thumb and hides behind the stone screen.
+
+A NIGHT WORKER passes carrying water.
+
+NIGHT WORKER
+The public court is closed.
+
+KANCHANAN
+I am waiting for my wife.
+
+NIGHT WORKER
+Then let her know you are here.
+
+Kanchanan looks toward the dark courtyard.
+
+KANCHANAN
+She knows.
+
+He has converted suspicion into permission to act.
+
+
+/* TRACE: FU-031 | SC-135 */
+
+EXT. ULAGA ARAVI — INNER COURTYARD — MIDNIGHT #41#
+
+The relief compound sleeps in layers: recipients, workers, animals, guards at a distance.
+
+Udayakumaran enters alone.
+
+He believes secrecy reduces harm. It only removes witnesses.
+
+Manimekalai, still in Kayasandihai's form, steps from the shrine passage.
+
+MANIMEKALAI
+You were told not to return.
+
+UDAYAKUMARAN
+I came without rank.
+
+MANIMEKALAI
+You cannot remove rank by dismissing the people who announce it.
+
+He takes another step.
+
+UDAYAKUMARAN
+Tell me there is nothing between the life you remember and this one.
+
+MANIMEKALAI
+There is consequence. There is not ownership.
+
+Behind the screen, Kanchanan sees the prince facing the woman he believes is his wife.
+
+The sword leaves its sheath.
+
+Manimekalai hears metal and turns.
+
+Too late.
+
+Kanchanan strikes Udayakumaran from concealment.
+
+No duel. No heroic defence. A brief, irreversible act.
+
+The prince falls against the stone edge.
+
+Manimekalai catches him before his head reaches the ground.
+
+UDAYAKUMARAN
+I thought... time would change you.
+
+MANIMEKALAI
+Time was meant to change you.
+
+His breath stops.
+
+Kanchanan stands over them, waiting for the scene to prove him right.
+
+It does not.
+
+
+/* TRACE: FU-032 | SC-136 */
+
+INT. KANTHIL PAVAI SHRINE — CONTINUOUS #42#
+
+Kanchanan follows Manimekalai into the shrine passage, sword wet in his hand.
+
+KANCHANAN
+Come away from him.
+
+MANIMEKALAI
+I am not Kayasandihai.
+
+KANCHANAN
+Do not use another lie.
+
+The KANTHIL PAVAI speaks from the sacred space. The manifestation is grave, not spectacular.
+
+KANTHIL PAVAI
+Do not go near her.
+
+Kanchanan freezes.
+
+KANTHIL PAVAI (CONT'D)
+The woman you sought has completed her own course. The face before you was borne by another.
+
+Kanchanan looks at Manimekalai. Certainty begins to fracture.
+
+KANTHIL PAVAI (CONT'D)
+The prince entered a chain older than this night. That chain did not lift the sword. You did.
+
+KANCHANAN
+I saw them.
+
+KANTHIL PAVAI
+You saw forms. You supplied the truth you wanted.
+
+His hand opens. The sword falls.
+
+KANCHANAN
+Where is my wife?
+
+KANTHIL PAVAI
+Beyond the claim you made upon this stranger.
+
+Kanchanan collapses beside neither victim nor altar. There is no absolution in the correction.
+
+
+/* TRACE: FU-033 | SC-069 | ABSORBS: SC-096 */
+
+EXT. ULAGA ARAVI — DAWN #43#
+
+The prince's body lies under a plain cloth while officials gather outside the relief compound.
+
+Manimekalai has returned to her own form.
+
+She washes blood from her hands. The water reddens, thins and clears.
+
+SUDHAMATHI arrives and kneels beside her.
+
+SUDHAMATHI
+Did he touch you?
+
+MANIMEKALAI
+He kept entering the space after I said no.
+
+SUDHAMATHI
+That is not what I asked.
+
+Manimekalai understands. Her body is still hers, even inside public tragedy.
+
+MANIMEKALAI
+No.
+
+She looks toward the covered prince.
+
+MANIMEKALAI (CONT'D)
+I did not want him dead.
+
+SUDHAMATHI
+That does not make his pursuit your act.
+
+MANIMEKALAI
+And Kanchanan?
+
+SUDHAMATHI
+His grief explains the road. It did not move his hand.
+
+Royal guards enter the courtyard.
+
+The people Manimekalai fed are ordered aside. The prison she helped transform is again invoked as a destination.
+
+Manimekalai rises without surrendering the vessel.
+
+MANIMEKALAI
+Let every account be heard before grief becomes judgement.
+
+The guards surround her.
+
+The private death passes into state power.
+
+END SEQUENCE 05
+```
+
+## SEQUENCE 06 — THE PALACE OF GRIEF
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-06_the_palace_of_grief.fountain`
+
+```fountain
+# SEQUENCE 06 — THE PALACE OF GRIEF
+
+/* TRACE: FU-034 | SC-050 */
+
+INT. CHOLA PALACE — HALL OF HEARING — MORNING #44#
+
+The court assembles before the prince's body is brought inside.
+
+The CHOLA KING sits beneath the sceptre he heard praised at the festival. Beside him, RAJAMADEVI holds herself upright through force.
+
+Officials present accounts in sequence.
+
+A PALACE GUARD speaks first.
+
+PALACE GUARD
+The prince left without escort.
+
+A RELIEF WORKER follows.
+
+RELIEF WORKER
+He had entered the compound before. He was asked not to return.
+
+A SECOND WITNESS describes a stranger with a sword.
+
+SECOND WITNESS
+He said he was waiting for his wife.
+
+KANCHANAN stands under guard. He does not look at Manimekalai.
+
+KANCHANAN
+I believed the woman was Kayasandihai.
+
+KING
+Belief is not yet an account of what you did.
+
+KANCHANAN
+I waited. I saw the prince meet her in secret. I struck him.
+
+The words land without ornament.
+
+Rajamadevi turns toward Manimekalai.
+
+RAJAMADEVI
+And you drew my son there.
+
+MANIMEKALAI
+No.
+
+The answer shocks the hall because it is neither apology nor defence rehearsed for rank.
+
+MANIMEKALAI (CONT'D)
+He came after refusal. Kanchanan came after assumption. Their choices met in the same place.
+
+A COURT SCRIBE records each statement separately.
+
+KING
+No account is to be folded into another because grief demands speed.
+
+Rajamadevi hears restraint as delay imposed on a mother.
+
+The King hears it as the minimum duty of rule.
+
+The prince's covered body is carried into the hall.
+
+Rajamadevi's political composure breaks for one breath.
+
+Then returns harder.
+
+
+/* TRACE: FU-035 | SC-112 | ABSORBS: SC-052; SC-094; SC-111 */
+
+INT. PALACE — MOURNING CHAMBER — LATER #45#
+
+UDAYAKUMARAN lies prepared for royal mourning.
+
+Rajamadevi sits beside him. VASANTAVAI, elderly and unsparing, stands at the foot of the bier.
+
+RAJAMADEVI
+Tell them he died for love.
+
+VASANTAVAI
+He died after refusing to discipline desire.
+
+The Queen looks up sharply.
+
+RAJAMADEVI
+You will not speak against him here.
+
+VASANTAVAI
+I will not turn persistence into virtue because the body is still warm.
+
+Rajamadevi touches her son's hair.
+
+RAJAMADEVI
+He was gentle.
+
+VASANTAVAI
+Gentleness does not make another person's answer temporary.
+
+RAJAMADEVI
+He would have protected her.
+
+VASANTAVAI
+From everyone except the future he chose for her.
+
+The Queen rises.
+
+RAJAMADEVI
+You offer judgement when I asked for blessing.
+
+VASANTAVAI
+You asked me to make his conduct holy so your grief would have an enemy.
+
+Rajamadevi turns away.
+
+The refusal of consolation leaves her with pain she cannot place.
+
+An ATTENDANT enters.
+
+ATTENDANT
+The court has not ordered the young woman held.
+
+Rajamadevi's eyes remain on the bier.
+
+RAJAMADEVI
+Then ask that she be released into my care.
+
+Vasantavai understands before the attendant does.
+
+VASANTAVAI
+Care cannot begin in concealment.
+
+RAJAMADEVI
+A mother may decide what she can bear to see.
+
+VASANTAVAI
+A queen decides what others are forced to bear.
+
+Rajamadevi dismisses her with a look.
+
+
+/* TRACE: FU-036 | SC-113 | ABSORBS: SC-062 */
+
+INT. PALACE — PUBLIC PASSAGE / PRIVATE APARTMENTS — DAY #46#
+
+Before witnesses, Rajamadevi receives Manimekalai with restrained dignity.
+
+RAJAMADEVI
+You should not remain among guards and accusation. Stay under my protection until the city is calm.
+
+The request is presented as mercy.
+
+MANIMEKALAI
+May Sudhamathi remain with me?
+
+RAJAMADEVI
+You need quiet, not more voices.
+
+MANIMEKALAI
+Then this is not protection.
+
+The Queen smiles for the watching officials.
+
+RAJAMADEVI
+Grief has made both of us suspicious.
+
+She gestures toward the private apartments.
+
+Manimekalai enters because refusal here would be converted into public proof of guilt.
+
+The doors close behind her.
+
+Inside, guards remove the Amudhasurabhi from her reach but do not carry it away. It remains visible beyond a screen.
+
+MANIMEKALAI
+Who may enter this room?
+
+PALACE ATTENDANT
+Whomever the Queen permits.
+
+MANIMEKALAI
+And who may leave?
+
+The attendant does not answer.
+
+In the public passage, an OFFICIAL records that Manimekalai has been released from formal custody.
+
+In the private room, a bolt slides into place.
+
+Protection has become a lie made possible by two different records of the same door.
+
+
+/* TRACE: FU-037 | SC-114 */
+
+INT. PALACE — MANIMEKALAI'S CHAMBER — NIGHT #47#
+
+A cup of spiced milk is brought on a tray.
+
+The YOUNG ATTENDANT carrying it cannot meet Manimekalai's eyes.
+
+MANIMEKALAI
+Who prepared it?
+
+YOUNG ATTENDANT
+The night kitchen.
+
+MANIMEKALAI
+Who instructed the kitchen?
+
+The attendant's hand trembles.
+
+YOUNG ATTENDANT
+I was told only to carry it.
+
+Manimekalai takes the cup, smells it and sets it down.
+
+MANIMEKALAI
+Then remain while I drink.
+
+The attendant looks toward the door.
+
+YOUNG ATTENDANT
+I cannot.
+
+MANIMEKALAI
+You can carry the act but not witness it.
+
+The attendant begins to cry silently.
+
+Manimekalai pours a small amount onto a cloth. The fibres darken strangely.
+
+An OLDER SERVANT enters, sees the cloth and stops.
+
+OLDER SERVANT
+Leave the tray.
+
+YOUNG ATTENDANT
+The Queen will ask if she drank.
+
+OLDER SERVANT
+Then the Queen will have an answer with two witnesses.
+
+The older servant lifts the cup without touching the rim and carries it into the passage.
+
+MANIMEKALAI
+Do not destroy it.
+
+OLDER SERVANT
+I have served palaces long enough to know why evidence disappears.
+
+The attempt has failed physically.
+
+It has succeeded in revealing a chain: instruction, kitchen, carrier, locked room.
+
+Manimekalai sits beside the untouched food.
+
+She is alive, but safety has not returned.
+
+
+/* TRACE: FU-038 | SC-115 */
+
+INT. PALACE — SERVICE COURT / CITY LANES — DAY #48#
+
+Rajamadevi changes weapons.
+
+A MAN IN DEBT is brought through a side entrance. A palace intermediary places coins before him.
+
+INTERMEDIARY
+You entered her room. She invited you. You escaped when she threatened accusation.
+
+MAN IN DEBT
+I have never seen her.
+
+INTERMEDIARY
+You will see her when you identify her.
+
+He looks at the coins, then at the armed servant by the door.
+
+Later, before minor officials, the man points toward Manimekalai.
+
+MAN IN DEBT
+That is the woman.
+
+MANIMEKALAI
+What colour was the room?
+
+He hesitates.
+
+MAN IN DEBT
+Dark.
+
+MANIMEKALAI
+There are no windows. It is dark at every hour. What was beside the door?
+
+He looks toward the intermediary.
+
+MANIMEKALAI (CONT'D)
+Which hand did I use to open it?
+
+His rehearsed story has no body inside it.
+
+The accusation fails as formal proof.
+
+But outside the palace it changes shape.
+
+MONTAGE — CITY LANES
+
+— A vendor hears that Manimekalai received a man in secret.
+
+— A customer says the palace would not investigate without reason.
+
+— A former recipient says she fed my children.
+
+— Another answers that holiness is the easiest disguise.
+
+The rumour moves farther than the correction.
+
+Inside, the man in debt pushes the coins back.
+
+MAN IN DEBT
+I cannot repay what I owe by becoming another person's lie.
+
+The intermediary leaves the coins where they are.
+
+INTERMEDIARY
+The story no longer requires you.
+
+Reputation has become an institution without walls.
+
+
+/* TRACE: FU-039 | SC-116 | ABSORBS: SC-021; SC-070 */
+
+INT. PALACE — WINDOWLESS ROOM — PASSING DAYS #49#
+
+The Amudhasurabhi is removed.
+
+Then the water measure is reduced.
+
+Then food stops arriving.
+
+No single guard announces an order. The deprivation appears through routine obedience.
+
+A kitchen worker marks a tray as delivered though it remains in the corridor.
+
+A guard tells the next shift that the prisoner refused food.
+
+An official record describes spiritual fasting.
+
+Inside the room, Manimekalai wakes weak and disoriented.
+
+She places her palm against the floor to steady herself.
+
+The woman who organised public feeding is now made hungry by an organisation of doors, records and withheld labour.
+
+She hears a RAT scratching beyond the wall and pushes the last grain from her garment toward the crack.
+
+MANIMEKALAI
+Not purity. Not punishment. Hunger.
+
+She controls her breathing but does not transcend the body.
+
+Outside, the young attendant from the cup stands beside the older servant.
+
+YOUNG ATTENDANT
+They say she refuses every tray.
+
+OLDER SERVANT
+Then why are the trays still full before they reach the door?
+
+They follow the supply route backward.
+
+A WATER CARRIER notices the reduced measure.
+
+A SCRIBE finds two conflicting records.
+
+Small witnesses begin to connect.
+
+Inside, Manimekalai tries to stand and falls against the wall.
+
+She is afraid. She is angry. She remains unwilling to confess to a crime created from another person's grief.
+
+The bolt moves.
+
+Rajamadevi enters alone.
+
+She sees not a supernatural rival but a weakened young woman subjected to a system the Queen commanded and others made possible.
+
+Manimekalai looks up.
+
+MANIMEKALAI
+Are you here to mourn your son — or to make another body answer for him?
+
+Rajamadevi cannot yet respond.
+
+END SEQUENCE 06
+```
+
+## SEQUENCE 07 — THE QUEEN LEARNS TO LISTEN
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-07_the_queen_learns_to_listen.fountain`
+
+```fountain
+# SEQUENCE 07 — THE QUEEN LEARNS TO LISTEN
+
+/* TRACE: FU-040 | SC-117 | ABSORBS: SC-063 */
+
+INT. PALACE — WINDOWLESS ROOM — CONTINUOUS #50#
+
+RAJAMADEVI stands inside the room she ordered closed.
+
+MANIMEKALAI remains against the wall, conserving the effort required to sit upright.
+
+Between them: the full water jar that never crossed the threshold, the untouched tray entered falsely in a record, the cloth stained by the drugged cup.
+
+RAJAMADEVI
+You speak as though grief were a crime.
+
+MANIMEKALAI
+Grief is pain. What it commands others to do can become a crime.
+
+The Queen looks at the hollow beneath Manimekalai's eyes.
+
+RAJAMADEVI
+My son is dead.
+
+MANIMEKALAI
+What are you mourning?
+
+RAJAMADEVI
+Do not make philosophy from his body.
+
+MANIMEKALAI
+I am asking which body you want punished for it.
+
+Rajamadevi's anger restores her posture.
+
+RAJAMADEVI
+You refused him. You hid your face. You drew him into a place where another man waited.
+
+MANIMEKALAI
+You have joined four facts and named the joining truth.
+
+RAJAMADEVI
+Would he have gone there without you?
+
+MANIMEKALAI
+Would Kanchanan have struck if he had asked one question? Would your son have entered if he had accepted one answer? Would this room be empty of food if you had mourned without needing an enemy?
+
+Rajamadevi looks away.
+
+MANIMEKALAI (CONT'D)
+Previous causes brought us near one another. They did not remove choice.
+
+RAJAMADEVI
+You speak of causes because you cannot speak of innocence.
+
+MANIMEKALAI
+I do not claim innocence from every consequence. I claim only what is mine.
+
+She points, weakly, toward the door.
+
+MANIMEKALAI (CONT'D)
+That bolt is yours. The cup passed through many hands, but the order is yours. The lie travelled through the city, but the palace paid for its first words. Hunger entered this room because your grief had servants.
+
+Rajamadevi absorbs the sentence as queen before she can bear it as mother.
+
+RAJAMADEVI
+And my son?
+
+MANIMEKALAI
+His longing was real. His refusal to discipline it was also real. I mourn that he died before learning the difference.
+
+The Queen's face breaks.
+
+Not absolution. Recognition.
+
+She kneels, but Manimekalai does not reach to comfort her.
+
+RAJAMADEVI
+What can I do now?
+
+MANIMEKALAI
+First, stop doing harm in his name.
+
+
+/* TRACE: FU-041 | SC-118 | ABSORBS: SC-109 */
+
+INT. PALACE — RECOVERY CHAMBER — LATER #51#
+
+The door remains open.
+
+Manimekalai drinks measured water while the OLDER SERVANT watches. The Amudhasurabhi has been returned but sits beyond Manimekalai's immediate reach; she is not physically ready to carry it.
+
+Rajamadevi dismisses the guards.
+
+RAJAMADEVI
+Stay here until your strength returns.
+
+MANIMEKALAI
+Until whose judgement decides it has returned?
+
+RAJAMADEVI
+No guard will restrain you.
+
+MANIMEKALAI
+A room can hold a person with gratitude as easily as with fear.
+
+The Queen moves the vessel nearer.
+
+RAJAMADEVI
+Then stay as my honoured guest.
+
+MANIMEKALAI
+You have changed the name again.
+
+Rajamadevi stops.
+
+RAJAMADEVI
+I am trying to keep you safe.
+
+MANIMEKALAI
+From whom?
+
+RAJAMADEVI
+The city. The rumours. Those who blame you. Those who may use you.
+
+MANIMEKALAI
+And the answer is that I remain where you can see me.
+
+The Queen hears the possession inside her care.
+
+RAJAMADEVI
+My son is beyond my protection.
+
+MANIMEKALAI
+So you would protect me until I become the life you did not lose.
+
+Rajamadevi sits.
+
+The impulse is now visible to both women.
+
+RAJAMADEVI
+If you leave, I cannot repair what was done.
+
+MANIMEKALAI
+Repair is not keeping the harmed person near enough to witness your change.
+
+The Queen looks toward the open door.
+
+She is not yet able to step away from it.
+
+
+/* TRACE: FU-042 | SC-102 */
+
+INT. CHOLA PALACE — OUTER GATE / HALL OF ACCESS — DAY #52#
+
+ARAVANA ADIGAL arrives with MADHAVI, SUDHAMATHI and CHITRAPATHI.
+
+They are stopped by a PALACE GATE OFFICER.
+
+GATE OFFICER
+The Queen has ordered quiet.
+
+SUDHAMATHI
+Quiet for whom?
+
+GATE OFFICER
+The young woman is recovering under royal care.
+
+MADHAVI
+We have heard that phrase before.
+
+Chitrapathi presents the names of household workers who heard the fabricated accusation and recipients who saw the prince enter Ulaga Aravi after warnings.
+
+CHITRAPATHI
+If the palace wishes privacy, it should not have purchased a public lie.
+
+The officer looks to Aravana.
+
+GATE OFFICER
+And you claim spiritual authority here?
+
+ARAVANA ADIGAL
+No. I claim that a locked door has more witnesses than the person who ordered it expects.
+
+The OLDER SERVANT appears inside the gate carrying the stained cloth and conflicting food records.
+
+OLDER SERVANT
+They may enter under my account.
+
+GATE OFFICER
+You cannot authorise them.
+
+OLDER SERVANT
+Then record that I attempted to show evidence and was prevented.
+
+A SCRIBE waits with stylus ready.
+
+The officer understands that denial will itself become testimony.
+
+He opens the gate.
+
+Inside the hall, the group does not merge into one plea.
+
+Sudhamathi carries eyewitness knowledge.
+
+Madhavi carries maternal fear without claiming ownership.
+
+Chitrapathi carries responsibility for seeking royal protection.
+
+Aravana carries questions.
+
+They proceed toward the Queen's chamber.
+
+
+/* TRACE: FU-043 | SC-119 | ABSORBS: SC-053; SC-079 */
+
+INT./EXT. PALACE — QUEEN'S CHAMBER / PUBLIC THRESHOLD — DAY #53#
+
+Manimekalai stands with effort. Sudhamathi supports her elbow only after receiving a nod.
+
+Madhavi sees the physical result of the confinement. She does not rush forward and turn reunion into possession.
+
+MADHAVI
+May I come near you?
+
+MANIMEKALAI
+Yes.
+
+Madhavi crosses the room.
+
+Chitrapathi faces Manimekalai.
+
+CHITRAPATHI
+I thought proximity to power would frighten danger away.
+
+MANIMEKALAI
+It taught danger where to find me.
+
+CHITRAPATHI
+I know.
+
+She does not ask the injured person to relieve her guilt.
+
+Aravana turns to Rajamadevi.
+
+ARAVANA ADIGAL
+Who prepared the cup?
+
+RAJAMADEVI
+The kitchen, under an order carried through my attendants.
+
+ARAVANA ADIGAL
+Who purchased the accusation?
+
+RAJAMADEVI
+A palace intermediary, under my will.
+
+ARAVANA ADIGAL
+Who withheld food?
+
+RAJAMADEVI
+Many hands.
+
+ARAVANA ADIGAL
+And whose power made obedience safer than refusal?
+
+RAJAMADEVI
+Mine.
+
+The answer is public enough to resist later revision.
+
+They move toward the palace threshold.
+
+Outside, officials, servants and citizens wait. The Queen stands beside the open doorway. Her body still blocks part of it.
+
+RAJAMADEVI
+You may leave.
+
+Manimekalai does not move.
+
+MANIMEKALAI
+May?
+
+The Queen understands.
+
+She steps fully away from the door.
+
+RAJAMADEVI
+No condition follows you.
+
+Manimekalai crosses the threshold carrying the Amudhasurabhi.
+
+Madhavi and Sudhamathi walk near her, not around her.
+
+Chitrapathi remains a pace behind, accepting a relationship not governed by strategy.
+
+Rajamadevi stays at the doorway.
+
+She does not bow for spectacle. She instructs the scribe.
+
+RAJAMADEVI (CONT'D)
+Record the cup, the payment, the food and every office that carried the orders.
+
+SCRIBE
+As offences against her?
+
+RAJAMADEVI
+As uses of the palace.
+
+Manimekalai hears but does not turn back to approve the Queen's first accountable act.
+
+She leaves without royal ownership.
+
+END SEQUENCE 07
+```
+
+## SEQUENCE 08 — THE KING WHO WAS A BEGGAR
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-08_the_king_who_was_a_beggar.fountain`
+
+```fountain
+# SEQUENCE 08 — THE KING WHO WAS A BEGGAR
+
+/* TRACE: FU-044 | SC-138 | ABSORBS: SC-139 */
+
+EXT. SAVAKA KINGDOM — IRRIGATED FIELDS / ROYAL TERRACE — DAY #54#
+
+Water moves through maintained channels. Grain stores are counted. Children eat in the shade while cattle drink downstream from human access points.
+
+Prosperity is not decorative wealth. It appears as ordinary dependence being met.
+
+PUNNIYARAJAN watches from a royal terrace.
+
+Below him, an official distributes seed grain after measuring household need rather than rank. A physician moves between a noble child and a labourer's child without changing pace.
+
+The king should feel satisfaction.
+
+Instead, he feels distance.
+
+A COURT POET recites that prosperity began with the king's arrival as an infant.
+
+COURT POET
+The rains learned generosity when the child entered this land.
+
+PUNNIYARAJAN
+Rains do not learn from kings.
+
+The court falls quiet.
+
+JANAMITHRAN, his minister, studies him.
+
+Later, the king walks through the grain store without escort. He places his hand on a sealed jar.
+
+PUNNIYARAJAN
+They say the land changed when I came.
+
+JANAMITHRAN
+The land changed because people maintained channels, stored grain and trusted continuity.
+
+PUNNIYARAJAN
+Then why do they speak as though I am the cause?
+
+JANAMITHRAN
+Because gratitude prefers a face.
+
+Punniyarajan looks across the prosperous court.
+
+PUNNIYARAJAN
+I do not know the face they are thanking.
+
+His abundance has not answered who he is.
+
+
+/* TRACE: FU-045 | SC-140 | ABSORBS: SC-141 */
+
+INT. SAVAKA PALACE — COUNCIL CHAMBER — NIGHT #55#
+
+Palm-leaf records lie open: adoption, succession, unusual omens, years of rain, public works completed under different regents and ministers.
+
+Punniyarajan has learned that his birth history is not what he was taught.
+
+PUNNIYARAJAN
+There was another child before this king.
+
+JANAMITHRAN
+There was a child found, protected and raised. There is also the ruler seated before me.
+
+PUNNIYARAJAN
+And the name Aputhiran?
+
+Janamithran does not pretend ignorance.
+
+JANAMITHRAN
+A life associated with hunger, a sacred vessel and Manipallavam.
+
+PUNNIYARAJAN
+I must go there.
+
+JANAMITHRAN
+You may go. But do not call the wish duty until you have measured what your absence costs.
+
+The king bristles.
+
+PUNNIYARAJAN
+Would you forbid me knowledge of my own life?
+
+JANAMITHRAN
+No. I would ask whose lives are interrupted while a king searches for himself.
+
+He places reports before him.
+
+— A canal gate requiring judgement before the next release.
+
+— A border settlement awaiting grain allocation.
+
+— A dispute over wells between herders and cultivators.
+
+JANAMITHRAN (CONT'D)
+Mothers, workers, animals and children do not experience kingship as an idea. They experience whether water arrives.
+
+PUNNIYARAJAN
+Then appoint those who can act.
+
+JANAMITHRAN
+I will. Delegation is possible. Disappearance is not.
+
+Punniyarajan hears the word.
+
+JANAMITHRAN (CONT'D)
+Travel if you must. Set the duration. Name who decides in your absence. Return before spiritual hunger becomes another person's famine.
+
+The king agrees to a limited journey and formal transfer of authority.
+
+His search has been permitted only after present duty is made visible.
+
+
+/* TRACE: FU-046 | SC-142 | ABSORBS: SC-143 */
+
+INT./EXT. MANIPALLAVAM — DHARMA PEEDIHAI — DAY / VISION #56#
+
+Punniyarajan stands before the sacred seat with MANIMEKALAI and DEEPATHILAHAI.
+
+The sea is audible beyond the grove.
+
+DEEPATHILAHAI
+Do not ask the seat to replace the life you are living.
+
+The king touches the stone.
+
+Memory arrives in layers.
+
+— An abandoned infant kept alive by a cow.
+
+— A young man defending an animal at the cost of social belonging.
+
+— Aputhiran feeding strangers with ordinary food before any miracle.
+
+— Sindhadevi's vessel in his hands.
+
+— The empty feeding hall after rain.
+
+— A ship leaving Manipallavam in darkness.
+
+— The Amudhasurabhi descending into the Gomukhi pond.
+
+Punniyarajan withdraws his hand.
+
+PUNNIYARAJAN
+I remember his hunger as though it were mine.
+
+MANIMEKALAI
+Memory may be yours. His life is not a throne you can enter and close behind you.
+
+PUNNIYARAJAN
+You carry the vessel he left.
+
+MANIMEKALAI
+I carry responsibility after him. I do not become him by touching what he touched.
+
+The king looks at his royal hands.
+
+PUNNIYARAJAN
+Then what has returned?
+
+DEEPATHILAHAI
+A question. Perhaps a capacity. Not a permission to abandon the present.
+
+The sacred seat reflects Punniyarajan and Aputhiran without merging their faces.
+
+Rebirth creates continuity. It does not erase identity.
+
+
+/* TRACE: FU-047 | SC-144 */
+
+EXT. MANIPALLAVAM — PUNNAI GROVE — LATER #57#
+
+Deepathilahai leads them beneath an old punnai tree.
+
+The ground has shifted around exposed bone.
+
+Not one skeleton.
+
+Several.
+
+Punniyarajan kneels.
+
+DEEPATHILAHAI
+Merchants returned after discovering Aputhiran had been left behind.
+
+PUNNIYARAJAN
+They came for him.
+
+DEEPATHILAHAI
+They found him beyond their help.
+
+She indicates the remains.
+
+DEEPATHILAHAI (CONT'D)
+Some did not survive the grief, delay and scarcity that followed.
+
+The king looks toward the pond where Aputhiran relinquished the vessel.
+
+PUNNIYARAJAN
+He intended no death but his own.
+
+MANIMEKALAI
+Intention did not prevent these.
+
+PUNNIYARAJAN
+Then even renunciation can leave dependants behind.
+
+MANIMEKALAI
+Every act enters lives we do not fully see.
+
+Punniyarajan covers a bone fragment with soil.
+
+The sacred past is no longer a pure refuge. It contains collateral consequence.
+
+
+/* TRACE: FU-048 | SC-145 */
+
+EXT. MANIPALLAVAM — SHORE — NIGHT #58#
+
+Punniyarajan stands at the waterline after the others have withdrawn.
+
+He removes one royal ornament and places it on the sand.
+
+PUNNIYARAJAN
+Aputhiran fed the hungry. I sit above stores and call their distribution governance.
+
+Manimekalai approaches but does not retrieve the ornament.
+
+MANIMEKALAI
+You speak as though systems are less compassionate because one person cannot be praised for them.
+
+PUNNIYARAJAN
+He owned nothing.
+
+MANIMEKALAI
+He also died where no one could continue his work until the vessel chose another hand.
+
+PUNNIYARAJAN
+Perhaps I should remain here. Let the king end where Aputhiran began.
+
+MANIMEKALAI
+And the people who know only that their ruler left?
+
+PUNNIYARAJAN
+Janamithran can govern.
+
+MANIMEKALAI
+For how long does delegation become abandonment?
+
+He looks at her.
+
+MANIMEKALAI (CONT'D)
+Previous compassion does not free you from present dependence. If the memory is true, it asks more of the king—not less.
+
+PUNNIYARAJAN
+What if the throne corrupts what returned?
+
+MANIMEKALAI
+Then discipline the throne. Do not make subjects pay for your fear of it.
+
+The tide reaches the ornament.
+
+Punniyarajan picks it up before the sea takes it.
+
+Renunciation has been tested against responsibility.
+
+
+/* TRACE: FU-049 | SC-146 | ABSORBS: SC-147 */
+
+INT. SAVAKA ROYAL COURT — DAY #59#
+
+Punniyarajan returns before the agreed transfer expires.
+
+Janamithran waits beside unresolved reports. He does not bow until the king has resumed the seat.
+
+PUNNIYARAJAN
+I remembered a man who could not tolerate another person's hunger.
+
+JANAMITHRAN
+And did you become him?
+
+PUNNIYARAJAN
+No.
+
+The answer steadies the room.
+
+PUNNIYARAJAN (CONT'D)
+I learned why he served. I also learned what his solitary end cost others.
+
+He opens the canal report.
+
+PUNNIYARAJAN (CONT'D)
+Release water by need and downstream survival, not by court influence. Establish grain records that can be inspected outside the palace. No relief order is complete without the route by which it reaches those unable to travel.
+
+JANAMITHRAN
+These are changes to administration, not memorial rites.
+
+PUNNIYARAJAN
+That is the memorial.
+
+A courtier presents the recovered royal ornament for ceremonial purification.
+
+Punniyarajan takes it without ceremony and fastens it himself.
+
+PUNNIYARAJAN (CONT'D)
+Aputhiran's life does not require me to disappear. It requires the king to return differently.
+
+Janamithran finally bows.
+
+Return has become a vow.
+
+END SEQUENCE 08
+```
+
+## SEQUENCE 09 — THE QUESTIONS OF TRUTH
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-09_the_questions_of_truth.fountain`
+
+```fountain
+# SEQUENCE 09 — THE QUESTIONS OF TRUTH
+
+/* TRACE: FU-050 | SC-031 | ABSORBS: SC-103 */
+
+EXT. ROAD AWAY FROM THE COAST — DAY #60#
+
+The smell of salt fades over several days.
+
+MANIMEKALAI travels inland with ARAVANA ADIGAL and a mixed caravan: textile workers, medicine traders, mendicants, families changing settlements and guards hired only for the most exposed stretches.
+
+The landscape changes by labour before it changes by colour.
+
+Salt baskets give way to dyed cloth.
+
+Boat repair gives way to cart repair.
+
+Fish drying racks give way to grain threshing floors.
+
+At a river crossing, the caravan waits while a damaged ferry is repaired.
+
+A TRADER complains.
+
+TRADER
+We lose a day because one plank fails.
+
+FERRY WORKER
+You lose a day because you imagined the river owed you a crossing.
+
+Manimekalai watches rope, wood, current and cooperation turn delay into movement.
+
+MANIMEKALAI
+Every road depends on what travellers do not notice.
+
+ARAVANA ADIGAL
+So does every argument.
+
+They continue inland.
+
+A displaced family shares news of crop failure farther east. A mendicant repeats a philosophical claim heard in another city, but forgets who first spoke it. A child asks whether truth changes when carried badly.
+
+Manimekalai does not answer.
+
+She has carried a miracle.
+
+Now she must learn how knowledge travels without becoming possession.
+
+
+/* TRACE: FU-051 | SC-032 */
+
+EXT. VANJI — MARKETS, LODGING HOUSES AND TEACHING COURTS — DAY #61#
+
+Vanji appears not as one monument but as overlapping institutions.
+
+Teachers speak under shaded colonnades. Travellers exchange copied palm leaves. Patrons provide food to some schools and public space to others. Merchants argue over measures beside ascetics arguing over causation.
+
+A VEDIC RECITER explains ordered relation through disciplined rite.
+
+An AJIVIKA TEACHER speaks of necessity and the arrogance of imagining unlimited choice.
+
+A NIKANDAVADI TEACHER describes restraint as attention to the consequences of harm.
+
+A SANKHYA TEACHER distinguishes changing nature from the witness that observes it.
+
+A VAISHESHIKA TEACHER arranges objects according to category and relation.
+
+A MATERIALIST waits with amused patience.
+
+Manimekalai tries to enter one assembly.
+
+A GATE ATTENDANT sees a young woman travelling with an elderly monk.
+
+GATE ATTENDANT
+Questions may be submitted through your teacher.
+
+MANIMEKALAI
+The question is mine.
+
+GATE ATTENDANT
+Then he may speak it accurately.
+
+Aravana looks at her, but does not intervene.
+
+Nearby, a male traveller repeats a crude question and is immediately admitted.
+
+Manimekalai studies the gate as carefully as any doctrine.
+
+Later, in the altered form and voice of an UNKNOWN SAGE, she returns.
+
+GATE ATTENDANT
+Honoured teacher, the assembly is prepared to hear you.
+
+The same intelligence has acquired access through a body others are trained to respect.
+
+Manimekalai enters with the evidence already before her.
+
+
+/* TRACE: FU-052 | SC-071 | ABSORBS: SC-061 */
+
+INT. VANJI — ASSEMBLY OF TEACHERS — DAY #62#
+
+The UNKNOWN SAGE sits among recognised teachers.
+
+Manimekalai does not reveal herself.
+
+She begins with questions.
+
+UNKNOWN SAGE / MANIMEKALAI
+When a conclusion is inherited, what makes it knowledge rather than obedience?
+
+The Vedic Reciter answers first.
+
+VEDIC RECITER
+No person begins alone. Correct transmission protects knowledge from individual error.
+
+UNKNOWN SAGE / MANIMEKALAI
+And when transmission protects error?
+
+VEDIC RECITER
+Then discipline must include correction, not merely repetition.
+
+The Ajivika Teacher speaks.
+
+AJIVIKA TEACHER
+You ask as though choice stands outside conditions. Birth, body, time and necessity narrow every road before the traveller walks.
+
+UNKNOWN SAGE / MANIMEKALAI
+If all roads are fixed, why teach?
+
+AJIVIKA TEACHER
+Because teaching may be one of the fixed causes by which understanding arrives.
+
+The Nikandavadi Teacher raises a hand.
+
+NIKANDAVADI TEACHER
+Whether freedom is wide or narrow, harm still leaves consequence. Restraint begins where certainty ends.
+
+The Sankhya Teacher objects to merging ethical consequence with the structure of reality.
+
+The Vaisheshika Teacher asks which category of evidence the question belongs to.
+
+No one is made foolish for dramatic convenience.
+
+Manimekalai listens long enough for each position to become difficult.
+
+Outside the hall, a woman carrying water pauses to hear through the screen but is ordered to keep moving.
+
+Manimekalai sees that philosophical authority is also built from architecture, patronage, gender and time away from labour.
+
+The assembly has become another object of inquiry.
+
+
+/* TRACE: FU-053 | SC-010 */
+
+INT. VANJI — ASSEMBLY OF TEACHERS — LATER #63#
+
+The teachers now question the unknown sage.
+
+VAISHESHIKA TEACHER
+You have examined our claims. State your own.
+
+UNKNOWN SAGE / MANIMEKALAI
+I have experienced memory that crossed the boundary of one life.
+
+The room changes.
+
+Some recognise a sacred claim. Others become cautious.
+
+MATERIALIST
+Experienced by whom?
+
+UNKNOWN SAGE / MANIMEKALAI
+By me.
+
+MATERIALIST
+Then it may be important evidence about you.
+
+A pause.
+
+MATERIALIST (CONT'D)
+Why must it become evidence for everyone else?
+
+The question is not contemptuous.
+
+It is exact.
+
+UNKNOWN SAGE / MANIMEKALAI
+If experience changes action, does its truth remain private?
+
+MATERIALIST
+Its consequence may become public. Its unseen explanation does not become proven merely because the consequence is visible.
+
+The Vedic Reciter watches with interest.
+
+VEDIC RECITER
+You accept only what the senses present?
+
+MATERIALIST
+I accept that senses can fail. That is why we compare, repeat and test. I do not cure their limits by adding claims no one can examine.
+
+Manimekalai remembers Udayakumaran treating memory as permission.
+
+She remembers Kanchanan treating appearance as identity.
+
+She remembers Rajamadevi treating grief as causation.
+
+UNKNOWN SAGE / MANIMEKALAI
+Then sincerity is not proof.
+
+MATERIALIST
+Sincerity is evidence that a person believes.
+
+UNKNOWN SAGE / MANIMEKALAI
+Not that the conclusion is sound.
+
+MATERIALIST
+Now you are listening.
+
+The assembly drum that marks speaking time falls silent.
+
+No victor is declared.
+
+Several explanations remain alive.
+
+Manimekalai removes the altered voice but not yet the altered form.
+
+UNKNOWN SAGE / MANIMEKALAI
+A true experience may still be used falsely.
+
+The Materialist inclines his head.
+
+MATERIALIST
+Then protect it from your certainty as carefully as from mine.
+
+
+/* TRACE: FU-054 | SC-011 */
+
+EXT. VANJI — MARKET STREET — EVENING #64#
+
+Manimekalai walks through the city after the debate.
+
+She has returned to her own form.
+
+The gate attendant who denied her entry does not recognise the sage he welcomed.
+
+At a grain stall, a MERCHANT accuses a PORTER of theft because one sack weighs less than the record.
+
+MERCHANT
+He carried it. The loss is in his hands.
+
+The porter points to a dark patch on the road.
+
+PORTER
+The cart crossed water. The sack tore beneath the axle.
+
+The merchant sees loose grain pressed into mud.
+
+His first conclusion was plausible.
+
+It was also incomplete.
+
+Nearby, a mother waits outside a physician's door while wealthier patients enter through another gate.
+
+A child watches smoke rise beyond the roofs.
+
+CHILD
+Is there a fire?
+
+MANIMEKALAI
+Perhaps.
+
+CHILD
+Smoke means fire.
+
+MANIMEKALAI
+Often. But we should see what else could make it before we send everyone running.
+
+They turn the corner.
+
+A potter is firing a kiln.
+
+The child grins.
+
+CHILD
+Not a house.
+
+MANIMEKALAI
+A useful inference corrected before it became fear.
+
+The debates have entered ordinary life.
+
+Philosophy is no longer a chamber separate from consequence.
+
+
+/* TRACE: FU-055 | SC-104 | ABSORBS: SC-012 */
+
+INT./EXT. ARAVANA ADIGAL'S RESTING PLACE — NIGHT #65#
+
+Aravana places a lamp, a sealed vessel and a clay tile marked by a wet footprint before Manimekalai.
+
+ARAVANA ADIGAL
+What do you perceive?
+
+MANIMEKALAI
+A flame. A closed vessel. A footprint.
+
+ARAVANA ADIGAL
+What do you infer?
+
+MANIMEKALAI
+Someone entered recently and placed the vessel here.
+
+ARAVANA ADIGAL
+Recently?
+
+She touches the footprint.
+
+Still damp.
+
+MANIMEKALAI
+Recently.
+
+ARAVANA ADIGAL
+Entered?
+
+She examines the direction of the toes.
+
+MANIMEKALAI
+Perhaps left.
+
+ARAVANA ADIGAL
+Someone?
+
+She compares the print with her own foot.
+
+MANIMEKALAI
+A human foot of this size. I do not know whose.
+
+ARAVANA opens the vessel.
+
+Steam escapes.
+
+ARAVANA ADIGAL
+And this?
+
+MANIMEKALAI
+I assumed it was sealed and cold because it was closed.
+
+ARAVANA ADIGAL
+The senses did not fail. The student asked too little of them.
+
+A MESSENGER arrives breathless from Kanchi.
+
+MESSENGER
+The famine is worsening. Grain exists in stores and markets, but people die on the roads before reaching it.
+
+Manimekalai looks at the objects before her.
+
+Flame. Vessel. Footprint.
+
+Then at the messenger.
+
+MANIMEKALAI
+What was seen directly?
+
+MESSENGER
+Families leaving villages. Animals collapsing. Workshops silent. Food guarded in markets.
+
+MANIMEKALAI
+What has only been assumed?
+
+MESSENGER
+That scarcity alone is the cause.
+
+Aravana rises with effort.
+
+ARAVANA ADIGAL
+Then the lesson has found its consequence.
+
+Manimekalai takes up the Amudhasurabhi.
+
+Not as proof that inquiry is finished.
+
+As one instrument entering a problem larger than itself.
+
+END SEQUENCE 09
+```
+
+## SEQUENCE 10 — THE BOWL BEYOND ITS OWNER
+
+Source sequence: `docs/10-screenplay-architecture/10E-screenplay-draft/SEQ-10_the_bowl_beyond_its_owner.fountain`
+
+```fountain
+# SEQUENCE 10 — THE BOWL BEYOND ITS OWNER
+
+/* TRACE: FU-056 | SC-013 */
+
+EXT. ROAD INTO KANCHI — DAWN #66#
+
+The famine reaches the road before it reaches the palace record.
+
+Families move toward Kanchi carrying tools they can no longer use, seed they cannot safely plant and children too tired to ask how far remains.
+
+A bullock collapses beside an empty water trough.
+
+A WOMAN kneels near it while her brother searches the cart for the last wet cloth.
+
+Farther ahead, a grain cart stands with one wheel broken in a rut.
+
+The sacks are full.
+
+The road is not.
+
+MANIMEKALAI and ARAVANA ADIGAL walk beside the displaced families. The AMUDHASURABHI is covered but visible.
+
+A ROAD WORKER measures the damaged section with a cord.
+
+ROAD WORKER
+The eastern bridge failed first. Then carts crowded this route. Then the rain cut the shoulder away.
+
+MANIMEKALAI
+And the grain?
+
+ROAD WORKER
+Waiting behind the road that was expected to carry it.
+
+A MOTHER receives food from the bowl. She divides it among three children and saves a portion for an older woman travelling behind them.
+
+The vessel answers the hand before it.
+
+It does not mend the wheel, restore the bridge or bring water to the trough.
+
+MANIMEKALAI
+A vessel can answer a hand. It cannot repair a road, cancel a debt, translate an order or make a market just.
+
+ARAVANA ADIGAL
+Then do not ask the vessel to become an excuse for everything people failed to build.
+
+They continue toward the city.
+
+Hunger is revealed not as one absence, but as a chain:
+
+Failed rain.
+
+Damaged storage.
+
+Debt.
+
+Closed wells.
+
+Broken transport.
+
+Guarded markets.
+
+Orders that cannot be read.
+
+Work that stopped before food disappeared.
+
+
+/* TRACE: FU-057 | SC-033 | ABSORBS: SC-038 */
+
+EXT. KANCHI — OUTER ROAD AND REGISTRATION GATE — MORNING #67#
+
+A relief registration point has been established outside the city wall.
+
+It is already failing.
+
+A single SCRIBE records names in one language. Guards separate residents from arrivals. People who cannot state a recognised village are sent to another line that has no official.
+
+A POTTER carries an unconscious child.
+
+POTTER
+She needs water.
+
+GATE SCRIBE
+Name. Village. Household count.
+
+POTTER
+Water first.
+
+The scribe looks toward an empty water jar.
+
+GATE SCRIBE
+The supply cart has not arrived.
+
+Manimekalai uncovers the Amudhasurabhi and serves the child.
+
+Others surge forward.
+
+SUDHAMATHI, arriving with Madhavi and Chitrapathi, immediately sees the danger.
+
+SUDHAMATHI
+Open the shade line. Children, the injured and those carrying others first.
+
+A GUARD blocks her.
+
+GUARD
+The order says registration before distribution.
+
+SUDHAMATHI
+The order is making people prove they are alive before helping them remain alive.
+
+The guard hesitates.
+
+Manimekalai looks at the road behind the crowd.
+
+People are still arriving.
+
+Some will never reach the gate.
+
+MANIMEKALAI
+The famine reaches the road first. Relief cannot wait inside the city for hunger to present itself correctly.
+
+She sends workers outward with water and food.
+
+Not charity descending from a gate.
+
+A service moving toward those excluded by it.
+
+
+/* TRACE: FU-058 | SC-046 | ABSORBS: SC-008 */
+
+INT. KANCHI — WEAVERS' WORKSHOP — DAY #68#
+
+Looms stand silent.
+
+Finished cloth remains stacked against the wall, valuable but unsold. The workers have food for neither themselves nor the dye animals they maintain.
+
+A MASTER WEAVER shows Manimekalai a ledger.
+
+MASTER WEAVER
+The market stopped buying. The lender still collected. We sold the stored grain, then the spare beams, then the cooking vessels.
+
+A YOUNG WEAVER touches a loom polished by years of use.
+
+YOUNG WEAVER
+They say we are hungry because the harvest failed.
+
+MASTER WEAVER
+The harvest failed elsewhere. Our wages failed here.
+
+Manimekalai serves food.
+
+The workers eat, but their eyes remain on the silent looms.
+
+MANIMEKALAI
+What would let work begin again?
+
+MASTER WEAVER
+Food for the week. Thread on credit without seizure. A buyer who cannot change the measure after delivery. Water for dyeing. Time before debt collection.
+
+MANIMEKALAI
+Do not ask the hungry only how much they need. Ask what made them arrive.
+
+A relief recorder writes each condition separately.
+
+Food is immediate.
+
+Livelihood repair is not postponed as a less sacred concern.
+
+A CHILD turns one empty loom wheel.
+
+The sound carries through the workshop like a question about tomorrow.
+
+
+/* TRACE: FU-059 | SC-047 | ABSORBS: SC-022 */
+
+EXT. KANCHI — GRAIN MARKET — AFTERNOON #69#
+
+Food exists in the city.
+
+Sacks rise behind guarded shutters. Traders calculate spoilage, price and risk. Buyers with coin enter through one gate. People carrying relief tokens wait at another.
+
+A WOMAN presents a token.
+
+MARKET CLERK
+Valid only at the northern store.
+
+WOMAN
+The northern store sent us here.
+
+MARKET CLERK
+Then return with their seal.
+
+WOMAN
+My mother cannot walk another crossing.
+
+The clerk looks past her to the next person.
+
+Manimekalai watches a merchant order damaged grain thrown out rather than sold below the agreed price.
+
+MANIMEKALAI
+Food can exist in a city while hunger is organised at its gates.
+
+A MERCHANT hears her.
+
+MERCHANT
+Open every store without rules and the city empties in a day.
+
+MANIMEKALAI
+Keep every rule without correction and people empty before the stores do.
+
+CHITRAPATHI examines the token system.
+
+CHITRAPATHI
+Three seals. Two offices. Different measures. The poor must perform the administration that officials failed to coordinate.
+
+MADHAVI speaks with women waiting in line.
+
+MADHAVI
+Which hours are safe for you to travel?
+
+FIRST WOMAN
+Before dark, while the guards still recognise the token.
+
+SECOND WOMAN
+After dark, when the man who follows my daughter has gone home.
+
+The relief plan changes.
+
+Mobile distribution routes are marked.
+
+Dietary needs are recorded.
+
+Safe hours are set by recipients, not assumed by officials.
+
+A market is not declared just because grain is present.
+
+Access becomes part of the measure.
+
+
+/* TRACE: FU-060 | SC-023 */
+
+INT. KANCHI — PUBLIC ACCOUNTABILITY HALL — EVENING #70#
+
+The KANCHI KING sits with ministers, market officers, road supervisors, physicians, workshop representatives and people receiving relief.
+
+The Amudhasurabhi rests on a low table, not beside the throne.
+
+A MINISTER begins with totals.
+
+MINISTER
+Grain reserves remain adequate for twenty-three days at controlled issue.
+
+A ROAD WOMAN interrupts from the public section.
+
+ROAD WOMAN
+Adequate where?
+
+The hall turns.
+
+KING
+Let her answer continue.
+
+ROAD WOMAN
+My family walked two days past a closed store and one day past a broken bridge. The reserve did not travel with us.
+
+A MARKET OFFICER blames forged tokens.
+
+A WORKSHOP REPRESENTATIVE describes wages ending before grain scarcity reached the city.
+
+A PHYSICIAN describes disease caused by unsafe water at the registration gate.
+
+The King looks at the bowl.
+
+KING
+Why does this vessel succeed where our orders fail?
+
+MANIMEKALAI
+It does not.
+
+The answer unsettles the hall.
+
+MANIMEKALAI (CONT'D)
+It feeds the person before it. Your question begins with those who never reach it.
+
+KING
+Then what is required of government?
+
+MANIMEKALAI
+To know where a chain breaks, who is excluded by the repair and who can correct the record without permission from the office that made it.
+
+She points to separate ledgers.
+
+MANIMEKALAI (CONT'D)
+Publish store levels. Record roads and travel time, not only grain released. Allow recipients to report denial without returning to the denying officer. Suspend debt collection where work has stopped. Restore wells, sanitation and workshops with the same urgency as feeding.
+
+KING
+And who holds responsibility when many offices carried the failure?
+
+MANIMEKALAI
+Many hands can carry an order. Power still has an address.
+
+The King orders the reports copied for public inspection.
+
+Accountability begins not with royal generosity, but with systems that can contradict the palace.
+
+
+/* TRACE: FU-061 | SC-024 */
+
+EXT. KANCHI — MULTILINGUAL RELIEF HUB — MORNING #71#
+
+The former registration gate has become a public relief hub.
+
+Eighteen language boards hang beneath the shade roof—some written, some marked with images for those who do not read.
+
+INTERPRETERS sit among recipients, not behind officials.
+
+A WOMAN points to a symbol for medicine.
+
+An interpreter guides her to triage without requiring a full registration first.
+
+A child-safety space is visible from the food line.
+
+Water and sanitation stations stand apart from cooking areas.
+
+Mobile teams prepare routes for people unable to travel.
+
+Workshop workers register tools and materials needed to restart livelihoods.
+
+Former recipients rotate through service roles with paid shifts.
+
+SUDHAMATHI trains volunteers to ask before touching or moving anyone.
+
+SUDHAMATHI
+No one is helped by being handled as cargo.
+
+CHITRAPATHI reviews the public records.
+
+CHITRAPATHI
+If a route closes, mark when, why and who may reopen it. Do not let a temporary barrier become tradition.
+
+MADHAVI listens as recipients set safe distribution hours and food requirements.
+
+MADHAVI
+No one is fed by a language they cannot enter.
+
+The Amudhasurabhi is used at one station among many.
+
+It is neither hidden nor enthroned.
+
+A ROTATING CUSTODIAN records when the vessel changes hands.
+
+ROTATING CUSTODIAN
+Received at sunrise. Passed after the south route returns. Quantity cannot be measured. Use and custody can.
+
+The bowl now belongs to a transparent practice rather than a private saint.
+
+
+/* TRACE: FU-062 | SC-014 | ABSORBS: SC-072, SC-080 */
+
+EXT. KANCHI — SHARED FEEDING AND RECOVERY SPACE — DAY #72#
+
+The relief hub is fully active.
+
+Food.
+
+Water.
+
+Sanitation.
+
+Translation.
+
+Child and safety access.
+
+Medical triage.
+
+Livelihood repair.
+
+No single centre controls every route. Neighbourhood groups report needs and correct schedules. Recipients define diets, routes and safe hours.
+
+Manimekalai carries the Amudhasurabhi to a central table.
+
+Around it stand cooks, water carriers, interpreters, physicians, record keepers, former prisoners, craftspeople and people who arrived hungry days earlier.
+
+A YOUNG WORKER waits for instruction.
+
+YOUNG WORKER
+Where should the bowl remain?
+
+MANIMEKALAI
+Where its use can be seen, questioned and continued.
+
+She places it in the custody ledger.
+
+MANIMEKALAI (CONT'D)
+If the work ends when I leave, we built devotion, not relief.
+
+The young worker signs for the next shift.
+
+No blessing is requested from Manimekalai.
+
+No vow binds the vessel to her.
+
+She steps away from the table.
+
+Madhavi watches but does not call her back.
+
+Sudhamathi joins the route team leaving for the outer road.
+
+Chitrapathi argues with an official over an unreadable notice and makes him replace it.
+
+A former prisoner supervises the kitchen inventory.
+
+The King arrives without procession and reads the public denial register before speaking to anyone.
+
+The camera does not follow Manimekalai out.
+
+It follows the young worker carrying the bowl to an elderly man who cannot reach the serving line.
+
+Then another worker taking water toward the road.
+
+Then a child showing a newly arrived family the picture-board for food, medicine and shelter.
+
+The miracle remains within the frame.
+
+It is no longer the centre of it.
+
+The bowl remains.
+
+The owner disappears.
+
+The service continues.
+
+FADE OUT.
+
+END.
+```

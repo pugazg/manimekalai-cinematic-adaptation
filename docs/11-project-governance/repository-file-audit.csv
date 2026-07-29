@@ -201,7 +201,15 @@ evidence/evidence_register_04J_punniyarajan.csv,PASS_STATIC
 evidence/evidence_register_04K_aadhirai.csv,PASS_STATIC
 evidence/evidence_source_crosswalk.csv,PASS_318_RECORD_SOURCE_CROSSWALK
 evidence/geography_evidence_register.csv,PASS_STATIC
+releases/0.1/README.md,PASS_RELEASE_STATUS_AND_REBUILD_GUIDE
+releases/0.1/checksums.sha256,PASS_DETERMINISTIC_CHECKSUMS
+releases/0.1/manimekalai_en_draft_0.1.fountain,PASS_EN_72_SCENE_RELEASE
+releases/0.1/manimekalai_en_draft_0.1.md,PASS_EN_MARKDOWN_RELEASE
+releases/0.1/manimekalai_ta_draft_0.1.fountain,PASS_TA_72_SCENE_RELEASE
+releases/0.1/manimekalai_ta_draft_0.1.md,PASS_TA_MARKDOWN_RELEASE
+releases/0.1/release-manifest.csv,PASS_BILINGUAL_RELEASE_MANIFEST
 scripts/audit_all_tracked_files.py,CREATED_EXHAUSTIVE_AUDITOR
+scripts/build_bilingual_release.py,PASS_DETERMINISTIC_BILINGUAL_PACKAGER
 scripts/build_storyboard_shot_matrix.py,PASS_DETERMINISTIC_STORYBOARD_GENERATOR
 scripts/build_evidence_source_crosswalk.py,PASS_DETERMINISTIC_GENERATOR
 scripts/validate_bilingual_screenplay.py,HARDENED_EXECUTED_PASS
@@ -210,6 +218,7 @@ sources/primary/README.md,PASS_STATIC
 sources/secondary/README.md,PASS_STATIC
 sources/source_register.csv,REPAIRED
 tests/test_audit_all_tracked_files.py,CREATED_CORPUS_REGRESSION
+tests/test_build_bilingual_release.py,CREATED_RELEASE_REBUILD_REGRESSION
 tests/test_build_storyboard_shot_matrix.py,CREATED_STORYBOARD_GENERATOR_REGRESSION
 tests/test_validate_bilingual_screenplay.py,EXPANDED_EXECUTED_PASS
 tests/test_validate_repository.py,EXPANDED_EXECUTED_PASS

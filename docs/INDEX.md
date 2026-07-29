@@ -10,6 +10,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Executable validation and current full audit](11-project-governance/2026-07-22-executable-validation-and-full-audit.md)
 - [Latest exhaustive repository audit](11-project-governance/2026-07-28-exhaustive-repository-audit.md)
 - [Per-file audit ledger](11-project-governance/repository-file-audit.csv)
+- [Bilingual Screenplay Release 0.1](../releases/0.1/)
 - [Contributing guide](../CONTRIBUTING.md)
 - [Changelog](../CHANGELOG.md)
 - [External review reconciliation](11-project-governance/2026-07-21-external-repository-review.md)
