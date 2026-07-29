@@ -17,6 +17,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Adaptation risk register](11-project-governance/adaptation-risk-register.md)
 - [Specialist review register](11-project-governance/specialist-review-register.csv)
 - [Specialist review packets](11-project-governance/specialist-review-packets/)
+- [Owner rights and licensing decision](11-project-governance/owner-rights-and-licensing-decision.md)
 - [Evidence-to-source crosswalk](11-project-governance/evidence-source-crosswalk.md)
 
 ## Audited repository baseline

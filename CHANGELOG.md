@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.40.0 — 2026-07-29
+
+- Added registered concept frames for Manipallavam's memory pond, Aadhirai's first offering and Kanchi's multilingual relief centre.
+- Corrected modern tailoring and polished serviceware in the Aadhirai frame before registration.
+- Added prompt, rejected-draft, uncertainty, specialist and rights provenance for every new frame.
+- Added hash and storyboard-shot integrity tests for all four registered visual assets.
+- Added an owner rights-and-licensing decision record with a recommended split, alternatives and post-decision actions.
+
 ## 0.39.0 — 2026-07-29
 
 - Added deterministic English and Tamil Draft 0.1 release packages in Fountain and Markdown.
