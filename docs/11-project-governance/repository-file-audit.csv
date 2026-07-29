@@ -89,7 +89,11 @@ docs/08-storyboard-bible/storyboard-asset-register.csv,PASS_ASSET_RIGHTS_REGISTE
 docs/08-storyboard-bible/storyboard-shot-matrix.csv,PASS_216_SHOT_TRACE_MATRIX
 docs/08-storyboard-bible/visual-language-and-evidence-policy.md,PASS_VISUAL_GOVERNANCE
 docs/09-production-design/README.md,EXPANDED_CONTROLLED_FOUNDATION
+docs/09-production-design/maps/puhar-production-zone-map.md,PASS_INTERPRETATION_MAP_PROVENANCE
+docs/09-production-design/maps/puhar-production-zone-map.svg,PASS_NON_GEOGRAPHIC_SVG_MAP
 docs/09-production-design/production-design-control-matrix.csv,PASS_12_FAMILY_CONTROL_MATRIX
+docs/09-production-design/production-design-bible-0.1.md,PASS_PRODUCTION_DESIGN_BIBLE_0_1
+docs/09-production-design/visual-uncertainty-register.csv,PASS_24_ITEM_UNCERTAINTY_REGISTER
 docs/10-screenplay-architecture/10A_master_feature_architecture.md,SYNCHRONIZED_AADHIRAI_WORDING
 docs/10-screenplay-architecture/10A_sequence_map.csv,PASS_STATIC
 docs/10-screenplay-architecture/10B_feature_unit_matrix.csv,PASS_STATIC
@@ -227,6 +231,7 @@ sources/source_register.csv,REPAIRED
 tests/test_audit_all_tracked_files.py,CREATED_CORPUS_REGRESSION
 tests/test_build_bilingual_release.py,CREATED_RELEASE_REBUILD_REGRESSION
 tests/test_build_storyboard_shot_matrix.py,CREATED_STORYBOARD_GENERATOR_REGRESSION
+tests/test_production_design_controls.py,CREATED_PRODUCTION_CONTROL_REGRESSION
 tests/test_storyboard_assets.py,CREATED_ASSET_HASH_AND_TRACE_REGRESSION
 tests/test_validate_bilingual_screenplay.py,EXPANDED_EXECUTED_PASS
 tests/test_validate_repository.py,EXPANDED_EXECUTED_PASS

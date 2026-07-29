@@ -14,7 +14,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 |---|---|---|---|
 | 01–07 | Vision, research, historical world, characters, philosophy, decisions and evidence matrix | Complete working foundation | Specialist review remains open |
 | 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; four corrected anchor frames registered; remaining panels and specialist review required |
-| 09 | Production design | Active foundation | Twelve controlled design families defined; detailed plates and specialist review required |
+| 09 | Production design | Bible 0.1 complete | Twelve controlled families, twenty-four visual uncertainties and Puhar relationship map complete; department plates and specialist approval remain |
 | 10A | Master feature architecture | Complete | 165-minute, ten-sequence structure |
 | 10B | Scene selection and consolidation | Complete | 154 source concepts reconciled to 72 active units |
 | 10C | Beat sheets, runtime and continuity | Complete | 45 / 60 / 60-minute allocation verified |
@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 231 |
+| Current tracked paths audited | 236 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **231 current paths recorded**.
+- Per-file audit ledger: **236 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.

@@ -1,0 +1,25 @@
+uncertainty_id,design_family,question,current_working_choice,claim_prohibited,source_or_review_gate,status
+VU-001,PD-001,"Exact Puhar street and district plan","Distributed production zones connected by labour and water","This is the exact ancient city map","03A;03H;SR-006",OPEN
+VU-002,PD-001,"Wharf form and extent","Mixed river landing timber transfer and offshore anchorage","One excavated structure proves the complete harbour","03C;SR-010",OPEN
+VU-003,PD-002,"Festival's precise ritual centre","Civic proclamation preparation procession and debate","Later devotional iconography is textually required","03B;SR-003;SR-006",OPEN
+VU-004,PD-003,"Ocean-going hull and rig","Distant cautious single-mast silhouettes","One exact Puhar ship design is known","03C;SR-010",OPEN
+VU-005,PD-003,"Ancient route distances","Seasonal corridor and transfer logic","Modern straight-line distance proves an ancient route","03G;SR-010",OPEN
+VU-006,PD-004,"Ring-well function","Water feature whose function depends on context","Every ring well is a domestic drinking well or sewer","03H;SR-006",OPEN
+VU-007,PD-004,"Kanchi monumental appearance","Earlier functional city under famine and relief pressure","Later Pallava architecture depicts the epic's exact period","03H;SR-006",OPEN
+VU-008,PD-005,"Complete garment construction","Layered drape families tested by work and movement","Archaeology supplies one exact full costume","03D;SR-011",OPEN
+VU-009,PD-005,"Buddhist robe colour and cut","Practical regional renunciant clothing","A standard modern robe is historically exact","03D;SR-004;SR-011",OPEN
+VU-010,PD-005,"Madhavi performance clothing","Trained professional movement without modern fan costume","Modern Bharatanatyam costume reproduces her world","03D;04B;SR-011",OPEN
+VU-011,PD-006,"Jewellery combinations","Materially plausible restrained sets by role","One temple-jewellery set is ancient Tamil default","03D;SR-011",OPEN
+VU-012,PD-007,"Meaning and appearance of கறி","Simple accompaniment pending textual and food review","The word proves a modern curry recipe","SRC-0045;SR-002;SR-007",OPEN
+VU-013,PD-007,"Rice preparation and ghee","Prepared rice and restrained ordinary sheen","One exact recipe is historically documented","SRC-0001;SRC-0045;SR-007",OPEN
+VU-014,PD-007,"Public-feeding service vessels","Clay woven and low-sheen metal family","Modern stainless serviceware is neutral","03F;SR-007",OPEN
+VU-015,PD-008,"Amudhasurabhi material and dimensions","Portable plain vessel sized for two-handed service","The text fixes one exact prop design","03F;SR-003;SR-007",OPEN
+VU-016,PD-008,"Visual grammar of inexhaustibility","Food level remains after portions","The vessel emits visible sacred energy","03F;AD-0023;SR-004",OPEN
+VU-017,PD-009,"Instrument reconstruction","Function-first acoustic plan pending evidence","Modern concert instrumentation is ancient default","03 historical world;SR-003",OPEN
+VU-018,PD-010,"Kanchanan weapon form","Historically cautious functional edged weapon","A fantasy sword is required for heroic scale","04I;SR-006;SR-012",OPEN
+VU-019,PD-010,"Guard equipment and offices","Access control through people doors keys and orders","Later uniform bureaucracy is documented","03J;SR-006",OPEN
+VU-020,PD-011,"Manipallavam exact location","Northern Sri Lankan island-zone production hypothesis","Nainativu identification is archaeologically proven","03G;SR-010",OPEN
+VU-021,PD-011,"Nāga visual identity","Dynastic maritime and sacred relationships","Nāga denotes one modern ethnicity or reptilian body","03G;AD-0034",LOCKED_PROHIBITION
+VU-022,PD-011,"Famine cause and recovery timing","Interacting crop water storage work price transport and access failures","One rainfall event ends famine","03F;AD-0027;SR-006",OPEN
+VU-023,PD-012,"Cow ritual staging","Welfare-led separated plates props and sound design","Real distress is required for authenticity","04H;SR-012",OPEN
+VU-024,PD-012,"Festival animal handling","Keepers distance shade water and controlled crowd plates","Crowd exposure and restraint are harmless spectacle","03 historical world;SR-012",OPEN
