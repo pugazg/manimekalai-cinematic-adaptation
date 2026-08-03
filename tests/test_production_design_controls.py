@@ -187,6 +187,32 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("COMPARATIVE_PLATE_0_1_READY", rows["PD-004"]["status"])
 
+    def test_indra_festival_map_is_civic_and_non_anachronistic(self) -> None:
+        document = DESIGN / "indra-festival-public-space-map.md"
+        text = document.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        self.assertIn("NOT A RECONSTRUCTED RITUAL ITINERARY", text)
+        self.assertIn("twenty-eight-day", text)
+        for zone in range(1, 10):
+            self.assertIn(f"`F{zone}`", text)
+        for phase in range(0, 7):
+            self.assertIn(f"`P{phase}", text)
+        self.assertIn("later calendar-art", text)
+
+        plate = DESIGN / "plates/indra-festival-public-space-map.svg"
+        ET.parse(plate)
+        plate_text = plate.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", plate_text)
+        self.assertIn("NOT A RECONSTRUCTED RITUAL ITINERARY", plate_text)
+        for zone in range(1, 10):
+            self.assertIn(f"F{zone}", plate_text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("PUBLIC_SPACE_MAP_0_1_READY", rows["PD-002"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.59.0 — 2026-08-03
+
+- Added the `PD-002` Indra festival public-space map and SVG control plate.
+- Defined nine civic zones and seven screen-time phases linking labour,
+  proclamation, renewal, trade, ceremony, debate, households and hidden hunger.
+- Preserved the twenty-eight-day early Tamil civic-sacral framing while refusing
+  an invented exact ritual calendar or exact Puhar street itinerary.
+- Prohibited automatic later iconography, medieval temple-centred spectacle,
+  uniform theology, modern debate staging and animal-welfare compromise.
+- Refreshed the exact 282-file audit baseline.
+
 ## 0.58.0 — 2026-08-03
 
 - Added the `PD-004` architecture and water comparative control plate.
