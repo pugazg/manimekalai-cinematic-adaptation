@@ -48,6 +48,19 @@ class ProductionDesignControlTests(unittest.TestCase):
         self.assertIn("[INTERPRETATION]", text)
         self.assertIn("NOT A GEOGRAPHIC MAP", text)
 
+        control_text = (DESIGN / "maps/puhar-production-zone-map.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("RELATIONSHIP_MAP_0_1_READY", control_text)
+        self.assertIn("No distance may be measured", control_text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("RELATIONSHIP_MAP_0_1_READY", rows["PD-001"]["status"])
+        self.assertIn("without converting", rows["PD-001"]["next_deliverable"])
+
     def test_season_water_calendar_controls_all_sequences(self) -> None:
         path = DESIGN / "season-and-water-continuity-calendar.md"
         text = path.read_text(encoding="utf-8")

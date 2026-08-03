@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.60.0 — 2026-08-03
+
+- Reconciled the `PD-001` control matrix with the existing Puhar production
+  relationship map and marked the relationship-map deliverable ready.
+- Removed the contradictory demand for an evidence-implying “scaled zone map.”
+- Required future scale drawings to remain explicit set, crowd, camera or
+  travel-time options rather than historical geography claims.
+- Added regression coverage for the map state and no-distance rule.
+
 ## 0.59.0 — 2026-08-03
 
 - Added the `PD-002` Indra festival public-space map and SVG control plate.
