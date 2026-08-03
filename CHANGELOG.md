@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.52.0 — 2026-08-03
+
+- Added the `PD-011` season-and-water continuity calendar across all ten
+  screenplay sequences.
+- Defined six water-access states separating sacred water, apparent abundance,
+  crowd strain, controlled access, systemic failure and distributed recovery.
+- Added location, department, colour/surface and continuity controls that
+  prevent rain, lushness or the Amudhasurabhi from substituting for access,
+  sanitation, labour and governance.
+- Kept exact month, climate, coastline and institutional claims open under the
+  relevant specialist gates.
+- Refreshed the exact 272-file audit baseline.
+
 ## 0.51.0 — 2026-08-03
 
 - Expanded the storyboard beyond its ten sequence anchors with controlled

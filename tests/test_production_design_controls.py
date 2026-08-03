@@ -48,7 +48,22 @@ class ProductionDesignControlTests(unittest.TestCase):
         self.assertIn("[INTERPRETATION]", text)
         self.assertIn("NOT A GEOGRAPHIC MAP", text)
 
+    def test_season_water_calendar_controls_all_sequences(self) -> None:
+        path = DESIGN / "season-and-water-continuity-calendar.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        for number in range(1, 11):
+            self.assertIn(f"`SEQ-{number:02d}`", text)
+        for number in range(0, 6):
+            self.assertIn(f"`W{number}", text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("CALENDAR_0_1_READY", rows["PD-011"]["status"])
+        self.assertIn("specialist review", rows["PD-011"]["next_deliverable"])
+
 
 if __name__ == "__main__":
     unittest.main()
-

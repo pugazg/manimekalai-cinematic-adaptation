@@ -31,7 +31,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 271 current tracked paths audited;
+- 272 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -53,6 +53,8 @@ This index is the shortest route into the repository. It does not replace the de
 | [07](07-screenplay-evidence-matrix/) | Screenplay evidence matrix | Permanent `SC-*` concepts and evidence inheritance |
 | [08](08-storyboard-bible/) | Storyboard bible | Visual grammar and interpretation-labelled image planning |
 | [09](09-production-design/) | Production design | Architecture, costume, objects, geography and production reconstruction |
+
+Key production plate: [season and water continuity calendar](09-production-design/season-and-water-continuity-calendar.md).
 | [10](10-screenplay-architecture/) | Screenplay architecture | Feature architecture, beat sheets, treatment, bilingual drafts and review gates |
 | [11](11-project-governance/) | Governance | Audits, external reviews, risks, specialist consultation and collaboration process |
 
