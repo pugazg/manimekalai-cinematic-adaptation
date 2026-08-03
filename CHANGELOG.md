@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.62.0 — 2026-08-03
+
+- Added the `PD-009` music, performance and acoustic evidence dossier.
+- Defined ten acoustic worlds, eight performance-labour stages, eight instrument
+  control fields and ten recording/reconstruction tests.
+- Separated story-world sound from score and prohibited generic devotional,
+  modern classical-stage, villain-philosophy, romantic-pursuit and heroic-
+  violence defaults.
+- Brought all twelve production-design families to a controlled 0.1 internal
+  deliverable while leaving physical and specialist gates open.
+- Refreshed the exact 287-file audit baseline.
+
 ## 0.61.0 — 2026-08-03
 
 - Added paired `PD-005` costume-layer and `PD-006` ornament-material control

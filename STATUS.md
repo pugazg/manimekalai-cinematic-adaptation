@@ -14,7 +14,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 |---|---|---|---|
 | 01–07 | Vision, research, historical world, characters, philosophy, decisions and evidence matrix | Complete working foundation | Specialist review remains open |
 | 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; twelve concepts registered, including ten sequence anchors and two Sequence 04 expansion frames; remaining rendered panels and specialist review required |
-| 09 | Production design | Bible 0.1 active | Puhar map plus festival, water, costume, ornament, Amudhasurabhi, food-service, animal-welfare, guard/weapon, maritime and comparative architecture plates complete; remaining research, tests and specialist approval remain |
+| 09 | Production design | Bible 0.1 active | All twelve families now have a controlled 0.1 foundation, map, plate, board, calendar, plan or acoustic dossier; physical tests and specialist approval remain |
 | 10A | Master feature architecture | Complete | 165-minute, ten-sequence structure |
 | 10B | Scene selection and consolidation | Complete | 154 source concepts reconciled to 72 active units |
 | 10C | Beat sheets, runtime and continuity | Complete | 45 / 60 / 60-minute allocation verified |
@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 286 |
+| Current tracked paths audited | 287 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **286 current paths recorded**.
+- Per-file audit ledger: **287 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.

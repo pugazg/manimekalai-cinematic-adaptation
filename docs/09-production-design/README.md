@@ -21,6 +21,7 @@
 - [Costume layer and movement SVG](plates/costume-layer-and-movement-board.svg)
 - [Ornament material and movement board](ornament-material-and-movement-board.md)
 - [Ornament material and movement SVG](plates/ornament-material-and-movement-board.svg)
+- [Music, performance and acoustic evidence dossier](music-performance-acoustic-evidence-dossier.md)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 
