@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 266 |
+| Current tracked paths audited | 267 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **266 current paths recorded**.
+- Per-file audit ledger: **267 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -114,6 +114,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Critical review candidate slate](docs/11-project-governance/critical-review-candidate-slate.md)
 - [Remaining specialist candidate slate](docs/11-project-governance/remaining-specialist-candidate-slate.md)
 - [Reviewer invitation and intake kit](docs/11-project-governance/specialist-review-packets/reviewer-invitation-and-intake.md)
+- [External review outreach batch](docs/11-project-governance/external-review-outreach-batch.md)
 - [External review assignment register](docs/11-project-governance/external-review-assignment-register.csv)
 - [Tamil table-read protocol](docs/11-project-governance/tamil-table-read-protocol.md)
 - [Rights decision checklist](docs/11-project-governance/rights-decision-execution-checklist.md)

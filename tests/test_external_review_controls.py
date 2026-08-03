@@ -52,6 +52,7 @@ class ExternalReviewControlTests(unittest.TestCase):
             "reviewer-sourcing-shortlist.md",
             "critical-review-candidate-slate.md",
             "remaining-specialist-candidate-slate.md",
+            "external-review-outreach-batch.md",
             "tamil-table-read-protocol.md",
             "rights-decision-execution-checklist.md",
             "specialist-review-packets/reviewer-invitation-and-intake.md",
@@ -86,6 +87,16 @@ class ExternalReviewControlTests(unittest.TestCase):
         self.assertIn("Every authoritative assignment remains `UNASSIGNED`", slate)
         self.assertIn("JOINT_REVIEW_REQUIRED", slate)
         self.assertIn("no one may certify an “exact Sangam costume.”", slate)
+
+    def test_outreach_batch_covers_every_gate_without_claiming_contact(self) -> None:
+        batch = (GOV / "external-review-outreach-batch.md").read_text(
+            encoding="utf-8"
+        )
+        for number in range(1, 14):
+            self.assertIn(f"`SR-{number:03d}`", batch)
+        self.assertIn("No invitation recorded as sent", batch)
+        self.assertIn("UNASSIGNED", batch)
+        self.assertIn("prepared, not sent, unassigned", batch)
 
     def test_option_b_rights_state_is_explicit_and_bounded(self) -> None:
         root_rights = (ROOT / "RIGHTS_AND_PERMISSIONS.md").read_text(encoding="utf-8")

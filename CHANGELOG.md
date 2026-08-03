@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.50.0 — 2026-08-03
+
+- Added a thirteen-gate outreach sequence that routes each specialist review
+  to a bounded packet, public candidate or institutional referral.
+- Added send-time scope clauses, joint-review dependencies, acceptance
+  evidence and a private outreach-log template.
+- Preserved the all-`UNASSIGNED` authoritative state and prohibited external
+  contact or approval claims without owner authorization and written intake.
+- Refreshed navigation and the exact 267-file audit baseline.
+
 ## 0.49.0 — 2026-08-03
 
 - Added qualification-checked public-profile sourcing for specialist gates `SR-004` through `SR-012`.
