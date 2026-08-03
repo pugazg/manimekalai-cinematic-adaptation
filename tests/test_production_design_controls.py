@@ -138,6 +138,30 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("HANDLING_PLATE_0_1_READY", rows["PD-010"]["status"])
 
+    def test_maritime_silhouette_family_preserves_uncertainty(self) -> None:
+        document = DESIGN / "maritime-vessel-silhouette-family.md"
+        text = document.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        self.assertIn("NOT AN EXACT ANCIENT SHIP RECONSTRUCTION", text)
+        self.assertIn("`SR-010`", text)
+        for vessel in range(1, 6):
+            self.assertIn(f"`V{vessel}`", text)
+
+        plate = DESIGN / "plates/maritime-vessel-silhouette-family.svg"
+        ET.parse(plate)
+        plate_text = plate.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", plate_text)
+        self.assertIn("NOT AN EXACT ANCIENT SHIP RECONSTRUCTION", plate_text)
+        for vessel in range(1, 6):
+            self.assertIn(f"V{vessel}", plate_text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("SILHOUETTE_PLATE_0_1_READY", rows["PD-003"]["status"])
+        self.assertIn("specialist review", rows["PD-003"]["next_deliverable"])
+
 
 if __name__ == "__main__":
     unittest.main()

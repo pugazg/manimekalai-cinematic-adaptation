@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.57.0 — 2026-08-03
+
+- Added the `PD-003` maritime vessel silhouette family and SVG control plate.
+- Separated river, harbour-transfer, coastal and ocean-going functional classes
+  while treating wreck evidence as a non-reconstructive fifth category.
+- Added function, form-confidence and camera-distance limits for every class.
+- Prohibited exact Puhar claims, universal stitched-boat assumptions and imported
+  dhow, Mediterranean, European, Roman-colonial, medieval or fantasy defaults.
+- Refreshed the exact 278-file audit baseline.
+
 ## 0.56.0 — 2026-08-03
 
 - Added the `PD-010` guard, custody and weapon-handling plate.

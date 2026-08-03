@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">PD-003 Maritime Vessel Silhouette Family</title>
+  <desc id="desc">Interpretive functional silhouettes for river, harbour transfer, coastal, ocean-going and wreck evidence categories. Not an exact ancient ship reconstruction.</desc>
+  <defs>
+    <style>
+      .bg{fill:#0d1c2b}.panel{fill:#12283a;stroke:#55778c;stroke-width:2}.line{fill:none;stroke:#d9c79e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#7898aa;stroke-width:2}.water{fill:none;stroke:#3f8197;stroke-width:3}.title{fill:#f2e5bd;font-family:Arial,sans-serif;font-weight:700;font-size:34px}.sub{fill:#9fc2cf;font-family:Arial,sans-serif;font-size:18px}.head{fill:#f2e5bd;font-family:Arial,sans-serif;font-weight:700;font-size:24px}.body{fill:#d5e0df;font-family:Arial,sans-serif;font-size:17px}.badgeH{fill:#285f52}.badgeM{fill:#725d2b}.badgeL{fill:#693f42}.badgeX{fill:#4a475b}.badgeText{fill:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:15px}.warn{fill:#e0a86e;font-family:Arial,sans-serif;font-weight:700;font-size:19px}.small{fill:#a9bdc4;font-family:Arial,sans-serif;font-size:14px}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1100"/>
+  <text x="70" y="62" class="title">PD-003 · MARITIME VESSEL SILHOUETTE FAMILY 0.1</text>
+  <text x="70" y="94" class="warn">[INTERPRETATION] · NOT AN EXACT ANCIENT SHIP RECONSTRUCTION · SR-010 OPEN</text>
+  <text x="70" y="124" class="sub">Functional distinctions for screen planning. Hull, rig, timber, construction and type names remain unresolved.</text>
+
+  <rect x="60" y="155" width="1480" height="155" rx="10" class="panel"/>
+  <text x="85" y="192" class="head">V1 · RIVER / ESTUARY WORK CRAFT</text>
+  <path d="M100 262 Q210 286 350 264 L385 240 Q245 251 118 232 Z" class="line"/>
+  <line x1="160" y1="233" x2="135" y2="193" class="thin"/>
+  <line x1="318" y1="248" x2="347" y2="205" class="thin"/>
+  <path d="M85 286 Q180 277 275 286 T465 286" class="water"/>
+  <text x="500" y="202" class="body">Function: shallow channels, baskets, grain, people, working loads</text>
+  <text x="500" y="233" class="body">Camera: close labour allowed; exact construction prohibited</text>
+  <rect x="500" y="252" width="92" height="32" rx="16" class="badgeH"/><text x="519" y="274" class="badgeText">FC-H</text>
+  <rect x="606" y="252" width="92" height="32" rx="16" class="badgeL"/><text x="625" y="274" class="badgeText">PF-L</text>
+  <rect x="712" y="252" width="102" height="32" rx="16" class="badgeM"/><text x="731" y="274" class="badgeText">CAM-N</text>
+  <text x="865" y="265" class="small">Profile indicates function only; no approved length, sail or fastening system.</text>
+
+  <rect x="60" y="325" width="1480" height="155" rx="10" class="panel"/>
+  <text x="85" y="362" class="head">V2 · HARBOUR TRANSFER BOAT</text>
+  <path d="M100 438 Q225 462 403 432 L432 397 Q268 424 120 397 Z" class="line"/>
+  <line x1="158" y1="405" x2="135" y2="358" class="thin"/><line x1="208" y1="416" x2="190" y2="366" class="thin"/><line x1="350" y1="419" x2="382" y2="365" class="thin"/>
+  <rect x="245" y="390" width="75" height="32" class="thin"/>
+  <path d="M85 456 Q180 447 275 456 T465 456" class="water"/>
+  <text x="500" y="372" class="body">Function: shore / wharf / anchorage cargo and passenger transfer</text>
+  <text x="500" y="403" class="body">Camera: loading action close; complete hull claim prohibited</text>
+  <rect x="500" y="422" width="92" height="32" rx="16" class="badgeH"/><text x="519" y="444" class="badgeText">FC-H</text>
+  <rect x="606" y="422" width="92" height="32" rx="16" class="badgeL"/><text x="625" y="444" class="badgeText">PF-L</text>
+  <rect x="712" y="422" width="102" height="32" rx="16" class="badgeM"/><text x="731" y="444" class="badgeText">CAM-N</text>
+  <text x="865" y="435" class="small">Broad floor is functional shorthand, not a recovered Puhar plan.</text>
+
+  <rect x="60" y="495" width="1480" height="155" rx="10" class="panel"/>
+  <text x="85" y="532" class="head">V3 · COASTAL MERCHANT CRAFT</text>
+  <path d="M95 612 Q240 642 455 602 L492 555 Q296 595 125 557 Z" class="line"/>
+  <line x1="290" y1="579" x2="290" y2="525" class="line"/>
+  <path d="M292 529 Q366 546 396 580 Q342 571 292 578 Z" class="thin"/>
+  <rect x="190" y="557" width="66" height="35" class="thin"/>
+  <path d="M82 630 Q180 621 278 630 T510 630" class="water"/>
+  <text x="540" y="542" class="body">Function: staged coastal ports and nearby islands</text>
+  <text x="540" y="573" class="body">Camera: medium distance; rig and beaching method remain hypotheses</text>
+  <rect x="540" y="592" width="92" height="32" rx="16" class="badgeM"/><text x="559" y="614" class="badgeText">FC-M</text>
+  <rect x="646" y="592" width="92" height="32" rx="16" class="badgeL"/><text x="665" y="614" class="badgeText">PF-L</text>
+  <rect x="752" y="592" width="102" height="32" rx="16" class="badgeM"/><text x="771" y="614" class="badgeText">CAM-M</text>
+  <text x="905" y="605" class="small">Sail shown as an alternative mass only—not an approved geometry.</text>
+
+  <rect x="60" y="665" width="1480" height="155" rx="10" class="panel"/>
+  <text x="85" y="702" class="head">V4 · OCEAN-GOING MERCHANT SILHOUETTE</text>
+  <path d="M90 778 Q270 820 520 768 L570 704 Q340 761 130 709 Z" class="line"/>
+  <line x1="340" y1="745" x2="340" y2="685" class="line"/>
+  <path d="M343 688 Q436 707 476 750 Q405 739 343 746 Z" class="thin"/>
+  <path d="M188 724 Q242 692 294 724" class="thin"/>
+  <path d="M75 800 Q180 789 285 800 T600 800" class="water"/>
+  <text x="625" y="712" class="body">Function: longer Bay of Bengal / connected Indian Ocean voyages</text>
+  <text x="625" y="743" class="body">Camera: far silhouette or partial occlusion until SR-010 closes</text>
+  <rect x="625" y="762" width="92" height="32" rx="16" class="badgeM"/><text x="644" y="784" class="badgeText">FC-M</text>
+  <rect x="731" y="762" width="92" height="32" rx="16" class="badgeL"/><text x="750" y="784" class="badgeText">PF-L</text>
+  <rect x="837" y="762" width="102" height="32" rx="16" class="badgeL"/><text x="856" y="784" class="badgeText">CAM-F</text>
+  <text x="990" y="775" class="small">Greater volume is functional; complete scale and form are not approved.</text>
+
+  <rect x="60" y="835" width="1480" height="140" rx="10" class="panel"/>
+  <text x="85" y="872" class="head">V5 · WRECK / DEBRIS EVIDENCE</text>
+  <path d="M110 928 L185 900 L230 936" class="line"/><path d="M264 919 L322 889" class="line"/><path d="M365 936 L438 912" class="line"/>
+  <circle cx="473" cy="921" r="16" class="thin"/><path d="M85 956 Q180 945 275 956 T510 956" class="water"/>
+  <text x="540" y="882" class="body">Function: storm consequence, separated cargo and survivor vulnerability</text>
+  <text x="540" y="913" class="body">Camera: fragments only; do not infer or assemble an intact parent hull</text>
+  <rect x="540" y="932" width="92" height="32" rx="16" class="badgeH"/><text x="559" y="954" class="badgeText">FC-H</text>
+  <rect x="646" y="932" width="92" height="32" rx="16" class="badgeX"/><text x="665" y="954" class="badgeText">PF-N</text>
+  <rect x="752" y="932" width="102" height="32" rx="16" class="badgeX"/><text x="771" y="954" class="badgeText">CAM-X</text>
+
+  <line x1="60" y1="1003" x2="1540" y2="1003" class="thin"/>
+  <text x="70" y="1035" class="warn">PROHIBITED:</text>
+  <text x="205" y="1035" class="body">universal stitched-boat claim · modern dhow shortcut · Mediterranean galley · European square rig</text>
+  <text x="205" y="1064" class="body">Roman-colonial port · medieval Chola warship · fantasy galleon · exact Puhar ship publicity claim</text>
+  <text x="1270" y="1064" class="small">PD-003 / PLATE 0.1</text>
+</svg>
