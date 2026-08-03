@@ -84,7 +84,9 @@ docs/08-storyboard-bible/RIGHTS.md,CREATED_VISUAL_ASSET_RIGHTS_NOTICE
 docs/08-storyboard-bible/assets/sequence-01/SB-001-1_puhar-festival-dawn_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-02/SB-010-2_refusal-boundary_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-03/SB-015-2_manipallavam-memory-pond_v1.png,REGISTERED_INTERPRETIVE_ASSET
+docs/08-storyboard-bible/assets/sequence-04/SB-024-2_aputhiran-refuses-reward_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-04/SB-031-2_aadhirai-first-offering_v1.png,REGISTERED_INTERPRETIVE_ASSET
+docs/08-storyboard-bible/assets/sequence-04/SB-034-2_prison-becomes-care_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-05/SB-039-2_incomplete-sightline_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-06/SB-049-2_room-without-food_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-07/SB-053-2_queen-steps-aside_v1.png,REGISTERED_INTERPRETIVE_ASSET
@@ -94,7 +96,9 @@ docs/08-storyboard-bible/assets/sequence-10/SB-071-2_kanchi-relief-centre_v1.png
 docs/08-storyboard-bible/prompts/SB-001-1_puhar-festival-dawn.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-010-2_refusal-boundary.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-015-2_manipallavam-memory-pond.md,PASS_PROMPT_PROVENANCE
+docs/08-storyboard-bible/prompts/SB-024-2_aputhiran-refuses-reward.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-031-2_aadhirai-first-offering.md,PASS_PROMPT_PROVENANCE
+docs/08-storyboard-bible/prompts/SB-034-2_prison-becomes-care.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-039-2_incomplete-sightline.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-049-2_room-without-food.md,PASS_PROMPT_PROVENANCE
 docs/08-storyboard-bible/prompts/SB-053-2_queen-steps-aside.md,PASS_PROMPT_PROVENANCE
@@ -206,7 +210,7 @@ docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNA
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/remaining-specialist-candidate-slate.md,CREATED_REMAINING_SPECIALIST_PUBLIC_PROFILE_SLATE
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_267_PATH_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_271_PATH_LEDGER
 docs/11-project-governance/reviewer-selection-rubric.csv,CREATED_REVIEWER_SELECTION_CONTROL
 docs/11-project-governance/reviewer-sourcing-shortlist.md,CREATED_OFFICIAL_INSTITUTIONAL_REFERRAL_MAP
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST

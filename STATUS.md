@@ -13,7 +13,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | Phase | Deliverable | State | Gate or blocker |
 |---|---|---|---|
 | 01–07 | Vision, research, historical world, characters, philosophy, decisions and evidence matrix | Complete working foundation | Specialist review remains open |
-| 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; ten corrected sequence-anchor frames registered; remaining rendered panels and specialist review required |
+| 08 | Storyboard bible | Active | 216-shot evidence-linked matrix complete; twelve concepts registered, including ten sequence anchors and two Sequence 04 expansion frames; remaining rendered panels and specialist review required |
 | 09 | Production design | Bible 0.1 complete | Twelve controlled families, twenty-four visual uncertainties and Puhar relationship map complete; department plates and specialist approval remain |
 | 10A | Master feature architecture | Complete | 165-minute, ten-sequence structure |
 | 10B | Scene selection and consolidation | Complete | 154 source concepts reconciled to 72 active units |
@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 267 |
+| Current tracked paths audited | 271 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **267 current paths recorded**.
+- Per-file audit ledger: **271 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -81,7 +81,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 4. Assign named reviewers to the 13 prepared specialist packets and record their findings; internal preparation is complete but external approval is not.
    Public institutional routes and qualification-checked slates now cover all 13 gates; no reviewer is assigned until identity, qualification, conflict and scope checks pass.
 5. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions; every term now has a source and reviewer crosswalk.
-6. Expand the registered 216-shot storyboard plan beyond the ten sequence-anchor frames and develop remaining department plates under rights and specialist controls; the twelve production-design families are already defined.
+6. Continue expanding the registered 216-shot storyboard plan beyond the twelve current concepts and develop remaining department plates under rights and specialist controls; the twelve production-design families are already defined.
 7. Obtain `SR-013` review of the implemented Option B rights state before changing licences, opening derivative collaboration or adding licence badges.
 
 ## Current locks

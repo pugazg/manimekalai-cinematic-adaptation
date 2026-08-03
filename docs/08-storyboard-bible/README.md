@@ -9,10 +9,11 @@ No panel is final until its scene cites the screenplay evidence matrix.
 - [Storyboard asset register](storyboard-asset-register.csv)
 
 The matrix assigns entry, decision and consequence frames to all 72 active
-feature units. Ten sequence-anchor concept frames are registered, providing
-one visual anchor for every screenplay sequence. `DESCRIPTION_READY` is a
+feature units. Twelve concept frames are registered: one sequence anchor for
+every screenplay sequence plus two evidence-controlled Sequence 04 expansion
+frames. `DESCRIPTION_READY` is a
 planning state, not a completed drawn panel, and registered concepts remain
-specialist- and rights-open. The ten anchors do not constitute a fully
+specialist- and rights-open. The twelve concepts do not constitute a fully
 rendered 216-panel storyboard.
 
 Each storyboard sequence should record:

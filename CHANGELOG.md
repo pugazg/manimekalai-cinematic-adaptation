@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.51.0 — 2026-08-03
+
+- Expanded the storyboard beyond its ten sequence anchors with controlled
+  concept frames for Aputhiran's refusal of personal reward and the prison's
+  transformation into a public care institution.
+- Corrected crown and jewellery coding on the celestial visitor before
+  registration.
+- Registered prompts, evidence, decisions, specialist gates, rights states and
+  SHA-256 hashes for both assets.
+- Recorded architecture, vessel, food, costume, record and cosmological
+  uncertainties instead of treating the generated frames as historical proof.
+- Refreshed the exact 271-file audit baseline.
+
 ## 0.50.0 — 2026-08-03
 
 - Added a thirteen-gate outreach sequence that routes each specialist review
