@@ -83,6 +83,24 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("CONTINUITY_PLATE_0_1_READY", rows["PD-008"]["status"])
 
+    def test_food_service_plate_controls_zones_and_clean_routes(self) -> None:
+        path = DESIGN / "food-vessel-and-service-workflow.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        for zone in range(1, 10):
+            self.assertIn(f"`Z{zone}", text)
+        for state in range(0, 8):
+            self.assertIn(f"`S{state}", text)
+        for prop in ("FV-HS", "FV-PR", "FV-AS", "FV-SV", "FV-RC", "FV-WT", "FV-CL", "FV-RM", "FV-TR"):
+            self.assertIn(f"`{prop}`", text)
+        self.assertIn("Clean / used route prohibition", text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("WORKFLOW_PLATE_0_1_READY", rows["PD-007"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -110,6 +110,7 @@ docs/08-storyboard-bible/storyboard-shot-matrix.csv,PASS_216_SHOT_TRACE_MATRIX
 docs/08-storyboard-bible/visual-language-and-evidence-policy.md,PASS_VISUAL_GOVERNANCE
 docs/09-production-design/README.md,EXPANDED_CONTROLLED_FOUNDATION
 docs/09-production-design/amudhasurabhi-prop-continuity.md,CREATED_PD008_PROP_CONTINUITY_PLATE
+docs/09-production-design/food-vessel-and-service-workflow.md,CREATED_PD007_SERVICE_WORKFLOW_PLATE
 docs/09-production-design/maps/puhar-production-zone-map.md,PASS_INTERPRETATION_MAP_PROVENANCE
 docs/09-production-design/maps/puhar-production-zone-map.svg,PASS_NON_GEOGRAPHIC_SVG_MAP
 docs/09-production-design/production-design-control-matrix.csv,PASS_12_FAMILY_CONTROL_MATRIX
@@ -212,7 +213,7 @@ docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNA
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/remaining-specialist-candidate-slate.md,CREATED_REMAINING_SPECIALIST_PUBLIC_PROFILE_SLATE
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_273_PATH_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_274_PATH_LEDGER
 docs/11-project-governance/reviewer-selection-rubric.csv,CREATED_REVIEWER_SELECTION_CONTROL
 docs/11-project-governance/reviewer-sourcing-shortlist.md,CREATED_OFFICIAL_INSTITUTIONAL_REFERRAL_MAP
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST

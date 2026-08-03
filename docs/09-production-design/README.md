@@ -8,6 +8,7 @@
 - [Puhar production zone map](maps/puhar-production-zone-map.md)
 - [Season and water continuity calendar](season-and-water-continuity-calendar.md)
 - [Amudhasurabhi prop and continuity plate](amudhasurabhi-prop-continuity.md)
+- [Food, vessel and service workflow plate](food-vessel-and-service-workflow.md)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.54.0 — 2026-08-03
+
+- Added the `PD-007` food, vessel and service workflow plate.
+- Defined nine service zones, nine prop families and eight service states from
+  Aadhirai's household gift through Kanchi's distributed relief system.
+- Added accessible routes, translation, correction, clean/used separation,
+  animal-care separation, continuity cards and blocking tests.
+- Explicitly separated the approved Venpa food image from any claim of one
+  historically proven ancient recipe.
+- Refreshed the exact 274-file audit baseline.
+
 ## 0.53.0 — 2026-08-03
 
 - Added the `PD-008` Amudhasurabhi prop and continuity plate.

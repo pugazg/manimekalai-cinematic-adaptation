@@ -31,7 +31,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 273 current tracked paths audited;
+- 274 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
@@ -56,6 +56,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 Key production plate: [season and water continuity calendar](09-production-design/season-and-water-continuity-calendar.md).
 Prop continuity: [Amudhasurabhi plate](09-production-design/amudhasurabhi-prop-continuity.md).
+Service design: [food, vessel and service workflow](09-production-design/food-vessel-and-service-workflow.md).
 | [10](10-screenplay-architecture/) | Screenplay architecture | Feature architecture, beat sheets, treatment, bilingual drafts and review gates |
 | [11](11-project-governance/) | Governance | Audits, external reviews, risks, specialist consultation and collaboration process |
 
