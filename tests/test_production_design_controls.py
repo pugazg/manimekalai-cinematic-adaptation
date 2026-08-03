@@ -64,6 +64,25 @@ class ProductionDesignControlTests(unittest.TestCase):
         self.assertEqual("CALENDAR_0_1_READY", rows["PD-011"]["status"])
         self.assertIn("specialist review", rows["PD-011"]["next_deliverable"])
 
+    def test_amudhasurabhi_plate_controls_custody_and_effects(self) -> None:
+        path = DESIGN / "amudhasurabhi-prop-continuity.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        for handling in range(0, 7):
+            self.assertIn(f"`H{handling}", text)
+        for level in range(0, 6):
+            self.assertIn(f"`F{level}", text)
+        for cleanliness in range(0, 5):
+            self.assertIn(f"`C{cleanliness}", text)
+        self.assertIn("`F2 → F3`", text)
+        self.assertIn("No jewels", text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("CONTINUITY_PLATE_0_1_READY", rows["PD-008"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()

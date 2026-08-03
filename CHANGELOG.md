@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.53.0 — 2026-08-03
+
+- Added the `PD-008` Amudhasurabhi prop and continuity plate.
+- Defined two ergonomic rehearsal prototypes, handling, food-level and
+  cleanliness states, and a scene-by-scene custody path.
+- Made the first visible miracle the ordinary serving transition `F2 → F3`
+  rather than glow, levitation or autonomous action.
+- Added actor, camera, VFX, food-safety and handoff tests while keeping material
+  and exact dimensions specialist-open.
+- Refreshed the exact 273-file audit baseline.
+
 ## 0.52.0 — 2026-08-03
 
 - Added the `PD-011` season-and-water continuity calendar across all ten
