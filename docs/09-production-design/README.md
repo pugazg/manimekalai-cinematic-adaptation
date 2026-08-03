@@ -7,6 +7,7 @@
 - [Visual uncertainty register](visual-uncertainty-register.csv)
 - [Puhar production zone map](maps/puhar-production-zone-map.md)
 - [Season and water continuity calendar](season-and-water-continuity-calendar.md)
+- [Amudhasurabhi prop and continuity plate](amudhasurabhi-prop-continuity.md)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 
