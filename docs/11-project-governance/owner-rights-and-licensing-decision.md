@@ -45,7 +45,8 @@ This maximises reuse but creates the greatest risk of uncontrolled derivative sc
 - Decision date: 2026-08-03
 - Adviser / reviewer: pending `SR-013`
 - Review record: owner selection recorded in the project task; external legal advice not yet claimed
-- Effective commit: to be recorded after the implementation commit is created
+- Effective implementation commit: `4ad720ac9f187996135a23191ac96df0ccbe4605`
+- Post-decision validation: 39 tests, repository registers, 72-scene bilingual parity, deterministic release, 216-shot matrix, 318-row source crosswalk and 261-path exhaustive audit passed
 
 ## Actions after decision
 

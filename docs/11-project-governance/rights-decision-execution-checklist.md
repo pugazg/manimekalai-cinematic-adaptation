@@ -68,6 +68,8 @@ the implementation commit and post-decision checks pass.
 
 ## Closure condition
 
-The owner-decision portion is complete for Option B after the implementation
-and post-decision audit pass. `SR-013` legal review and third-party clearance
-remain separate external gates. This checklist cannot replace them.
+The owner-decision portion is complete for Option B. Implementation commit
+`4ad720ac9f187996135a23191ac96df0ccbe4605` passed the post-decision test,
+register, bilingual, deterministic-build and 261-path audit suite. `SR-013`
+legal review and third-party clearance remain separate external gates. This
+checklist cannot replace them.
