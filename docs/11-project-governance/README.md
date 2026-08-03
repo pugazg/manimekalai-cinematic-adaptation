@@ -23,6 +23,7 @@ This phase makes repository status, external review, contribution rules, special
 - [Critical review candidate slate](critical-review-candidate-slate.md)
 - [Remaining specialist candidate slate](remaining-specialist-candidate-slate.md)
 - [Reviewer invitation and intake kit](specialist-review-packets/reviewer-invitation-and-intake.md)
+- [External review outreach batch](external-review-outreach-batch.md)
 - [Tamil table-read protocol](tamil-table-read-protocol.md)
 - [Owner rights and licensing decision](owner-rights-and-licensing-decision.md)
 - [Rights decision execution checklist](rights-decision-execution-checklist.md)
@@ -35,7 +36,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current ledger: 266;
+- tracked paths in the current ledger: 267;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
