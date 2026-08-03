@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.45.0 — 2026-08-03
+
+- Recorded the owner's selection of Option B, the fully reserved interim rights state.
+- Added a root interim `NOTICE` and rights notices for documentation, screenplay, storyboard assets, releases and tooling.
+- Distinguished owned original work from the classical epic, translations, Bharathidasan material, scholarship and other third-party rights.
+- Added a pull-request rights declaration and contribution restrictions that do not imply transfer of production rights.
+- Scheduled reconsideration by 2027-02-03 while keeping qualified `SR-013` legal review open.
+- Updated project status, risks, release notes, review registers and the exact 261-path audit ledger.
+
 ## 0.44.0 — 2026-08-03
 
 - Added an exact 13-row external-review assignment register without fabricating reviewer identities or approvals.

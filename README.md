@@ -13,6 +13,8 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Per-file audit ledger](docs/11-project-governance/repository-file-audit.csv)
 - [Documentation index](docs/INDEX.md)
 - [Contributing guide](CONTRIBUTING.md)
+- [Rights and permissions](RIGHTS_AND_PERMISSIONS.md)
+- [Interim rights notice](NOTICE)
 - [Changelog](CHANGELOG.md)
 - [Screenplay architecture](docs/10-screenplay-architecture/)
 - [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
@@ -38,10 +40,11 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Approved Venpa use | Six approved decisions implemented bilingually; no proposal remains pending |
 | Runtime validation | Local full pass recorded; both hosted workflows passed on merged PR #12 |
 | Storyboard and production design | 216-shot plan, ten corrected sequence-anchor frames, Production Design Bible 0.1, twenty-four uncertainty controls and Puhar relationship map; full 216-frame rendering and specialist approval remain |
+| Rights | Option B fully reserved interim state selected and implemented; `SR-013` legal review remains open |
 
 ## Audited baseline
 
-- current tracked paths audited: **254**
+- current tracked paths audited: **261**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -141,7 +144,10 @@ python3 scripts/audit_all_tracked_files.py
 
 The repository validator enforces exact 45 / 318 / 170 / 154 register ranges, required fields, evidence and decision references, canonical placement, and complete `EV-*` to `SRC-*` provenance coverage. Internal project-method records are explicitly distinguished from externally sourced claims. The bilingual validator checks sequence discovery, scene ranges, parity against the authoritative 10B feature-unit matrix, duplicate units or source-scene use, invalid absorption, Tamil cue/name policy and recognised endings.
 
-The latest exhaustive file audit is recorded in the 2026-07-28 audit. Hosted GitHub Actions passed for the completed Venpa institutional batch in merged PR #12.
+The latest completion-readiness audit is recorded in the 2026-07-29 audit.
+Hosted GitHub Actions passed for the external-gate execution kit in merged
+PR #22. Option B rights implementation requires the same full validation
+before merge.
 
 ## Open gates
 
@@ -149,8 +155,8 @@ The latest exhaustive file audit is recorded in the 2026-07-28 audit. Hosted Git
 2. Complete culinary and historical review of the implemented Aadhirai food detail.
 3. Conduct actor-led table reads and timing for all ten internally reviewed Tamil sequences.
 4. Assign named reviewers to the prepared specialist packets and complete the controlled terminology review; Tamil cue script and `இராசமாதேவி` spelling are already normalized and validator-enforced.
-6. Complete Buddhist, philosophical, historical, maritime, costume, gender, animal-welfare and rights consultation.
-7. Begin rights-labelled storyboard and production-design pilots.
-8. Decide repository licensing separately for original work and third-party material.
+5. Complete Buddhist, philosophical, historical, maritime, costume, gender and animal-welfare consultation.
+6. Continue the rights-labelled storyboard and production-design work beyond the ten registered anchors.
+7. Obtain `SR-013` review of the implemented Option B interim rights state before adopting any open or split licence.
 
 These remain working research, adaptation and screenplay-review editions—not a shooting script, dubbing script, final subtitle file or production claim.

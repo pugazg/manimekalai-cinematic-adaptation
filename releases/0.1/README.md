@@ -26,7 +26,7 @@ Still open:
 - named external Tamil dialogue review and actor table reads;
 - classical-Tamil and source-edition review;
 - Buddhist, philosophy, institutions, food, historical and visual specialist approval;
-- rights and licensing decision;
+- `SR-013` legal review of the implemented Option B fully reserved interim rights state;
 - production timing and page-layout lock.
 
 ## Rebuild
@@ -38,4 +38,3 @@ python3 scripts/build_bilingual_release.py
 ```
 
 The committed package must reproduce byte-for-byte.
-
