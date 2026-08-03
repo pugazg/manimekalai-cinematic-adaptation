@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.58.0 — 2026-08-03
+
+- Added the `PD-004` architecture and water comparative control plate.
+- Distinguished Puhar, Vanji and Kanchi through function, water access,
+  maintenance, material systems and institutional pressure.
+- Added six water states and department handoff controls while keeping ring-well
+  function and complete ancient city plans specialist-open.
+- Prohibited later Pallava/Chola skylines, fantasy megacities and unsupported
+  modern grids, sewers, aqueducts or uniform city styling.
+- Refreshed the exact 280-file audit baseline.
+
 ## 0.57.0 — 2026-08-03
 
 - Added the `PD-003` maritime vessel silhouette family and SVG control plate.

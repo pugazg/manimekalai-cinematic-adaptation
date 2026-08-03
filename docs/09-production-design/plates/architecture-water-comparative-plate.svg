@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">PD-004 Architecture and Water Comparative Plate</title>
+  <desc id="desc">Interpretive comparison of Puhar, Vanji and Kanchi architecture and water systems. Not an exact ancient city plan.</desc>
+  <defs><style>
+    .bg{fill:#10202a}.panel{fill:#162e39;stroke:#66808a;stroke-width:2}.cream{fill:#eee0ba}.blue{fill:#78b4c4}.red{fill:#d7856c}.line{fill:none;stroke:#e3d3aa;stroke-width:5;stroke-linejoin:round}.water{fill:none;stroke:#5ba5bd;stroke-width:5}.thin{fill:none;stroke:#8fa7ad;stroke-width:2}.title{font:700 34px Arial,sans-serif;fill:#f1e5c4}.head{font:700 25px Arial,sans-serif;fill:#f1e5c4}.body{font:17px Arial,sans-serif;fill:#d7e1df}.small{font:14px Arial,sans-serif;fill:#afc1c4}.warn{font:700 19px Arial,sans-serif;fill:#e5a56d}.badge{font:700 16px Arial,sans-serif;fill:#fff}
+  </style></defs>
+  <rect width="1600" height="1000" class="bg"/>
+  <text x="65" y="60" class="title">PD-004 · ARCHITECTURE + WATER COMPARATIVE PLATE 0.1</text>
+  <text x="65" y="94" class="warn">[INTERPRETATION] · NOT AN EXACT ANCIENT CITY PLAN · SR-006 / SR-010 OPEN</text>
+  <text x="65" y="124" class="body">Distinguish cities through function, access, repair and water—not a single monumental “ancient” style.</text>
+
+  <rect x="55" y="155" width="480" height="640" rx="12" class="panel"/>
+  <text x="85" y="198" class="head">A1 · PUHAR</text><text x="85" y="228" class="body">River–sea port · distributed harbour</text>
+  <path d="M85 355 L140 305 L205 355 L260 285 L330 355 L405 310 L500 355" class="line"/>
+  <rect x="115" y="355" width="95" height="90" class="thin"/><rect x="260" y="355" width="120" height="90" class="thin"/>
+  <line x1="85" y1="445" x2="505" y2="445" class="thin"/>
+  <path d="M75 490 Q160 470 245 490 T505 490" class="water"/>
+  <path d="M95 545 L180 520 L265 545 L350 512 L475 545" class="thin"/>
+  <text x="85" y="590" class="body">Water: movement ≠ potable access</text><text x="85" y="620" class="body">Material: brick + timber + plaster</text>
+  <text x="85" y="650" class="body">Image: cargo, repair, shade, crowds</text><text x="85" y="680" class="body">Power: routes and controlled thresholds</text>
+  <rect x="85" y="710" width="115" height="34" rx="17" fill="#27606d"/><text x="107" y="733" class="badge">W-A / W-B</text>
+  <text x="85" y="775" class="warn">NO MONUMENTAL STONE HARBOUR</text>
+
+  <rect x="560" y="155" width="480" height="640" rx="12" class="panel"/>
+  <text x="590" y="198" class="head">A2 · VANJI</text><text x="590" y="228" class="body">Inland river / trade corridor · provisional anchor</text>
+  <path d="M590 360 L665 300 L740 360 L815 320 L900 360 L980 295 L1010 360" class="line"/>
+  <rect x="625" y="360" width="150" height="95" class="thin"/><rect x="835" y="360" width="125" height="95" class="thin"/>
+  <path d="M595 500 Q690 486 785 500 T1005 500" class="water"/>
+  <rect x="620" y="530" width="105" height="55" class="thin"/><rect x="755" y="530" width="105" height="55" class="thin"/><rect x="890" y="530" width="90" height="55" class="thin"/>
+  <text x="590" y="620" class="body">Water: inland supply and storage</text><text x="590" y="650" class="body">Material: distinct local combinations</text>
+  <text x="590" y="680" class="body">Image: caravan, teaching, administration</text><text x="590" y="710" class="body">Power: compact rooms and controlled access</text>
+  <rect x="590" y="735" width="115" height="34" rx="17" fill="#27606d"/><text x="612" y="758" class="badge">W-B / W-C</text>
+  <text x="590" y="785" class="warn">NO COPIED PUHAR WATERFRONT</text>
+
+  <rect x="1065" y="155" width="480" height="640" rx="12" class="panel"/>
+  <text x="1095" y="198" class="head">A3 · KANCHI</text><text x="1095" y="228" class="body">Early inland centre · famine and relief</text>
+  <path d="M1095 360 L1160 315 L1225 360 L1300 300 L1370 360 L1440 325 L1510 360" class="line"/>
+  <rect x="1125" y="360" width="125" height="95" class="thin"/><rect x="1320" y="360" width="145" height="95" class="thin"/>
+  <circle cx="1190" cy="520" r="52" class="thin"/><path d="M1150 537 Q1190 520 1230 537" class="water"/>
+  <line x1="1300" y1="500" x2="1480" y2="500" class="thin"/><line x1="1320" y1="530" x2="1450" y2="530" class="thin"/>
+  <text x="1095" y="620" class="body">Water: failed access → relief system</text><text x="1095" y="650" class="body">Material: maintenance stress is visible</text>
+  <text x="1095" y="680" class="body">Image: storage, queues, teaching, repair</text><text x="1095" y="710" class="body">Power: rations, records and public decisions</text>
+  <rect x="1095" y="735" width="115" height="34" rx="17" fill="#8a4e45"/><text x="1117" y="758" class="badge">W-E / W-F</text>
+  <text x="1095" y="785" class="warn">NO LATER PALLAVA / CHOLA SKYLINE</text>
+
+  <rect x="55" y="820" width="1490" height="120" rx="12" class="panel"/>
+  <text x="80" y="855" class="head">SHARED CONTROL</text>
+  <text x="80" y="885" class="body">Ring well function stays unresolved without context · water access reveals labour and inequality · architecture shows repair and service routes</text>
+  <text x="80" y="915" class="warn">PROHIBITED: fantasy stone megacity · modern grid / sewer / aqueduct · one style for all cities · clean sets without maintenance</text>
+  <text x="1375" y="965" class="small">PD-004 / PLATE 0.1</text>
+</svg>
