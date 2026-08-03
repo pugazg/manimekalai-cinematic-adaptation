@@ -226,6 +226,39 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("PUBLIC_SPACE_MAP_0_1_READY", rows["PD-002"]["status"])
 
+    def test_costume_board_controls_layers_families_and_movement(self) -> None:
+        text = (DESIGN / "costume-layer-and-movement-board.md").read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        self.assertIn("NOT EXACT SANGAM DRESS", text)
+        for number in range(0, 8):
+            self.assertIn(f"`L{number}`", text)
+        for number in range(1, 9):
+            self.assertIn(f"`C{number}", text)
+            self.assertIn(f"`M{number}`", text)
+        self.assertIn("Bharatanatyam fan", text)
+        plate = DESIGN / "plates/costume-layer-and-movement-board.svg"
+        ET.parse(plate)
+        self.assertIn("NOT EXACT SANGAM DRESS", plate.read_text(encoding="utf-8"))
+        with (DESIGN / "production-design-control-matrix.csv").open(encoding="utf-8", newline="") as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("LAYER_MOVEMENT_BOARD_0_1_READY", rows["PD-005"]["status"])
+
+    def test_ornament_board_controls_material_claims_and_safety(self) -> None:
+        text = (DESIGN / "ornament-material-and-movement-board.md").read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        self.assertIn("MATERIAL POSSIBILITY IS NOT A COMPLETE COSTUME SET", text)
+        for number in range(1, 9):
+            self.assertIn(f"`O{number}`", text)
+            self.assertIn(f"`P{number}`", text)
+            self.assertIn(f"`T{number}", text)
+        self.assertIn("temple-jewellery", text)
+        plate = DESIGN / "plates/ornament-material-and-movement-board.svg"
+        ET.parse(plate)
+        self.assertIn("MATERIAL POSSIBILITY IS NOT A COMPLETE COSTUME SET", plate.read_text(encoding="utf-8"))
+        with (DESIGN / "production-design-control-matrix.csv").open(encoding="utf-8", newline="") as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("MATERIAL_MOVEMENT_BOARD_0_1_READY", rows["PD-006"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()
