@@ -13,6 +13,11 @@ These packets convert the open rows in `specialist-review-register.csv` into bou
 | [History and Material Culture Review](history-and-material-culture-review.md) | `SR-006`, `SR-010`–`SR-012` | Institutions, maritime world, costume, ritual and animal ethics |
 | [Rights and Licensing Review](rights-and-licensing-review.md) | `SR-013` | Code, documentation, screenplay and third-party-source rights |
 | [Response Template](specialist-response-template.md) | All | Consistent findings, severity, evidence and disposition |
+| [Reviewer Invitation and Intake Kit](reviewer-invitation-and-intake.md) | All | Candidate invitation, accepted-scope intake and returned-response handling |
+
+Use the [reviewer-selection rubric](../reviewer-selection-rubric.csv) before
+sending a packet. A candidate is not an assigned reviewer until acceptance,
+scope and conflict information are recorded.
 
 ## Status vocabulary
 
@@ -34,4 +39,3 @@ Only a named reviewer or documented institutional review can move a row to an ap
 5. Do not edit only the English or only the Tamil screenplay.
 6. Preserve rejected and superseded findings in the audit trail.
 7. Run all repository validators after an approved change.
-
