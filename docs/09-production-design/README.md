@@ -15,6 +15,8 @@
 - [Maritime vessel silhouette SVG plate](plates/maritime-vessel-silhouette-family.svg)
 - [Architecture and water comparative plate](architecture-water-comparative-plate.md)
 - [Architecture and water comparative SVG](plates/architecture-water-comparative-plate.svg)
+- [Indra festival public-space map](indra-festival-public-space-map.md)
+- [Indra festival public-space SVG](plates/indra-festival-public-space-map.svg)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 
