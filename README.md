@@ -39,12 +39,12 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Venpa perspective review | 31 decisions: 6 approved, 0 proposed, 7 deferred, 18 rejected |
 | Approved Venpa use | Six approved decisions implemented bilingually; no proposal remains pending |
 | Runtime validation | Local full pass recorded; both hosted workflows passed on merged PR #12 |
-| Storyboard and production design | 216-shot plan, twelve concepts, Production Design Bible 0.1, Puhar map, water calendar, Amudhasurabhi and food-service workflow plates; full rendering, tests and specialist approval remain |
+| Storyboard and production design | 216-shot plan, twelve concepts, Production Design Bible 0.1, Puhar map, water calendar, Amudhasurabhi, food-service and animal-welfare plates; rendering, tests and specialist approval remain |
 | Rights | Option B fully reserved interim state selected and implemented; `SR-013` legal review remains open |
 
 ## Audited baseline
 
-- current tracked paths audited: **274**
+- current tracked paths audited: **275**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)

@@ -36,7 +36,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current ledger: 274;
+- tracked paths in the current ledger: 275;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;

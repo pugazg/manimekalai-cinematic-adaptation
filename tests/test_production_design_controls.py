@@ -101,6 +101,24 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("WORKFLOW_PLATE_0_1_READY", rows["PD-007"]["status"])
 
+    def test_animal_plan_prohibits_live_distress_and_impact(self) -> None:
+        path = DESIGN / "animal-action-and-welfare-plan.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        for action_class in range(0, 6):
+            self.assertIn(f"`A{action_class}", text)
+        for plate in range(1, 10):
+            self.assertIn(f"`COW-{plate:02d}`", text)
+        self.assertIn("No shot requires real fear", text)
+        self.assertIn("no live cow in impact setup", text)
+        self.assertIn("stop-work authority", text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("WELFARE_PLAN_0_1_READY", rows["PD-012"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()
