@@ -17,7 +17,7 @@ class StoryboardAssetTests(unittest.TestCase):
             encoding="utf-8", newline=""
         ) as handle:
             rows = list(csv.DictReader(handle))
-        self.assertEqual(10, len(rows))
+        self.assertEqual(12, len(rows))
         for row in rows:
             asset = BOARD / row["filename"]
             prompt = BOARD / row["prompt_record"]

@@ -39,12 +39,12 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Venpa perspective review | 31 decisions: 6 approved, 0 proposed, 7 deferred, 18 rejected |
 | Approved Venpa use | Six approved decisions implemented bilingually; no proposal remains pending |
 | Runtime validation | Local full pass recorded; both hosted workflows passed on merged PR #12 |
-| Storyboard and production design | 216-shot plan, ten corrected sequence-anchor frames, Production Design Bible 0.1, twenty-four uncertainty controls and Puhar relationship map; full 216-frame rendering and specialist approval remain |
+| Storyboard and production design | 216-shot plan, twelve registered concepts (ten sequence anchors plus two Sequence 04 expansions), Production Design Bible 0.1, twenty-four uncertainty controls and Puhar relationship map; full rendering and specialist approval remain |
 | Rights | Option B fully reserved interim state selected and implemented; `SR-013` legal review remains open |
 
 ## Audited baseline
 
-- current tracked paths audited: **267**
+- current tracked paths audited: **271**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)
@@ -156,7 +156,7 @@ before merge.
 3. Conduct actor-led table reads and timing for all ten internally reviewed Tamil sequences.
 4. Assign named reviewers to the prepared specialist packets and complete the controlled terminology review; Tamil cue script and `இராசமாதேவி` spelling are already normalized and validator-enforced.
 5. Complete Buddhist, philosophical, historical, maritime, costume, gender and animal-welfare consultation.
-6. Continue the rights-labelled storyboard and production-design work beyond the ten registered anchors.
+6. Continue the rights-labelled storyboard and production-design work beyond the twelve registered concepts.
 7. Obtain `SR-013` review of the implemented Option B interim rights state before adopting any open or split licence.
 
 These remain working research, adaptation and screenplay-review editions—not a shooting script, dubbing script, final subtitle file or production claim.
