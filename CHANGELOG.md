@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.49.0 — 2026-08-03
+
+- Added qualification-checked public-profile sourcing for specialist gates `SR-004` through `SR-012`.
+- Identified strong doctrine, philosophy, early-history, gender, trauma and maritime leads while preserving all authoritative assignments as unassigned.
+- Required joint review for food history, trauma-informed performance and animal ethics where one discipline cannot responsibly certify the whole gate.
+- Kept costume history under institutional referral because current public evidence does not prove early South Indian chronology competence.
+
 ## 0.48.0 — 2026-08-03
 
 - Added a public-profile candidate slate for the four critical external-review gates.
