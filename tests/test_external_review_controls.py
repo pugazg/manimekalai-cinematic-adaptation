@@ -51,6 +51,7 @@ class ExternalReviewControlTests(unittest.TestCase):
             "external-review-execution-protocol.md",
             "reviewer-sourcing-shortlist.md",
             "critical-review-candidate-slate.md",
+            "remaining-specialist-candidate-slate.md",
             "tamil-table-read-protocol.md",
             "rights-decision-execution-checklist.md",
             "specialist-review-packets/reviewer-invitation-and-intake.md",
@@ -75,6 +76,16 @@ class ExternalReviewControlTests(unittest.TestCase):
         self.assertIn("authoritative assignment register therefore remains `UNASSIGNED`", slate)
         self.assertIn("INSTITUTIONAL_REFERRAL_REQUIRED", slate)
         self.assertIn("No licence changes while `SR-013` is unassigned", slate)
+
+    def test_remaining_specialist_slate_covers_nine_gates_without_assignment(self) -> None:
+        slate = (GOV / "remaining-specialist-candidate-slate.md").read_text(
+            encoding="utf-8"
+        )
+        for number in range(4, 13):
+            self.assertIn(f"`SR-{number:03d}`", slate)
+        self.assertIn("Every authoritative assignment remains `UNASSIGNED`", slate)
+        self.assertIn("JOINT_REVIEW_REQUIRED", slate)
+        self.assertIn("no one may certify an “exact Sangam costume.”", slate)
 
     def test_option_b_rights_state_is_explicit_and_bounded(self) -> None:
         root_rights = (ROOT / "RIGHTS_AND_PERMISSIONS.md").read_text(encoding="utf-8")

@@ -22,6 +22,7 @@ This index is the shortest route into the repository. It does not replace the de
 - [Reviewer selection rubric](11-project-governance/reviewer-selection-rubric.csv)
 - [Reviewer sourcing shortlist](11-project-governance/reviewer-sourcing-shortlist.md)
 - [Critical review candidate slate](11-project-governance/critical-review-candidate-slate.md)
+- [Remaining specialist candidate slate](11-project-governance/remaining-specialist-candidate-slate.md)
 - [Reviewer invitation and intake kit](11-project-governance/specialist-review-packets/reviewer-invitation-and-intake.md)
 - [Owner rights and licensing decision](11-project-governance/owner-rights-and-licensing-decision.md)
 - [Rights decision execution checklist](11-project-governance/rights-decision-execution-checklist.md)
@@ -29,7 +30,7 @@ This index is the shortest route into the repository. It does not replace the de
 
 ## Audited repository baseline
 
-- 265 current tracked paths audited;
+- 266 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;
