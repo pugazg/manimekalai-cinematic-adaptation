@@ -113,6 +113,7 @@ docs/09-production-design/maps/puhar-production-zone-map.md,PASS_INTERPRETATION_
 docs/09-production-design/maps/puhar-production-zone-map.svg,PASS_NON_GEOGRAPHIC_SVG_MAP
 docs/09-production-design/production-design-control-matrix.csv,PASS_12_FAMILY_CONTROL_MATRIX
 docs/09-production-design/production-design-bible-0.1.md,PASS_PRODUCTION_DESIGN_BIBLE_0_1
+docs/09-production-design/season-and-water-continuity-calendar.md,CREATED_PD011_CONTINUITY_PLATE
 docs/09-production-design/visual-uncertainty-register.csv,PASS_24_ITEM_UNCERTAINTY_REGISTER
 docs/10-screenplay-architecture/10A_master_feature_architecture.md,SYNCHRONIZED_AADHIRAI_WORDING
 docs/10-screenplay-architecture/10A_sequence_map.csv,PASS_STATIC
@@ -210,7 +211,7 @@ docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNA
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/remaining-specialist-candidate-slate.md,CREATED_REMAINING_SPECIALIST_PUBLIC_PROFILE_SLATE
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_271_PATH_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_272_PATH_LEDGER
 docs/11-project-governance/reviewer-selection-rubric.csv,CREATED_REVIEWER_SELECTION_CONTROL
 docs/11-project-governance/reviewer-sourcing-shortlist.md,CREATED_OFFICIAL_INSTITUTIONAL_REFERRAL_MAP
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST
