@@ -4,6 +4,10 @@
 
 The companion SVG is a **production relationship diagram**, not a geographic reconstruction, archaeological site plan or claim about exact orientation, scale or street layout.
 
+**Control state:** `PD-001 / RELATIONSHIP_MAP_0_1_READY`
+
+Any later scale drawing must be labelled as a set, crowd, camera or travel-time option. It may not silently convert production convenience into historical geography.
+
 ## Purpose
 
 The map helps departments track:
@@ -34,3 +38,9 @@ The map helps departments track:
 
 No distance may be measured from the SVG.
 
+## Next gate
+
+1. Build alternative set-scale options around labour, crowd, water and camera requirements.
+2. Record which distances exist only for production blocking.
+3. Crosscheck the festival, maritime, food-service and custody plates.
+4. Submit the alternatives to `SR-006` and `SR-010` before a physical master plan is locked.
