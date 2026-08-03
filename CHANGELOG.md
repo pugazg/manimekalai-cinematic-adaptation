@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.55.0 — 2026-08-03
+
+- Added the `PD-012` animal action and welfare plan.
+- Defined six action-risk classes and safe methods for the caregiver cow,
+  sacrificial-cow release, optional goring, festival animals, work animals and
+  public feeding.
+- Required separate plates, props, animatronics, stunt/VFX assembly and explicit
+  stop-work authority instead of real fear, dangerous restraint or impact.
+- Added daily welfare records, behavioural stop indicators, feeding separation
+  and joint welfare/ritual-history approval gates.
+- Refreshed the exact 275-file audit baseline.
+
 ## 0.54.0 — 2026-08-03
 
 - Added the `PD-007` food, vessel and service workflow plate.
