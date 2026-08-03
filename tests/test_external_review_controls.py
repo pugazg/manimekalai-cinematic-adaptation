@@ -33,11 +33,25 @@ class ExternalReviewControlTests(unittest.TestCase):
             self.assertEqual("", row["result"])
             self.assertEqual("", row["repository_disposition"])
 
+    def test_reviewer_rubric_exactly_covers_every_assignment(self) -> None:
+        assignments = read_csv("external-review-assignment-register.csv")
+        rubric = read_csv("reviewer-selection-rubric.csv")
+        self.assertEqual(
+            [row["review_id"] for row in assignments],
+            [row["review_id"] for row in rubric],
+        )
+        for row in rubric:
+            self.assertTrue(row["minimum_qualification"], row["review_id"])
+            self.assertTrue(row["evidence_access_required"], row["review_id"])
+            self.assertTrue(row["conflict_or_disqualifier"], row["review_id"])
+            self.assertTrue((GOV / row["packet"]).is_file(), row["review_id"])
+
     def test_execution_documents_exist(self) -> None:
         for name in (
             "external-review-execution-protocol.md",
             "tamil-table-read-protocol.md",
             "rights-decision-execution-checklist.md",
+            "specialist-review-packets/reviewer-invitation-and-intake.md",
         ):
             self.assertTrue((GOV / name).is_file(), name)
 

@@ -44,7 +44,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **261**
+- current tracked paths audited: **263**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)

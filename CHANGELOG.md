@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.46.0 — 2026-08-03
+
+- Added a discipline-specific reviewer-selection rubric for all 13 specialist gates.
+- Defined minimum qualifications, lawful evidence access, conflicts or disqualifiers, review mode and acceptance evidence for each row.
+- Added a ready-to-send reviewer invitation with packet-specific scope paragraphs, intake checks, privacy controls and response handling.
+- Extended external-gate regression coverage to require exact rubric-to-assignment alignment and valid packet paths.
+
 ## 0.45.0 — 2026-08-03
 
 - Recorded the owner's selection of Option B, the fully reserved interim rights state.
