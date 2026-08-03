@@ -10,6 +10,7 @@
 - [Amudhasurabhi prop and continuity plate](amudhasurabhi-prop-continuity.md)
 - [Food, vessel and service workflow plate](food-vessel-and-service-workflow.md)
 - [Animal action and welfare plan](animal-action-and-welfare-plan.md)
+- [Guard, custody and weapon handling plate](guard-custody-and-weapon-handling.md)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 
