@@ -2,7 +2,8 @@
 
 ## Status
 
-**Owner decision required. No licence is granted by this document.**
+**Owner selected Option B on 2026-08-03. The fully reserved interim state is
+implemented; qualified `SR-013` review remains open.**
 
 The repository contains code, original research synthesis, original screenplay material, third-party literary and scholarly sources, and generated visual studies. One blanket licence is not appropriate.
 
@@ -38,25 +39,25 @@ This maximises reuse but creates the greatest risk of uncontrolled derivative sc
 
 ## Owner decision record
 
-Complete only after receiving qualified advice:
-
-- Selected option:
-- Modifications:
-- Owner name:
-- Decision date:
-- Adviser / reviewer:
-- Review record:
-- Effective commit:
+- Selected option: `B — Fully reserved interim state`
+- Modifications: review by 2027-02-03 or earlier if legal, financing or collaboration needs arise
+- Owner: repository owner `pugazg`; legal name intentionally not recorded in the public repository
+- Decision date: 2026-08-03
+- Adviser / reviewer: pending `SR-013`
+- Review record: owner selection recorded in the project task; external legal advice not yet claimed
+- Effective implementation commit: `4ad720ac9f187996135a23191ac96df0ccbe4605`
+- Post-decision validation: 39 tests, repository registers, 72-scene bilingual parity, deterministic release, 216-shot matrix, 318-row source crosswalk and 261-path exhaustive audit passed
 
 ## Actions after decision
 
-1. Add the exact reviewed licence files.
-2. Add a `NOTICE` file separating excluded third-party materials.
-3. Add per-directory rights notices for screenplay, documentation and visual assets.
-4. Update `CONTRIBUTING.md` with contributor terms.
-5. Update private-source and asset manifests.
-6. Add badges only after the licence files are live.
-7. Run the full audit and release check.
+1. Maintain the root `NOTICE` separating original and third-party materials.
+2. Maintain per-directory notices for documentation, screenplay, visual assets, releases and tooling.
+3. Enforce the contribution restrictions in `CONTRIBUTING.md`.
+4. Preserve private-source and asset-level rights metadata.
+5. Do not add a licence badge while the interim state has no open licence.
+6. Obtain `SR-013` advice before changing to Option A or C.
+7. Run the full audit and release check after every rights change.
 
-Until then, the repository must continue to say that licensing is unresolved.
-
+The owner pathway is resolved as Option B. Legal review, third-party clearance
+and any future open or split licensing remain unresolved and must not be
+implied by the interim notice.

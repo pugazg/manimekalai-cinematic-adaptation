@@ -2,24 +2,24 @@
 
 ## Current state
 
-No public licence has been selected. The owner decision remains the final
-authority, informed by `SR-013`. Until that decision, the repository must not
-display a licence badge or imply permission beyond applicable law and the
-hosting platform's ordinary terms.
+The owner selected Option B on 2026-08-03. No open public licence is granted.
+The fully reserved interim state is implemented while `SR-013` remains open.
+The repository must not display a licence badge or imply reuse permission.
 
-## Owner input required
+## Owner decision recorded
 
-Select one pathway in
+The owner selected `B`. The available pathways remain documented in
 [`owner-rights-and-licensing-decision.md`](owner-rights-and-licensing-decision.md):
 
 - `A` — reviewed split licensing;
 - `B` — fully reserved interim state;
 - `C` — broad open collaboration after review.
 
-Record the owner's name, date, modifications and review authority. A choice
-is not effective until the corresponding files and exclusions are committed.
+The public record contains the repository-owner identity, decision date,
+review schedule and open `SR-013` authority. Option B becomes effective when
+the implementation commit and post-decision checks pass.
 
-## Pre-decision review
+## External rights review still required
 
 - [ ] `SR-013` reviewer is named and conflict-checked.
 - [ ] Code ownership and contributor history are checked.
@@ -44,10 +44,10 @@ is not effective until the corresponding files and exclusions are committed.
 
 ## Option B implementation
 
-- [ ] Add an explicit all-rights-reserved repository notice for original work.
-- [ ] State that third-party material remains governed by its own rights.
-- [ ] State that contribution acceptance does not grant production rights.
-- [ ] Schedule a future split-licensing review date.
+- [x] Add an explicit all-rights-reserved repository notice for original work.
+- [x] State that third-party material remains governed by its own rights.
+- [x] State that contribution acceptance does not grant production rights.
+- [x] Schedule a future split-licensing review date: 2027-02-03 or earlier if required.
 
 ## Option C implementation
 
@@ -68,7 +68,8 @@ is not effective until the corresponding files and exclusions are committed.
 
 ## Closure condition
 
-The rights gate is complete only when the owner selects a pathway, qualified
-review is recorded, the exact implementation files are committed and the
-post-decision audit passes. This checklist deliberately cannot select a
-licence on the owner's behalf.
+The owner-decision portion is complete for Option B. Implementation commit
+`4ad720ac9f187996135a23191ac96df0ccbe4605` passed the post-decision test,
+register, bilingual, deterministic-build and 261-path audit suite. `SR-013`
+legal review and third-party clearance remain separate external gates. This
+checklist cannot replace them.

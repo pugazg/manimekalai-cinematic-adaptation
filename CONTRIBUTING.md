@@ -14,6 +14,27 @@ Read:
 
 Do not submit protected source scans, full copyrighted translations or unlicensed images.
 
+## Interim contribution rights
+
+The owner selected Option B, a fully reserved interim state, on 2026-08-03.
+The repository is publicly visible but is not openly licensed.
+
+Every pull request must complete the rights declaration in the pull request
+template. A contributor must own the submitted material or have documented
+authority to submit it. Acceptance permits the repository owner to retain,
+review, modify and display the contribution as part of this repository under
+the current rights state; it does not grant the contributor or repository
+owner unstated rights in third-party material.
+
+Submitting, reviewing or merging a contribution does not by itself transfer
+or grant film, television, stage, publication, translation, merchandising or
+other production rights. Do not submit screenplay pages, commissioned art,
+performance recordings or other production material requiring separate
+rights unless a written contribution agreement has been approved.
+
+See [Rights and permissions](RIGHTS_AND_PERMISSIONS.md), the root `NOTICE`
+and applicable per-directory rights notices.
+
 ## Contribution types
 
 ### 1. New evidence

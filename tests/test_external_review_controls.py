@@ -41,6 +41,34 @@ class ExternalReviewControlTests(unittest.TestCase):
         ):
             self.assertTrue((GOV / name).is_file(), name)
 
+    def test_option_b_rights_state_is_explicit_and_bounded(self) -> None:
+        root_rights = (ROOT / "RIGHTS_AND_PERMISSIONS.md").read_text(encoding="utf-8")
+        notice = (ROOT / "NOTICE").read_text(encoding="utf-8")
+        decision = (GOV / "owner-rights-and-licensing-decision.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("Option B", root_rights)
+        self.assertIn("All rights are reserved", root_rights)
+        self.assertIn("Third-party", notice)
+        self.assertIn("B — Fully reserved interim state", decision)
+        self.assertIn("pending `SR-013`", decision)
+
+    def test_option_b_directory_notices_and_pr_declaration_exist(self) -> None:
+        for path in (
+            ROOT / "docs/RIGHTS.md",
+            ROOT / "docs/08-storyboard-bible/RIGHTS.md",
+            ROOT / "docs/10-screenplay-architecture/RIGHTS.md",
+            ROOT / "releases/RIGHTS.md",
+            ROOT / "scripts/RIGHTS.md",
+            ROOT / ".github/pull_request_template.md",
+        ):
+            self.assertTrue(path.is_file(), path.relative_to(ROOT))
+        template = (ROOT / ".github/pull_request_template.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("does not transfer or grant", template)
+        self.assertIn("third-party material", template)
+
 
 if __name__ == "__main__":
     unittest.main()

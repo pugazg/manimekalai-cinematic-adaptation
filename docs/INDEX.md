@@ -12,17 +12,20 @@ This index is the shortest route into the repository. It does not replace the de
 - [Per-file audit ledger](11-project-governance/repository-file-audit.csv)
 - [Bilingual Screenplay Release 0.1](../releases/0.1/)
 - [Contributing guide](../CONTRIBUTING.md)
+- [Rights and permissions](../RIGHTS_AND_PERMISSIONS.md)
+- [Interim rights notice](../NOTICE)
 - [Changelog](../CHANGELOG.md)
 - [External review reconciliation](11-project-governance/2026-07-21-external-repository-review.md)
 - [Adaptation risk register](11-project-governance/adaptation-risk-register.md)
 - [Specialist review register](11-project-governance/specialist-review-register.csv)
 - [Specialist review packets](11-project-governance/specialist-review-packets/)
 - [Owner rights and licensing decision](11-project-governance/owner-rights-and-licensing-decision.md)
+- [Rights decision execution checklist](11-project-governance/rights-decision-execution-checklist.md)
 - [Evidence-to-source crosswalk](11-project-governance/evidence-source-crosswalk.md)
 
 ## Audited repository baseline
 
-- 199 current tracked paths audited;
+- 261 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;

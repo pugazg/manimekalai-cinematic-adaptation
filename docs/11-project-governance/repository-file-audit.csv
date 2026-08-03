@@ -1,13 +1,16 @@
 path,audit_status
+.github/pull_request_template.md,CREATED_OPTION_B_CONTRIBUTION_DECLARATION
 .github/workflows/validate-screenplay.yml,CONTROL_HOSTED_CI_PASS
 .github/workflows/validate.yml,CONTROL_HOSTED_CI_PASS
 .gitignore,REPAIRED_GENERATED_CACHE_EXCLUSIONS
 CHANGELOG.md,RECONCILED_0_25_0
 CONTRIBUTING.md,PASS_STATIC
 NEW_CHAT_HANDOVER.md,REFRESHED_CURRENT_HANDOVER
+NOTICE,CREATED_OPTION_B_INTERIM_NOTICE
 README.md,REFRESHED_CURRENT_STATE
-RIGHTS_AND_PERMISSIONS.md,OPEN_OWNER_DECISION
+RIGHTS_AND_PERMISSIONS.md,OPTION_B_INTERIM_IMPLEMENTED
 STATUS.md,REFRESHED_CURRENT_STATE
+docs/RIGHTS.md,CREATED_DOCUMENTATION_RIGHTS_NOTICE
 docs/01-vision/01_vision_and_research_foundation.md,PASS_STATIC
 docs/02-literary-analysis/02_literary_analysis.md,PASS_STATIC
 docs/03-historical-world/03C_maritime_trade_and_ships.md,PASS_STATIC
@@ -77,6 +80,7 @@ docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04I_kanchanan.csv,
 docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04J_punniyarajan.csv,PASS_STATIC
 docs/07-screenplay-evidence-matrix/screenplay_evidence_matrix_04K_aadhirai.csv,PASS_STATIC
 docs/08-storyboard-bible/README.md,EXPANDED_216_SHOT_FOUNDATION
+docs/08-storyboard-bible/RIGHTS.md,CREATED_VISUAL_ASSET_RIGHTS_NOTICE
 docs/08-storyboard-bible/assets/sequence-01/SB-001-1_puhar-festival-dawn_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-02/SB-010-2_refusal-boundary_v1.png,REGISTERED_INTERPRETIVE_ASSET
 docs/08-storyboard-bible/assets/sequence-03/SB-015-2_manipallavam-memory-pond_v1.png,REGISTERED_INTERPRETIVE_ASSET
@@ -185,6 +189,7 @@ docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-011-kayasandih
 docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-016-aputhiran-decision-options.md,PASS_DECISION_EVIDENCE
 docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-027-manimekalai-grief-reinterpretation-options.md,PASS_DECISION_EVIDENCE
 docs/10-screenplay-architecture/README.md,REPAIRED
+docs/10-screenplay-architecture/RIGHTS.md,CREATED_SCREENPLAY_RIGHTS_NOTICE
 docs/11-project-governance/2026-07-21-external-repository-review.md,PASS_STATIC
 docs/11-project-governance/2026-07-21-full-repository-audit.md,CREATED_AUDIT_CONTROL
 docs/11-project-governance/2026-07-21-project-handover.md,PASS_AUTHORITY_HISTORICAL_HEAD
@@ -198,7 +203,7 @@ docs/11-project-governance/external-review-assignment-register.csv,CREATED_EXTER
 docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNAL_EXECUTION_PROTOCOL
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXHAUSTIVE_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_261_PATH_LEDGER
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST
 docs/11-project-governance/specialist-review-register.csv,REPAIRED_AFTER_AUDIT
 docs/11-project-governance/specialist-review-packets/README.md,CREATED_EXTERNAL_REVIEW_INDEX
@@ -236,9 +241,11 @@ releases/0.1/manimekalai_en_draft_0.1.md,PASS_EN_MARKDOWN_RELEASE
 releases/0.1/manimekalai_ta_draft_0.1.fountain,PASS_TA_72_SCENE_RELEASE
 releases/0.1/manimekalai_ta_draft_0.1.md,PASS_TA_MARKDOWN_RELEASE
 releases/0.1/release-manifest.csv,PASS_BILINGUAL_RELEASE_MANIFEST
+releases/RIGHTS.md,CREATED_RELEASE_RIGHTS_NOTICE
 scripts/audit_all_tracked_files.py,CREATED_EXHAUSTIVE_AUDITOR
 scripts/build_bilingual_release.py,PASS_DETERMINISTIC_BILINGUAL_PACKAGER
 scripts/build_storyboard_shot_matrix.py,PASS_DETERMINISTIC_STORYBOARD_GENERATOR
+scripts/RIGHTS.md,CREATED_TOOLING_RIGHTS_NOTICE
 scripts/build_evidence_source_crosswalk.py,PASS_DETERMINISTIC_GENERATOR
 scripts/validate_bilingual_screenplay.py,HARDENED_EXECUTED_PASS
 scripts/validate_repository.py,HARDENED_EXECUTED_PASS

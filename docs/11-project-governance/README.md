@@ -21,6 +21,8 @@ This phase makes repository status, external review, contribution rules, special
 - [Tamil table-read protocol](tamil-table-read-protocol.md)
 - [Owner rights and licensing decision](owner-rights-and-licensing-decision.md)
 - [Rights decision execution checklist](rights-decision-execution-checklist.md)
+- [Root rights and permissions](../../RIGHTS_AND_PERMISSIONS.md)
+- [Interim rights notice](../../NOTICE)
 - [Private source handling](private-source-handling.md)
 - [Evidence-to-source crosswalk](evidence-source-crosswalk.md)
 - [Project status dashboard](../../STATUS.md)
@@ -28,7 +30,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current ledger: 254;
+- tracked paths in the current ledger: 261;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
@@ -58,8 +60,9 @@ This phase makes repository status, external review, contribution rules, special
 - all ten Tamil sequences have completed internal semantic and spoken-performance review; actor-led timing remains open;
 - all 13 specialist assignments have bounded packets and are ready for named external reviewers; approval remains open;
 - Tamil cue script and `இராசமாதேவி` spelling are normalized and validator-enforced; specialist terminology remains open;
-- licence decision pending;
-- repository description and topics require manual GitHub-setting changes;
+- Option B fully reserved interim rights state selected and implemented;
+  qualified `SR-013` review and future licence reconsideration remain open;
+- repository description and topics are configured on GitHub;
 - ten sequence-anchor visual assets are registered with rights metadata;
   specialist review, clearance and the remaining 206 rendered shots remain
   open.
