@@ -194,9 +194,12 @@ docs/11-project-governance/2026-07-29-final-completion-readiness-audit.md,PASS_F
 docs/11-project-governance/README.md,REFRESHED_CURRENT_STATE
 docs/11-project-governance/adaptation-risk-register.md,PASS_STATIC
 docs/11-project-governance/evidence-source-crosswalk.md,PASS_GOVERNANCE_RECORD
+docs/11-project-governance/external-review-assignment-register.csv,CREATED_EXTERNAL_ASSIGNMENT_CONTROL
+docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNAL_EXECUTION_PROTOCOL
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXHAUSTIVE_LEDGER
+docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST
 docs/11-project-governance/specialist-review-register.csv,REPAIRED_AFTER_AUDIT
 docs/11-project-governance/specialist-review-packets/README.md,CREATED_EXTERNAL_REVIEW_INDEX
 docs/11-project-governance/specialist-review-packets/history-and-material-culture-review.md,CREATED_BOUNDED_REVIEW_PACKET
@@ -204,6 +207,7 @@ docs/11-project-governance/specialist-review-packets/religion-and-philosophy-rev
 docs/11-project-governance/specialist-review-packets/rights-and-licensing-review.md,CREATED_BOUNDED_REVIEW_PACKET
 docs/11-project-governance/specialist-review-packets/specialist-response-template.md,CREATED_REVIEW_RESPONSE_SCHEMA
 docs/11-project-governance/specialist-review-packets/tamil-textual-and-performance-review.md,CREATED_BOUNDED_REVIEW_PACKET
+docs/11-project-governance/tamil-table-read-protocol.md,CREATED_ACTOR_LED_REVIEW_PROTOCOL
 docs/11-source-perspectives/manimekalai-venpa-adaptation-audit.md,HISTORICAL_FOUNDATION
 docs/11-source-perspectives/manimekalai-venpa-perspective-register.md,HISTORICAL_FOUNDATION
 docs/INDEX.md,REFRESHED_CURRENT_STATE
@@ -244,6 +248,7 @@ sources/source_register.csv,REPAIRED
 tests/test_audit_all_tracked_files.py,CREATED_CORPUS_REGRESSION
 tests/test_build_bilingual_release.py,CREATED_RELEASE_REBUILD_REGRESSION
 tests/test_build_storyboard_shot_matrix.py,CREATED_STORYBOARD_GENERATOR_REGRESSION
+tests/test_external_review_controls.py,CREATED_EXTERNAL_GATE_REGRESSION
 tests/test_production_design_controls.py,CREATED_PRODUCTION_CONTROL_REGRESSION
 tests/test_storyboard_assets.py,CREATED_ASSET_HASH_AND_TRACE_REGRESSION
 tests/test_validate_bilingual_screenplay.py,EXPANDED_EXECUTED_PASS

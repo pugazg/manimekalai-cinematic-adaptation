@@ -1,10 +1,10 @@
 # Project Status Dashboard
 
-_Last updated: 2026-07-29_
+_Last updated: 2026-08-03_
 
 ## Current phase
 
-**Active phase:** `10G–10H — Dialogue, parity, source and evidence review`
+**Active phase:** `11 — Named external review, table read and owner rights decision`
 
 The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static and local executable audit has reviewed the current repository and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
 
@@ -20,17 +20,17 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 | 10C | Beat sheets, runtime and continuity | Complete | 45 / 60 / 60-minute allocation verified |
 | 10D | Feature treatment | Complete | All 72 units traced; Aadhirai's approved prepared-food sequence is synchronized |
 | 10E | English Screenplay Draft 0.1 | Structurally complete | Dialogue lock not granted |
-| 10F | Tamil bilingual screenplay | Structurally complete | Semantic, spoken-Tamil and terminology gates remain |
-| 10G | Dialogue and parity review | Active | Local and hosted executable structural validation passed; language and performance review remains |
+| 10F | Tamil bilingual screenplay | Structurally complete | Internal semantic and spoken-Tamil review complete; named language review and actor timing remain |
+| 10G | Dialogue and parity review | Internally complete | Local and hosted executable structural validation passed; external language and performance approval remains |
 | 10H | Source perspectives and evidence packets | Decision-complete; quality review active | 6 approved, 0 proposed; 7 deferred remain outside the feature |
-| 11 | Governance and audit | Active | Full audit complete; all 13 specialist assignments are packaged and ready for named external reviewers; licence decision remains |
+| 11 | Governance and audit | Active | Full audit and execution kit complete; all 13 assignment rows remain unassigned; licence decision remains |
 | Release 0.1 | English–Tamil screenplay package | Structurally verified | Fountain and Markdown outputs, manifest and checksums complete; dialogue and specialist lock remain open |
 
 ## Current measurable baseline
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 249 |
+| Current tracked paths audited | 254 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **249 current paths recorded**.
+- Per-file audit ledger: **254 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -58,8 +58,8 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - Bilingual validator: hardened with duplicate and absorption integrity checks.
 - Regression tests: added or expanded.
 - GitHub Actions workflows: present.
-- Latest reproducible executable full pass: **recorded on 2026-07-22 under Python 3.11.3**.
-- Hosted GitHub Actions: **both workflows passed on merged PR #12 for the completed Venpa decision cycle**.
+- Latest reproducible executable full pass: **recorded on 2026-08-03**.
+- Hosted GitHub Actions: **both workflows passed on merged PR #21 for the final 249-item completion-readiness audit**.
 
 ## Repairs completed in the full audit
 
@@ -80,7 +80,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 3. Conduct actor-led table reads and timing for Sequences 01–10; internal semantic and spoken-performance review is complete.
 4. Assign named reviewers to the 13 prepared specialist packets and record their findings; internal preparation is complete but external approval is not.
 5. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions; every term now has a source and reviewer crosswalk.
-6. Expand the registered 216-shot storyboard plan beyond the ten sequence-anchor frames and complete the twelve production-design families under rights and specialist controls.
+6. Expand the registered 216-shot storyboard plan beyond the ten sequence-anchor frames and develop remaining department plates under rights and specialist controls; the twelve production-design families are already defined.
 7. Obtain a reviewed licensing recommendation and record the owner's decision before broad derivative collaboration or licence badges.
 
 ## Current locks
@@ -97,6 +97,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Root README](README.md)
 - [Full repository audit](docs/11-project-governance/2026-07-21-full-repository-audit.md)
 - [Latest exhaustive repository audit](docs/11-project-governance/2026-07-28-exhaustive-repository-audit.md)
+- [Final completion-readiness audit](docs/11-project-governance/2026-07-29-final-completion-readiness-audit.md)
 - [Per-file audit ledger](docs/11-project-governance/repository-file-audit.csv)
 - [Documentation index](docs/INDEX.md)
 - [Dialogue and parity review](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/README.md)
@@ -106,6 +107,9 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Aadhirai approval record](docs/10-screenplay-architecture/10H-source-perspectives/venpa-use-007-008-aadhirai-approval.md)
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
+- [External review assignment register](docs/11-project-governance/external-review-assignment-register.csv)
+- [Tamil table-read protocol](docs/11-project-governance/tamil-table-read-protocol.md)
+- [Rights decision checklist](docs/11-project-governance/rights-decision-execution-checklist.md)
 - [Tamil terminology source crosswalk](docs/10-screenplay-architecture/10G-dialogue-and-parity-review/tamil-terminology-source-crosswalk.csv)
 - [Storyboard shot matrix](docs/08-storyboard-bible/storyboard-shot-matrix.csv)
 - [Production-design control matrix](docs/09-production-design/production-design-control-matrix.csv)

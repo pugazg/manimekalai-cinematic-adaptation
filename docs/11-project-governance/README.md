@@ -16,7 +16,11 @@ This phase makes repository status, external review, contribution rules, special
 - [Adaptation risk register](adaptation-risk-register.md)
 - [Specialist review register](specialist-review-register.csv)
 - [Specialist review packets](specialist-review-packets/)
+- [External review assignment register](external-review-assignment-register.csv)
+- [External review execution protocol](external-review-execution-protocol.md)
+- [Tamil table-read protocol](tamil-table-read-protocol.md)
 - [Owner rights and licensing decision](owner-rights-and-licensing-decision.md)
+- [Rights decision execution checklist](rights-decision-execution-checklist.md)
 - [Private source handling](private-source-handling.md)
 - [Evidence-to-source crosswalk](evidence-source-crosswalk.md)
 - [Project status dashboard](../../STATUS.md)
@@ -24,7 +28,7 @@ This phase makes repository status, external review, contribution rules, special
 
 ## Audited baseline
 
-- tracked paths in the current ledger: 249;
+- tracked paths in the current ledger: 254;
 - registered sources: 45;
 - evidence records: 318 (`EV-0001`–`EV-0318`);
 - evidence-to-source crosswalk rows: 318, with registered `SRC-*` links or explicit internal-record status;
