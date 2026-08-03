@@ -117,6 +117,7 @@ docs/09-production-design/food-vessel-and-service-workflow.md,CREATED_PD007_SERV
 docs/09-production-design/guard-custody-and-weapon-handling.md,CREATED_PD010_GUARD_WEAPON_PLATE
 docs/09-production-design/indra-festival-public-space-map.md,CREATED_PD002_PUBLIC_SPACE_MAP
 docs/09-production-design/maritime-vessel-silhouette-family.md,CREATED_PD003_SILHOUETTE_FAMILY
+docs/09-production-design/music-performance-acoustic-evidence-dossier.md,CREATED_PD009_ACOUSTIC_DOSSIER
 docs/09-production-design/ornament-material-and-movement-board.md,CREATED_PD006_MATERIAL_MOVEMENT_BOARD
 docs/09-production-design/maps/puhar-production-zone-map.md,PASS_INTERPRETATION_MAP_PROVENANCE
 docs/09-production-design/maps/puhar-production-zone-map.svg,PASS_NON_GEOGRAPHIC_SVG_MAP
@@ -225,7 +226,7 @@ docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNA
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/remaining-specialist-candidate-slate.md,CREATED_REMAINING_SPECIALIST_PUBLIC_PROFILE_SLATE
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_286_PATH_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_287_PATH_LEDGER
 docs/11-project-governance/reviewer-selection-rubric.csv,CREATED_REVIEWER_SELECTION_CONTROL
 docs/11-project-governance/reviewer-sourcing-shortlist.md,CREATED_OFFICIAL_INSTITUTIONAL_REFERRAL_MAP
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST

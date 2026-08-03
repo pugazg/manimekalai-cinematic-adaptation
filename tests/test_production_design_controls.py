@@ -259,6 +259,22 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("MATERIAL_MOVEMENT_BOARD_0_1_READY", rows["PD-006"]["status"])
 
+    def test_music_dossier_separates_acoustic_worlds_and_score(self) -> None:
+        text = (DESIGN / "music-performance-acoustic-evidence-dossier.md").read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        self.assertIn("NO EXACT ANCIENT ENSEMBLE", text)
+        for number in range(0, 10):
+            self.assertIn(f"`S{number}`", text)
+        for number in range(1, 9):
+            self.assertIn(f"`R{number}`", text)
+            self.assertIn(f"`I{number}`", text)
+        for number in range(1, 11):
+            self.assertIn(f"`A{number}`", text)
+        self.assertIn("no rival philosophical school assigned villain music", text)
+        with (DESIGN / "production-design-control-matrix.csv").open(encoding="utf-8", newline="") as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("ACOUSTIC_DOSSIER_0_1_READY", rows["PD-009"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()
