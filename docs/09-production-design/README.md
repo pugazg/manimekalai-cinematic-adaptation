@@ -13,6 +13,8 @@
 - [Guard, custody and weapon handling plate](guard-custody-and-weapon-handling.md)
 - [Maritime vessel silhouette family](maritime-vessel-silhouette-family.md)
 - [Maritime vessel silhouette SVG plate](plates/maritime-vessel-silhouette-family.svg)
+- [Architecture and water comparative plate](architecture-water-comparative-plate.md)
+- [Architecture and water comparative SVG](plates/architecture-water-comparative-plate.svg)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 
