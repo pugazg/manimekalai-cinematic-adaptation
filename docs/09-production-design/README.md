@@ -17,6 +17,10 @@
 - [Architecture and water comparative SVG](plates/architecture-water-comparative-plate.svg)
 - [Indra festival public-space map](indra-festival-public-space-map.md)
 - [Indra festival public-space SVG](plates/indra-festival-public-space-map.svg)
+- [Costume layer and movement board](costume-layer-and-movement-board.md)
+- [Costume layer and movement SVG](plates/costume-layer-and-movement-board.svg)
+- [Ornament material and movement board](ornament-material-and-movement-board.md)
+- [Ornament material and movement SVG](plates/ornament-material-and-movement-board.svg)
 
 The matrix converts the planned dossiers into twelve controlled design families. Each family records its evidence foundation, interpretation boundary, prohibited defaults, specialist owners, current state and next deliverable.
 

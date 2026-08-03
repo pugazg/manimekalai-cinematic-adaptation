@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.61.0 — 2026-08-03
+
+- Added paired `PD-005` costume-layer and `PD-006` ornament-material control
+  boards with companion SVG department plates.
+- Defined eight costume layers, eight occupational/state families, eight
+  movement tests, eight ornament material families and complete prop records.
+- Preserved handmade wear, labour, sound and safety while blocking modern
+  Bharatanatyam, bridal, temple-jewellery, generic-nun and imperial defaults.
+- Kept exact garment, dye, fibre, rank and ornament meanings specialist-open.
+- Refreshed the exact 286-file audit baseline.
+
 ## 0.60.0 — 2026-08-03
 
 - Reconciled the `PD-001` control matrix with the existing Puhar production
