@@ -119,6 +119,25 @@ class ProductionDesignControlTests(unittest.TestCase):
             rows = {row["design_id"]: row for row in csv.DictReader(handle)}
         self.assertEqual("WELFARE_PLAN_0_1_READY", rows["PD-012"]["status"])
 
+    def test_guard_weapon_plate_preserves_choice_and_safe_action(self) -> None:
+        path = DESIGN / "guard-custody-and-weapon-handling.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("[INTERPRETATION]", text)
+        for guard_state in range(0, 7):
+            self.assertIn(f"`G{guard_state}", text)
+        for weapon_state in range(0, 8):
+            self.assertIn(f"`K{weapon_state}", text)
+        for plate in range(1, 11):
+            self.assertIn(f"`SWORD-{plate:02d}`", text)
+        self.assertIn("not an equal duel", text)
+        self.assertIn("No sharpened or live-edge weapon", text)
+
+        with (DESIGN / "production-design-control-matrix.csv").open(
+            encoding="utf-8", newline=""
+        ) as handle:
+            rows = {row["design_id"]: row for row in csv.DictReader(handle)}
+        self.assertEqual("HANDLING_PLATE_0_1_READY", rows["PD-010"]["status"])
+
 
 if __name__ == "__main__":
     unittest.main()

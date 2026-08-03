@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.56.0 — 2026-08-03
+
+- Added the `PD-010` guard, custody and weapon-handling plate.
+- Defined seven authority states, eight Kanchanan weapon states and ten safe
+  action plates that preserve choice, causality and chain of custody.
+- Mapped doors, records, rations, possessions and witness conditions across
+  arrest, concealed confinement, coercion, release and Kanchi access control.
+- Prohibited duel, self-defence, accidental/fated strike and heroic weapon
+  publicity readings while keeping exact weapon and guard forms specialist-open.
+- Refreshed the exact 276-file audit baseline.
+
 ## 0.55.0 — 2026-08-03
 
 - Added the `PD-012` animal action and welfare plan.
