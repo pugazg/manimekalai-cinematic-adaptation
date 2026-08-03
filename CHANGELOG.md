@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.44.0 — 2026-08-03
+
+- Added an exact 13-row external-review assignment register without fabricating reviewer identities or approvals.
+- Added a specialist execution protocol covering assignment, conflicts, evidence, response, disposition and post-change validation.
+- Added a five-session Tamil actor table-read protocol with scene-level timing and ethical-performance controls.
+- Added a rights-decision execution checklist for the three owner pathways and their post-decision repository changes.
+- Added regression coverage requiring exact `SR-001`–`SR-013` assignment coverage and preventing unassigned rows from claiming results.
+
 ## 0.43.0 — 2026-07-29
 
 - Audited every item in the merged post-PR-20 repository and recorded the final completion-readiness result.
