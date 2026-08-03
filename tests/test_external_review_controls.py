@@ -50,6 +50,7 @@ class ExternalReviewControlTests(unittest.TestCase):
         for name in (
             "external-review-execution-protocol.md",
             "reviewer-sourcing-shortlist.md",
+            "critical-review-candidate-slate.md",
             "tamil-table-read-protocol.md",
             "rights-decision-execution-checklist.md",
             "specialist-review-packets/reviewer-invitation-and-intake.md",
@@ -64,6 +65,16 @@ class ExternalReviewControlTests(unittest.TestCase):
             self.assertIn(f"`SR-{number:03d}`", shortlist)
         self.assertIn("does **not** name, appoint, endorse", shortlist)
         self.assertIn("remains `UNASSIGNED`", shortlist)
+
+    def test_critical_candidate_slate_preserves_non_assignment(self) -> None:
+        slate = (GOV / "critical-review-candidate-slate.md").read_text(
+            encoding="utf-8"
+        )
+        for review_id in ("SR-001", "SR-002", "SR-003", "SR-013"):
+            self.assertIn(f"`{review_id}`", slate)
+        self.assertIn("authoritative assignment register therefore remains `UNASSIGNED`", slate)
+        self.assertIn("INSTITUTIONAL_REFERRAL_REQUIRED", slate)
+        self.assertIn("No licence changes while `SR-013` is unassigned", slate)
 
     def test_option_b_rights_state_is_explicit_and_bounded(self) -> None:
         root_rights = (ROOT / "RIGHTS_AND_PERMISSIONS.md").read_text(encoding="utf-8")

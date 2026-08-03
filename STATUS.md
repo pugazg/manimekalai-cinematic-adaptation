@@ -30,7 +30,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 264 |
+| Current tracked paths audited | 265 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +46,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **264 current paths recorded**.
+- Per-file audit ledger: **265 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.
@@ -79,7 +79,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 2. Complete visual-source and specialist quality review of the 6 implemented Venpa decisions; all feature-film decisions are resolved.
 3. Conduct actor-led table reads and timing for Sequences 01–10; internal semantic and spoken-performance review is complete.
 4. Assign named reviewers to the 13 prepared specialist packets and record their findings; internal preparation is complete but external approval is not.
-   A public institutional sourcing shortlist and contact order are now available; no reviewer is assigned until identity, qualification, conflict and scope checks pass.
+   A public institutional sourcing shortlist and a qualification-checked slate for the four critical gates are now available; no reviewer is assigned until identity, qualification, conflict and scope checks pass.
 5. Complete specialist terminology review of the controlled register, especially doctrine, philosophy and early institutions; every term now has a source and reviewer crosswalk.
 6. Expand the registered 216-shot storyboard plan beyond the ten sequence-anchor frames and develop remaining department plates under rights and specialist controls; the twelve production-design families are already defined.
 7. Obtain `SR-013` review of the implemented Option B rights state before changing licences, opening derivative collaboration or adding licence badges.
@@ -111,6 +111,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
 - [Reviewer selection rubric](docs/11-project-governance/reviewer-selection-rubric.csv)
 - [Reviewer sourcing shortlist](docs/11-project-governance/reviewer-sourcing-shortlist.md)
+- [Critical review candidate slate](docs/11-project-governance/critical-review-candidate-slate.md)
 - [Reviewer invitation and intake kit](docs/11-project-governance/specialist-review-packets/reviewer-invitation-and-intake.md)
 - [External review assignment register](docs/11-project-governance/external-review-assignment-register.csv)
 - [Tamil table-read protocol](docs/11-project-governance/tamil-table-read-protocol.md)

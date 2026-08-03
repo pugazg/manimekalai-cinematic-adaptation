@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.48.0 — 2026-08-03
+
+- Added a public-profile candidate slate for the four critical external-review gates.
+- Identified strong Bharathidasan and copyright matches while preserving referral-only status for partial Tamil performance leads.
+- Recorded that current official evidence does not justify assigning a named *Manimekalai* textual reviewer and requires a CICT referral.
+- Added explicit non-assignment, privacy, conflict, scope and legal-advice controls to every candidate path.
+
 ## 0.47.0 — 2026-08-03
 
 - Added a public institutional sourcing shortlist covering all 13 external-review tracks.
