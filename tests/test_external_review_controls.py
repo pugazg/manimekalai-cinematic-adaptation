@@ -49,11 +49,21 @@ class ExternalReviewControlTests(unittest.TestCase):
     def test_execution_documents_exist(self) -> None:
         for name in (
             "external-review-execution-protocol.md",
+            "reviewer-sourcing-shortlist.md",
             "tamil-table-read-protocol.md",
             "rights-decision-execution-checklist.md",
             "specialist-review-packets/reviewer-invitation-and-intake.md",
         ):
             self.assertTrue((GOV / name).is_file(), name)
+
+    def test_sourcing_shortlist_covers_every_track_without_claiming_assignment(self) -> None:
+        shortlist = (GOV / "reviewer-sourcing-shortlist.md").read_text(
+            encoding="utf-8"
+        )
+        for number in range(1, 14):
+            self.assertIn(f"`SR-{number:03d}`", shortlist)
+        self.assertIn("does **not** name, appoint, endorse", shortlist)
+        self.assertIn("remains `UNASSIGNED`", shortlist)
 
     def test_option_b_rights_state_is_explicit_and_bounded(self) -> None:
         root_rights = (ROOT / "RIGHTS_AND_PERMISSIONS.md").read_text(encoding="utf-8")

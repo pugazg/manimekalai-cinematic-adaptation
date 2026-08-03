@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.47.0 — 2026-08-03
+
+- Added a public institutional sourcing shortlist covering all 13 external-review tracks.
+- Mapped each track to official referral routes without fabricating reviewer assignment, willingness or approval.
+- Added qualification cautions, a staged outreach order, actor-table-read sourcing controls and a consent-protected transition from referral to assignment.
+- Preserved Option B and every `UNASSIGNED` assignment state while making external outreach actionable.
+
 ## 0.46.0 — 2026-08-03
 
 - Added a discipline-specific reviewer-selection rubric for all 13 specialist gates.
