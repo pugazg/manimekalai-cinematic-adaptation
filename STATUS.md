@@ -1,12 +1,14 @@
 # Project Status Dashboard
 
-_Last updated: 2026-08-03_
+_Last updated: 2026-08-04_
 
 ## Current phase
 
 **Active phase:** `11 — Named external review, table read and owner rights decision`
 
 The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static and local executable audit has reviewed the current repository and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
+
+> **Parallel-work note:** Exploratory game-adaptation planning exists under `docs/12-game-adaptation/`. No production implementation or full-game greenlight has been granted. This does not change the active cinematic phase, screenplay structure, source/evidence/adaptation registers, or specialist-review gates. The repository-wide tracked-path audit count includes the new planning files.
 
 ## Roadmap
 
@@ -30,7 +32,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 287 |
+| Current tracked paths audited | 304 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -46,7 +48,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **287 current paths recorded**.
+- Per-file audit ledger: **304 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.

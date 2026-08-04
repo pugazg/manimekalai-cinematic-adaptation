@@ -23,6 +23,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
 - [Bilingual Screenplay Release 0.1](releases/0.1/)
+- [Game-adaptation planning (exploratory, non-production)](docs/12-game-adaptation/README.md)
 
 ## Current status
 
@@ -44,7 +45,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 
 ## Audited baseline
 
-- current tracked paths audited: **287**
+- current tracked paths audited: **304**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)

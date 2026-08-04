@@ -29,9 +29,16 @@ This index is the shortest route into the repository. It does not replace the de
 - [Rights decision execution checklist](11-project-governance/rights-decision-execution-checklist.md)
 - [Evidence-to-source crosswalk](11-project-governance/evidence-source-crosswalk.md)
 
+## Game adaptation (exploratory, non-production)
+
+- [Game-adaptation planning area](12-game-adaptation/README.md) — Exploratory,
+  non-production game-adaptation planning derived from the source-traceable cinematic
+  archive. It does not modify screenplay, TRACE, `AD-*`/`EV-*`/`SC-*`/`FU-*`/`SEQ-*`
+  records, or the Option B rights position, and no production has been greenlit.
+
 ## Audited repository baseline
 
-- 287 current tracked paths audited;
+- 304 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;

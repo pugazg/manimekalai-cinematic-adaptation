@@ -1,0 +1,73 @@
+unit_order,feature_unit_id,sequence_id,feature_unit_title,game_classification,justification
+1,FU-001,SEQ-01,Before the City Wakes,traversal,Player walks pre-dawn Puhar reading labour behind wealth; ideal opening traversal+observe (GM-01/02)
+2,FU-002,SEQ-01,The Proclamation and the Sceptre,short cinematic,Civic proclamation establishes royal order; watched to set scale not played
+3,FU-003,SEQ-01,The House Does Not Dance,dialogue interaction,Household grief/reputation stakes conveyed through conversation; light agency in framing
+4,BR-001,SEQ-01,Madhavi Brings the Unspeakable,short cinematic,Compressed embedded branch memory; emotional exposition best shown briefly
+5,FU-004,SEQ-01,A Daughter Is Not a Second Life,dialogue interaction,Chitrapathi vs Madhavi over lineage/control; player chooses whom to attend to
+6,FU-005,SEQ-01,Many Paths Under One Roof,investigation,Observe philosophical plurality as civic fact; seeds Ledger 'philosophical claim' category
+7,FU-006,SEQ-02,The Safer Side of the Street,traversal,Sudhamathi survivor-knowledge as safe-routing traversal; teaches reading danger nonviolently
+8,FU-007,SEQ-02,Her Story Changes the Map,dialogue interaction,Testimony reframes the space; listening changes navigable options
+9,FU-008,SEQ-02,The Gaze Arrives Before the Prince,environmental storytelling,Public gaze as threat staged environmentally; consent theme (RISK-006) needs careful non-playable framing
+10,FU-009,SEQ-02,No Is Not a Riddle,partially playable,Player controls HOW refusal is spoken; the refusal itself is fixed (desire is not a riddle)
+11,FU-010,SEQ-02,A Warning From Beyond,short cinematic,Supernatural warning; staged cinematically to avoid fantasy-spectacle drift
+12,FU-011,SEQ-02,The Goddess Chooses Her,short cinematic,Divine removal is fixed and supernatural; watched (11 supernatural treatment)
+13,FU-012,SEQ-02,The Place Beside Her Is Empty,environmental storytelling,Aftermath of disappearance told through empty space; Sudhamathi POV
+14,FU-013,SEQ-03,Alone Where the City Cannot See,traversal,Isolated Manipallavam exploration; fear/isolation through solitary traversal
+15,FU-014,SEQ-03,The Pond That Remembers,embedded playable memory,Past-life memory received interactively but bounded; memory as its own Ledger type
+16,FU-015,SEQ-03,The Vessel Chooses a Custodian,short cinematic,The bowl coming to her is fixed and sacred; watched to preserve significance
+17,FU-016,SEQ-03,Sudhamathi Gives the Account,dialogue interaction,Human account of divine transport; core listening beat back in Puhar
+18,FU-017,SEQ-04,Three Women Enter the Teacher's Space,fully playable,VS S1; teaches independent-account rule and speaker choice (GM-03/06)
+19,FU-018,SEQ-04,He Lets the Account Finish,fully playable,VS S2; core listening mechanic + memory-vs-proof classification (Pillar 2/4)
+20,FU-019,SEQ-04,Aputhiran Is Not a Legend,dialogue interaction,'Begin with hunger' frame; transitions into embedded memory
+21,BR-002,SEQ-04,Seven Days of Milk,short cinematic,Cow/infant origin; animal-welfare safeguards mean shown not played (04H section 8)
+22,BR-003,SEQ-04,The Cow at the Fire,short cinematic,Sacrificial-cow rescue; ritual/animal sensitivity requires non-playable careful staging
+23,BR-004,SEQ-04,He Eats What Remains,embedded playable memory,VS S3 core; proto-feeding tutorial (access/dignity/order) BEFORE the miracle
+24,BR-005,SEQ-04,What Can Heaven Give Me?,partially playable,Single interactive choice to serve people over Indra's boon; pride noted not celebrated
+25,BR-006,SEQ-04,The Feeding Hall Is Empty,environmental storytelling,Player can only wait in an empty hall; abundance destabilises identity
+26,BR-007,SEQ-04,The Ship Leaves in Darkness,short cinematic,Consequence without deliberate betrayal; abandonment shown
+27,BR-008,SEQ-04,The Vessel Chooses the Future,short cinematic,Relinquishment + fast held at a distance; NEVER played/romanticised (RISK-012/AD-0141)
+28,FU-020,SEQ-04,Do Not Hide the Vessel,fully playable,VS S4; convert lesson into mandate; classify philosophical claim; cross threshold
+29,BR-010,SEQ-04,The Fire Does Not Take Her,short cinematic,Interrupted self-immolation pressure; sensitive; staged non-spectacle (RISK coercion)
+30,BR-011,SEQ-04,Two People Return to One House,short cinematic,Guarded reunion; accountability over romance; watched
+31,FU-021,SEQ-04,The First Handful,fully playable,VS S5; first two-handed serving action; household-scale trust model (AD-0168)
+32,FU-022,SEQ-04,Compassion Learns Logistics,fully playable,VS S6; core feeding-logistics system (GM-07); the game's thesis in play
+33,FU-023,SEQ-04,Enough,fully playable,VS S7; dignity/'Enough' beat (GM-08); primary emotional payoff
+34,FU-024,SEQ-04,The Prison Kitchen,fully playable,VS S8; core institutional reform (GM-10); people reorganise power nonviolently
+35,FU-025,SEQ-05,A Crown as Protection,dialogue interaction,Altered-identity-as-protection setup; player frames intent (protection not disguise-for-desire)
+36,FU-026,SEQ-05,Memory Is Not Permission,partially playable,Player classifies memory vs permission; the principle is fixed (RISK-007)
+37,BR-009,SEQ-05,Counting Indra Festivals,short cinematic,Time/rebirth-count exposition; compressed memory
+38,FU-028,SEQ-05,The Woman With His Wife's Face,investigation,Kanchanan reads resemblance as identity; player sees certainty manufactured (possible POV shift)
+39,FU-029,SEQ-05,What He Thinks He Sees,investigation,Core mistaken-inference beat; classify observation vs inference under pressure (Pillar 4)
+40,FU-030,SEQ-05,The Sword in the Hidden Place,environmental storytelling,Concealed-violence preparation; no weapon-play; dread through environment (guard-custody plate)
+41,FU-031,SEQ-05,Midnight Without a Question,short cinematic,The killing; fixed tragedy; not played; staged without spectacle
+42,FU-032,SEQ-05,Do Not Go Near Her,short cinematic,Warning/aftermath; watched
+43,FU-033,SEQ-05,After the Prince Falls,dialogue interaction,Consequence begins; player protects witnesses and records (not prevention)
+44,FU-034,SEQ-06,The Court Hears the Death,dialogue interaction,Hearing architecture; separate accounts stay separate; testimony assembly
+45,FU-035,SEQ-06,Vasantavai Does Not Bless Her,short cinematic,Refusal of heroic consolation; watched
+46,FU-036,SEQ-06,Protection as a Lie,investigation,'Release' in one record vs bolt in another; player uncovers contradictory custody
+47,FU-037,SEQ-06,The Cup and the Witnesses,investigation,Poisoning attempt countered by preserving evidence/witnesses (nonviolent counter)
+48,FU-038,SEQ-06,A Reputation for Sale,investigation,Purchased defamation; player traces the paid accusation through records
+49,FU-039,SEQ-06,The Room Without Food,partially playable,Starvation-as-coercion; player endures/records; NOT spectacle (RISK-010/GRT-07); survival via naming harm
+50,FU-040,SEQ-07,Are You Mourning the Body?,dialogue interaction,Grief-vs-guilt distinction; ethical speech before power
+51,FU-041,SEQ-07,Keep Her With Me,short cinematic,Queen's possessive custody impulse; watched
+52,FU-042,SEQ-07,The Elder at the Queen's Gate,dialogue interaction,Aravana approaches via testimony/access; convening begins (GM-06)
+53,FU-043,SEQ-07,The Queen Steps Away From the Door,fully playable,Convene witnesses safely; Manimekalai leaves without royal ownership; relinquishment payoff
+54,FU-044,SEQ-08,The King Without Hunger,traversal,Punniyarajan POV; govern a prosperous Javaka; player learns the king's distance from hunger
+55,FU-045,SEQ-08,The Minister's Warning,dialogue interaction,Janamithran: no private liberation by abandoning subjects; duty framing
+56,FU-046,SEQ-08,The Mirror of the Peedihai,short cinematic,Recognition device toward the prior life; watched
+57,FU-047,SEQ-08,Bones Beneath the Punnai Tree,environmental storytelling,Manipallavam relics of the prior life discovered environmentally
+58,FU-048,SEQ-08,The King Who Wants to Disappear,dialogue interaction,Temptation to self-erasure; player argues duty vs escape
+59,FU-049,SEQ-08,Return Is Also a Vow,management,Light governance: convert memory into duty (storage/water/access as kingly responsibility)
+60,FU-050,SEQ-09,The Road Away From Salt,traversal,Journey from coast to inland Vanji; transition with changing world
+61,FU-051,SEQ-09,The Inland City of Arguments,traversal,Explore 'a living intellectual city'; plurality as place (05B)
+62,FU-052,SEQ-09,Questions in Another Voice,dialogue interaction,Altered-sage-form inquiry begins; framing choices
+63,FU-053,SEQ-09,The Unknown Sage Listens,dialogue interaction,Manimekalai listens across schools; steelman setup
+64,FU-054,SEQ-09,When the Drum Falls Silent,partially playable,Reconstruct each school's strongest form; NO correct-religion scoring (10A #12/Pillar 6)
+65,FU-055,SEQ-09,Perception Inference and the Student's Error,fully playable,Aravana's reasoning lesson; player makes an incomplete inference and accepts correction (Pillar 4)
+66,FU-056,SEQ-10,The Chain of Hunger,dialogue interaction,Dependent-arising named against material stakes; connects causation to feeling/craving
+67,FU-057,SEQ-10,Famine Reaches the Road First,traversal,Enter Kanchi under famine; scale of need read through traversal/observe
+68,FU-058,SEQ-10,The Workshop That Stops,environmental storytelling,Economic stall shown through a stopped workshop; labour made visible
+69,FU-059,SEQ-10,The Market Contains Food,investigation,Food exists but access/price blocks it; player identifies institutional cause (not scarcity)
+70,FU-060,SEQ-10,The King Asks Why,dialogue interaction,Governance question; the bowl alone cannot feed a region; advocacy over service
+71,FU-061,SEQ-10,Eighteen Languages,management,Regional-scale feeding with language/access constraint; feeding system at governance scale
+72,FU-062,SEQ-10,After All Arguments,short cinematic,Final commitment/refuge; ending as continuation; epilogue assembly (GM-11/12) follows
