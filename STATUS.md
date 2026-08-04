@@ -8,6 +8,8 @@ _Last updated: 2026-08-03_
 
 The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static and local executable audit has reviewed the current repository and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
 
+> **Parallel-work note:** Exploratory game-adaptation planning exists under `docs/12-game-adaptation/`. No production implementation or full-game greenlight has been granted. This does not change the active cinematic phase or any completion metric below.
+
 ## Roadmap
 
 | Phase | Deliverable | State | Gate or blocker |

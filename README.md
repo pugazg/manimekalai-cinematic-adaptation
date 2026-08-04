@@ -23,6 +23,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Adaptation risk register](docs/11-project-governance/adaptation-risk-register.md)
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
 - [Bilingual Screenplay Release 0.1](releases/0.1/)
+- [Game-adaptation planning (exploratory, non-production)](docs/12-game-adaptation/README.md)
 
 ## Current status
 
