@@ -1,0 +1,8 @@
+# Node / build artifacts for the game prototype — never commit these.
+node_modules/
+dist/
+coverage/
+*.local
+.DS_Store
+# temporary local verification artifacts
+screenshots-tmp/

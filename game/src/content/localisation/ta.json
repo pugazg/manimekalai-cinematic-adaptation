@@ -1,0 +1,178 @@
+{
+  "meta": { "lang": "ta", "name": "தமிழ்" },
+  "title": {
+    "name": "மணிமேகலை",
+    "subtitle": "",
+    "milestone": "G2 Prototype 0.2 — Human First",
+    "tagline": ""
+  },
+  "menu": {
+    "newGame": "புதிய ஆட்டம்",
+    "continue": "தொடர்க",
+    "options": "விருப்பங்கள்",
+    "language": "மொழி",
+    "start": "தொடங்கு",
+    "back": "பின்",
+    "resume": "தொடர்க",
+    "restart": "மீண்டும் தொடங்கு",
+    "returnToTitle": "",
+    "reset": "மீட்டமை",
+    "pauseTitle": "இடைநிறுத்தம்",
+    "explore": ""
+  },
+  "lang": { "tamil": "தமிழ்", "english": "English" },
+  "options": {
+    "title": "விருப்பங்கள்",
+    "textSize": "எழுத்து அளவு",
+    "reduceMotion": "அசைவைக் குறை",
+    "language": "மொழி",
+    "sound": "ஒலி",
+    "on": "இயக்கு",
+    "off": "அணை",
+    "small": "சிறியது",
+    "medium": "நடுத்தரம்",
+    "large": "பெரியது",
+    "close": "மூடு",
+    "note": "",
+    "pendingTamil": ""
+  },
+  "hud": {
+    "moveHint": "",
+    "ledgerHintOnce": "",
+    "pressToContinue": "",
+    "muteOn": "",
+    "muteOff": ""
+  },
+  "prompt": {
+    "talkChild": "",
+    "talkPaati": "",
+    "talkYoungMan": "",
+    "talkMother": "",
+    "talkCarrier": "",
+    "lookFood": "",
+    "lookWell": "",
+    "lookCrowd": "",
+    "bringWater": "",
+    "openPath": "",
+    "setServing": "",
+    "serve": "",
+    "bringToPaati": "",
+    "goSquare": ""
+  },
+  "journal": {
+    "title": "",
+    "subtitle": "",
+    "empty": "",
+    "close": "மூடு",
+    "source": "",
+    "given": "",
+    "learned": "",
+    "hint": "",
+    "type": {
+      "observation": "",
+      "testimony": "",
+      "inference": "",
+      "assumption": ""
+    },
+    "formal": {
+      "observation": "",
+      "testimony": "",
+      "inference": "",
+      "assumption": ""
+    }
+  },
+  "char": {
+    "child": "",
+    "paati": "பாட்டி",
+    "paatiGloss": "",
+    "mani": "மணிமேகலை",
+    "youngMan": "",
+    "mother": "",
+    "carrier": "",
+    "helper": ""
+  },
+  "puhar": {
+    "intro": "",
+    "childWave": "",
+    "toSquare": ""
+  },
+  "child": {
+    "hi": "",
+    "paatiHungry": "",
+    "foodThere": "",
+    "cantReach": "",
+    "watchTry": "",
+    "afterTry": ""
+  },
+  "mani": {
+    "seeThem": "",
+    "why": "",
+    "afterFail": "",
+    "relief": "",
+    "endThought": ""
+  },
+  "carrier": {
+    "name": "",
+    "l1": "",
+    "l2": "",
+    "afterListen": ""
+  },
+  "know": {
+    "childFood": "",
+    "paatiCannot": "",
+    "wellFar": "",
+    "consChild": "",
+    "consWater": "",
+    "consMother": ""
+  },
+  "bowl": {
+    "reveal1": "",
+    "reveal2": "",
+    "hope": ""
+  },
+  "square": {
+    "intro": "",
+    "resourcesHelpers": "",
+    "resourcesVessels": "",
+    "beforeServe": "",
+    "paatiHere": "",
+    "youngManHere": "",
+    "motherHere": "",
+    "act": {
+      "setDone": "",
+      "waterDone": "",
+      "pathDone": "",
+      "paatiDone": "",
+      "needVessel": "",
+      "noHelpers": ""
+    },
+    "serveEarly": "",
+    "revise": "",
+    "allReady": ""
+  },
+  "people": {
+    "youngManAsk": "",
+    "motherAsk": "",
+    "paatiWait": "",
+    "childToMani": ""
+  },
+  "ending": {
+    "serve": "",
+    "paatiEats": "",
+    "enoughWord": "போதும்",
+    "enoughGloss": "",
+    "childSmile": "",
+    "aftermath1": "",
+    "aftermath2": "",
+    "card": "G2 Prototype 0.2 — End",
+    "thanks": ""
+  },
+  "system": {
+    "newGameConfirm": "",
+    "resetConfirm": "",
+    "oldSave": "",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "bridgeNote": ""
+  }
+}
