@@ -27,11 +27,13 @@ passed two distinct kinds of check:
 **Qualitative playtest** (see [`PLAYTEST_0_2.md`](PLAYTEST_0_2.md))
 
 - child playtest completed by the repository owner;
-- the owner reports positive answers across the planned debrief;
+- the owner reports the debrief **supported the Prototype 0.2 milestone across all
+  planned questions** (exact participant responses are not recorded in the repository);
 - Prototype 0.2 is **accepted as the current baseline.**
 
 This is qualitative, owner-reported evidence — **not** audience-wide validation, and
-**not** a claim that the game is production-ready. It remains a prototype under Option B.
+**not** a claim that the game is production-ready. No participant identities, counts,
+quotes or ratings are invented. It remains a prototype under Option B.
 
 ## What changed from 0.1 (why "Human First")
 

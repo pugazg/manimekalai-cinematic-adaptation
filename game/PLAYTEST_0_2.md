@@ -7,8 +7,10 @@ Status: Owner-reported qualitative playtest completed
 ## What was done
 
 The repository owner tested G2 Prototype 0.2 ("Human First") with child players
-and asked the planned post-play debrief questions. The owner reports **positive
-responses** across all of the following:
+and asked the planned post-play debrief questions. The owner reports that the
+child-player debrief **supported the Prototype 0.2 milestone across all planned
+questions.** Exact participant responses are not recorded in the repository. The
+planned questions were:
 
 1. Who were you trying to help?
 2. Why couldn't Paati get food at first?
@@ -44,8 +46,8 @@ passed both:
 
 1. **technical validation** — lint clean, 33/33 automated tests, successful build,
    and a completed browser playthrough; and
-2. **the current qualitative child-playtest milestone** — the owner-reported positive
-   debrief above.
+2. **the current qualitative child-playtest milestone** — the owner-reported debrief
+   above, which the owner reports supported the milestone across all planned questions.
 
 Prototype 0.3 **may now be designed** after this prototype is integrated into the
 repository and reviewed. This record does not authorise starting Prototype 0.3 work.

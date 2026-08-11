@@ -50,10 +50,12 @@ The phased plan below (G0–G7) is the **design intent**. This section records w
   - an earned `போதும்` ("Enough") ending.
 
   **Status: PLAYTESTED — qualitative milestone passed; accepted as baseline.** The
-  repository owner tested 0.2 with child players and reported positive responses across
-  the planned debrief. This is **qualitative, owner-reported evidence** — it supports
-  preserving 0.2 as the current baseline but is **not broad audience validation** and
-  claims no statistical result. See `../../game/PLAYTEST_0_2.md`. Prototype 0.3 may be
+  repository owner tested 0.2 with child players and reports that the debrief supported
+  the Prototype 0.2 milestone across all planned questions; exact participant responses
+  are not recorded in the repository. This is **qualitative, owner-reported evidence** —
+  it supports preserving 0.2 as the current baseline but is **not broad audience
+  validation** and claims no statistical result (no participant identities, counts,
+  quotes or ratings invented). See `../../game/PLAYTEST_0_2.md`. Prototype 0.3 may be
   designed after repository integration and review; the later G-phase gates below still
   stand.
 
@@ -68,8 +70,8 @@ The phased plan below (G0–G7) is the **design intent**. This section records w
   fixed/variable/prohibited boundaries defined (`05`); no `docs/01`–`11` file modified.
 - **Dependencies:** repository read access.
 - **Stop/Go:** **GO** to G1 only when the **owner approves this plan** (the game-design
-  plan). Until then, **no code.** *(Owner sign-off pending — this is the gate you are
-  at now.)*
+  plan). Until then, **no code.** *(Owner sign-off was subsequently given; see
+  Execution history (as built) above.)*
 
 > **Technology status:** Browser-first TypeScript is the **leading prototype
 > hypothesis, not a final technology lock** (`10`). **G1 is engine-independent**
