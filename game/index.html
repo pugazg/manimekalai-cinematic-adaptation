@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <title>Manimekalai: The First Handful — G2 Prototype 0.1</title>
+  </head>
+  <body>
+    <!-- Phaser renders the world into #game-root. DOM overlays (dialogue, Ledger,
+         menus, options) render into #ui-root, layered above the canvas — this keeps
+         Tamil text as real DOM for correct complex-script shaping and accessibility. -->
+    <div id="app">
+      <div id="game-root" aria-hidden="true"></div>
+      <div id="ui-root"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

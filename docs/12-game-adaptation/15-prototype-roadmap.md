@@ -18,6 +18,47 @@ concerns (`13`). No permanent commercial decision is implied by this roadmap.
 
 ---
 
+## Execution history (as built)
+
+The phased plan below (G0–G7) is the **design intent**. This section records what was
+**actually done**, so the roadmap does not overstate the evidence.
+
+- **G1 — Paper prototype: prepared, not used as the gate.** A G1 paper-prototype kit
+  was prepared and lives (untracked) under `g1-paper-prototype/`. The owner **elected
+  to move directly into a digital playable prototype (G2)** rather than making the paper
+  test the gating requirement. The G1 paper prototype was **not** formally playtested;
+  no paper-test result is claimed.
+
+- **G2 Prototype 0.1 — implemented, then superseded.** The dialogue/evidence/feeding
+  prototype was implemented technically. An **initial child playtest exposed two major
+  problems:**
+  1. **unclear instructions / unexplained interaction markers** (abstract circle
+     markers players could not interpret); and
+  2. **insufficient emotional connection** (no specific person to care about before the
+     puzzle).
+
+- **G2 Prototype 0.2 — "Human First": implemented as the response to that evidence.**
+  Changes made directly in answer to the 0.1 findings:
+  - visual / action-based onboarding (one thing taught at a time);
+  - removal of anonymous circles as the primary interaction language (meaning icons +
+    descriptive prompts instead);
+  - a recurring **child + Paati** emotional spine;
+  - humanised consequences (serving early is shown through people, never "Access −1");
+  - simplified Journal surface language ("What Manimekalai knows");
+  - character portraits / expressions;
+  - minimal, provenance-safe original WebAudio;
+  - an earned `போதும்` ("Enough") ending.
+
+  **Status: PLAYTESTED — qualitative milestone passed; accepted as baseline.** The
+  repository owner tested 0.2 with child players and reported positive responses across
+  the planned debrief. This is **qualitative, owner-reported evidence** — it supports
+  preserving 0.2 as the current baseline but is **not broad audience validation** and
+  claims no statistical result. See `../../game/PLAYTEST_0_2.md`. Prototype 0.3 may be
+  designed after repository integration and review; the later G-phase gates below still
+  stand.
+
+---
+
 ## Phase G0 — Repository & Design Audit ✅ (this planning pass)
 
 - **Objective:** Understand the archive; produce a source-aware game plan without

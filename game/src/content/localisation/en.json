@@ -1,0 +1,178 @@
+{
+  "meta": { "lang": "en", "name": "English" },
+  "title": {
+    "name": "Manimekalai",
+    "subtitle": "The First Handful",
+    "milestone": "G2 Prototype 0.2 — Human First",
+    "tagline": "A gentle story about noticing people, and helping."
+  },
+  "menu": {
+    "newGame": "New Game",
+    "continue": "Continue",
+    "options": "Options",
+    "language": "Language",
+    "start": "Begin",
+    "back": "Back",
+    "resume": "Resume",
+    "restart": "Start over",
+    "returnToTitle": "Back to title",
+    "reset": "Reset",
+    "pauseTitle": "Paused",
+    "explore": "Stay a moment"
+  },
+  "lang": { "tamil": "தமிழ்", "english": "English" },
+  "options": {
+    "title": "Options",
+    "textSize": "Text size",
+    "reduceMotion": "Reduce motion",
+    "language": "Language",
+    "sound": "Sound",
+    "on": "On",
+    "off": "Off",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "close": "Close",
+    "note": "No timers. You can pause any time.",
+    "pendingTamil": "Tamil is being reviewed; English is shown for now."
+  },
+  "hud": {
+    "moveHint": "Use the arrow keys or WASD to walk.",
+    "ledgerHintOnce": "Press J to see what Manimekalai knows.",
+    "pressToContinue": "▸ click or press E",
+    "muteOn": "Sound off",
+    "muteOff": "Sound on"
+  },
+  "prompt": {
+    "talkChild": "Talk to the child",
+    "talkPaati": "Talk to Paati",
+    "talkYoungMan": "Talk to the young man",
+    "talkMother": "Talk to the mother",
+    "talkCarrier": "Talk to the water-carrier",
+    "lookFood": "Look at the food",
+    "lookWell": "Look at the well",
+    "lookCrowd": "Look at the crowded path",
+    "bringWater": "Bring water here",
+    "openPath": "Open a safe path",
+    "setServing": "Set a serving place",
+    "serve": "Share the food",
+    "bringToPaati": "Take food to Paati",
+    "goSquare": "Go to the food yard"
+  },
+  "journal": {
+    "title": "What Manimekalai knows",
+    "subtitle": "Tap a line to say how she knows it.",
+    "empty": "Nothing yet. Look around, and listen to people.",
+    "close": "Close (J)",
+    "source": "from",
+    "given": "she is sure of this",
+    "learned": "Manimekalai noticed something.",
+    "hint": "This is just to help you think. There are no wrong answers.",
+    "type": {
+      "observation": "I saw this",
+      "testimony": "Someone told me",
+      "inference": "I think this means…",
+      "assumption": "I'm not sure yet"
+    },
+    "formal": {
+      "observation": "observation",
+      "testimony": "testimony",
+      "inference": "inference",
+      "assumption": "guess"
+    }
+  },
+  "char": {
+    "child": "Child",
+    "paati": "Paati",
+    "paatiGloss": "grandmother",
+    "mani": "Manimekalai",
+    "youngMan": "Young man",
+    "mother": "Mother",
+    "carrier": "Water-carrier",
+    "helper": "Helper"
+  },
+  "puhar": {
+    "intro": "Morning in Puhar, by the sea.",
+    "childWave": "A small child waves at you.",
+    "toSquare": "The child leads you toward the food yard. Follow when you are ready."
+  },
+  "child": {
+    "hi": "You have a kind face.",
+    "paatiHungry": "My Paati is hungry.",
+    "foodThere": "The food is over there.",
+    "cantReach": "But we can't get to it.",
+    "watchTry": "The child runs toward the food… then stops, and comes back to Paati.",
+    "afterTry": "The path is too full. They can't get through."
+  },
+  "mani": {
+    "seeThem": "Food, right there. And they cannot reach it.",
+    "why": "Why can't they eat, when the food is so close?",
+    "afterFail": "That did not work. Some of them still have not eaten.",
+    "relief": "Paati has eaten. At last.",
+    "endThought": "The bowl will leave when I do. Someone here must keep it going."
+  },
+  "carrier": {
+    "name": "Water-carrier",
+    "l1": "Some people here have food.",
+    "l2": "But the well is far. They can't carry water home.",
+    "afterListen": "The water-carrier lifts a heavy pot and nods toward the yard."
+  },
+  "know": {
+    "childFood": "A hungry child cannot reach the food.",
+    "paatiCannot": "Paati cannot walk through the crowd to the food.",
+    "wellFar": "The well is far; some people have food but no water.",
+    "consChild": "The child and Paati are still waiting, outside the crowd.",
+    "consWater": "The young man has food, but no water to take it home.",
+    "consMother": "The mother is pushed back by the crowd, holding her child."
+  },
+  "bowl": {
+    "reveal1": "A bowl is placed in your hands. It fills, and does not empty.",
+    "reveal2": "There is food for everyone now.",
+    "hope": "\"Now they can all eat,\" you think."
+  },
+  "square": {
+    "intro": "The food yard. Paati and the child are here — and others, waiting.",
+    "resourcesHelpers": "Helpers",
+    "resourcesVessels": "Vessels",
+    "beforeServe": "Look around first. Talk to people. Share the food when you are ready.",
+    "paatiHere": "Paati sits at the edge. She cannot reach the middle.",
+    "youngManHere": "A young man waits, holding an empty water pot.",
+    "motherHere": "A mother stands back from the crowded path, holding her child.",
+    "act": {
+      "setDone": "You set out a mat and vessels to serve from.",
+      "waterDone": "A helper carries water to the yard. The young man can drink now.",
+      "pathDone": "A helper opens a calm path. The mother can come through.",
+      "paatiDone": "You carry a warm portion to Paati yourself.",
+      "needVessel": "Set a serving place first — a mat and a vessel.",
+      "noHelpers": "Both helpers are busy. Free one, or do it yourself."
+    },
+    "serveEarly": "You share the food. The bowl never empties — but not everyone can reach it.",
+    "revise": "Manimekalai stops, and looks at who is still waiting.",
+    "allReady": "Water is here. The path is open. Paati has her portion."
+  },
+  "people": {
+    "youngManAsk": "\"I have rice. But no water to carry it home.\"",
+    "motherAsk": "\"I can't get through with my little one.\"",
+    "paatiWait": "\"Go on without me, child. I cannot reach it.\"",
+    "childToMani": "\"Can you help my Paati?\""
+  },
+  "ending": {
+    "serve": "This time, the food reaches them all.",
+    "paatiEats": "Paati eats, slowly. Her shoulders drop.",
+    "enoughWord": "போதும்",
+    "enoughGloss": "Enough.",
+    "childSmile": "The child leans against her, and smiles.",
+    "aftermath1": "You will leave soon, and the bowl goes with you.",
+    "aftermath2": "A helper from this yard says she will keep the water coming.",
+    "card": "G2 Prototype 0.2 — End",
+    "thanks": "Thank you for playing."
+  },
+  "system": {
+    "newGameConfirm": "Start again from the beginning?",
+    "resetConfirm": "Erase all progress and settings?",
+    "oldSave": "Your saved game is from an older version and can't be continued. Start fresh?",
+    "yes": "Yes",
+    "no": "No",
+    "bridgeNote": "The Puhar opening is a game-only bridge, not a screenplay scene."
+  }
+}
