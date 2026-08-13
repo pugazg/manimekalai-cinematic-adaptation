@@ -21,6 +21,19 @@ Tamil is deliberately deferred. The rejected first Tamil experiment is preserved
 
 The future Tamil edition may therefore differ from English in sentence shape, caption count, metaphor and balloon division while preserving narrative meaning.
 
+## Source-first writing rule
+
+The classical epic controls the chapter architecture.
+
+For every chapter, distinguish four levels before polishing prose:
+
+1. **registered primary-text detail** — may be paraphrased in the working English script but cannot be presented as exact translation until line-verified;
+2. **cross-text/history support** — may shape setting and material detail without becoming a source claim about the canto;
+3. **Bharathidasan perspective** — thematic lens only unless an individual use is separately verified and rights-cleared;
+4. **graphic-novel interpretation** — original connective action, dialogue, framing or social juxtaposition.
+
+When an interpretive page is taking space away from an important registered canto feature, the primary-text feature wins.
+
 ## Bharathidasan flavour
 
 Use Bharathidasan's registered interpretive emphases as a creative lens, not as imitation-by-quotation.
@@ -40,15 +53,21 @@ Desired qualities in the English writing:
 
 Prefer:
 
-> Puhar had not yet awakened. But the hands that would wake it were already at work.
+> Puhar was still dark. The festival was already being built.
 
-over explanatory historical narration when the image can carry the detail.
+over explanatory narration that the image can carry.
 
 Prefer:
 
-> By sunrise, labour had changed its name. The city called it splendour.
+> The drum promised abundance. Abundance is tested in smaller measures.
 
-when one contrast can bind several images together.
+when a thematic contrast is anchored in a visible object such as a grain measure.
+
+Prefer:
+
+> One house did not answer the drum. By noon, the city would be speaking of its silence.
+
+when a chapter handoff can create narrative pressure without invented character dialogue.
 
 These are newly written project lines, not quotations from Bharathidasan or the classical epic.
 
@@ -73,7 +92,8 @@ Dialogue should be immediately readable but not sound casually twenty-first-cent
 - let powerful characters speak economically;
 - let ordinary workers have intelligence, humour and observation;
 - avoid exposition that repeats what the art already shows;
-- keep most balloons to one clear dramatic beat.
+- keep most balloons to one clear dramatic beat;
+- prefer silence when an invented line only restates the scene's meaning.
 
 ### Caption policy
 
@@ -81,6 +101,7 @@ Use captions for:
 
 - time/place transitions;
 - compressed epic narration;
+- registered source information that cannot be shown clearly;
 - social or material contrast;
 - interior reflection that cannot be drawn;
 - chapter handoffs.
@@ -92,6 +113,10 @@ A caption should normally do at least one of three things:
 1. change the meaning of the image;
 2. connect two images across time/social position;
 3. introduce information the art cannot contain.
+
+### Source-paraphrase rule
+
+Until the relevant Tamil lines are verified, any English rendering of registered epic content must be labelled internally as **paraphrase**. Do not use quotation marks in production notes in a way that implies a literal translation.
 
 ## Manimekalai
 
@@ -177,6 +202,16 @@ If a procession is beautiful, someone prepared the street.
 If garlands hang, someone strung them.  
 If ships carry wealth, someone repairs hulls and lifts cargo.  
 If music sounds, someone trained, tuned and is paid—or waits to be paid.
+
+### Chapter 1 source-visible rule
+
+The first canto's registered features must be visible before decorative invention:
+
+- fresh sand replacing old sand in public routes;
+- proclamation of the twenty-eight-day festival;
+- visitors / many voices in the port city;
+- public philosophical plurality and debate;
+- the link between festival, rain, prosperity and protection from famine/sickness/enmity.
 
 ## Sacred events
 
@@ -292,7 +327,7 @@ Working scripts may include production-only evidence notes below a page. These n
 
 Example:
 
-`TRACE: primary canto 1 | repo FU-001/FU-002 staging reference | PERSPECTIVE VENPA-BHARATHIDASAN: THEMATIC | classification [INTERPRETATION]`
+`TRACE: primary canto 1 | EV-0002/EV-0004 | PERSPECTIVE VENPA-BHARATHIDASAN: THEMATIC | classification [TEXT]+[INTERPRETATION]`
 
 ## Prohibited shortcuts
 
@@ -305,4 +340,5 @@ Example:
 - no text-heavy philosophy pages that become illustrated essays;
 - no claim that generated architecture or costume is 'historically exact';
 - no generated lettering embedded in art;
-- no using the rejected Tamil v0.1 as future Tamil final copy.
+- no using the rejected Tamil v0.1 as future Tamil final copy;
+- no downstream screenplay invention displacing a more important primary-canto feature without an explicit editorial decision.
