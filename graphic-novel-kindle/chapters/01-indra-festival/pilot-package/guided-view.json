@@ -1,0 +1,289 @@
+{
+  "chapter": 1,
+  "title": "The Festival Proclamation",
+  "pages": [
+    {
+      "page": 1,
+      "file": "GN-CH01-P001_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 3840
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "file": "GN-CH01-P002_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 1040
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 1040,
+          "width": 2400,
+          "height": 850
+        },
+        {
+          "order": 3,
+          "x": 0,
+          "y": 1890,
+          "width": 2400,
+          "height": 900
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2790,
+          "width": 2400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "file": "GN-CH01-P003_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 1270
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 1270,
+          "width": 2400,
+          "height": 650
+        },
+        {
+          "order": 3,
+          "x": 0,
+          "y": 1920,
+          "width": 2400,
+          "height": 900
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2820,
+          "width": 2400,
+          "height": 1020
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "file": "GN-CH01-P004_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 950
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 950,
+          "width": 2400,
+          "height": 950
+        },
+        {
+          "order": 3,
+          "x": 0,
+          "y": 1900,
+          "width": 2400,
+          "height": 950
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2850,
+          "width": 2400,
+          "height": 990
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "file": "GN-CH01-P005_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 1270
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 1270,
+          "width": 1200,
+          "height": 1270
+        },
+        {
+          "order": 3,
+          "x": 1200,
+          "y": 1270,
+          "width": 1200,
+          "height": 1270
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2540,
+          "width": 2400,
+          "height": 1300
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "file": "GN-CH01-P006_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 1080
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 1080,
+          "width": 2400,
+          "height": 850
+        },
+        {
+          "order": 3,
+          "x": 0,
+          "y": 1930,
+          "width": 2400,
+          "height": 900
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2830,
+          "width": 2400,
+          "height": 1010
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "file": "GN-CH01-P007_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 2600
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 2600,
+          "width": 800,
+          "height": 1240
+        },
+        {
+          "order": 3,
+          "x": 800,
+          "y": 2600,
+          "width": 800,
+          "height": 1240
+        },
+        {
+          "order": 4,
+          "x": 1600,
+          "y": 2600,
+          "width": 800,
+          "height": 1240
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "file": "GN-CH01-P008_lettered_v1.0.jpg",
+      "canvas": [
+        2400,
+        3840
+      ],
+      "regions": [
+        {
+          "order": 1,
+          "x": 0,
+          "y": 0,
+          "width": 2400,
+          "height": 1130
+        },
+        {
+          "order": 2,
+          "x": 0,
+          "y": 1130,
+          "width": 2400,
+          "height": 650
+        },
+        {
+          "order": 3,
+          "x": 0,
+          "y": 1780,
+          "width": 2400,
+          "height": 650
+        },
+        {
+          "order": 4,
+          "x": 0,
+          "y": 2430,
+          "width": 2400,
+          "height": 1410
+        }
+      ]
+    }
+  ]
+}

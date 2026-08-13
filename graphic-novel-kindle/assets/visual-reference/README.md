@@ -48,6 +48,30 @@ The board contains the ten required functional families: proclamation drum, grai
 
 The board is deliberately text-free for later reuse. It establishes silhouette and material variety, not exact typology. The metal adze/awl forms, grain-measure construction, anklet, wrapped instruments, vessel profiles and object-to-object scale require archaeological/material-culture review before final-page use.
 
+## GN-ASSET-0004 — Cosmopolitan Puhar crowd
+
+File: `GN-ASSET-0004_cosmopolitan_puhar_crowd_v1.0.png`
+
+Status: **REVIEW STUDY — not locked**
+
+Occupation, travel condition, age, carried goods and social interaction create diversity. Six reusable background silhouettes support continuity across Chapter 1. The performance worker and several tailored traveller garments require revision or deliberate avoidance in final page art.
+
+## GN-ASSET-0005 — Public debate space
+
+File: `GN-ASSET-0005_public_debate_space_v1.0.png`
+
+Status: **REVIEW STUDY — not locked**
+
+The board establishes equal visual dignity, disagreement without villain coding, audience permeability and a civic rather than sectarian setting. Manuscript-like objects, stone paving, garments and institutional forms remain provisional.
+
+## GN-ASSET-0006 — Madhavi first reveal
+
+File: `GN-ASSET-0006_madhavi_first_reveal_v1.0.png`
+
+Status: **REVIEW STUDY — acting reference approved for pilot tests; costume not locked**
+
+Use the consistent face, restrained vitality, trained posture, hands and expression range. Do not reproduce the sheet's modern-looking sari/blouse construction literally. Page 8 requires a more historically cautious plain drape.
+
 ## GN-ASSET-0007 — Manimekalai
 
 ### v1.0 recovered character board
@@ -89,6 +113,14 @@ Expression targets include:
 The image itself must not be treated as proof of Manimekalai's exact age, clothing, jewellery, hairstyle or historical appearance. Those remain subject to the parent repository's evidence and caution rules.
 
 The authoritative recoverable file is now `GN-ASSET-0007_manimekalai_expression_v2.0.png`. The earlier `.jpg` is a corrupt 6 KB repository artifact and must not be used downstream; it is retained temporarily only to avoid silently deleting prior history.
+
+## GN-ASSET-0008 — Kindle readability test
+
+File: `GN-ASSET-0008_kindle_readability_test_v1.0.png`
+
+Status: **STYLE APPROVED FOR CHAPTER 1 PILOT - historical details not locked**
+
+The board establishes crisp line hierarchy, controlled painterly colour, readable hands/objects and four-panel portrait rhythm. Its fitted blouse and several building forms remain prohibited as literal historical evidence.
 
 ## Integrity hashes
 

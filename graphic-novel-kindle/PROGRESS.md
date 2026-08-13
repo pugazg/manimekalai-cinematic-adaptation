@@ -82,18 +82,18 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 - [ ] Select and line-verify `SRC-0001` primary Tamil edition.
 - [x] Recover and register `GN-ASSET-0001` Puhar environment reference board; retain a neutral six-view candidate for comparison (review pending).
 - [x] Produce and register `GN-ASSET-0002` fresh-sand civic-renewal reference board (review pending).
-- [ ] Produce `GN-ASSET-0008` line/colour/Kindle readability test.
+- [x] Produce and register `GN-ASSET-0008` line/colour/Kindle readability test.
 - [x] Produce and register `GN-ASSET-0003` material-object board (specialist review pending).
-- [ ] Produce `GN-ASSET-0004` cosmopolitan crowd system.
-- [ ] Produce `GN-ASSET-0005` public-debate spatial reference.
-- [ ] Produce `GN-ASSET-0006` Madhavi character reference.
+- [x] Produce and register `GN-ASSET-0004` cosmopolitan crowd system (costume review pending).
+- [x] Produce and register `GN-ASSET-0005` public-debate spatial reference (institutional/material review pending).
+- [x] Produce and register `GN-ASSET-0006` Madhavi character reference (acting approved for pilot tests; costume not locked).
 - [x] Recover and register `GN-ASSET-0007` v1.0 and valid v2.0 Manimekalai references (review pending; corrupt prior JPEG identified).
-- [ ] Render Page 1 and Page 8 as first finished-page tests.
-- [ ] Render remaining pilot pages without generated text.
-- [ ] English lettering pass.
-- [ ] Guided View authoring.
-- [ ] KPF export and device preview.
-- [ ] Pilot retrospective: lock page rhythm, caption density and balloon limits.
+- [x] Render Page 1 and Page 8 as first finished-page tests.
+- [x] Render remaining pilot pages without generated prose/pseudo-text.
+- [x] Complete deterministic English lettering pass.
+- [x] Create provisional Guided View region manifest (Kindle Create authoring pending).
+- [ ] KPF export and physical/device preview.
+- [x] Complete pilot audit of page rhythm, caption density, provenance and limitations.
 
 ### G4 — Chapters 2–3 pilot extension
 
@@ -136,4 +136,4 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 
 ## Current next action
 
-Produce **`GN-ASSET-0004` — the cosmopolitan Puhar crowd system**, including six reusable background individuals, while `GN-ASSET-0001`–`0003` remain review studies pending historical/material gates. `GN-ASSET-0008` remains the separate neutral line/colour Kindle readability test before finished comic pages are rendered.
+Import the completed eight-page Chapter 1 review pilot into Kindle Create, author Guided View from `guided-view.json`, export a test KPF and run phone/tablet/e-reader Previewer checks. Before publication, complete primary-edition line verification, specialist costume/material review, final redraws and font-rights clearance.
