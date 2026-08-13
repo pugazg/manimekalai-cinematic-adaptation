@@ -1,14 +1,16 @@
-# Chapter 1 — விழாவறை காதை
+# Chapter 1 — விழாவறை காதை / The Festival Proclamation
 
-## Graphic-novel pilot script v0.1
+## Graphic-novel pilot script v0.2
 
-Working display title: **விழாவுக்கு முன் விழித்த நகரம்**  
-Canonical canto: **விழாவறை காதை**
-
-Language: Tamil-first  
+Working display title: **Before the Festival Wakes**  
+Canonical canto: **விழாவறை காதை**  
+Production language: **English**  
+Deferred edition: **Tamil — fresh editorial adaptation after English/visual lock**  
 Target: 8 story pages  
 Perspective: `PERSPECTIVE: VENPA-BHARATHIDASAN | THEMATIC`  
-Status: **DRAFT — original adaptation text; no direct Bharathidasan quotation**
+Status: **ACTIVE DRAFT — original English adaptation text; no direct Bharathidasan quotation**
+
+> The superseded Tamil-first experiment is preserved separately as `tamil-draft-v0.1.md`. It is not approved copy and must not be used as the source for the later Tamil edition.
 
 ---
 
@@ -18,21 +20,21 @@ Status: **DRAFT — original adaptation text; no direct Bharathidasan quotation*
 
 **Art**
 
-Pre-dawn Puhar seen from human height near the river/harbour rather than from an impossible aerial god-view. Dark water, moored craft, wet timber, baskets, rope, grain sacks, flower bundles. Farther inland, festival structures are only half-complete. Workers are already moving.
+Pre-dawn Puhar from human height near the river and harbour. Dark water. Moored craft. Wet timber. Coiled rope. Grain baskets. Clay vessels. Bundles of unopened flowers. Farther inland, festival structures are still being assembled. Workers are already moving.
 
-No dominant palace or temple silhouette. The visual subject is a city being assembled by labour.
+No dominant palace or monumental temple silhouette. The visual subject is a city being made ready by labour.
 
 **CAPTION 1**
 
-> புகார் இன்னும் விழிக்கவில்லை.
+> Puhar had not yet awakened.
 
 **CAPTION 2**
 
-> ஆனால் அதை விழிக்கச் செய்யும் கைகள்—ஏற்கெனவே வேலைக்குள் இறங்கியிருந்தன.
+> But the hands that would wake it were already at work.
 
 **Small title at bottom**
 
-> 1 · விழாவறை காதை
+> CHAPTER ONE · THE FESTIVAL PROCLAMATION
 
 **Production trace**
 
@@ -48,25 +50,25 @@ Harbour workers shoulder a wet timber beam beneath a vessel under repair. A rope
 
 **WORKER 1**
 
-> இன்னும் கொஞ்சம் உயர்த்து!
+> Higher. Just a little.
 
 **WORKER 2**
 
-> விழா வரட்டும். இந்த மரம் முதலில் நிலைநிற்கட்டும்.
+> Let the festival wait. This ship has to stand first.
 
 ### Panel B — medium
 
-A woman draws water into clay vessels. A child steadies one pot.
+A woman fills clay vessels at a water point. A child steadies one pot.
 
 **CHILD**
 
-> இன்று ஏன் எல்லோரும் இவ்வளவு சீக்கிரம்?
+> Why is everyone up so early?
 
 **WATER CARRIER**
 
-> மக்கள் வருவார்கள்.
+> People are coming.
 
-> மக்கள் வந்தால் தண்ணீர் முதலில் வர வேண்டும்.
+> Water must arrive before they do.
 
 ### Panel C — detail
 
@@ -74,11 +76,11 @@ Flower workers sort unopened jasmine by touch in dim light.
 
 **CAPTION**
 
-> மணம் பிறப்பதற்கு முன்—மலருக்கும் வேலை உண்டு.
+> Before there was fragrance, there were fingers at work.
 
 ### Panel D — medium
 
-A cleaner scrapes yesterday's refuse from the ceremonial road while garlands are carried past.
+A cleaner scrapes yesterday's refuse from the ceremonial road while bright garlands are carried past.
 
 No dialogue.
 
@@ -88,15 +90,15 @@ No dialogue.
 
 ### Panel A — tall
 
-A drummer tests the great proclamation drum. One strike. Birds lift from roofs.
+A drummer tests the great proclamation drum. One strike. Birds rise from nearby roofs.
 
 **SFX**
 
-> தம்!
+> THUM.
 
 ### Panel B — reaction strip
 
-Different people pause at the same sound: porter, fisherwoman, flower seller, young musician, guard.
+A porter, fisherwoman, flower seller, young musician and guard all pause at the same sound.
 
 No dialogue.
 
@@ -106,21 +108,21 @@ The drummer and civic messengers prepare to move through the streets.
 
 **MESSENGER**
 
-> பாதைகள் தயாரா?
+> Are the streets ready?
 
 **DRUMMER**
 
-> பாதை தயார் என்று முரசு சொல்லிவிடலாம்.
+> The drum can say they are.
 
-> மக்கள் தயார் என்று யார் சொல்லப் போகிறார்கள்?
+> Who will say the people are ready?
 
 ### Panel D — close
 
-A porter smiles while lifting a load.
+A porter adjusts the load across his shoulder.
 
 **PORTER**
 
-> நாங்கள்தான் சொல்லிக் கொண்டிருக்கிறோமே.
+> We have been saying it since before dawn.
 
 ---
 
@@ -128,43 +130,43 @@ A porter smiles while lifting a load.
 
 ### Panel A — wide
 
-The proclamation begins in a civic square. People gather from several streets. Keep social variety visible without making anyone exotic decoration.
+The proclamation begins in a civic square. Residents, workers, traders and visitors gather from several streets.
 
 **DRUMMER**
 
-> புகார் மக்களே!
+> People of Puhar!
 
-> இந்திர விழா நெருங்குகிறது!
+> The festival of Indra approaches!
 
 ### Panel B — medium on drummer
 
 **DRUMMER**
 
-> வீதிகள் அலங்கரிக்கப்படட்டும்!
+> Dress the streets.
 
-> வருவோர் வரவேற்கப்படட்டும்!
+> Receive those who come from afar.
 
-> நகரம் விழாவை ஏற்கத் தயாராகட்டும்!
+> Let the city prepare for celebration.
 
 ### Panel C — two-plane composition
 
-Foreground: grain seller measures grain carefully. Background: officials repeat the announcement.
+Foreground: a grain seller levels a measure carefully. Background: officials repeat the proclamation.
 
 **GRAIN SELLER, quietly**
 
-> விழா எல்லோருக்கும் என்றால்…
+> If the festival belongs to everyone...
 
-> அளவும் எல்லோருக்கும் நியாயமாக இருக்கட்டும்.
+> let the measure be fair to everyone too.
 
 ### Panel D — reaction
 
-A customer looks at the grain measure, then at the festival banner.
+A customer looks from the grain measure to a festival banner overhead.
 
 No dialogue.
 
 **Production note**
 
-The grain-seller line is original adaptation dialogue expressing the workstream's social lens. It is not a primary-text quotation.
+The grain-seller line is original adaptation dialogue expressing the workstream's social lens. It is not a primary-text or Bharathidasan quotation.
 
 ---
 
@@ -172,31 +174,31 @@ The grain-seller line is original adaptation dialogue expressing the workstream'
 
 ### Panel A — wide street
 
-The announcement travels. Garlands rise. Musicians unwrap instruments. Animal keepers check harnesses instead of presenting animals as pure spectacle.
+The proclamation travels. Garlands rise. Musicians unwrap instruments. Animal keepers check harnesses. Painters grind colour.
 
 **CAPTION**
 
-> ஒரு செய்தி நகரமெங்கும் ஓடியது.
+> The announcement ran ahead of the sun.
 
 ### Panel B — close hands montage
 
-Hands: tying rope, grinding pigment, counting coins, trimming flowers, adjusting a drum skin.
+Hands tying rope, grinding pigment, counting coins, trimming flowers, tightening a drum skin.
 
 **CAPTION**
 
-> விழா வானிலிருந்து இறங்கவில்லை.
+> A festival does not descend from the sky.
 
 ### Panel C — larger
 
-The same hands now seen attached to different workers across the street.
+The same hands now belong to visible workers across the street.
 
 **CAPTION**
 
-> மனிதர்களின் நேரம், வியர்வை, திறமை—அவற்றில்தான் அது எழுந்தது.
+> It rises from time, skill, sweat—and from people whose names the crowd may never learn.
 
 ### Panel D — small silent beat
 
-An elderly worker rubs his wrist before resuming.
+An elderly worker rubs a sore wrist, then resumes.
 
 No dialogue.
 
@@ -206,33 +208,33 @@ No dialogue.
 
 ### Panel A — civic water point
 
-A guarded cistern/water store. A queue has formed earlier than expected. An official hesitates over access.
+A guarded water store. The queue has grown earlier than expected. An official hesitates over access.
 
 **WOMAN IN QUEUE**
 
-> விழாவுக்கு வந்தவர்களுக்கும் தண்ணீர் வேண்டும்.
+> Visitors will need water.
 
-> இங்கே வாழ்பவர்களுக்கும் வேண்டும்.
+> So will those of us who live here.
 
-### Panel B — official looks toward growing crowd
+### Panel B — official looks toward the growing crowd
 
 **OFFICIAL**
 
-> இன்னும் உத்தரவு வரவில்லை.
+> I have no order yet.
 
-### Panel C — a junior worker opens one side channel after receiving a signal from off-panel authority; do not frame this as a lone hero miracle.
+### Panel C — a side channel is opened after an instruction from off-panel authority; several workers act together. Do not stage this as a lone-hero gesture.
 
 **VOICE, OFF PANEL**
 
-> தாகம் உத்தரவுக்காக காத்திருக்காது. திறக்கவும்.
+> Thirst will not wait for an order. Open it.
 
-### Panel D — water flows into clay vessels
+### Panel D — water flows into ordinary clay vessels
 
 **CAPTION**
 
-> நல்ல ஆட்சி சில நேரங்களில் பெரிய வார்த்தை அல்ல.
+> Sometimes government is not a grand decree.
 
-> மூடியிருந்த ஒரு வாயிலைத் திறப்பது.
+> Sometimes it is a closed gate being opened in time.
 
 **Classification**
 
@@ -244,33 +246,35 @@ A guarded cistern/water store. A queue has formed earlier than expected. An offi
 
 ### Panel A — near-splash
 
-Now reveal Puhar in festival colour: banners, markets, musicians, decorated routes, maritime traffic, visitors. The beauty should genuinely land after six pages of preparation.
+Now reveal Puhar in festival colour: banners, markets, musicians, decorated routes, maritime traffic and visitors. The beauty should genuinely land after six pages of preparation.
 
 **CAPTION**
 
-> விடியற்காலத்தின் உழைப்பு—
+> By sunrise, labour had changed its name.
 
-> இப்போது நகரத்தின் அழகாகத் தெரிந்தது.
+> The city called it splendour.
 
-### Panel B — small inset, child from Page 2 sees the transformed street
+### Panel B — small inset
+
+The child from Page 2 stares at the transformed street.
 
 **CHILD**
 
-> இப்போதுதான் விழா வந்ததா?
+> Did the festival just arrive?
 
 ### Panel C — water carrier, still working
 
 **WATER CARRIER**
 
-> இல்லை.
+> No.
 
-> இப்போதுதான் அது எல்லோருக்கும் தெரிகிறது.
+> Now everyone can see it.
 
 ### Panel D — drum passes deeper into the city
 
 **SFX**
 
-> தம்! தம்! தம்!
+> THUM. THUM. THUM.
 
 ---
 
@@ -278,11 +282,11 @@ Now reveal Puhar in festival colour: banners, markets, musicians, decorated rout
 
 ### Panel A — exterior
 
-The proclamation drum reaches the performance quarter. Other houses open toward the sound.
+The proclamation drum reaches the performance quarter. Other households open toward the sound.
 
 ### Panel B — narrower
 
-One respected house remains quiet. No musicians emerge. No garlands are being ordered.
+One respected house remains quiet. No musicians emerge. No new garlands are being ordered.
 
 ### Panel C — interior detail
 
@@ -290,29 +294,29 @@ Wrapped instruments. An unlit lamp. A performance anklet resting unused.
 
 **SFX, DISTANT**
 
-> தம்… தம்…
+> THUM... THUM...
 
 ### Panel D — final half-page
 
-Madhavi sits beside the unlit lamp in plain clothing. Manimekalai is only partly visible at a lattice, watching colour pass outside. Do not fully introduce her face yet.
+Madhavi sits beside the unlit lamp in plain clothing. Years of artistic discipline remain visible in her posture. Manimekalai is only partly visible at a lattice, watching festival colour move beyond the house. Do not fully introduce her face yet.
 
 **OFF-PANEL VOICE FROM STREET**
 
-> விழா தொடங்குகிறது!
+> The festival begins!
 
 **MADHAVI**
 
-> நகரத்துக்கு தொடங்கட்டும்.
+> Let it begin for the city.
 
 Silent beat.
 
 **END CAPTION**
 
-> ஆனால் அந்த வீட்டின் மௌனம்—நகரத்துக்கு ஏற்கெனவே ஒரு கதையாகி விட்டது.
+> The silence of her house had already become a story outside it.
 
 **NEXT**
 
-> 2 · ஊரலர் உரைத்த காதை
+> CHAPTER TWO · WHAT THE CITY SAID
 
 **Production trace**
 
@@ -324,13 +328,35 @@ Silent beat.
 
 ## What this chapter is doing
 
-The classical canto announces the Indra festival and establishes the public world of Puhar. The graphic-novel adaptation expands the preparation into visible labour so the spectacle has a social foundation before Manimekalai becomes the object of public discussion.
+The classical canto announces the Indra festival and establishes the public world of Puhar. The graphic-novel adaptation expands preparation into visible labour so the spectacle has a material and social foundation before Manimekalai becomes the object of public discussion.
+
+This is intentionally an adaptation rather than a line-by-line rendering of the canto. Any invented civic detail remains labelled `[INTERPRETATION]` until separately grounded.
 
 ## Bharathidasan flavour used here
 
-`GN-VENPA-USE-001 | Chapter 1 | labour and public responsibility under festival splendour | THEMATIC | no direct quotation | rights-safe draft`
+`GN-VENPA-USE-001 | Chapter 1 | labour and public responsibility beneath festival splendour | THEMATIC | no direct quotation | rights-safe draft`
 
-The Venpa perspective is present through social emphasis rather than borrowed lines.
+The Bharathidasan perspective is carried by emphasis—labour, fairness, hunger/water, responsibility—not by imitation of his diction.
+
+## English style target
+
+- concise literary English;
+- readable aloud without sounding like modern American banter;
+- lyrical compression used sparingly;
+- captions must add meaning, not explain the image;
+- workers may be witty or critical without becoming modern political mouthpieces;
+- no faux-archaic English;
+- no direct translation from the archived Tamil draft.
+
+## Tamil edition rule
+
+Tamil is deferred until:
+
+1. the English chapter script is content-locked;
+2. page art and balloon space are stable;
+3. the English lettering has passed Kindle readability tests;
+4. a fresh Tamil adaptation is written from the classical source + locked English intent, not by polishing `tamil-draft-v0.1.md`;
+5. Tamil captions/dialogue receive native literary editorial review before lettering.
 
 ## Items requiring later verification
 
