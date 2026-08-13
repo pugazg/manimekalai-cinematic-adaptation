@@ -1,6 +1,6 @@
 # Chapter 1 Art Prompt Pack
 
-Status: **pre-render prompt bible — English-first production**
+Status: **pre-render prompt bible — English-first / editorial v0.3 aligned**
 
 These prompts are production briefs, not claims of historical exactness. Every generated frame remains `[INTERPRETATION]` until reviewed.
 
@@ -13,7 +13,7 @@ Apply to every page:
 - human-height cinematic composition;
 - painterly ink-and-colour finish with crisp line hierarchy suitable for Kindle;
 - humid dawn atmosphere, indigo shade, warm earthen skin tones, dyed textile accents;
-- materially grounded timber, rope, clay, grain, flowers, water and stone;
+- materially grounded timber, rope, clay, grain, flowers, water, sand and stone;
 - diverse working bodies and ages without caricature;
 - no fantasy mega-temples dominating the skyline;
 - no generic medieval North Indian/Mughal/Rajput architecture;
@@ -25,6 +25,19 @@ Apply to every page:
 - reserve clean negative space where balloons/captions are specified;
 - portrait page 2400 × 3840 working composition, 5:8 aspect ratio;
 - panels must remain readable when magnified individually in Guided View.
+
+## Evidence control for this chapter
+
+Chapter 1 art should visibly carry the registered canto details where the page calls for them:
+
+- `EV-0001` — twenty-eight-day festival;
+- `EV-0002` — old sand removed, fresh sand spread, public decoration;
+- `EV-0003` — rain, prosperity and protection from famine, sickness and enmity;
+- `EV-0004` — teachers/philosophers of multiple paths and public debate;
+- `EV-0005` — visitors / speakers of many languages;
+- `EV-0007` — Puhar at the Kaveri-sea interface.
+
+Do not turn any generated reconstruction into a claim that these exact buildings, costumes, vessels or street layouts are proven.
 
 ## Character continuity notes for Chapter 1
 
@@ -48,90 +61,96 @@ Apply to every page:
 
 **Prompt brief**
 
-Portrait full-page graphic-novel splash of pre-dawn ancient Puhar at the Kaveri/sea interface, seen from human height near the working harbour. Dark tidal water, modest fishing craft, coastal trading vessels and one larger merchant vessel under repair; wet timber beam, coiled rope, clay water pots, grain baskets, unopened jasmine bundles, workers cleaning a ceremonial road farther inland. Festival decorations only half-installed. First pale dawn in the sky. The city feels sophisticated because many systems are working at once, not because of oversized monuments. Leave two quiet caption zones in upper-left and lower-right sky/water areas. Mood: anticipation through labour.
+Portrait full-page graphic-novel splash of pre-dawn ancient Puhar at the Kaveri/sea interface, seen from human height near the working harbour. Dark tidal water, modest fishing craft, coastal trading vessels and one larger merchant vessel under repair; wet timber, coiled rope, clay water pots, grain baskets, unopened flowers. Farther inland, workers prepare public routes and festival structures before dawn. The city feels sophisticated because many systems are working at once, not because of oversized monuments. Leave two quiet caption zones in upper-left and lower-right sky/water areas. Mood: anticipation through labour.
 
 **Must show**
 
-- at least four different kinds of labour;
+- at least four kinds of practical activity;
 - unfinished festival preparation;
-- water and maritime context;
+- river/sea relationship;
 - no main character yet.
 
-## GN-CH01-P002 — labour foundation
+## GN-CH01-P002 — civic renewal and labour
 
 Four-panel portrait comic page.
 
-**Panel A** — harbour workers lifting a wet timber beam under a vessel being repaired, rope maker beside them; strong diagonal physical effort, balloon space upper right.
+**Panel A** — workers scrape/carry away worn sand from a ceremonial public route while another team spreads fresh pale sand behind them; make the process physically plausible and clearly visible. Caption space upper left.
 
-**Panel B** — woman water carrier lowering/filling clay vessels while a child steadies one pot; practical water point, intimate human scale, balloon space upper left.
+**Panel B** — flower workers sort unopened blossoms while garlands are being raised farther down the route; close hands and faces, no romanticised labour pose.
 
-**Panel C** — flower workers sorting unopened jasmine by touch in dim dawn, close hands and faces, caption space.
+**Panel C** — harbour workers brace a wet timber beam beneath a vessel under repair, rope maker nearby; grounded effort, no heroic low angle, small balloon zones.
 
-**Panel D** — cleaner scraping yesterday's refuse from the ceremonial road while bright garlands pass behind; visual contrast between hidden labour and visible beauty.
+**Panel D** — woman water carrier fills clay vessels while a child steadies one pot and looks toward the changing street; intimate scale, room for two small balloons.
 
-## GN-CH01-P003 — first drum
-
-Four-panel page.
-
-**Panel A** — large civic proclamation drum tested at dawn; drummer strikes once; birds startle from tiled/thatched rooflines; no heroic low angle.
-
-**Panel B** — reaction strip containing porter, fisherwoman, flower seller, young musician and guard all pausing to the same sound.
-
-**Panel C** — drummer and civic messenger preparing to move, practical clothing and documents/cords appropriate to production research; balloon space.
-
-**Panel D** — porter lifting a load with dry humour, grounded smile, no comedy caricature.
-
-## GN-CH01-P004 — proclamation and grain measure
+## GN-CH01-P003 — twenty-eight-day proclamation
 
 Four-panel page.
 
-**Panel A** — civic square filling with socially mixed residents and visitors as the drummer announces the Indra festival; decorations rising around them.
+**Panel A** — civic proclamation drummer raises the beater and strikes once; birds lift from rooflines.
 
-**Panel B** — medium view of drummer speaking; crowd reactions matter as much as speaker.
+**Panel B** — reaction strip: porter, fisherwoman, flower seller, musician, guard and two travellers pause to the same sound.
 
-**Panel C** — foreground grain seller carefully levelling a measure while officials repeat the proclamation in the background; compose so the grain measure is the visual counter-argument to festival rhetoric.
+**Panel C** — drummer and civic messengers announce the festival to a socially mixed crowd; leave clear balloon space for the twenty-eight-day line.
 
-**Panel D** — customer's eyes move from the measured grain toward a festival banner; quiet interpretive beat.
+**Panel D** — relational composition linking proclamation to fresh sand, garlands, grain, water vessels and faces looking toward the sky. This panel carries the festival's civic hope without illustrating famine or sickness as melodramatic disaster imagery.
 
-## GN-CH01-P005 — hands build the festival
-
-Four-panel page.
-
-**Panel A** — musicians unwrap instruments, flower garlands rise, animal keeper checks harness fit, painters prepare pigment; no animal spectacle pose.
-
-**Panel B** — close montage of hands tying rope, grinding pigment, counting coins, trimming flowers and tightening drum skin.
-
-**Panel C** — widen those same actions into connected workers across the street, making clear that festival splendour is organised labour.
-
-**Panel D** — elderly worker flexes/rubs a tired wrist before returning to work; small consequence detail.
-
-## GN-CH01-P006 — water and governance
+## GN-CH01-P004 — arrivals and many voices
 
 Four-panel page.
 
-**Panel A** — public water storage/cistern area with guarded access and a growing queue of local residents and festival visitors; water vessels varied and practical.
+**Panel A** — coastal/river craft unloading passengers and cargo as another group enters Puhar on an inland route; multiple arrival systems, no giant harbour fantasy.
 
-**Panel B** — official hesitates, looking toward crowd; bureaucracy expressed through posture and threshold, not villainous face.
+**Panel B** — mixed street interaction: locals and newcomers negotiate directions, space and exchange through gesture and interpreters; visually distinct without ethnic caricature.
 
-**Panel C** — side access to water is opened after an off-panel instruction; multiple workers participate; avoid lone saviour framing.
+**Panel C** — local host or worker directs travellers toward the festival route while decoration continues behind them; caption space.
 
-**Panel D** — clean water flows into ordinary clay vessels held by several people; focus on relief and logistics, not glowing water.
+**Panel D** — proclamation drum moving through a crowd where no single dress, occupation or origin dominates the frame; visual thesis is cosmopolitan participation, not exotic display.
 
-**Historical caution**
+## GN-CH01-P005 — public philosophical debate
 
-The exact cistern form must be revised after historical/production-design review. Do not label this architecture historical fact.
+Four-panel page.
+
+**Panel A** — shaded public teaching/debate space with several teachers/philosophers seated or standing before a mixed audience; each school treated with equal visual seriousness.
+
+**Panel B** — one teacher speaking with calm authority; clean balloon space.
+
+**Panel C** — another teacher responding from a different position; distinct teaching method/body language without villain coding.
+
+**Panel D** — audience of merchants, workers, visitors and students listening with varied reactions; some agreement, some doubt, no winner's halo.
+
+**Do not**
+
+- map later sectarian costume stereotypes directly onto every school;
+- use modern religious uniforms as certainty;
+- distinguish doctrines through moral colour coding.
+
+## GN-CH01-P006 — abundance tested in small measures
+
+Four-panel page.
+
+**Panel A** — foreground grain seller carefully levels a measure while the festival drum passes in the distance; grain measure is the visual anchor.
+
+**Panel B** — close detail of level grain measure and waiting hands; no sentimental poverty framing.
+
+**Panel C** — connected labour montage: tying garlands, tightening drum skin, carrying water, lifting cargo, grinding pigment, spreading the last fresh sand. Make every hand anatomically credible.
+
+**Panel D** — elderly worker flexes a sore wrist while festival colour fills the route behind; consequence without martyrdom.
+
+**Interpretive control**
+
+This page is `GN-VENPA-USE-001 THEMATIC`. The grain measure is not claimed as a canto-1 event. It visually tests the registered promise of abundance without inserting a speechifying modern political scene.
 
 ## GN-CH01-P007 — festival reveal
 
 Near-splash page with three insets or four Guided View regions.
 
-**Main visual** — Puhar now in full festival colour: banners, flowers, markets, musicians, traffic of maritime goods, visitors, animal keepers and civic movement. The beauty should feel earned because earlier page labour is still visible within the frame.
+**Main visual** — Puhar now in full festival colour: clearly fresh-sanded routes, banners, flowers, markets, musicians, arriving visitors, teachers/debaters, maritime goods, animal keepers and civic movement. Earlier labour remains visible inside the frame.
 
-**Inset** — child from Page 2 sees the changed street with wonder.
+**Inset** — child from Page 2 quietly takes in the changed street.
 
-**Inset** — water carrier continues working, not posing for the festival.
+**Inset** — water carrier continues through the celebrating crowd with another vessel.
 
-**Inset/transition** — proclamation drum moves toward the performance quarter.
+**Inset/transition** — proclamation drum heads toward the performance quarter.
 
 Leave broad caption space in sky/banner zone without covering faces.
 
@@ -139,25 +158,25 @@ Leave broad caption space in sky/banner zone without covering faces.
 
 Four-panel page shifting from public saturation to interior stillness.
 
-**Panel A** — festival drum and messengers pass into the performance quarter; neighbouring houses open toward the sound.
+**Panel A** — festival drum and messengers enter the performance quarter; neighbouring households open toward the sound; musicians/attendants emerge.
 
 **Panel B** — one respected performance household remains unusually quiet; no new garlands, no musicians emerging.
 
-**Panel C** — interior still-life: wrapped instruments, unlit lamp, unused dance/performance anklet on a low surface; soft indirect daylight.
+**Panel C** — interior still-life: wrapped instruments, unlit lamp, unused performance anklet on a low surface; soft indirect daylight.
 
-**Panel D** — half-page interior: Madhavi seated beside the unlit lamp in plain clothing, years of artistic discipline visible in posture. Manimekalai only partly visible at a lattice, observing festival colour outside. The reader should feel that public celebration has reached a private refusal. Reserve balloon space around Madhavi without crowding her face.
+**Panel D** — half-page interior: Madhavi seated beside the unlit lamp in plain clothing, years of artistic discipline visible in posture. Manimekalai only partly visible at a lattice, observing festival colour outside. The public celebration has reached a private refusal. Reserve one off-panel speech zone and two caption zones; Madhavi herself has no dialogue on this page.
 
 ## Active render workflow
 
 Before rendering final pages:
 
-1. create separate character turnarounds for Madhavi and Manimekalai;
-2. create a Puhar harbour/environment sheet;
-3. create a labour-object sheet: pots, rope, grain measure, flowers, drums, harness, tools;
-4. lock line/colour rendering style on one neutral test panel;
-5. complete focused English editorial review of `script.md`;
-6. render Page 1 and Page 8 first to test environmental and character continuity;
-7. render Pages 2–7 using those locked references;
+1. complete the Chapter 1 English editorial/source-fidelity audit;
+2. create a **Puhar environment reference sheet** based on the revised pages;
+3. create a **material-object reference sheet**: fresh-sand street treatment, grain measure, pots, rope, flowers, drum, timber/repair tools;
+4. create **Madhavi and partial-Manimekalai character references** for Page 8;
+5. lock line/colour rendering style on one neutral test panel;
+6. render Page 1 and Page 8 first to test environment/character continuity;
+7. render Pages 2–7 using locked references;
 8. add **English lettering separately** from the art;
 9. test all panels in Kindle Guided View;
 10. do not begin Tamil lettering during this pilot.
@@ -175,10 +194,10 @@ Reject or revise any frame that contains:
 - Mughal/Rajput palace shorthand;
 - modern sari/blouse tailoring used casually as ancient costume;
 - copied film-star likenesses;
-- glowing Amudhasurabhi-style magic where none is present;
-- identical 'poor crowd' faces;
+- modern sectarian costume stereotypes presented as early-historic certainty;
+- identical anonymous 'poor crowd' faces;
 - decorative labourers who do not appear to be doing real work;
 - **any generated English, Tamil or pseudo-text inside the artwork**;
 - sexualised framing of women unrelated to story function;
 - overly polished festival surfaces with no dirt, water, wear or maintenance;
-- image-generation artefacts in hands, vessels, ropes or architecture.
+- image-generation artefacts in hands, vessels, ropes, sand treatment or architecture.
