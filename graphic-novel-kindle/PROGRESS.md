@@ -83,7 +83,7 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 - [x] Recover and register `GN-ASSET-0001` Puhar environment reference board; retain a neutral six-view candidate for comparison (review pending).
 - [x] Produce and register `GN-ASSET-0002` fresh-sand civic-renewal reference board (review pending).
 - [ ] Produce `GN-ASSET-0008` line/colour/Kindle readability test.
-- [ ] Produce `GN-ASSET-0003` material-object board.
+- [x] Produce and register `GN-ASSET-0003` material-object board (specialist review pending).
 - [ ] Produce `GN-ASSET-0004` cosmopolitan crowd system.
 - [ ] Produce `GN-ASSET-0005` public-debate spatial reference.
 - [ ] Produce `GN-ASSET-0006` Madhavi character reference.
@@ -136,4 +136,4 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 
 ## Current next action
 
-Review recovered/generated `GN-ASSET-0001` and `GN-ASSET-0002` against the historical/material gates, then produce **`GN-ASSET-0003` — the Chapter 1 material-object board**. `GN-ASSET-0008` remains the separate neutral line/colour Kindle readability test before finished comic pages are rendered.
+Produce **`GN-ASSET-0004` — the cosmopolitan Puhar crowd system**, including six reusable background individuals, while `GN-ASSET-0001`–`0003` remain review studies pending historical/material gates. `GN-ASSET-0008` remains the separate neutral line/colour Kindle readability test before finished comic pages are rendered.

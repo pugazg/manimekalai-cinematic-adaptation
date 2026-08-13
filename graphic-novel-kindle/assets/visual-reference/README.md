@@ -38,6 +38,16 @@ Purpose:
 
 Exact baskets, carrying poles, brooms, levellers, labour organisation, garments and street construction are `[INTERPRETATION]` pending specialist review.
 
+## GN-ASSET-0003 — Chapter 1 material objects
+
+File: `GN-ASSET-0003_material_object_board_v1.0.png`
+
+Status: **REVIEW STUDY — not locked**
+
+The board contains the ten required functional families: proclamation drum, grain measure, water vessels, garland materials, fibre/rope work, repair tools, pigment preparation, cargo containers, performance anklet and wrapped instruments.
+
+The board is deliberately text-free for later reuse. It establishes silhouette and material variety, not exact typology. The metal adze/awl forms, grain-measure construction, anklet, wrapped instruments, vessel profiles and object-to-object scale require archaeological/material-culture review before final-page use.
+
 ## GN-ASSET-0007 — Manimekalai
 
 ### v1.0 recovered character board
