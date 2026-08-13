@@ -1,9 +1,9 @@
 page_id,page_no,canonical_canto,panel_count,page_function,visual_anchor,guided_view_order,bharathidasan_use,classification,active_language,status
-GN-CH01-P001,1,விழாவறை காதை,1,OPENING_SPLASH,"Pre-dawn Puhar built by visible labour",1,"GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P002,2,விழாவறை காதை,4,LABOUR_FOUNDATION,"Harbour timber water flowers cleaning","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P003,3,விழாவறை காதை,4,ANNOUNCEMENT_PREP,"First drum strike and city reactions","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P004,4,விழாவறை காதை,4,PUBLIC_PROCLAMATION,"Festival announcement against grain measure","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P005,5,விழாவறை காதை,4,LABOUR_TO_SPECTACLE,"Hands montage becoming festival infrastructure","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P006,6,விழாவறை காதை,4,CIVIC_CONSEQUENCE,"Water access and opened cistern","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P007,7,விழாவறை காதை,4,FESTIVAL_REVEAL,"Puhar finally visible in full festival colour","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
-GN-CH01-P008,8,விழாவறை காதை,4,CHAPTER_HANDOFF,"Silent Madhavi house as drum passes","A>B>C>D","none","[INTERPRETATION]",English,EN_SCRIPT_DRAFTED
+GN-CH01-P001,1,விழாவறை காதை,1,OPENING_SPLASH,"Pre-dawn Puhar being prepared by visible labour",1,"GN-VENPA-USE-001 THEMATIC","[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
+GN-CH01-P002,2,விழாவறை காதை,4,CIVIC_RENEWAL_AND_LABOUR,"Old sand removed fresh sand spread; flowers harbour repair water","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[TEXT]+[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
+GN-CH01-P003,3,விழாவறை காதை,4,FESTIVAL_PROCLAMATION,"Drum announces twenty-eight days and civic hopes","A>B>C>D","none","[TEXT] paraphrase pending line verification",English,EN_EDITORIALLY_REVISED
+GN-CH01-P004,4,விழாவறை காதை,4,PORT_CITY_ARRIVALS,"Visitors and many voices enter Puhar through harbour roads and river routes","A>B>C>D","none","[TEXT]+[HISTORY]+[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
+GN-CH01-P005,5,விழாவறை காதை,4,PUBLIC_DEBATE,"Teachers of different paths address a mixed public audience","A>B>C>D","none","[TEXT]+[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
+GN-CH01-P006,6,விழாவறை காதை,4,SOCIAL_LENS,"Grain measure and labour montage test the promise of abundance","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[INTERPRETATION] grounded in EV-0003",English,EN_EDITORIALLY_REVISED
+GN-CH01-P007,7,விழாவறை காதை,4,FESTIVAL_REVEAL,"Fresh-sanded routes banners markets teachers visitors and workers become full festival Puhar","A>B>C>D","GN-VENPA-USE-001 THEMATIC","[TEXT]+[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
+GN-CH01-P008,8,விழாவறை காதை,4,CHAPTER_HANDOFF,"Silent Madhavi house as the festival drum reaches the performance quarter","A>B>C>D","none","[INTERPRETATION]",English,EN_EDITORIALLY_REVISED
