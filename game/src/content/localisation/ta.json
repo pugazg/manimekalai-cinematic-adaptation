@@ -1,9 +1,12 @@
 {
-  "meta": { "lang": "ta", "name": "தமிழ்" },
+  "meta": {
+    "lang": "ta",
+    "name": "தமிழ்"
+  },
   "title": {
     "name": "மணிமேகலை",
     "subtitle": "",
-    "milestone": "G2 Prototype 0.2 — Human First",
+    "milestone": "G2 Prototype 0.3 — Meaningful Agency",
     "tagline": ""
   },
   "menu": {
@@ -18,9 +21,13 @@
     "returnToTitle": "",
     "reset": "மீட்டமை",
     "pauseTitle": "இடைநிறுத்தம்",
-    "explore": ""
+    "explore": "",
+    "continueBeat": ""
   },
-  "lang": { "tamil": "தமிழ்", "english": "English" },
+  "lang": {
+    "tamil": "தமிழ்",
+    "english": "English"
+  },
   "options": {
     "title": "விருப்பங்கள்",
     "textSize": "எழுத்து அளவு",
@@ -57,7 +64,9 @@
     "setServing": "",
     "serve": "",
     "bringToPaati": "",
-    "goSquare": ""
+    "goSquare": "",
+    "seeWater": "",
+    "leaveYard": ""
   },
   "journal": {
     "title": "",
@@ -79,6 +88,11 @@
       "testimony": "",
       "inference": "",
       "assumption": ""
+    },
+    "status": {
+      "confirmed": "",
+      "challenged": "",
+      "uncertain": ""
     }
   },
   "char": {
@@ -90,6 +104,41 @@
     "mother": "",
     "carrier": "",
     "helper": ""
+  },
+  "helper": {
+    "neighbour": "",
+    "weaver": "",
+    "job": {
+      "idle": "",
+      "water": "",
+      "crowd": "",
+      "carry": ""
+    },
+    "did": {
+      "water": "",
+      "crowd": "",
+      "carry": ""
+    },
+    "alreadyHere": "",
+    "leaveHere": "",
+    "freeThem": "",
+    "jobLapsed": "",
+    "moveFrom": "",
+    "notNow": "",
+    "allBusy": "",
+    "movedHere": "",
+    "allBusyPaati": ""
+  },
+  "paati": {
+    "how": "",
+    "self": "",
+    "helper": ""
+  },
+  "react": {
+    "youngManRevised": "",
+    "childRemembers": "",
+    "motherVolunteers": "",
+    "locALean": ""
   },
   "puhar": {
     "intro": "",
@@ -135,6 +184,7 @@
     "resourcesHelpers": "",
     "resourcesVessels": "",
     "beforeServe": "",
+    "helpersIntro": "",
     "paatiHere": "",
     "youngManHere": "",
     "motherHere": "",
@@ -162,15 +212,61 @@
     "enoughWord": "போதும்",
     "enoughGloss": "",
     "childSmile": "",
+    "afterPoidhum": "",
     "aftermath1": "",
     "aftermath2": "",
-    "card": "G2 Prototype 0.2 — End",
+    "card": "G2 Prototype 0.3 — End",
     "thanks": ""
+  },
+  "after": {
+    "intro": "",
+    "waterLow": "",
+    "youngManSteps": "",
+    "motherSteps": "",
+    "localsWait": "",
+    "askWho": "",
+    "askYoungMan": "",
+    "askMother": "",
+    "tentative": "",
+    "canLeave": "",
+    "childRemembers": "",
+    "paatiThanks": "",
+    "alreadyResolved": ""
+  },
+  "finale": {
+    "leave": "",
+    "ownerMother": "",
+    "ownerYoungMan": "",
+    "ownerMani": "",
+    "unresolved": ""
+  },
+  "journey": {
+    "title": "",
+    "firstWater": "",
+    "firstPath": "",
+    "firstPaati": "",
+    "firstServe": "",
+    "listenedLots": "",
+    "actedFast": "",
+    "paatiFirst": "",
+    "servedEarly": "",
+    "revised": "",
+    "reassigned": "",
+    "ownerMother": "",
+    "ownerYoungMan": "",
+    "ownerMani": "",
+    "ownerNone": ""
+  },
+  "summary": {
+    "title": "",
+    "copy": "",
+    "copied": ""
   },
   "system": {
     "newGameConfirm": "",
     "resetConfirm": "",
     "oldSave": "",
+    "migrated": "",
     "yes": "ஆம்",
     "no": "இல்லை",
     "bridgeNote": ""

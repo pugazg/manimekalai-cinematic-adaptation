@@ -8,7 +8,10 @@ import { button, clear, el, setText, uiRoot } from './dom';
 // so lines have a human face. Keeps a history log the player can review.
 
 export interface Choice<T> {
-  labelKey: string;
+  /** localisation key for the label (used when `text` is not given) */
+  labelKey?: string;
+  /** already-resolved label text (e.g. a line containing a helper's name) */
+  text?: string;
   value: T;
 }
 
@@ -101,7 +104,12 @@ export class DialogueController {
 
     return new Promise<T>((res) => {
       choices.forEach((c) => {
-        list.append(button(c.labelKey, () => res(c.value), 'btn choice'));
+        if (c.text !== undefined) {
+          const b = el('button', { class: 'btn choice', type: 'button', onClick: () => res(c.value) }, [c.text]);
+          list.append(b);
+        } else {
+          list.append(button(c.labelKey ?? '', () => res(c.value), 'btn choice'));
+        }
       });
     });
   }

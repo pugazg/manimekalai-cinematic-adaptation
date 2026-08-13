@@ -24,7 +24,7 @@ A version-controlled research, screenplay and review repository for a serious, s
 - [Specialist review packets](docs/11-project-governance/specialist-review-packets/)
 - [Bilingual Screenplay Release 0.1](releases/0.1/)
 - [Game-adaptation planning (exploratory, non-production)](docs/12-game-adaptation/README.md)
-- [Playable game prototype: G2 Prototype 0.2 — Human First](game/README.md)
+- [Playable game prototype: G2 Prototype 0.3 — Meaningful Agency](game/README.md)
 
 ## Current status
 
@@ -43,11 +43,11 @@ A version-controlled research, screenplay and review repository for a serious, s
 | Runtime validation | Local full pass recorded; both hosted workflows passed on merged PR #12 |
 | Storyboard and production design | 216-shot plan, twelve concepts and controlled 0.1 deliverables for all twelve production-design families; remaining rendering, physical tests and specialist approval remain |
 | Rights | Option B fully reserved interim state selected and implemented; `SR-013` legal review remains open |
-| Game adaptation (downstream) | [G2 Prototype 0.2 — Human First](game/README.md) is locally implemented, technically validated and child-playtested qualitatively; being integrated as the first preserved playable baseline. Exploratory derivative workstream — does not modify the cinematic screenplay, TRACE or registers, and no production is greenlit |
+| Game adaptation (downstream) | [G2 Prototype 0.3 — Meaningful Agency](game/README.md) is the current playable baseline: technically validated and qualitatively playtested (owner-reported meaningful-agency milestone), building on the preserved 0.2 clarity/emotional foundation. Exploratory derivative workstream — does not modify the cinematic screenplay, TRACE or registers, and no production is greenlit |
 
 ## Audited baseline
 
-- current tracked paths audited: **346**
+- current tracked paths audited: **355**
 - registered sources: **45** (`SRC-0001`–`SRC-0045`)
 - evidence records: **318** (`EV-0001`–`EV-0318`)
 - adaptation decisions: **170** (`AD-0001`–`AD-0170`)

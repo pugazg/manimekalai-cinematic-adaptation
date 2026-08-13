@@ -1,24 +1,42 @@
 import Phaser from 'phaser';
 import { BaseWorldScene } from './BaseWorldScene';
 import {
-  applyIntervention,
   commitServe,
   consequenceKeyFor,
   evaluateServe,
 } from '../systems/FeedingSystem';
-import type { BarrierType } from '../state/types';
+import {
+  assignFreeHelper,
+  busyHelpers,
+  freeHelper,
+  helperOn,
+  maniCarryToPaati,
+  moveHelperTo,
+} from '../systems/HelperSystem';
+import {
+  recordFirstPriority,
+  recordPaatiHelped,
+  recordReassign,
+  recordServe,
+  recordSpokenTo,
+  reactiveServeLines,
+} from '../systems/ChoiceMemory';
+import type { BarrierType, Helper, HelperTask } from '../state/types';
 import { dialogue } from '../../ui/dialogue';
 import { hud } from '../../ui/hud';
-import { showEnding } from '../../ui/ending';
-import { nav } from '../nav';
+import { showPoidhum } from '../../ui/ending';
+import { t } from '../../content/localisation';
 import { gameState } from '../state/GameState';
 import { save } from '../systems/SaveSystem';
 import { audio } from '../systems/Audio';
 import { GAME_WIDTH } from '../config';
 
-// Sections 3–5 (Human First): the food yard. The three barriers are embodied by
-// people the player can see and (for Paati) already knows. Early serving is allowed;
-// consequences are shown through those people, not system messages.
+// Sections 3–5 (Meaningful Agency): the food yard. The three barriers are embodied by
+// people the player can see. TWO named helpers can be asked to cover jobs and MOVED
+// between them (reversible); there are three jobs but only two helpers, so the player
+// must decide, do something personally, or accept a compromise. Serving early is always
+// allowed; the world remembers how the player chose. Reaching everyone leads to "போதும்"
+// and then the aftermath continuation.
 
 const YOUNG_MAN = { x: 250, y: 340 };
 const MOTHER = { x: 770, y: 480 };
@@ -26,7 +44,7 @@ const CROWD = { x: 690, y: 400 };
 const PAATI = { x: 1060, y: 330 };
 const SERVE = { x: 640, y: 410 };
 
-// which person embodies which barrier
+// which person embodies which barrier / job
 const BARRIER_PORTRAIT: Record<BarrierType, string> = {
   water: 'youngMan',
   safe_access: 'mother',
@@ -58,17 +76,16 @@ export class SquareScene extends BaseWorldScene {
 
     // --- water: the young man by the well, empty pot ---
     this.add.image(YOUNG_MAN.x - 40, YOUNG_MAN.y + 10, 'well').setScale(0.9).setDepth(2);
-    this.youngMan = this.add.image(YOUNG_MAN.x, YOUNG_MAN.y, 'young_man').setScale(1.35).setDepth(YOUNG_MAN.y);
+    this.youngMan = this.add.image(YOUNG_MAN.x, YOUNG_MAN.y, gameState.square.cleared.water ? 'young_man_relieved' : 'young_man').setScale(1.35).setDepth(YOUNG_MAN.y);
     this.add.image(YOUNG_MAN.x + 22, YOUNG_MAN.y + 8, 'pot').setScale(0.9).setDepth(YOUNG_MAN.y);
     this.addHotspot({
       id: 'water',
       x: YOUNG_MAN.x,
       y: YOUNG_MAN.y,
-      radius: 90,
+      radius: 95,
       promptKey: 'prompt.bringWater',
-      icon: gameState.square.cleared.water ? undefined : 'icon_water',
-      enabled: !gameState.square.cleared.water,
-      onInteract: () => void this.fixWater(),
+      icon: 'icon_water',
+      onInteract: () => void this.handleJob('water', 'water', this.youngMan, 'young_man_relieved', 'youngMan'),
     });
 
     // --- safe access: a crowd blocks the path; the mother waits behind it ---
@@ -79,21 +96,20 @@ export class SquareScene extends BaseWorldScene {
       }
       this.crowd.push(c);
     }
-    this.mother = this.add.image(MOTHER.x, MOTHER.y, 'mother').setScale(1.35).setDepth(MOTHER.y);
+    this.mother = this.add.image(MOTHER.x, MOTHER.y, gameState.square.cleared.safe_access ? 'mother_relieved' : 'mother').setScale(1.35).setDepth(MOTHER.y);
     this.add.image(MOTHER.x + 20, MOTHER.y + 6, 'child').setScale(0.9).setDepth(MOTHER.y);
     this.addHotspot({
       id: 'path',
       x: CROWD.x,
       y: CROWD.y,
-      radius: 90,
+      radius: 95,
       promptKey: 'prompt.openPath',
-      icon: gameState.square.cleared.safe_access ? undefined : 'icon_path',
-      enabled: !gameState.square.cleared.safe_access,
-      onInteract: () => void this.fixPath(),
+      icon: 'icon_path',
+      onInteract: () => void this.handleJob('safe_access', 'crowd', this.mother, 'mother_relieved', 'mother'),
     });
 
     // --- mobility: Paati at the edge, the child beside her (recurring characters) ---
-    this.paati = this.add.image(PAATI.x, PAATI.y, 'paati').setScale(1.3).setDepth(PAATI.y);
+    this.paati = this.add.image(PAATI.x, PAATI.y, gameState.square.cleared.mobility ? 'paati_relieved' : 'paati').setScale(1.3).setDepth(PAATI.y);
     this.add.image(PAATI.x - 26, PAATI.y + 8, 'child').setScale(1.0).setDepth(PAATI.y);
     this.addHotspot({
       id: 'paati',
@@ -101,9 +117,8 @@ export class SquareScene extends BaseWorldScene {
       y: PAATI.y,
       radius: 95,
       promptKey: 'prompt.bringToPaati',
-      icon: gameState.square.cleared.mobility ? undefined : 'icon_food',
-      enabled: !gameState.square.cleared.mobility,
-      onInteract: () => void this.fixPaati(),
+      icon: 'icon_food',
+      onInteract: () => void this.handlePaati(),
     });
 
     // --- serving place ---
@@ -121,10 +136,11 @@ export class SquareScene extends BaseWorldScene {
 
     this.addObstacle(GAME_WIDTH / 2, 175, GAME_WIDTH, 90);
 
-    if (!gameState.square.servedOnce) {
+    if (!gameState.square.servedOnce && gameState.choices.peopleSpokenTo.length === 0) {
       void (async () => {
         await dialogue.say('square.intro');
         await dialogue.say('square.beforeServe');
+        await dialogue.say('square.helpersIntro', 'char.mani', { character: 'mani', expr: 'attentive' });
         dialogue.close();
       })();
     }
@@ -133,74 +149,166 @@ export class SquareScene extends BaseWorldScene {
   create(): void {
     super.create();
     this.finishObstacles();
-    hud.setResourcesVisible(true);
+    this.refreshResources();
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => audio.stopAmbience());
   }
 
-  private async fixWater(): Promise<void> {
-    const r = applyIntervention(gameState.square, 'assignWater');
-    if (!r.ok) {
-      hud.showToast(r.messageKey);
-      return;
-    }
-    audio.water();
-    this.add.image(YOUNG_MAN.x + 60, YOUNG_MAN.y, 'helper').setScale(1.2).setDepth(YOUNG_MAN.y);
-    this.youngMan.setTexture('young_man_relieved');
-    this.setHotspotIcon('water', null);
-    const hs = this.getHotspot('water');
-    if (hs) hs.enabled = false;
-    hud.setResourcesVisible(true);
-    save(gameState);
-    await dialogue.say('square.act.waterDone', 'char.youngMan', { character: 'youngMan', expr: 'relieved' });
-    dialogue.close();
+  private refreshResources(): void {
+    hud.setHelpers(gameState.square.helpers, gameState.square.vesselsTotal - gameState.square.vesselsPlaced, gameState.square.vesselsTotal);
   }
 
-  private async fixPath(): Promise<void> {
-    const r = applyIntervention(gameState.square, 'assignLine');
-    if (!r.ok) {
-      hud.showToast(r.messageKey);
-      return;
-    }
-    // the crowd parts
-    this.crowd.forEach((c, i) => {
-      this.tweens.killTweensOf(c);
-      this.tweens.add({ targets: c, x: c.x + (i < 3 ? -70 : 70), duration: 600, ease: 'Sine.inOut' });
-    });
-    this.mother.setTexture('mother_relieved');
-    this.setHotspotIcon('path', null);
-    const hs = this.getHotspot('path');
-    if (hs) hs.enabled = false;
-    hud.setResourcesVisible(true);
-    save(gameState);
-    await dialogue.say('square.act.pathDone', 'char.mother', { character: 'mother', expr: 'relieved' });
-    dialogue.close();
+  /** Human name for a helper. */
+  private nm(h: Helper): string {
+    return t(gameState.language, h.nameKey);
   }
 
-  private async fixPaati(): Promise<void> {
-    // Manimekalai carries a portion herself (no helper needed) — but first, Paati speaks.
-    if (!gameState.square.known.mobility) {
-      gameState.square.known.mobility = true;
+  /** Icon/label for what a job means, used in reassignment choices. */
+  private jobLabel(task: Exclude<HelperTask, 'idle'>): string {
+    return t(gameState.language, `helper.job.${task}`);
+  }
+
+  /**
+   * Ask a helper to cover a barrier job (water / crowd). If someone is already on it,
+   * offer to move them elsewhere. If nobody is free, offer to move a busy helper here
+   * (which uncovers their old job — the honest cost).
+   */
+  private async handleJob(
+    barrier: BarrierType,
+    task: Exclude<HelperTask, 'idle'>,
+    sprite: Phaser.GameObjects.Image,
+    doneTexture: string,
+    portraitChar: string,
+  ): Promise<void> {
+    const sq = gameState.square;
+    // approaching a person is how the player LISTENS to them (distinct from serving cold)
+    recordSpokenTo(gameState.choices, portraitChar);
+    if (!sq.known[barrier]) {
+      sq.known[barrier] = true;
+      const needKey = barrier === 'water' ? 'people.youngManAsk' : 'people.motherAsk';
+      await dialogue.say(needKey, portraitChar === 'youngMan' ? 'char.youngMan' : 'char.mother', { character: portraitChar, expr: 'concerned' });
+    }
+    const current = helperOn(sq, task);
+
+    if (current) {
+      // already covered — offer to free this helper (reversible)
+      const move = await dialogue.choice<boolean>('helper.alreadyHere', [
+        { text: `${this.nm(current)} — ${t(gameState.language, 'helper.leaveHere')}`, value: false },
+        { text: t(gameState.language, 'helper.freeThem'), value: true },
+      ], undefined, { character: portraitChar, expr: 'relieved' });
+      dialogue.close();
+      if (move) {
+        freeHelper(sq, current.id);
+        sprite.setTexture(portraitChar === 'youngMan' ? 'young_man' : 'mother');
+        this.refreshResources();
+        save(gameState);
+        hud.showToast('helper.jobLapsed');
+      }
+      return;
+    }
+
+    const res = assignFreeHelper(sq, task);
+    if (res.ok && res.helper) {
+      recordFirstPriority(gameState.choices, barrier);
+      audio.water();
+      this.add.image(sprite.x + 60, sprite.y, 'helper').setScale(1.2).setDepth(sprite.y);
+      sprite.setTexture(doneTexture);
+      this.refreshResources();
+      save(gameState);
+      await dialogue.say(`helper.did.${task}`, undefined, { character: portraitChar, expr: 'relieved' });
+      dialogue.close();
+      return;
+    }
+
+    // nobody free — offer to move a busy helper here
+    const options = busyHelpers(sq).map((h) => ({
+      text: `${this.nm(h)} — ${t(gameState.language, 'helper.moveFrom')} ${this.jobLabel(h.task as Exclude<HelperTask, 'idle'>)}`,
+      value: h.id as string | null,
+    }));
+    options.push({ text: t(gameState.language, 'helper.notNow'), value: null });
+    const chosen = await dialogue.choice<string | null>('helper.allBusy', options, 'char.mani', { character: 'mani', expr: 'concerned' });
+    dialogue.close();
+    if (chosen) {
+      const moved = moveHelperTo(sq, chosen, task);
+      if (moved.ok) {
+        if (moved.reassigned) recordReassign(gameState.choices);
+        recordFirstPriority(gameState.choices, barrier);
+        sprite.setTexture(doneTexture);
+        this.reflectAllSprites();
+        this.refreshResources();
+        save(gameState);
+        hud.showToast('helper.movedHere');
+      }
+    }
+  }
+
+  /** Paati: Manimekalai can carry the portion herself, or spend a helper on it. */
+  private async handlePaati(): Promise<void> {
+    const sq = gameState.square;
+    recordSpokenTo(gameState.choices, 'paati');
+    if (sq.cleared.mobility) {
+      await dialogue.say('square.act.paatiDone', 'char.paati', { character: 'paati', expr: 'relieved' });
+      dialogue.close();
+      return;
+    }
+    if (!sq.known.mobility) {
+      sq.known.mobility = true;
       await dialogue.say('people.paatiWait', 'char.paati', { character: 'paati', expr: 'tired' });
     }
-    applyIntervention(gameState.square, 'carryPortion');
-    audio.serve();
-    this.paati.setTexture('paati_relieved');
-    this.setHotspotIcon('paati', null);
-    const hs = this.getHotspot('paati');
-    if (hs) hs.enabled = false;
-    save(gameState);
-    await dialogue.say('square.act.paatiDone', 'char.mani', { character: 'mani', expr: 'relieved' });
+    const choice = await dialogue.choice<'self' | 'helper' | 'cancel'>('paati.how', [
+      { text: t(gameState.language, 'paati.self'), value: 'self' },
+      { text: t(gameState.language, 'paati.helper'), value: 'helper' },
+      { text: t(gameState.language, 'helper.notNow'), value: 'cancel' },
+    ], 'char.mani', { character: 'mani', expr: 'attentive' });
+
+    if (choice === 'self') {
+      maniCarryToPaati(sq);
+      recordPaatiHelped(gameState.choices);
+      audio.serve();
+      this.paati.setTexture('paati_relieved');
+      this.refreshResources();
+      save(gameState);
+      await dialogue.say('square.act.paatiDone', 'char.mani', { character: 'mani', expr: 'relieved' });
+      dialogue.close();
+      return;
+    }
+    if (choice === 'helper') {
+      const res = assignFreeHelper(sq, 'carry');
+      if (res.ok && res.helper) {
+        recordPaatiHelped(gameState.choices);
+        audio.serve();
+        this.paati.setTexture('paati_relieved');
+        this.reflectAllSprites();
+        this.refreshResources();
+        save(gameState);
+        await dialogue.say('helper.did.carry', undefined, { character: 'paati', expr: 'relieved' });
+        dialogue.close();
+      } else {
+        // no free helper: moving one here would uncover water/crowd — tell the player
+        dialogue.close();
+        hud.showToast('helper.allBusyPaati');
+      }
+      return;
+    }
     dialogue.close();
+  }
+
+  /** Keep the yard sprites in step with derived `cleared` after a reassignment. */
+  private reflectAllSprites(): void {
+    const sq = gameState.square;
+    this.youngMan.setTexture(sq.cleared.water ? 'young_man_relieved' : 'young_man');
+    this.mother.setTexture(sq.cleared.safe_access ? 'mother_relieved' : 'mother');
+    this.paati.setTexture(sq.cleared.mobility ? 'paati_relieved' : 'paati');
   }
 
   private async serveOrSet(): Promise<void> {
+    const sq = gameState.square;
     if (!this.servingSet) {
-      applyIntervention(gameState.square, 'placeVessel');
+      sq.vesselsPlaced += 1;
       this.servingSet = true;
       this.add.image(SERVE.x, SERVE.y + 30, 'mat').setScale(0.9).setDepth(3);
       const hs = this.getHotspot('serve');
       if (hs) hs.promptKey = 'prompt.serve';
-      hud.setResourcesVisible(true);
+      this.refreshResources();
       save(gameState);
       hud.showToast('square.act.setDone');
       return;
@@ -209,7 +317,8 @@ export class SquareScene extends BaseWorldScene {
   }
 
   private async serve(): Promise<void> {
-    const evalResult = evaluateServe(gameState.square, [
+    const sq = gameState.square;
+    const evalResult = evaluateServe(sq, [
       { id: 'youngMan', barrier: 'water' },
       { id: 'mother', barrier: 'safe_access' },
       { id: 'paati', barrier: 'mobility' },
@@ -219,17 +328,18 @@ export class SquareScene extends BaseWorldScene {
       return;
     }
     audio.serve();
-    commitServe(gameState.square, gameState.hidden, evalResult);
+    commitServe(sq, gameState.hidden, evalResult);
+    recordServe(gameState.choices, sq, evalResult.allReached);
     save(gameState);
 
     if (evalResult.allReached) {
       await dialogue.say('square.allReady');
+      // small reactive lines chosen from what the player actually did
+      for (const key of reactiveServeLines(gameState.choices)) {
+        await dialogue.say(key, undefined, { character: 'mani', expr: 'relieved' });
+      }
       dialogue.close();
-      showEnding({
-        restart: () => nav.restart(),
-        returnToTitle: () => nav.returnToTitle(),
-        keepExploring: () => {},
-      });
+      this.toPoidhum();
       return;
     }
 
@@ -240,10 +350,18 @@ export class SquareScene extends BaseWorldScene {
       if (o.reached) continue;
       const key = consequenceKeyFor(o.barrier);
       await dialogue.say(key, undefined, { character: BARRIER_PORTRAIT[o.barrier], expr: 'concerned' });
-      gameState.addLedgerItem({ id: `consequence_${o.barrier}`, statementKey: key, trueType: 'observation', classifiedAs: undefined, given: false });
+      gameState.addLedgerItem({ id: `consequence_${o.barrier}`, statementKey: key, trueType: 'observation', classifiedAs: undefined, given: false, status: 'challenged' });
     }
     await dialogue.say('mani.afterFail', 'char.mani', { character: 'mani', expr: 'concerned' });
     dialogue.close();
     save(gameState);
+  }
+
+  private toPoidhum(): void {
+    showPoidhum(() => {
+      gameState.setSection('aftermath');
+      save(gameState);
+      this.scene.start('Aftermath');
+    });
   }
 }

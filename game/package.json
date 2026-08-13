@@ -1,8 +1,8 @@
 {
   "name": "manimekalai-the-first-handful",
   "private": true,
-  "version": "0.2.0",
-  "description": "G2 Prototype 0.2 — 'Human First'. A browser-playable Manimekalai narrative-adventure prototype.",
+  "version": "0.3.0",
+  "description": "G2 Prototype 0.3 — 'Meaningful Agency'. A browser-playable Manimekalai narrative-adventure prototype.",
   "type": "module",
   "license": "SEE ../docs/12-game-adaptation/13-rights-and-provenance.md (Option B — fully reserved interim)",
   "scripts": {

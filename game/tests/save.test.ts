@@ -22,10 +22,10 @@ function fakeStorage(): StorageLike {
 
 const KEY = 'manimekalai.g2.save';
 
-describe('SaveSystem (v2)', () => {
-  it('uses schema version 2', () => {
-    expect(CURRENT_SAVE_VERSION).toBe(2);
-    expect(serialise(new GameState()).version).toBe(2);
+describe('SaveSystem (v3)', () => {
+  it('uses schema version 3', () => {
+    expect(CURRENT_SAVE_VERSION).toBe(3);
+    expect(serialise(new GameState()).version).toBe(3);
   });
 
   it('round-trips language, section, ledger, square, accessibility and flags', () => {

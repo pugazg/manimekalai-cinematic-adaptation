@@ -91,6 +91,13 @@ export class LedgerPanel {
       }
       card.append(meta);
 
+      // 0.3: a belief the world later confirmed or challenged — a gentle line, never a score
+      if (item.status) {
+        const status = el('p', { class: `ledger-status status-${item.status}` });
+        setText(status, `journal.status.${item.status}`);
+        card.append(status);
+      }
+
       if (!item.given) {
         const row = el('div', { class: 'ledger-types', role: 'group' });
         for (const type of KNOWLEDGE_TYPES) {

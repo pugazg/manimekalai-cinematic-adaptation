@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import { BaseWorldScene } from './BaseWorldScene';
 import { dialogue } from '../../ui/dialogue';
 import { hud } from '../../ui/hud';
+import { recordSpokenTo } from '../systems/ChoiceMemory';
 import { gameState } from '../state/GameState';
 import { save } from '../systems/SaveSystem';
 import { audio } from '../systems/Audio';
@@ -109,7 +110,7 @@ export class PuharScene extends BaseWorldScene {
   create(): void {
     super.create();
     this.finishObstacles();
-    hud.setResourcesVisible(false);
+    hud.hideResources();
     if (gameState.section === 'puhar' && !this.talkedChild) {
       void this.intro();
     }
@@ -127,6 +128,7 @@ export class PuharScene extends BaseWorldScene {
       dialogue.close();
       return;
     }
+    recordSpokenTo(gameState.choices, 'child');
     await dialogue.say('child.hi', 'char.child', { character: 'child', expr: 'neutral' });
     await dialogue.say('child.paatiHungry', 'char.child', { character: 'child', expr: 'concerned' });
     await dialogue.say('child.foodThere', 'char.child', { character: 'child', expr: 'attentive' });
@@ -178,6 +180,7 @@ export class PuharScene extends BaseWorldScene {
   }
 
   private async talkCarrier(): Promise<void> {
+    recordSpokenTo(gameState.choices, 'carrier');
     await dialogue.say('carrier.l1', 'char.carrier', { character: 'carrier', expr: 'neutral' });
     await dialogue.say('carrier.l2', 'char.carrier', { character: 'carrier', expr: 'concerned' });
     this.learn('wellFar', 'know.wellFar', 'inference', 'char.carrier');

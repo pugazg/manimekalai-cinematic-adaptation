@@ -1,72 +1,71 @@
-# Manimekalai: The First Handful — G2 Prototype 0.2 (Human First)
+# Manimekalai: The First Handful — G2 Prototype 0.3 (Meaningful Agency)
 
 A small, browser-playable narrative-adventure prototype built from the plan in
 [`../docs/12-game-adaptation/`](../docs/12-game-adaptation/). You control Manimekalai
-in Puhar, **meet a child and her grandmother (Paati) who cannot reach the food**,
-learn why, receive the Amudhasurabhi, and discover that endless food is only the start
-of the problem — until, at last, Paati eats and says **"போதும்"** (Enough).
+in Puhar, meet a child and her grandmother (Paati) who cannot reach the food, receive
+the Amudhasurabhi, and help a hungry yard eat — **but how you help, whom you involve,
+and who carries the work on after you are yours to decide.**
 
-> **Prototype 0.2 has exactly two goals:** a child should understand *what to do*
-> without repeated explanation, and the player should *care about a specific person*
-> before the feeding puzzle. It is still a prototype — ~12–15 minutes, not the full
-> game, not production, grants no licence, uses no third-party/AI art. Rights follow
-> the repository's **Option B — fully reserved interim** state.
+> **Prototype 0.3 asks one question:** does the player feel they are making *meaningful
+> choices*, or merely discovering the developer's intended solution? A second question:
+> after 20–25 minutes, do they want to keep playing? It is still a prototype — no
+> production art, grants no licence, uses no third-party/AI assets. Rights follow the
+> repository's **Option B — fully reserved interim** state.
 
-## Status (version `0.2.0`)
+## Status (version `0.3.0`)
 
-**G2 Prototype 0.2 — "Human First"** is the first preserved playable baseline. It has
-passed two distinct kinds of check:
+**PLAYTESTED — qualitative milestone supported; accepted as current baseline.** The
+repository owner reports that the Prototype 0.3 playtest was successful and produced the
+expected result for the milestone (see [`PLAYTEST_0_3.md`](PLAYTEST_0_3.md); planned
+questions in [`PLAYTEST_0_3_PLAN.md`](PLAYTEST_0_3_PLAN.md)). This is qualitative,
+owner-reported evidence — **not** statistical or audience-wide validation, and **not** a
+claim that the game is production-ready.
+
+**How we got here**
+
+- **Prototype 0.1** — technical mechanics worked, but a child playtest exposed two
+  problems: unclear interaction language, and insufficient emotional connection.
+- **Prototype 0.2 — "Human First"** — addressed both (clarity + emotional connection);
+  its qualitative child-playtest milestone passed and was preserved (`PLAYTEST_0_2.md`).
+- **Prototype 0.3 — "Meaningful Agency"** — tests different valid approaches, resource
+  trade-offs, consequence persistence, reactive dialogue, local ownership, and longer
+  engagement — **while keeping** the validated 0.2 clarity and emotional foundation.
 
 **Technical validation**
 
 - lint clean (`tsc --noEmit`);
-- **33 / 33** automated tests (`vitest`);
-- production build succeeds (`vite build`);
-- a full browser playthrough (New Game → ending) completed.
+- automated tests (`vitest`) — helpers, choice memory, save v3, order-independence;
+- production build succeeds (`vite build`).
 
-**Qualitative playtest** (see [`PLAYTEST_0_2.md`](PLAYTEST_0_2.md))
+## What 0.3 adds (why "Meaningful Agency")
 
-- child playtest completed by the repository owner;
-- the owner reports the debrief **supported the Prototype 0.2 milestone across all
-  planned questions** (exact participant responses are not recorded in the repository);
-- Prototype 0.2 is **accepted as the current baseline.**
+0.2 still risked one obvious solution (fix water → path → Paati → serve). 0.3 opens it up:
 
-This is qualitative, owner-reported evidence — **not** audience-wide validation, and
-**not** a claim that the game is production-ready. No participant identities, counts,
-quotes or ratings are invented. It remains a prototype under Option B.
-
-## What changed from 0.1 (why "Human First")
-
-Child playtests of 0.1 showed two failures: instructions relied on abstract circle
-markers, and there was almost no emotional connection. 0.2 fixes both:
-
-- **Meaning icons, not circles.** People show a 💬 speech icon; water shows a well +
-  pot + 💧; the serving place shows food; the crowded path shows people + a path arrow.
-  Prompts describe the action ("Talk to the child", "Bring water here", "Take food to
-  Paati").
-- **One thing taught at a time.** A single movement hint appears, then hides once you
-  move. The Journal hint appears only when Manimekalai first learns something.
-- **An emotional spine.** You meet **the child** and **Paati** in the first two
-  minutes, watch them fail to reach the food, and meet them again in the yard. The
-  three barriers are embodied by people (a young man with an empty water pot, a mother
-  held back by the crowd, and Paati who cannot reach the middle).
-- **Faces & expressions.** Dialogue shows procedural portraits (neutral / concerned /
-  tired / relieved / attentive) for each speaker, including Manimekalai's reactions.
-- **A gentler Journal.** "What Manimekalai knows" with plain labels — *I saw this*,
-  *Someone told me*, *I think this means…*, *I'm not sure yet* — the formal word shown
-  small underneath. No score, no right/wrong.
-- **Human consequences.** Serving too early is shown through the people ("I have rice,
-  but no water…"), never as "Access −1".
-- **Sound.** A minimal, original WebAudio layer (footsteps, water, serving, soft
-  ambience, a gentle ending cue) with a mute toggle. Never required to play.
-- **Keyboard works immediately** after New Game (canvas is focused — no click-first).
+- **Different valid play styles.** Listen first, act first, or prioritise one person —
+  all are viable, none is labelled or graded. There is **no single correct ordering**;
+  you can approach Paati, the water, the crowded path, the young man and the mother in
+  different orders, and the world responds.
+- **A real trade-off (no timer, no score).** Two **named** helpers can each take one
+  job, and can be **moved** between jobs (reversible). There are three jobs a helper can
+  cover but only two helpers — so you must decide, do something personally, or accept a
+  compromise. Manimekalai can reach Paati herself, which is how a careful player frees a
+  helper.
+- **Consequences that persist.** Serving early, prioritising Paati, organising the crowd
+  or mostly listening all change **later** dialogue and behaviour — not just the moment.
+- **A post-"போதும்" continuation (~5–7 min).** After Paati eats, the water starts to run
+  low and Manimekalai begins to leave. **Whether the work can carry on without her
+  depends on how you played** — the young man keeps the water, the mother keeps the line,
+  or the locals still look to Manimekalai (did I help, or make myself indispensable?).
+- **Your journey, not a grade.** The ending closes with a short recap of *your* choices,
+  and a local-only, no-telemetry playtest note for the grown-up watching.
 
 ## What it deliberately excludes
 
-No new chapter, no prison/philosophy sections, no fourth barrier, no combat/enemies/
-health/XP/skills/inventory/crafting/romance/multiple-endings/open-world/procedural/
-multiplayer/login/cloud/achievements/monetisation/full-voice/cutscenes. No morality
-meter or score of any kind.
+No combat, enemies, health, XP, skill trees, inventory, crafting, romance, multiple
+*canonical* endings, open-world, multiplayer, login, cloud save, achievements,
+monetisation, full voice, cutscenes, or a new chapter/sequence. No morality meter or
+score of any kind. Agency is **local and systemic**, never alternate-canon: Manimekalai
+never becomes violent, the tragedy is not erased, the bowl is never owned or sold.
 
 ## Install & run
 
@@ -87,67 +86,82 @@ Deploy = static hosting of `game/dist` (base `./`).
 | Input | Action |
 |---|---|
 | **WASD / Arrow keys** | Walk |
-| **E / Enter** | Do the shown action · advance dialogue |
-| **Mouse / tap** | Advance dialogue · tap the prompt to act |
+| **E / Enter** | Do the shown action · advance dialogue · pick the first choice |
+| **Mouse / tap** | Advance dialogue · tap a choice · tap the prompt to act |
 | **J** | Open/close "What Manimekalai knows" (Journal) |
 | **Esc** | Close a panel · pause |
 | 🔊 (top-left) | Mute / unmute |
 
 Contextual prompts describe the action; no manual needed. No timers, no reaction
-challenges — pause any time.
+challenges — pause any time. Interaction stays as clear as 0.2 (meaning icons, one
+teaching hint at a time); *what* you choose to do is the part that is open.
 
-## Story rhythm (≈12–15 min)
+## Story rhythm (≈20–25 min)
 
-0. **Title** — New Game / Continue (only if you have progress) / Options / language.
-1. **Puhar (0–1)** — learn to move; a child waves and invites you.
-2. **Meet the people (1–3)** — the child, and Paati; watch them fail to reach the food.
-3. **Why? (3–5)** — the water-carrier explains; the Journal appears.
-4. **The bowl (5–7)** — receive the Amudhasurabhi. A moment of hope.
-5. **The yard (7–13)** — serve; an early attempt shows who is left out; fix each
-   person's problem (water, path, Paati).
-6. **Enough (13–15)** — Paati eats. "போதும்." A local keeps the water coming.
+0. **Title** — New Game / Continue / Options / language.
+1. **Puhar (0–3)** — meet the child and Paati; see they cannot reach the food; receive
+   the bowl.
+2. **Choose your way (3–12)** — talk to whom you like, in any order; ask your two helpers
+   to cover water, the path, or carry to Paati; move them if needs change; serve when you
+   decide (early is allowed — the yard shows you who was left out).
+3. **Enough (16–18)** — Paati eats. "போதும்."
+4. **After (18–23)** — the water runs low as you leave; who steps up depends on how you
+   played.
+5. **Your journey (23–25)** — a short, honest recap of the choices that were yours.
+
+## Helpers are people, not tokens
+
+The two helpers are described by role ("a young neighbour from the lane", "a weaver who
+stayed to help"), show where they are and what they are doing, and react. The HUD reads
+"*a young neighbour · keeping the water coming*", never "Helper 1 → variable water".
 
 ## Language status
 
-- **English:** complete.
+- **English:** complete (including all new 0.3 dialogue).
 - **Tamil:** UI switching and rendering are wired and verified (`மணிமேகலை`, menu words,
-  `போதும்`, and the kinship term `பாட்டி`). New 0.2 dialogue is **left for a named Tamil
-  reviewer** — untranslated strings fall back to English with a small ⌛ marker. See
+  `போதும்`, `பாட்டி`). New 0.3 dialogue is **left for a named Tamil reviewer** —
+  untranslated strings fall back to English with a small ⌛ marker. See
   [`ASSET_PROVENANCE.md`](ASSET_PROVENANCE.md).
 
 ## Accessibility
 
-Scalable text, Tamil-first font stack, keyboard-navigable menus, subtitles (text
-dialogue), dialogue history, no colour-only information (types use emoji + words + ✓),
-reduce-motion (also respects the OS setting), sound toggle, pause any time, no time
-pressure. Touch/mouse/keyboard coexist; large tap targets.
+Scalable text, Tamil-first font stack, keyboard-navigable menus and choices, subtitles,
+dialogue history, no colour-only information, reduce-motion (also respects the OS
+setting), sound toggle, pause any time, no time pressure. Touch/mouse/keyboard coexist;
+large tap targets. Hidden consequence dimensions are **never** shown as bars or numbers.
 
 ## Save
 
-One local save (`localStorage`, **schema v2**). Records language, section, Journal,
-yard state, hidden dimensions, onboarding flags and settings. A **Prototype 0.1 (v1)
-save cannot migrate** and is detected and cleared so it can't break things — a
-settings-only "title" save persists preferences (language/sound) without offering
-"Continue". New Game / Continue / Reset are on the title screen. No accounts, no cloud.
+One local save (`localStorage`, **schema v3** — adds choice memory + aftermath state).
+A **Prototype 0.1 (v1) or 0.2 (v2) save cannot continue** into 0.3's structure: it is
+detected, its **settings (language, sound, text size) are preserved**, its progress is
+dropped, and the player is told why (no false "Continue"). New Game / Continue / Reset
+are on the title screen. No accounts, no cloud.
 
 ## Architecture
 
-Phaser renders the **world**; all narrative/menu/Journal **text is DOM/HTML** (Tamil
-shapes correctly, accessibility tree intact). Gameplay is data-driven. New in 0.2:
-`src/game/art/portraits.ts` (procedural faces), `src/game/systems/Audio.ts` (WebAudio),
-character/expression state on world figures.
+Phaser renders the **world**; all narrative/menu/Journal/choice **text is DOM/HTML**
+(Tamil shapes correctly, accessibility tree intact). Gameplay is data-driven and the
+core logic is pure and unit-tested. New in 0.3: `systems/HelperSystem.ts` (reassignable
+helpers), `systems/ChoiceMemory.ts` (records choices → reactive dialogue + who takes
+ownership), `scenes/AftermathScene.ts` (the post-"போதும்" continuation), `ui/summary.ts`
+(journey recap + local playtest note).
 
 ## Traceability & rights
 
-- Source mapping and the **prototype-local characters (Paati, the child)** are
-  documented in [`PROTOTYPE_TRACE.md`](PROTOTYPE_TRACE.md) as game-specific
+- Source mapping and the **prototype-local characters (Paati, the child, the two named
+  helpers)** are documented in [`PROTOTYPE_TRACE.md`](PROTOTYPE_TRACE.md) as game-specific
   `[INTERPRETATION]` — **not** canonical epic characters, **not** added to cinematic
   registers.
 - The **Puhar opening is a game-only bridge**, not a screenplay scene.
 - No screenplay, TRACE, or canonical `AD-*`/`EV-*`/`SC-*`/`FU-*`/`SEQ-*` record was
   modified. All code lives under `game/` and uses game namespaces.
+- Agency is **bounded** (`../docs/12-game-adaptation/05-agency-and-canon.md`): the player
+  changes method, emphasis, and local/aftermath outcomes — never the canonical
+  fundamentals.
 
 ## Known limitations
 
 Placeholder procedural art; Tamil dialogue pending review; mobile *gameplay* untuned
-(title/menus responsive); Phaser bundle ≈ 350 KB gzip. See `PROTOTYPE_TRACE.md`.
+(title/menus responsive); single canonical closing (its texture varies, not the plot);
+Phaser bundle ≈ 360 KB gzip. See `PROTOTYPE_TRACE.md`.

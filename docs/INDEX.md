@@ -35,17 +35,18 @@ This index is the shortest route into the repository. It does not replace the de
   non-production game-adaptation planning derived from the source-traceable cinematic
   archive. It does not modify screenplay, TRACE, `AD-*`/`EV-*`/`SC-*`/`FU-*`/`SEQ-*`
   records, or the Option B rights position, and no production has been greenlit.
-- [Playable prototype — G2 Prototype 0.2 "Human First"](../game/README.md) — Downstream
-  browser-playable prototype under `game/`. Technically validated and child-playtested
-  qualitatively (owner-reported); preserved as the first playable baseline. Prototype-
-  local characters are game-specific `[INTERPRETATION]`, not canonical epic characters.
-  See its [prototype traceability](../game/PROTOTYPE_TRACE.md),
-  [asset provenance](../game/ASSET_PROVENANCE.md) and
-  [playtest record](../game/PLAYTEST_0_2.md).
+- [Playable prototype — G2 Prototype 0.3 "Meaningful Agency"](../game/README.md) —
+  Downstream browser-playable prototype under `game/`. Technically validated and
+  qualitatively playtested (owner-reported meaningful-agency milestone); the current
+  playable baseline, building on the preserved 0.2 clarity/emotional foundation.
+  Prototype-local characters are game-specific `[INTERPRETATION]`, not canonical epic
+  characters. See its [prototype traceability](../game/PROTOTYPE_TRACE.md),
+  [asset provenance](../game/ASSET_PROVENANCE.md) and playtest records
+  ([0.3](../game/PLAYTEST_0_3.md), [0.2](../game/PLAYTEST_0_2.md)).
 
 ## Audited repository baseline
 
-- 346 current tracked paths audited;
+- 355 current tracked paths audited;
 - 45 registered sources;
 - 318 evidence records;
 - 170 adaptation decisions;

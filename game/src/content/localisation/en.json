@@ -3,8 +3,8 @@
   "title": {
     "name": "Manimekalai",
     "subtitle": "The First Handful",
-    "milestone": "G2 Prototype 0.2 — Human First",
-    "tagline": "A gentle story about noticing people, and helping."
+    "milestone": "G2 Prototype 0.3 — Meaningful Agency",
+    "tagline": "Your choices about how to help — and who carries the work on."
   },
   "menu": {
     "newGame": "New Game",
@@ -18,7 +18,8 @@
     "returnToTitle": "Back to title",
     "reset": "Reset",
     "pauseTitle": "Paused",
-    "explore": "Stay a moment"
+    "explore": "Stay a moment",
+    "continueBeat": "Go on"
   },
   "lang": { "tamil": "தமிழ்", "english": "English" },
   "options": {
@@ -57,7 +58,9 @@
     "setServing": "Set a serving place",
     "serve": "Share the food",
     "bringToPaati": "Take food to Paati",
-    "goSquare": "Go to the food yard"
+    "goSquare": "Go to the food yard",
+    "seeWater": "See what's happening at the well",
+    "leaveYard": "Leave the yard"
   },
   "journal": {
     "title": "What Manimekalai knows",
@@ -79,6 +82,11 @@
       "testimony": "testimony",
       "inference": "inference",
       "assumption": "guess"
+    },
+    "status": {
+      "confirmed": "I thought this was true — and now I have seen it is.",
+      "challenged": "I thought this was true — but now I have seen otherwise.",
+      "uncertain": "I am still not sure about this."
     }
   },
   "char": {
@@ -90,6 +98,41 @@
     "mother": "Mother",
     "carrier": "Water-carrier",
     "helper": "Helper"
+  },
+  "helper": {
+    "neighbour": "a young neighbour from the lane",
+    "weaver": "a weaver who stayed to help",
+    "job": {
+      "idle": "waiting to help",
+      "water": "keeping the water coming",
+      "crowd": "keeping the path calm",
+      "carry": "carrying a portion to Paati"
+    },
+    "did": {
+      "water": "A neighbour keeps water coming to the yard. The young man can drink now.",
+      "crowd": "A helper keeps the path calm and open. The mother can come through.",
+      "carry": "A helper carries a warm portion across to Paati."
+    },
+    "alreadyHere": "Someone is already helping here.",
+    "leaveHere": "leave them here",
+    "freeThem": "Ask them to rest for now",
+    "jobLapsed": "You freed a helper — that job is uncovered again.",
+    "moveFrom": "now",
+    "notNow": "Not just now",
+    "allBusy": "Both helpers are busy. Move one here — or do it another way?",
+    "movedHere": "You moved a helper here. Their last job needs someone again.",
+    "allBusyPaati": "Both helpers are busy. You could carry to Paati yourself."
+  },
+  "paati": {
+    "how": "How should Paati get her food?",
+    "self": "Carry it to her yourself",
+    "helper": "Ask a helper to carry it"
+  },
+  "react": {
+    "youngManRevised": "The young man nods. \"Next time, let us fill the water pots first.\"",
+    "childRemembers": "The child remembers you came to Paati first, and holds your hand.",
+    "motherVolunteers": "The mother steps up. \"I can keep the line in order, if you like.\"",
+    "locALean": "People wait for your word before they move. They have learned to look to you."
   },
   "puhar": {
     "intro": "Morning in Puhar, by the sea.",
@@ -135,6 +178,7 @@
     "resourcesHelpers": "Helpers",
     "resourcesVessels": "Vessels",
     "beforeServe": "Look around first. Talk to people. Share the food when you are ready.",
+    "helpersIntro": "Two neighbours have stayed to help. I can ask each of them to do one thing — and move them if I need to.",
     "paatiHere": "Paati sits at the edge. She cannot reach the middle.",
     "youngManHere": "A young man waits, holding an empty water pot.",
     "motherHere": "A mother stands back from the crowded path, holding her child.",
@@ -162,15 +206,61 @@
     "enoughWord": "போதும்",
     "enoughGloss": "Enough.",
     "childSmile": "The child leans against her, and smiles.",
+    "afterPoidhum": "But the yard is not empty yet. There is a little more to do.",
     "aftermath1": "You will leave soon, and the bowl goes with you.",
     "aftermath2": "A helper from this yard says she will keep the water coming.",
-    "card": "G2 Prototype 0.2 — End",
+    "card": "G2 Prototype 0.3 — End",
     "thanks": "Thank you for playing."
+  },
+  "after": {
+    "intro": "The people are fed. You begin to gather yourself to leave.",
+    "waterLow": "\"Manimekalai — the well is running low. What do we do when you're gone?\"",
+    "youngManSteps": "\"Leave the water to me. I know the well now. I'll keep it coming.\"",
+    "motherSteps": "\"Go — I'll keep the line in order and see the water shared fairly.\"",
+    "localsWait": "The people look to you, and wait. No one steps forward on their own.",
+    "askWho": "Who could carry this on?",
+    "askYoungMan": "Ask the young man to keep the water",
+    "askMother": "Ask the mother to keep the line",
+    "tentative": "\"I… I can try. If you think I can.\" They are not sure yet.",
+    "canLeave": "The yard can manage now. You may leave when you are ready.",
+    "childRemembers": "\"You came to Paati first. She told me. Thank you.\"",
+    "paatiThanks": "Paati rests a hand on the child's head. \"We are all right now.\"",
+    "alreadyResolved": "The work is in good hands. You can go when you're ready."
+  },
+  "finale": {
+    "leave": "You leave the yard as the serving goes on behind you.",
+    "ownerMother": "The mother keeps the line calm and fair. The yard holds together without you.",
+    "ownerYoungMan": "The young man carries water without being asked. The work has its own hands now.",
+    "ownerMani": "The people still glance to where you stood, waiting for a word. You wonder: did I help, or did I make myself the one they need?",
+    "unresolved": "Some things are still unsettled. That is how it is. You have done what you could, today."
+  },
+  "journey": {
+    "title": "Your journey through this prototype",
+    "firstWater": "You began with the water.",
+    "firstPath": "You began by opening the path.",
+    "firstPaati": "You went to Paati first.",
+    "firstServe": "You began by sharing food, and learned from what happened.",
+    "listenedLots": "You listened to people before you acted.",
+    "actedFast": "You acted quickly, and learned as you went.",
+    "paatiFirst": "You reached Paati before the first sharing.",
+    "servedEarly": "You shared food before everyone could reach it, then made it right.",
+    "revised": "You changed your plan after seeing who was left out.",
+    "reassigned": "You moved your helpers as the needs changed.",
+    "ownerMother": "The mother took the work on after you.",
+    "ownerYoungMan": "The young man took the water on after you.",
+    "ownerMani": "The work still leaned on you when you left.",
+    "ownerNone": "The work's future was left unsettled."
+  },
+  "summary": {
+    "title": "For the grown-up watching (a note, not a score)",
+    "copy": "Copy playtest summary",
+    "copied": "Copied."
   },
   "system": {
     "newGameConfirm": "Start again from the beginning?",
     "resetConfirm": "Erase all progress and settings?",
     "oldSave": "Your saved game is from an older version and can't be continued. Start fresh?",
+    "migrated": "This prototype has changed. Your settings were kept; start a new 0.3 game to play.",
     "yes": "Yes",
     "no": "No",
     "bridgeNote": "The Puhar opening is a game-only bridge, not a screenplay scene."
