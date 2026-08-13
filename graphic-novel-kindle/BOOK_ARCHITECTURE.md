@@ -2,14 +2,23 @@
 
 ## Working title
 
-**மணிமேகலை — பசியை வெல்லும் பாதை**  
-*Manimekalai — The Path That Confronts Hunger*
+**MANIMEKALAI**  
+*The Path That Confronts Hunger*
 
 Working subtitle for metadata/testing only:
 
-**சீத்தலைச் சாத்தனாரின் காவியத்தை அடிப்படையாகக் கொண்ட ஓவிய நாவல்; பாரதிதாசன் மணிமேகலை வெண்பாவின் சமூகப் பார்வைத் தாக்கத்துடன்**
+**A graphic-novel adaptation of Seethalai Sattanar's epic, informed by the social vision of Bharathidasan's Manimekalai Venpa**
 
 The title and subtitle are provisional and must be rights/metadata reviewed before publication.
+
+Tamil title/subtitle decisions are deliberately deferred until the later Tamil editorial phase.
+
+## Edition order
+
+1. **English graphic novel — active production edition.**
+2. **Tamil graphic novel — later fresh literary adaptation after English/visual lock.**
+
+The future Tamil edition is not intended to be a literal translation of the English text. It should preserve dramatic intent while allowing Tamil rhythm, diction and balloon structure to be written independently.
 
 ## Narrative promise
 
@@ -22,7 +31,7 @@ The reader should experience four linked transformations:
 3. **Amudhasurabhi:** compassion becomes organised feeding and public responsibility.
 4. **Tragedy, state power and inquiry:** Manimekalai learns that good intent alone does not prevent harm; liberation requires knowledge, accountability and relinquishment.
 
-Bharathidasan's perspective is most strongly felt when the story turns from private destiny toward hunger, women’s autonomy and social duty.
+Bharathidasan's perspective is most strongly felt when the story turns from private destiny toward hunger, women's autonomy and social duty.
 
 ## Scale
 
@@ -39,19 +48,19 @@ Most cantos should receive 4–6 pages. Major transitions may receive 8–12 pag
 
 ## Seven-part structure
 
-### PART I — புகார்: பார்வைகளின் நகரம்
+### PART I — PUHAR: THE CITY OF EYES
 
 **Core pressure:** spectacle, reputation, inherited identity, desire and refusal.
 
-1. `விழாவறை காதை` — Indra festival announced. **Pilot chapter.**
-2. `ஊரலர் உரைத்த காதை` — the city's gossip and Madhavi's renunciation.
-3. `மலர்வனம் புக்க காதை` — Manimekalai and Sudhamathi enter the flower garden.
-4. `பளிக்கறை புக்க காதை` — Udayakumaran sees Manimekalai through the crystal pavilion.
-5. `மணிமேகலா தெய்வம் வந்து தோன்றிய காதை` — pursuit breaks into sacred intervention.
+1. `விழாவறை காதை` — **The Festival Proclamation.** Indra festival announced. **Pilot chapter.**
+2. `ஊரலர் உரைத்த காதை` — **What the City Said.** The city's gossip and Madhavi's renunciation.
+3. `மலர்வனம் புக்க காதை` — **Into the Flower Garden.** Manimekalai and Sudhamathi enter the garden.
+4. `பளிக்கறை புக்க காதை` — **The Crystal Pavilion.** Udayakumaran sees Manimekalai.
+5. `மணிமேகலா தெய்வம் வந்து தோன்றிய காதை` — **The Goddess Appears.** Pursuit breaks into sacred intervention.
 
 **Graphic-novel emphasis:** the public gaze must be visible before the prince's gaze becomes dangerous.
 
-### PART II — மணிபல்லவம்: நான் யார்?
+### PART II — MANIPALLAVAM: WHO AM I?
 
 **Core pressure:** dislocation, memory, rebirth and the unreliability of a single lifetime as explanation.
 
@@ -63,7 +72,7 @@ Most cantos should receive 4–6 pages. Major transitions may receive 8–12 pag
 
 **Graphic-novel emphasis:** reduce decorative fantasy. Use altered scale, silence, sea, stone, memory fragments and spatial discontinuity.
 
-### PART III — அமுதசுரபி: இரக்கம் செயலில்
+### PART III — AMUDHASURABHI: COMPASSION IN ACTION
 
 **Core pressure:** hunger, giving, institutional responsibility and the ethics of power.
 
@@ -79,7 +88,7 @@ Most cantos should receive 4–6 pages. Major transitions may receive 8–12 pag
 
 The vessel must not be a glowing fantasy shortcut. Its moral meaning emerges through hands, cooked food, queues, vessels, water, access and repeated service.
 
-### PART IV — ஆசை, தவறு, மரணம்
+### PART IV — DESIRE, ERROR, DEATH
 
 **Core pressure:** pursuit, mistaken identity, jealousy and irreversible consequence.
 
@@ -90,7 +99,7 @@ The vessel must not be a glowing fantasy shortcut. Its moral meaning emerges thr
 
 **Graphic-novel emphasis:** Udayakumaran is tragic, not romanticised. Desire does not create entitlement; Manimekalai's refusal remains complete information.
 
-### PART V — சிறை, அரசாட்சி, துயரம்
+### PART V — PRISON, POWER, GRIEF
 
 **Core pressure:** grief becomes state action; the heroine faces custody and power.
 
@@ -99,7 +108,7 @@ The vessel must not be a glowing fantasy shortcut. Its moral meaning emerges thr
 
 **Graphic-novel emphasis:** do not turn the Queen into a cartoon villain. Show grief, power, delegation and institutional coercion as different things.
 
-### PART VI — பிறப்பின் நினைவு, நகரங்களின் நினைவு
+### PART VI — MEMORY OF LIVES, MEMORY OF CITIES
 
 **Core pressure:** Aputhiran/Punniyarajan, past lives, travel, Kannagi and the moral inheritance of earlier catastrophe.
 
@@ -109,7 +118,7 @@ The vessel must not be a glowing fantasy shortcut. Its moral meaning emerges thr
 
 **Graphic-novel emphasis:** memory should enlarge responsibility, not become an excuse that erases present choice.
 
-### PART VII — கேள்வி, தருமம், விடுதலை
+### PART VII — QUESTION, DHARMA, RELEASE
 
 **Core pressure:** competing philosophies, famine, teaching and relinquishment.
 
@@ -157,7 +166,7 @@ Every canto adaptation should answer:
 5. **Consequence:** what cannot return to the earlier state?
 6. **Page-end image:** a visual question that pulls the reader forward.
 
-## Publication back matter
+## Publication back matter — English edition
 
 Proposed final pages:
 
@@ -168,3 +177,5 @@ Proposed final pages:
 - Source and historical caution note.
 - Art provenance / AI-use disclosure appropriate to final production and platform requirements.
 - Selected bibliography.
+
+The later Tamil edition should receive newly edited Tamil front/back matter rather than mechanically translating these pages.
