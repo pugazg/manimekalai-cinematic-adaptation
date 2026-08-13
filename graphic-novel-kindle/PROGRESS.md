@@ -80,14 +80,14 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 - [x] Create `EDITORIAL_AUDIT_v0.3.md`.
 - [x] Create `VISUAL_REFERENCE_PACKAGE.md`.
 - [ ] Select and line-verify `SRC-0001` primary Tamil edition.
-- [ ] Produce `GN-ASSET-0001` Puhar environment reference board.
-- [ ] Produce `GN-ASSET-0002` fresh-sand civic-renewal reference board.
+- [x] Recover and register `GN-ASSET-0001` Puhar environment reference board; retain a neutral six-view candidate for comparison (review pending).
+- [x] Produce and register `GN-ASSET-0002` fresh-sand civic-renewal reference board (review pending).
 - [ ] Produce `GN-ASSET-0008` line/colour/Kindle readability test.
 - [ ] Produce `GN-ASSET-0003` material-object board.
 - [ ] Produce `GN-ASSET-0004` cosmopolitan crowd system.
 - [ ] Produce `GN-ASSET-0005` public-debate spatial reference.
 - [ ] Produce `GN-ASSET-0006` Madhavi character reference.
-- [ ] Produce `GN-ASSET-0007` partial Manimekalai reference.
+- [x] Recover and register `GN-ASSET-0007` v1.0 and valid v2.0 Manimekalai references (review pending; corrupt prior JPEG identified).
 - [ ] Render Page 1 and Page 8 as first finished-page tests.
 - [ ] Render remaining pilot pages without generated text.
 - [ ] English lettering pass.
@@ -136,4 +136,4 @@ The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selec
 
 ## Current next action
 
-Produce **`GN-ASSET-0001` — the Puhar river–sea environment reference board** using `VISUAL_REFERENCE_PACKAGE.md`. After review, proceed to the fresh-sand civic-renewal board and the neutral line/colour Kindle readability test before any finished comic page is rendered.
+Review recovered/generated `GN-ASSET-0001` and `GN-ASSET-0002` against the historical/material gates, then produce **`GN-ASSET-0003` — the Chapter 1 material-object board**. `GN-ASSET-0008` remains the separate neutral line/colour Kindle readability test before finished comic pages are rendered.
