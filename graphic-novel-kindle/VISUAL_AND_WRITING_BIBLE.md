@@ -6,47 +6,92 @@ The graphic novel should move from **being watched and assigned by others** towa
 
 The book is not a fantasy spectacle with Buddhist decoration. It is a human, social and philosophical epic in which sacred events alter the story without cancelling material reality.
 
+## Current language policy
+
+**English is the active production language.**
+
+All current scripts, captions, dialogue, lettering tests and Kindle readability tests should be developed in English first.
+
+Tamil is deliberately deferred. The rejected first Tamil experiment is preserved for provenance but must not be polished into the final edition. When Tamil production begins, it should be a fresh literary adaptation based on:
+
+1. the classical Tamil source;
+2. the locked dramatic intent of the English edition;
+3. the final page composition and available balloon/caption space;
+4. independent Tamil literary editorial judgement.
+
+The future Tamil edition may therefore differ from English in sentence shape, caption count, metaphor and balloon division while preserving narrative meaning.
+
 ## Bharathidasan flavour
 
-Use Bharathidasan's registered interpretive emphases as a creative lens, not as an excuse for imitation-by-quotation.
+Use Bharathidasan's registered interpretive emphases as a creative lens, not as imitation-by-quotation.
 
-Desired qualities in new Tamil writing:
+Desired qualities in the English writing:
 
 - concise, muscular sentences;
-- lyrical contrasts built from ordinary objects;
-- moral clarity without sermonising every panel;
+- lyrical contrast built from ordinary material objects;
+- moral clarity without turning every caption into a sermon;
 - sympathy for workers and people who are hungry, displaced, imprisoned or socially assigned;
 - women stating decisions directly;
 - questions that turn private feeling toward public responsibility;
-- beauty that is allowed to be beautiful without being treated as consent;
-- philosophical language that eventually returns to lived consequences.
+- beauty allowed to be beautiful without being treated as consent;
+- philosophical language that returns to lived consequences.
 
-### Caption rhythm
-
-Prefer:
-
-> நகரம் விழிக்கவில்லை. அதை விழிக்கச் செய்த கைகள் முதலில் விழித்திருந்தன.
-
-over long explanatory narration.
+### English caption rhythm
 
 Prefer:
 
-> விழா அனைவருக்குமானது என்றார்கள். தண்ணீர் எல்லோருக்கும் கிடைத்ததா?
+> Puhar had not yet awakened. But the hands that would wake it were already at work.
 
-when a social question can be carried by image + one line.
+over explanatory historical narration when the image can carry the detail.
+
+Prefer:
+
+> By sunrise, labour had changed its name. The city called it splendour.
+
+when one contrast can bind several images together.
 
 These are newly written project lines, not quotations from Bharathidasan or the classical epic.
 
-## Dialogue policy
+### What “Bharathidasan flavour” does **not** mean
 
-Dialogue should sound performable in contemporary-readable literary Tamil without relocating the characters into modern Chennai speech.
+- translating Bharathidasan line by line into English;
+- reproducing identifiable Venpa diction without verification/rights clearance;
+- forcing rhyme or metre into balloons;
+- inserting modern political slogans into ancient characters' mouths;
+- making every working-class character deliver the project's thesis;
+- reducing the epic's Buddhist/philosophical complexity to a single social message.
 
-- avoid faux-archaic density merely to sound ancient;
-- avoid current slang that breaks the historical world;
-- retain culturally specific nouns when clarity survives context;
+## English dialogue policy
+
+Dialogue should be immediately readable but not sound casually twenty-first-century American.
+
+- no faux-archaic “thee/thou” English;
+- avoid fashionable slang and contemporary internet phrasing;
+- use contractions only when they sound natural and do not trivialise tone;
+- retain culturally specific Tamil names and concepts when the art/context can teach them;
+- avoid explaining terms inside dialogue merely for the reader;
 - let powerful characters speak economically;
 - let ordinary workers have intelligence, humour and observation;
-- avoid using exposition to repeat what the art already shows.
+- avoid exposition that repeats what the art already shows;
+- keep most balloons to one clear dramatic beat.
+
+### Caption policy
+
+Use captions for:
+
+- time/place transitions;
+- compressed epic narration;
+- social or material contrast;
+- interior reflection that cannot be drawn;
+- chapter handoffs.
+
+Avoid captions that merely describe the visible picture.
+
+A caption should normally do at least one of three things:
+
+1. change the meaning of the image;
+2. connect two images across time/social position;
+3. introduce information the art cannot contain.
 
 ## Manimekalai
 
@@ -57,7 +102,7 @@ At the beginning:
 - young adult Tamil woman;
 - trained physical poise inherited from an artistic household;
 - observant rather than passive;
-- adornment progressively simplified by choice, not as a visual punishment for beauty;
+- adornment progressively simplified by choice, not as visual punishment for beauty;
 - expressive eyes used for listening and assessment, not constant sorrow.
 
 ### Arc in framing
@@ -203,25 +248,32 @@ Good uses:
 
 A close-up should reveal a decision, recognition or withheld response—not merely decorate beauty.
 
-## Tamil lettering
+## English lettering
 
 ### Balloons
 
-- short clauses;
+- prefer short clauses;
 - ideally 1–3 sentences;
-- maximum about 35–45 Tamil words only in exceptional speeches;
-- break philosophical argument across actions and reactions.
+- one emotional or argumentative beat per balloon when possible;
+- break philosophical argument across actions and reactions;
+- do not shrink font size to save an over-written balloon.
 
 ### Captions
 
-Use captions for:
+- keep them substantially shorter than screenplay action;
+- avoid stacking multiple narration boxes unless the page rhythm requires it;
+- reserve a consistent visual hierarchy for chapter/title captions versus narration;
+- write for the whole-page reader first and Guided View reader second, then test both.
 
-- time/place transitions;
-- compressed classical narration;
-- Bharathidasan-flavoured social contrast;
-- interior reflection that cannot be drawn.
+### Deferred Tamil lettering
 
-Avoid captions that describe the picture literally.
+When Tamil begins later:
+
+- choose a Tamil font with explicit commercial publishing rights;
+- re-space balloons rather than forcing Tamil into English geometry;
+- allow Tamil sentence order to reshape balloons/panel captions;
+- conduct native literary copy editing before final lettering;
+- test glyph integrity separately in every export path.
 
 ## Graphic continuity IDs
 
@@ -251,4 +303,6 @@ Example:
 - no erotic framing that contradicts the story's consent logic;
 - no crowd of identical anonymous poor people around the magic bowl;
 - no text-heavy philosophy pages that become illustrated essays;
-- no claim that generated architecture or costume is 'historically exact.'
+- no claim that generated architecture or costume is 'historically exact';
+- no generated lettering embedded in art;
+- no using the rejected Tamil v0.1 as future Tamil final copy.
