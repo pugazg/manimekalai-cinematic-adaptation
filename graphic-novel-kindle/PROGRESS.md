@@ -4,7 +4,7 @@ Last updated: 2026-08-13
 
 ## Overall state
 
-**Phase G1/G3 — English-first foundation and pilot chapter: IN PROGRESS**
+**Phase G3 — English-first pilot / visual-reference development: IN PROGRESS**
 
 The cinematic adaptation remains untouched. This work exists only on the isolated `agent/graphic-novel-kindle` branch under `graphic-novel-kindle/`.
 
@@ -18,6 +18,24 @@ Decision:
 - The original Tamil pilot is archived as `chapters/01-indra-festival/tamil-draft-v0.1.md`.
 - That archived draft is not approved copy and is not the translation base for the future Tamil edition.
 - Tamil will be rewritten later as a fresh literary adaptation after English story intent, visual composition and lettering constraints are stable.
+
+## Chapter 1 editorial gate — 2026-08-13
+
+English v0.3 has completed the first serious editorial/source-fidelity pass.
+
+Key corrections:
+
+- removed the invented guarded-cistern/governance page;
+- restored the registered twenty-eight-day festival detail;
+- restored old-sand removal / fresh-sand civic renewal;
+- restored multilingual/cosmopolitan arrivals;
+- restored public philosophical plurality/debate;
+- kept Bharathidasan influence thematic rather than verbal;
+- made Madhavi silent on the Chapter 1 handoff rather than giving her unnecessary invented dialogue.
+
+`EDITORIAL_AUDIT_v0.3.md` verdict: **PASS for visual-reference development; NOT publication/source-locked.**
+
+The unresolved gate is still `SRC-0001`: the primary Tamil edition must be selected and line-verified before final source lock.
 
 ## Phase checklist
 
@@ -58,10 +76,20 @@ Decision:
 - [x] Rewrite active page-by-page pilot script in English.
 - [x] Create panel/page production matrix.
 - [x] Create art prompt pack.
-- [ ] English editorial review of captions/dialogue.
-- [ ] Produce character turnaround references.
-- [ ] Produce Puhar environment reference sheet.
-- [ ] Render/commission pilot pages without generated text.
+- [x] Complete English editorial/source-fidelity pass (v0.3).
+- [x] Create `EDITORIAL_AUDIT_v0.3.md`.
+- [x] Create `VISUAL_REFERENCE_PACKAGE.md`.
+- [ ] Select and line-verify `SRC-0001` primary Tamil edition.
+- [ ] Produce `GN-ASSET-0001` Puhar environment reference board.
+- [ ] Produce `GN-ASSET-0002` fresh-sand civic-renewal reference board.
+- [ ] Produce `GN-ASSET-0008` line/colour/Kindle readability test.
+- [ ] Produce `GN-ASSET-0003` material-object board.
+- [ ] Produce `GN-ASSET-0004` cosmopolitan crowd system.
+- [ ] Produce `GN-ASSET-0005` public-debate spatial reference.
+- [ ] Produce `GN-ASSET-0006` Madhavi character reference.
+- [ ] Produce `GN-ASSET-0007` partial Manimekalai reference.
+- [ ] Render Page 1 and Page 8 as first finished-page tests.
+- [ ] Render remaining pilot pages without generated text.
 - [ ] English lettering pass.
 - [ ] Guided View authoring.
 - [ ] KPF export and device preview.
@@ -108,4 +136,4 @@ Decision:
 
 ## Current next action
 
-Perform a focused **English Chapter 1 editorial pass**, then produce the **Chapter 1 visual reference package**. Once the English words and visual identities are stable, render the first four pilot pages with no text baked into the artwork.
+Produce **`GN-ASSET-0001` — the Puhar river–sea environment reference board** using `VISUAL_REFERENCE_PACKAGE.md`. After review, proceed to the fresh-sand civic-renewal board and the neutral line/colour Kindle readability test before any finished comic page is rendered.
