@@ -1,6 +1,6 @@
 # Chapter 1 Art Prompt Pack
 
-Status: **pre-render prompt bible**
+Status: **pre-render prompt bible — English-first production**
 
 These prompts are production briefs, not claims of historical exactness. Every generated frame remains `[INTERPRETATION]` until reviewed.
 
@@ -19,8 +19,10 @@ Apply to every page:
 - no generic medieval North Indian/Mughal/Rajput architecture;
 - no modern clothing or objects;
 - no decorative divine glow;
-- no text generated inside the artwork; speech balloons and Tamil lettering are added separately;
-- reserve clean negative space where balloons are specified;
+- **no text generated inside the artwork**;
+- English speech balloons/captions are added separately during the active pilot;
+- future Tamil lettering will be independently re-authored and re-spaced later;
+- reserve clean negative space where balloons/captions are specified;
 - portrait page 2400 × 3840 working composition, 5:8 aspect ratio;
 - panels must remain readable when magnified individually in Guided View.
 
@@ -145,7 +147,7 @@ Four-panel page shifting from public saturation to interior stillness.
 
 **Panel D** — half-page interior: Madhavi seated beside the unlit lamp in plain clothing, years of artistic discipline visible in posture. Manimekalai only partly visible at a lattice, observing festival colour outside. The reader should feel that public celebration has reached a private refusal. Reserve balloon space around Madhavi without crowding her face.
 
-## Render workflow
+## Active render workflow
 
 Before rendering final pages:
 
@@ -153,10 +155,16 @@ Before rendering final pages:
 2. create a Puhar harbour/environment sheet;
 3. create a labour-object sheet: pots, rope, grain measure, flowers, drums, harness, tools;
 4. lock line/colour rendering style on one neutral test panel;
-5. render Page 1 and Page 8 first to test environmental and character continuity;
-6. render Pages 2–7 using those locked references;
-7. add Tamil lettering separately;
-8. test all panels in Kindle Guided View.
+5. complete focused English editorial review of `script.md`;
+6. render Page 1 and Page 8 first to test environmental and character continuity;
+7. render Pages 2–7 using those locked references;
+8. add **English lettering separately** from the art;
+9. test all panels in Kindle Guided View;
+10. do not begin Tamil lettering during this pilot.
+
+## Future Tamil art/lettering rule
+
+The underlying art may be reused for a later Tamil edition only after checking that balloon/caption geometry can be safely altered. Tamil must never be squeezed into fixed English text boxes merely to preserve identical lettering positions.
 
 ## Negative prompt / rejection checklist
 
@@ -170,7 +178,7 @@ Reject or revise any frame that contains:
 - glowing Amudhasurabhi-style magic where none is present;
 - identical 'poor crowd' faces;
 - decorative labourers who do not appear to be doing real work;
-- unreadable or pseudo-Tamil generated text;
+- **any generated English, Tamil or pseudo-text inside the artwork**;
 - sexualised framing of women unrelated to story function;
 - overly polished festival surfaces with no dirt, water, wear or maintenance;
 - image-generation artefacts in hands, vessels, ropes or architecture.
