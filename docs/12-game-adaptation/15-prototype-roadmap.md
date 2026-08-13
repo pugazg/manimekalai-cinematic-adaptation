@@ -59,6 +59,32 @@ The phased plan below (G0–G7) is the **design intent**. This section records w
   designed after repository integration and review; the later G-phase gates below still
   stand.
 
+- **G2 Prototype 0.3 — "Meaningful Agency": built after 0.2 established the
+  clarity/emotional foundation.** Purpose: test whether players feel they are making
+  *meaningful decisions* rather than finding one developer-authored solution (and whether
+  engagement holds across a longer ~20–25 min prototype). Implemented capabilities (from
+  the actual code under `../../game/`):
+  - multiple viable intervention orders (no single forced path);
+  - limited helpers / resource trade-offs (two named helpers, three helper-eligible jobs);
+  - reversible / reassignable decisions (helpers can be moved, at an honest cost);
+  - choice / consequence memory (small, typed, serialisable);
+  - reactive dialogue that varies by prior play;
+  - a post-`போதும்` continuation that tests whether the work carries on without
+    Manimekalai;
+  - local ownership (an NPC may take the work on, based on player history);
+  - an end-of-play choice summary (descriptive, never a score).
+  It **preserves** the validated 0.2 clarity and emotional foundation and adds **no new
+  cinematic canon** (game-specific choice/consequence design only; see
+  `../../game/PROTOTYPE_TRACE.md`).
+
+  **Status: PLAYTESTED — the owner reports the milestone was successful and produced the
+  expected result; accepted as the current baseline.** This is **qualitative,
+  owner-reported** evidence — **not** statistical and **not** broad audience validation;
+  no participant identities, counts, quotes or ratings are invented. See
+  `../../game/PLAYTEST_0_3.md`. The next milestone (Prototype 0.4) will test **narrative
+  continuity beyond the existing feeding arc**; its detailed scope is deliberately **not**
+  defined here.
+
 ---
 
 ## Phase G0 — Repository & Design Audit ✅ (this planning pass)

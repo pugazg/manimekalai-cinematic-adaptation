@@ -226,7 +226,7 @@ docs/11-project-governance/external-review-execution-protocol.md,CREATED_EXTERNA
 docs/11-project-governance/owner-rights-and-licensing-decision.md,CREATED_OWNER_DECISION_GATE
 docs/11-project-governance/private-source-handling.md,PASS_STATIC
 docs/11-project-governance/remaining-specialist-candidate-slate.md,CREATED_REMAINING_SPECIALIST_PUBLIC_PROFILE_SLATE
-docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_346_PATH_LEDGER
+docs/11-project-governance/repository-file-audit.csv,REFRESHED_EXACT_355_PATH_LEDGER
 docs/11-project-governance/reviewer-selection-rubric.csv,CREATED_REVIEWER_SELECTION_CONTROL
 docs/11-project-governance/reviewer-sourcing-shortlist.md,CREATED_OFFICIAL_INSTITUTIONAL_REFERRAL_MAP
 docs/11-project-governance/rights-decision-execution-checklist.md,CREATED_RIGHTS_EXECUTION_CHECKLIST
@@ -345,3 +345,12 @@ game/tests/save.test.ts,CREATED_G2_PROTOTYPE_02_HUMAN_FIRST
 game/tests/state.test.ts,CREATED_G2_PROTOTYPE_02_HUMAN_FIRST
 game/tsconfig.json,CREATED_G2_PROTOTYPE_02_HUMAN_FIRST
 game/vite.config.ts,CREATED_G2_PROTOTYPE_02_HUMAN_FIRST
+game/PLAYTEST_0_3.md,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/PLAYTEST_0_3_PLAN.md,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/src/game/scenes/AftermathScene.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/src/game/systems/ChoiceMemory.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/src/game/systems/HelperSystem.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/src/ui/summary.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/tests/choices.test.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/tests/helpers.test.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY
+game/tests/savev3.test.ts,CREATED_G2_PROTOTYPE_03_MEANINGFUL_AGENCY

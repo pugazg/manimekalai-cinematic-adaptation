@@ -91,6 +91,7 @@ describe('FeedingSystem', () => {
   it('hidden dimensions stay multi-axis (never a single score)', () => {
     const hidden = freshHidden();
     const keys = Object.keys(hidden);
-    expect(keys.sort()).toEqual(['access', 'dignity', 'safety', 'sustainability', 'understanding']);
+    // 0.3 adds a `trust` axis (behaviour only, never a bar); still multi-axis, never summed.
+    expect(keys.sort()).toEqual(['access', 'dignity', 'safety', 'sustainability', 'trust', 'understanding']);
   });
 });

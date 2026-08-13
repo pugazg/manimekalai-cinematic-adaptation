@@ -5,13 +5,15 @@ import { baseConfig } from './game/config';
 import { BootScene } from './game/scenes/BootScene';
 import { PuharScene } from './game/scenes/PuharScene';
 import { SquareScene } from './game/scenes/SquareScene';
+import { AftermathScene } from './game/scenes/AftermathScene';
 import { gameState } from './game/state/GameState';
 import { setNav } from './game/nav';
 import { applyAccessibility } from './game/systems/Accessibility';
 import { audio } from './game/systems/Audio';
-import { clearSave, hasIncompatibleSave, load, save } from './game/systems/SaveSystem';
+import { defaultAccessibility } from './game/state/types';
+import { clearSave, load, migrateLegacySettings, save } from './game/systems/SaveSystem';
 import { dialogue } from './ui/dialogue';
-import { showEnding } from './ui/ending';
+import { showFinale } from './ui/ending';
 import { hud } from './ui/hud';
 import { ledgerPanel } from './ui/ledger';
 import {
@@ -27,7 +29,7 @@ import {
 // global input (keyboard + click/tap), audio start-on-gesture, keyboard focus, and
 // navigation between title / world / ending.
 
-const game = new Phaser.Game(baseConfig([BootScene, PuharScene, SquareScene]));
+const game = new Phaser.Game(baseConfig([BootScene, PuharScene, SquareScene, AftermathScene]));
 
 /** Give the canvas keyboard focus so children don't have to click first. */
 function focusGame(): void {
@@ -45,12 +47,12 @@ function beginAudio(): void {
 }
 
 function stopWorldScenes(): void {
-  for (const key of ['Puhar', 'Square']) {
+  for (const key of ['Puhar', 'Square', 'Aftermath']) {
     if (game.scene.isActive(key) || game.scene.isPaused(key)) game.scene.stop(key);
   }
   dialogue.close();
   ledgerPanel.close();
-  hud.setResourcesVisible(false);
+  hud.hideResources();
   hud.setPrompt(null);
 }
 
@@ -78,9 +80,12 @@ const router = {
       case 'square':
         startSquare();
         break;
+      case 'aftermath':
+        game.scene.start('Aftermath');
+        break;
       case 'ending':
-        startSquare();
-        showEnding({
+        game.scene.start('Aftermath');
+        showFinale({
           restart: () => router.restartPrototype(),
           returnToTitle: () => router.returnToTitle(),
           keepExploring: () => {},
@@ -117,8 +122,15 @@ setNav({
   keepExploring: () => {},
 });
 
-// A Prototype 0.1 (schema v1) save cannot migrate — drop it so it can't break things.
-if (hasIncompatibleSave()) clearSave();
+// A Prototype 0.1/0.2 save cannot continue into 0.3's structure. Recover its SETTINGS
+// (language, sound, text size) so preferences persist, then drop the old progress.
+const legacy = migrateLegacySettings();
+if (legacy.migrated) {
+  if (legacy.language) gameState.language = legacy.language;
+  if (legacy.accessibility) gameState.accessibility = { ...defaultAccessibility(), ...legacy.accessibility };
+  gameState.setSection('title');
+  save(gameState); // write a fresh v3 settings-only save (no "Continue" offered)
+}
 
 // Load language/accessibility from any current save so the title itself is localised.
 load(gameState);
@@ -126,6 +138,8 @@ gameState.setSection('title');
 applyAccessibility(gameState.accessibility);
 hud.mount();
 showTitle();
+// If an older save was just retired, let the returning player know why there's no Continue.
+if (legacy.migrated && legacy.hadProgress) hud.showToast('system.migrated', 6000);
 
 // ---------------- global input routing ----------------
 

@@ -337,9 +337,37 @@ html[data-reduce-motion="true"] .hud-toast { transition: none; }
 .ending-card { margin-top: 1.8em; color: var(--ink-dim); letter-spacing: 0.1em; font-size: calc(13px * var(--text-scale)); }
 .ending-buttons { display: flex; gap: 0.8em; margin-top: 1.4em; flex-wrap: wrap; justify-content: center; }
 
+/* ---------- 0.3: helpers as named people ---------- */
+.hud-resources { flex-wrap: wrap; max-width: 48vw; justify-content: flex-end; }
+.helper-chip { border-color: rgba(243, 233, 214, 0.5); }
+.helper-chip.idle { opacity: 0.72; font-style: italic; }
+
+/* ---------- 0.3: journal belief status (gentle, never a score) ---------- */
+.ledger-status { font-size: calc(13px * var(--text-scale)); margin: 0.35em 0 0; color: var(--ink-dim); font-style: italic; }
+.ledger-status.status-challenged { color: var(--accent); }
+
+/* ---------- 0.3: the "போதும்" beat + finale journey / owner summary ---------- */
+.journey-title { font-size: calc(18px * var(--text-scale)); margin: 1.3em 0 0.4em; color: var(--accent); }
+.journey-list { text-align: left; max-width: 34em; margin: 0 auto; line-height: 1.6; padding-left: 1.2em; }
+.journey-list li { margin: 0.2em 0; }
+.playtest-summary {
+  text-align: left;
+  white-space: pre-wrap;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: calc(12px * var(--text-scale));
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(243, 233, 214, 0.25);
+  border-radius: 8px;
+  padding: 0.8em 1em;
+  max-width: 42em;
+  margin: 0.4em auto 0.6em;
+  overflow-x: auto;
+}
+
 /* smaller screens */
 @media (max-width: 900px) {
   .title-name { font-size: calc(40px * var(--text-scale)); }
   .btn { min-width: 9em; }
   .dialogue { bottom: 2vh; }
+  .hud-resources { max-width: 60vw; }
 }

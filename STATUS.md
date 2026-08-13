@@ -1,6 +1,6 @@
 # Project Status Dashboard
 
-_Last updated: 2026-08-11_
+_Last updated: 2026-08-13_
 
 ## Current phase
 
@@ -8,7 +8,7 @@ _Last updated: 2026-08-11_
 
 The 72-scene English screenplay and Tamil bilingual draft are structurally present. A complete static and local executable audit has reviewed the current repository and confirmed English–Tamil scene and TRACE parity. A general creative freeze remains in force, with one recorded exception: the approved Aadhirai Venpa pair is implemented in Scenes `#31#–#32#`.
 
-> **Parallel-work note:** Exploratory game-adaptation planning exists under `docs/12-game-adaptation/`, and a downstream playable prototype — **G2 Prototype 0.2 — "Human First"** — lives under `game/`. Prototype 0.2 is locally implemented, technically validated (lint clean, 33/33 tests, build passing, browser playthrough completed) and **child-playtested qualitatively** (owner-reported positive debrief), and is being integrated as the first preserved playable baseline. This is a derivative workstream: the cinematic adaptation remains canonical/upstream. No production implementation or full-game greenlight has been granted. This does not change the active cinematic phase, screenplay structure, source/evidence/adaptation registers, or specialist-review gates. The repository-wide tracked-path audit count includes the game files. See [game/README.md](game/README.md).
+> **Parallel-work note:** Exploratory game-adaptation planning exists under `docs/12-game-adaptation/`, and a downstream playable prototype lives under `game/`. The current baseline is **G2 Prototype 0.3 — "Meaningful Agency"**: technically validated (lint clean, 61 tests, build passing, browser playthrough) and **qualitatively playtested** (owner-reported meaningful-agency milestone), building on the preserved **0.2 "Human First"** clarity/emotional foundation. This is a derivative workstream: the cinematic adaptation remains canonical/upstream. No production implementation or full-game greenlight has been granted. This does not change the active cinematic phase, screenplay structure, source/evidence/adaptation registers, or specialist-review gates. The repository-wide tracked-path audit count includes the game files. See [game/README.md](game/README.md).
 
 ## Roadmap
 
@@ -32,7 +32,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 
 | Measure | Current value |
 |---|---:|
-| Current tracked paths audited | 346 |
+| Current tracked paths audited | 355 |
 | Registered research sources | 45 |
 | Registered evidence records | 318 |
 | Registered adaptation decisions | 170 |
@@ -48,7 +48,7 @@ The 72-scene English screenplay and Tamil bilingual draft are structurally prese
 ## Audit and validation status
 
 - Full repository audit: **complete**.
-- Per-file audit ledger: **346 current paths recorded**.
+- Per-file audit ledger: **355 current paths recorded**.
 - Source archive: **`SRC-0001`–`SRC-0045` statically reconciled**.
 - Evidence archive: **`EV-0001`–`EV-0318` statically reconciled**.
 - Evidence-to-source provenance: **all 318 records crosswalked to registered `SRC-*` IDs or explicitly classified as internal project records**.

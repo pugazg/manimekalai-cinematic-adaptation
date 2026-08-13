@@ -1,7 +1,7 @@
 import { resolve, t } from '../content/localisation';
 import { gameState } from '../game/state/GameState';
 import { audio } from '../game/systems/Audio';
-import { freeHelpers, freeVessels } from '../game/systems/FeedingSystem';
+import type { Helper } from '../game/state/types';
 import { clear, el, uiRoot } from './dom';
 import { save } from '../game/systems/SaveSystem';
 
@@ -71,14 +71,26 @@ class Hud {
     this.prompt.classList.add('visible');
   }
 
-  setResourcesVisible(visible: boolean): void {
+  /** Hide the resource chips (e.g. in the Puhar opening). */
+  hideResources(): void {
+    if (this.resources) clear(this.resources);
+  }
+
+  /**
+   * Show the two named helpers and what each is doing, plus vessels. Helpers are PEOPLE
+   * with names and a current job — not "Helper 1 → variable water".
+   */
+  setHelpers(helpers: Helper[], freeVessels: number, totalVessels: number): void {
     if (!this.resources) return;
     clear(this.resources);
-    if (!visible) return;
-    const sq = gameState.square;
+    const lang = gameState.language;
+    for (const h of helpers) {
+      const name = t(lang, h.nameKey);
+      const job = t(lang, h.task === 'idle' ? 'helper.job.idle' : `helper.job.${h.task}`);
+      this.resources.append(el('div', { class: `hud-chip helper-chip${h.task === 'idle' ? ' idle' : ''}` }, [`${name} · ${job}`]));
+    }
     this.resources.append(
-      el('div', { class: 'hud-chip' }, [`${t(gameState.language, 'square.resourcesHelpers')}: ${freeHelpers(sq)}/${sq.helpersTotal}`]),
-      el('div', { class: 'hud-chip' }, [`${t(gameState.language, 'square.resourcesVessels')}: ${freeVessels(sq)}/${sq.vesselsTotal}`]),
+      el('div', { class: 'hud-chip' }, [`${t(lang, 'square.resourcesVessels')}: ${freeVessels}/${totalVessels}`]),
     );
   }
 

@@ -1,5 +1,8 @@
 import {
   type AccessibilitySettings,
+  type AftermathState,
+  type BeliefStatus,
+  type ChoiceMemory,
   type HiddenDimensions,
   type LanguageCode,
   type LedgerItem,
@@ -7,6 +10,8 @@ import {
   type Section,
   type SquareState,
   defaultAccessibility,
+  freshAftermath,
+  freshChoices,
   freshFlags,
   freshHidden,
   freshSquareState,
@@ -26,6 +31,8 @@ export class GameState {
   accessibility: AccessibilitySettings = defaultAccessibility();
   hidden: HiddenDimensions = freshHidden();
   flags: PrototypeFlags = freshFlags();
+  choices: ChoiceMemory = freshChoices();
+  aftermath: AftermathState = freshAftermath();
 
   private listeners = new Set<Listener>();
 
@@ -68,12 +75,22 @@ export class GameState {
     this.emit();
   }
 
+  /** 0.3: mark a belief as confirmed/challenged/uncertain by later evidence (no score). */
+  setBeliefStatus(id: string, status: BeliefStatus): void {
+    const item = this.ledger.find((i) => i.id === id);
+    if (!item || item.status === status) return;
+    item.status = status;
+    this.emit();
+  }
+
   resetForNewGame(): void {
     this.section = 'puhar';
     this.ledger = [];
     this.square = freshSquareState();
     this.hidden = freshHidden();
     this.flags = freshFlags();
+    this.choices = freshChoices();
+    this.aftermath = freshAftermath();
     this.emit();
   }
 
@@ -86,6 +103,8 @@ export class GameState {
     this.accessibility = defaultAccessibility();
     this.hidden = freshHidden();
     this.flags = freshFlags();
+    this.choices = freshChoices();
+    this.aftermath = freshAftermath();
     this.emit();
   }
 

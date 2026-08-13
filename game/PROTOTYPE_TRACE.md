@@ -1,11 +1,16 @@
-# Prototype Traceability — G2 Prototype 0.2 (Human First)
+# Prototype Traceability — G2 Prototype 0.3 (Meaningful Agency)
 
-**Version `0.2.0`.** Preserved playable baseline (technical validation + qualitative
-child-playtest milestone passed; see [`PLAYTEST_0_2.md`](PLAYTEST_0_2.md)).
+**Version `0.3.0`.** Agency iteration on the preserved 0.2 baseline (0.2 passed
+technical validation + the qualitative child-playtest milestone; see
+[`PLAYTEST_0_2.md`](PLAYTEST_0_2.md)). 0.3 is **PLAYTESTED** — the owner reports the
+qualitative meaningful-agency milestone was supported; accepted as the current baseline
+(see [`PLAYTEST_0_3.md`](PLAYTEST_0_3.md); plan in
+[`PLAYTEST_0_3_PLAN.md`](PLAYTEST_0_3_PLAN.md)).
 
 Maps implemented prototype content back to the cinematic archive and the game-design
 plan. The game **references** these records; it does not modify them. New game
-decisions use game namespaces only (`GD-*`, `GM-*`, `GSC-*`, `GRT-*`).
+decisions use game namespaces only (`GD-*`, `GM-*`, `GSC-*`, `GRT-*`). 0.3 adds only
+**game-specific choice/consequence design** — no new canonical cinematic decision.
 
 ## Bridge & prototype-local characters (read first)
 
@@ -20,7 +25,8 @@ characters, and NOT added to any cinematic register (`AD/SC/FU/EV/BR/SEQ`):**
 |---|---|---|---|
 | **Paati** | the kinship term *paati* (`பாட்டி`, "grandmother") | a **relationship term, not a personal name** — chosen deliberately to avoid inventing false historical certainty | the recurring person who cannot reach the food; embodies the mobility barrier |
 | **The child** | role identifier "the child" (Paati's grandchild) | relationship, not a personal name | invites the player in; notices the food; reappears beside Paati |
-| The young man / the mother / the water-carrier / the helper | role identifiers only | generic residents | embody the water and safe-access barriers / give context |
+| The young man / the mother / the water-carrier | role identifiers only | generic residents | embody the water and safe-access barriers / give context |
+| **The two helpers (0.3)** — "a young neighbour from the lane", "a weaver who stayed to help" | **role descriptions, not personal names** | generic residents who stay to help | reassignable helpers; after "போதும்" one may carry the work on. `[INTERPRETATION]`, prototype-local |
 
 Per the repository's evidence discipline, these are **restrained relationship
 identifiers**, not invented historical personal names. They exist only to build the
@@ -37,6 +43,7 @@ emotional spine the child playtest found missing, and are labelled `[INTERPRETAT
 | The food yard (three people, three barriers) | `GSC-P0-SQUARE` | `FU-022`; `GM-07` | barriers embodied by people |
 | Serve-early consequence + revise (through people) | `GM-07` | plan `03` fail-forward; `04` | no fail state, no score |
 | Ending "போதும் / Enough" (Paati eats) | `GM-08` | `FU-023`; plan `07` S7 | earned via the recurring character |
+| Aftermath: water runs low; who continues (0.3) | `GSC-P0-AFTER` | game-only; `FU-023`/`FU-024` themes; `GM-10` | tests sustainability without a score; not a screenplay scene |
 
 ## Mechanic mapping (`GM-*`)
 
@@ -68,6 +75,32 @@ surface), `GM-07` feeding (`FeedingSystem`, `SquareScene`; `AD-0139`), `GM-08` "
 | `GD-P0-08` **(0.2)** | Emotional spine: recurring prototype-local characters (Paati, the child) `[INTERPRETATION]`. |
 | `GD-P0-09` **(0.2)** | Journal shows child-friendly labels with the formal word as secondary text. |
 | `GD-P0-10` **(0.2)** | Original WebAudio only; never required; documented provenance. |
+| `GD-P0-11` **(0.3)** | Bounded agency: multiple valid play styles (listen-first / act-first / prioritise-one); no single enforced ordering. Maps to `05` FIXED vs VARIABLE METHOD. |
+| `GD-P0-12` **(0.3)** | Real trade-off without a timer/score: two reassignable helpers, three helper-eligible jobs; Manimekalai can substitute personally for one. |
+| `GD-P0-13` **(0.3)** | Consequence memory (`ChoiceMemory`): small, typed, serialisable; drives reactive dialogue and who takes ownership. Never summed into a score (`GM-11`). |
+| `GD-P0-14` **(0.3)** | Post-"போதும்" continuation (`GSC-P0-AFTER`): a game-only follow-up that tests whether the work continues without Manimekalai (`GM-10` local custodian). Not a new canonical scene. |
+| `GD-P0-15` **(0.3)** | Journey recap + local, no-telemetry playtest note. Descriptive, never a grade/score/stars. |
+
+## 0.3 mapping additions
+
+| Prototype element | Game id | Basis | Notes |
+|---|---|---|---|
+| Reassignable helpers + trade-off | `GM-07` (feeding-logistics) | `AD-0139`; `04` "not one-button"; owner: no timer/no grind | spatial/diegetic, not a management menu |
+| Trust / who continues the work | `GM-06` (trust and access), `GM-10` | `05` consequence axes; `FU-024` custodian | behaviour + dialogue only; `trust` is a hidden axis, never a bar |
+| Persistent consequences + aftermath | `GM-11` (consequence/aftermath) | owner loop step 8; `05` epilogue-by-aggregation | small but noticeable; no lose-state |
+| Belief confirmed/challenged | `GM-04` / `GM-12` | `05` "what I decided vs what happened" | gentle Journal line; no correctness points |
+| Post-"போதும்" follow-up | `GSC-P0-AFTER` | game-only bridge; themes from `FU-023`/`FU-024` | not an approved screenplay scene |
+
+## 0.3 changes summary
+
+Multiple valid play styles with no forced ordering; two **named** reassignable helpers
+(people, not tokens) creating a real trade-off; consequence memory that varies later
+dialogue and decides who carries the work on; a ~5–7 min post-"போதும்" continuation
+(water runs low → local ownership test); gentle Journal belief status; a journey recap
+and a local, no-telemetry playtest summary; save schema **v2 → v3** with honest legacy
+handling (settings preserved, progress not migrated, no false "Continue"); version
+string updated to `G2 Prototype 0.3 — Meaningful Agency`. Interaction clarity from 0.2
+is preserved (meaning icons, one-thing-at-a-time onboarding, action-specific prompts).
 
 ## 0.2 changes summary
 
@@ -77,13 +110,17 @@ simplified Journal surface; original audio; canvas keyboard focus on start; save
 schema **v1 → v2** with incompatible-save detection; version string updated to
 `G2 Prototype 0.2 — Human First`.
 
-## Known limitations (0.2)
+## Known limitations (0.3)
 
+- **Qualitative, owner-reported playtest only** — milestone supported, not broad/audience
+  or statistical validation.
 - Placeholder **procedural** art and faces; not final art.
-- Tamil dialogue mostly **pending named-reviewer** translation (English fallback, ⌛).
-- Mobile *gameplay* not tuned (title/menus responsive; taps advance dialogue/act).
-- Single success path; ambient motion minimal.
-- Phaser bundle ≈ 1.5 MB (≈ 350 KB gzip).
+- Tamil dialogue mostly **pending named-reviewer** translation (English fallback, ⌛),
+  including all new 0.3 lines.
+- Mobile *gameplay* not tuned (title/menus/choices responsive; taps advance/act).
+- One canonical closing (its **texture** varies by who carries the work on, not the plot);
+  ambient motion minimal.
+- Phaser bundle ≈ 1.5 MB (≈ 360 KB gzip).
 
 ## Boundaries honoured
 

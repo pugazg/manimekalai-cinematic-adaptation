@@ -7,8 +7,8 @@ export const GAME_WIDTH = 1280;
 export const GAME_HEIGHT = 720;
 
 /** Prototype identity (shown in title/footer; keep in step with README/PROTOTYPE_TRACE). */
-export const GAME_VERSION = '0.2.0';
-export const GAME_MILESTONE = 'G2 Prototype 0.2 — Human First';
+export const GAME_VERSION = '0.3.0';
+export const GAME_MILESTONE = 'G2 Prototype 0.3 — Meaningful Agency';
 
 export function baseConfig(scenes: Phaser.Types.Scenes.SceneType[]): Phaser.Types.Core.GameConfig {
   return {

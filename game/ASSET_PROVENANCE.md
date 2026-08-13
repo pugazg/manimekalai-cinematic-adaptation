@@ -1,6 +1,9 @@
-# Asset Provenance — G2 Prototype 0.2 (Human First)
+# Asset Provenance — G2 Prototype 0.3 (Meaningful Agency)
 
-**Version `0.2.0`.**
+**Version `0.3.0`.** 0.3 introduces **no new asset types or mechanisms** — the same
+procedural in-code visuals, runtime WebAudio and system fonts as 0.2. Its additions are
+gameplay logic, dialogue text (English complete; Tamil pending review) and UI. Nothing
+below changes.
 
 Every non-code asset is **originally created inside the project**. Nothing is scraped,
 copied from films/games, AI-generated, or of uncertain licence. Follows the
